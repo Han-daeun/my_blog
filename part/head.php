@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,16 @@
     <script src="/resource/common.js"></script>
     <title>블로그</title>
 </head>
+
 <body>
-    <div class="top-bar">
+    <div class="mobile-top-bar visible-sm-down">
+        <a href="#" class="btn-toggle-mobile-side-bar flex-as-c">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>
+    </div>
+    <div class="top-bar visible-md-up">
         <a href="/" class="logo flex flex-jc-center">
             <span style="color:#9FC93C"><i class="fas fa-cat fa-3x"></i></span>
         </a>
@@ -22,7 +31,7 @@
                     <a href="/sns.php">SNS</a>
                     <ul>
                         <li><a href="https://github.com/Han-daeun" target="_blank">GITHUB</a></li>
-                    </ul> 
+                    </ul>
                 </li>
             </ul>
         </nav>

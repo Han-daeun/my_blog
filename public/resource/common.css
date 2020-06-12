@@ -285,6 +285,20 @@ label[for] {
   flex:1 0 0;
 }
 
+/* 공통 CSS */
+@media (max-width:799px) {
+    .visible-md-up {
+        display: none;
+    }
+}
+
+@media (min-width:800px) {
+    .visible-sm-down {
+        display: none;
+    }
+}
+
+
 /* 커스텀 */
 .con-min-width {
   min-width:1356px;
