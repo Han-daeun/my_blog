@@ -21,7 +21,7 @@
                 <li class="flex-1-0-0 flex-jc-center">
                     <a href="/sns.php">SNS</a>
                     <ul>
-                        <li><a href="https://github.com/Han-daeun" targer="_blank">GITHUB</a></li>
+                        <li><a href="https://github.com/Han-daeun" target="_blank">GITHUB</a></li>
                     </ul> 
                 </li>
             </ul>
