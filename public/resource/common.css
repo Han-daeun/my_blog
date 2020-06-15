@@ -268,6 +268,11 @@ label[for] {
   align-items:center;
 }
 
+* > .flex-ai-end {
+  display:flex;
+  align-items:flex-end;
+}
+
 * > .flex-row-nowrap {
   flex-direction:row;
   flex-wrap:nowrap;
@@ -285,6 +290,10 @@ label[for] {
   flex:1 0 0;
 }
 
+* > .bd-red {
+  border: solid 2px red;
+}
+
 /* 공통 CSS */
 @media (max-width:799px) {
     .visible-md-up {
@@ -300,74 +309,180 @@ label[for] {
 
 
 /* 커스텀 */
+.body {
+  overflow-y: hidden;
+}
+
 .con-min-width {
   min-width:1356px;
 }
 
 .con {
-  max-width:1180px;
+  max-width:1200px;
 }
 
-.top-bar {
-    border-bottom: 1px solid #EAEAEA;
+.top-bar-01 {
+  border-bottom: 1px solid #F4F4F4;
+  height:100px;
+  position:relative;
 }
 
-.top-bar > .menu-bar > ul > li > a {
-    padding: 20px 0;
+/* 로고 */
+
+.top-bar-01 > .logo {
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  top:25px;
 }
 
-.top-bar > .menu-bar > ul > li:hover > a {
-    color: #9FC93C;
+/* 메뉴바 */
+
+.top-bar-01 > .menu-bar > ul {
+  padding-bottom:10px;
 }
 
-.top-bar > .menu-bar > ul > li > a {
-    position: relative;
-    color: #747474;
-    font-weight: bold;
-    font-size: 1.2rem;
+.top-bar-01 > .menu-bar > ul > li > a {
+  font-size:16px;
+  font-weight:200;
+  padding-bottom:8px;
 }
 
-.top-bar > .menu-bar > ul > li:hover > a::after {
-    content: "";
-    position: absolute;
-    width: 5px;
-    height: 5px;
-    background-color: #9FC93C;
-    border-radius: 50px;
-    left: 50%;
-    top:80%;
-    transform: translateX(-50%);
+.top-bar-01 > .menu-bar > ul > li {
+  padding:0 55px;
 }
 
-/* 2차메뉴 */
-.top-bar > .menu-bar > ul > li {
-    position: relative;
+.top-bar-01 > .menu-bar > ul > li:nth-child(2) {
+  padding-right:120px;
 }
 
-.top-bar > .menu-bar ul ul {
-    display: none;
-    position: absolute;
-    top:100%;
+.top-bar-01 > .menu-bar > ul > li:nth-child(3) {
+  padding-left:120px;
 }
 
-.top-bar > .menu-bar > ul > li:hover > ul {
-    display: block;
+.top-bar-01 > .menu-bar > ul ul {
+  display:none;
 }
 
-.top-bar > .menu-bar > ul > li > ul > li > a {
-    display: block;
-    margin-top: 20px;
-    text-align: center;
-    padding: 5px 10px;
+.top-bar-01 > .menu-bar > ul > li > a {
+  position:relative;
 }
 
-.top-bar > .menu-bar > ul > li > ul > li:hover > a {
-    padding: 5px 10px;
-    color: white;
-    background-color: #9FC93C;
-    border-radius: 20px;
+.top-bar-01 > .menu-bar > ul > li > a::after {
+  content:"";
+  position:absolute;
+  height:2px;
+  width:0;
+  background: linear-gradient(to right, #FC354C, #0ABFBC);
+  left:50%;
+  transform: translatex(-50%);
+  top:100%;
+  transition:width 0.3s;
 }
 
-.top-bar > .logo {
-padding: 50px 0;
+.top-bar-01 > .menu-bar > ul > li:hover > a::after {
+  width:100%;
+}
+
+/* 모바일 상단바*/
+.mobile-top-bar {
+  height:60px;
+  background-color:white;
+  border-bottom: 1px solid #F4F4F4;
+}
+
+.mobile-top-bar > .logo {
+  position:absolute;
+  left:50%;
+  transform:translatex(-50%);
+  top:15px;
+}
+
+
+/* 햄버거메뉴 */
+.mobile-top-bar > .btn-toggle-mobile-side-bar {
+  display: block;
+  width: 25px;
+  height: 20px;
+  position: relative;
+  margin-left: 30px;
+  margin-top:20px;
+}
+
+.mobile-top-bar > .btn-toggle-mobile-side-bar > div {
+  width: 100%;
+  height: 2%;
+  background-color: #565656;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  transition:top .3s .3s, transform .3s, opacity .2s .3s;
+}
+
+.mobile-top-bar > .btn-toggle-mobile-side-bar > div:nth-child(2) {
+  top: 50%;
+}
+
+.mobile-top-bar > .btn-toggle-mobile-side-bar > div:nth-child(3) {
+  top: 100%;
+}
+
+/* 햄버거메뉴 액티브 */
+.mobile-top-bar > .btn-toggle-mobile-side-bar.active > div {
+  top:50%;
+  transition:top .3s, transform .3s .3s, opacity .2s 0s;
+}
+
+.mobile-top-bar > .btn-toggle-mobile-side-bar.active > div:nth-child(1) {
+  transform:rotate(45deg)
+}
+
+.mobile-top-bar > .btn-toggle-mobile-side-bar.active > div:nth-child(3) {
+  transform:rotate(-45deg)
+}
+
+.mobile-top-bar > .btn-toggle-mobile-side-bar.active > div:nth-child(2) {
+  opacity:0;
+}
+
+/* 모바일 사이드 메뉴 */
+.left-side-menu {
+  background-color:white;
+  position:fixed;
+  width:250px;
+  height:100%;
+  left:-250px;
+  transition: left 0.3s;
+}
+
+.left-side-menu.active {
+  left:0;
+}
+
+.left-side-menu > .mobile-side-menu-01 > ul > li > a {
+  display: block;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-weight: 200;
+}
+
+.left-side-menu > .mobile-side-menu-01 > ul > li:hover > a {
+  color: #FC354C;
+}
+
+.mobile-side-menu-bg {
+  position: fixed;
+  top: 61px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0);
+  transition: background-color .3;
+  visibility: hidden;
+}
+
+.mobile-side-menu-bg.active {
+  background-color: rgba(0,0,0,.3);
+  visibility: visible;
 }
