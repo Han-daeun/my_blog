@@ -277,6 +277,10 @@ body.active {
   align-items:flex-end;
 }
 
+* > .flex-wrap {
+  flex-wrap:wrap;
+}
+
 * > .flex-row-nowrap {
   flex-direction:row;
   flex-wrap:nowrap;
@@ -313,9 +317,6 @@ body.active {
 
 
 /* 커스텀 */
-.body {
-  overflow-y: hidden;
-}
 
 .con-min-width {
   min-width:1356px;
@@ -327,17 +328,14 @@ body.active {
 
 .top-bar-01 {
   border-bottom: 1px solid #F4F4F4;
-  height:100px;
   position:relative;
 }
 
 /* 로고 */
 
 .top-bar-01 > .logo {
-  position:absolute;
-  left:50%;
-  transform:translateX(-50%);
-  top:25px;
+  padding: 20px 0; 
+
 }
 
 /* 메뉴바 */
@@ -353,19 +351,51 @@ body.active {
 }
 
 .top-bar-01 > .menu-bar > ul > li {
-  padding:0 55px;
+  padding:0 50px;
 }
 
-.top-bar-01 > .menu-bar > ul > li:nth-child(2) {
-  padding-right:120px;
-}
-
-.top-bar-01 > .menu-bar > ul > li:nth-child(3) {
-  padding-left:120px;
+.top-bar-01 > .menu-bar ul > li {
+  position: relative;
 }
 
 .top-bar-01 > .menu-bar > ul ul {
+  margin-top: 10px;
+}
+
+.top-bar-01 > .menu-bar ul ul {
   display:none;
+  position: absolute;
+  width: 100%;
+  top:100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #F4F4F4;
+}
+
+.top-bar-01 > .menu-bar ul ul ul {
+  top:0;
+  left: 100%;
+}
+
+.top-bar-01 > .menu-bar ul > li:last-child > ul ul {
+  left: auto;
+  right: 100%;
+}
+
+.top-bar-01 > .menu-bar ul ul > li > a {
+  font-size: 0.9rem;
+  font-weight: 200;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.top-bar-01 > .menu-bar ul > li:hover > ul {
+  display:block;
+}
+
+.top-bar-01 > .menu-bar ul > li:hover > a {
+  color: #FC354C;
 }
 
 .top-bar-01 > .menu-bar > ul > li > a {
@@ -454,12 +484,12 @@ body.active {
 
 /* 모바일 사이드 메뉴 */
 .left-side-menu {
-  background-color:white;
+  background-color:#F4F4F4;
   position:fixed;
   top: 60px;
-  width:250px;
+  width:200px;
   height:100%;
-  left:-250px;
+  left:-200px;
   transition: left 0.3s;
 }
 
@@ -467,14 +497,25 @@ body.active {
   left:0;
 }
 
-.left-side-menu > .mobile-side-menu-01 > ul > li > a {
+.left-side-menu > .mobile-side-menu-01 ul > li > a {
   display: block;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 20px;
   font-weight: 200;
 }
 
-.left-side-menu > .mobile-side-menu-01 > ul > li:hover > a {
+.left-side-menu > .mobile-side-menu-01 ul > li > a:not(:only-child)::after {
+  content: "[+]";
+  float: right;
+  padding-right: 10px;
+}
+
+.left-side-menu > .mobile-side-menu-01 ul > li.active > a:not(:only-child)::after {
+  content: "[-]";
+}
+
+.left-side-menu > .mobile-side-menu-01 ul > li.active > a:not(:only-child) {
   color: #FC354C;
 }
 
@@ -493,3 +534,32 @@ body.active {
   background-color: rgba(0,0,0,.3);
   visibility: visible;
 }
+
+/* 모바일 상단바 2차메뉴 */
+
+.left-side-menu > .mobile-side-menu-01 > ul ul {
+  display: none;
+  top:0;
+  padding-left: 15px;
+}
+
+.left-side-menu > .mobile-side-menu-01 ul > li.active > ul {
+  display: block;
+}
+
+.left-side-menu > .mobile-side-menu-01 > ul > li {
+  border-bottom: solid 1px #EAEAEA;
+}
+
+.left-side-menu > .mobile-side-menu-01 > ul ul > li > a::before {
+  content: "-  ";
+  font-weight: bold;
+  color: #FC354C;
+}
+
+@media (max-width:799px) {
+  html.mobile-side-bar-actived, html.mobile-side-bar-actived > body {
+    overflow-y: hidden;
+  } 
+}
+
