@@ -424,14 +424,13 @@ body.active {
   height:60px;
   background-color:white;
   border-bottom: 1px solid #F4F4F4;
-  position: fixed;
 }
 
 .mobile-top-bar > .logo {
   position:absolute;
   left:50%;
   transform:translatex(-50%);
-  top:15px;
+  top:6px;
 }
 
 

@@ -15,7 +15,7 @@
 <!--PC 상단바-->
 <div class="top-bar-01 visible-md-up">
   <a href="/" class="logo flex flex-jc-center">
-    <span style="color:#FC354C"><i class="fab fa-connectdevelop fa-3x"></i></span>
+    <span><img src="../resource/img/logo.png" alt="" width="100"></span>
   </a>
   <nav class="menu-bar con flex flex-jc-center flex flex-ai-end">
     <ul class="flex flex-ai-end flex-jc-center">
@@ -45,7 +45,7 @@
 <!--모바일 상단바-->
 <div class="mobile-top-bar visible-sm-down flex">
   <a href="/" class="logo">
-    <span style="color:#FC354C"><i class="fab fa-connectdevelop fa-2x"></i></span>
+    <span><img src="../resource/img/logo.png" alt="" width="50"></span>
   </a>
   <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-jc-center flex-ai-c">
     <div></div>
