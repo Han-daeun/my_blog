@@ -25,4 +25,17 @@ $(function () {
     $current.removeClass('active');
     $post.addClass('active');
   });
+
+});
+
+function slideBar__move() {
+  function a() {
+    $('.img-slide .side-bars > div:last-child').click();
+  }
+  
+  setInterval(a,5000);
+}
+
+$(function() {
+  slideBar__move();
 });

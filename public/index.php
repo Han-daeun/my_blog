@@ -24,7 +24,7 @@ include "../part/head.php"
 
 <div class="profile-box con flex">
   <div class="profile-img flex flex-ai-c">
-    <img src="../resource/img/profile.png" alt="" width="120">
+    <img src="../resource/img/mycon.png" alt="" width="120">
   </div>
   <div class="p-txt">
     <h1>Daeun Han</h1>
