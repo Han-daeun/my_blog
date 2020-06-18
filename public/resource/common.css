@@ -315,7 +315,6 @@ body.active {
     }
 }
 
-
 /* 커스텀 */
 
 .con-min-width {
@@ -370,6 +369,7 @@ body.active {
   left: 0;
   background-color: white;
   border: 1px solid #F4F4F4;
+  z-index:10;
 }
 
 .top-bar-01 > .menu-bar ul ul ul {
@@ -490,6 +490,7 @@ body.active {
   height:100%;
   left:-200px;
   transition: left 0.3s;
+  z-index: 20;
 }
 
 .left-side-menu.active {
@@ -527,6 +528,7 @@ body.active {
   background-color: rgba(0,0,0,0);
   transition: background-color .3;
   visibility: hidden;
+  z-index: 15;
 }
 
 .mobile-side-menu-bg.active {

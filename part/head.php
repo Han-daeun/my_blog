@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
     <script src="/resource/index.js"></script>
+    <link rel="icon" href="../resource/img/icon.png">
     <title>블로그</title>
 </head>
 
@@ -26,9 +27,9 @@
         <a href="/list.php">Articles</a>
       </li>
       <li><a href="/aboutMe.php">About me</a></li>
-      <li><a href="#">Portfolio</a></li>
+      <li><a href="/portfolio.php">Portfolio</a></li>
       <li>
-        <a href="/sns.php">SNS</a>
+        <a href="#">SNS</a>
         <ul>
           <li><a href="https://github.com/Han-daeun" target="_blank">GITHUB</a></li>
           <li>
@@ -46,7 +47,7 @@
 
 <!--모바일 상단바-->
 <div class="mobile-top-bar visible-sm-down flex">
-  <a href="/" class="logo">
+  <a href="/" class="logo flex flex-jc-center">
     <span><img src="../resource/img/logo.png" alt="" width="50"></span>
   </a>
   <a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-jc-center flex-ai-c">
