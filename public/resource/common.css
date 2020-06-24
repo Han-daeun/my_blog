@@ -316,6 +316,9 @@ body.active {
 }
 
 /* 커스텀 */
+html, body {
+  background-color: #FAFAFA;
+}
 
 .con-min-width {
   min-width:1356px;
@@ -328,6 +331,7 @@ body.active {
 .top-bar-01 {
   border-bottom: 1px solid #F4F4F4;
   position:relative;
+  background-color: white;
 }
 
 /* 로고 */

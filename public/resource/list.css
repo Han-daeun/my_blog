@@ -1,0 +1,28 @@
+.list-box {
+    height: calc(100vh - 180px);
+}
+
+.list-box > .category {
+    width: 217px;
+    background-color: white;
+    border-right: 1px solid #e8e8e8;
+    
+}
+
+.list-box > .category > ul {
+    margin-left: 57px;
+    margin-top: 48px;
+}
+
+.list-box > .category > ul > li > a {
+    display: block;
+    padding: 10px 0;
+    color: #5a5a5a;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.list-box > .article-list {
+    width: 983px;
+    background-color: white;
+}
