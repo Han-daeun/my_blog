@@ -10,6 +10,8 @@ include "../part/head.php"
             <li><a href="#">Photo Shop (2)</a></li>
             <li><a href="#">Java Script (10)</a></li>
         </ul>
+        <div class="search-box"></div>
+        <div class="writ-btn"></div>
     </div>
     <div class="article-list">
 

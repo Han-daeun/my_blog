@@ -10,8 +10,21 @@
 }
 
 .list-box > .category > ul {
-    margin-left: 57px;
+    padding-left: 57px;
     margin-top: 48px;
+    padding-bottom: 48px;
+    position: relative;
+}
+
+.list-box > .category > ul::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 0.5px;
+    background-color: #e8e8e8;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
 }
 
 .list-box > .category > ul > li > a {
@@ -20,6 +33,13 @@
     color: #5a5a5a;
     font-size: 14px;
     font-weight: 200;
+}
+
+.list-box > .category > .search-box {
+    width: 150px;
+    height: 32px;
+    border: solid 1px #888888;
+    left: 0;
 }
 
 .list-box > .article-list {
