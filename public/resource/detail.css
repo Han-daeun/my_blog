@@ -1,0 +1,16 @@
+.information-box > div {
+    padding: 0 5px;
+}
+
+.information-box > div {
+    position: relative;
+}
+
+.information-box > div:first-child::after {
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    background-color: red;
+    left: 100%;
+    top:0;
+}
