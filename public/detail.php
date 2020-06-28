@@ -39,31 +39,36 @@ $row = mysqli_fetch_assoc($rs);
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
-<div class="con">
-    <a href="#" onclick="history.back();">[뒤로가기]</a>
-</div>
-
-
-<h1 class="con flex-jc-center"  style="font-size:30px; font-weight:600; color:5a5a5a;"><?=$row['title']?></h1></h1>
-<div class="con information-box flex-jc-center"  style="font-size:15px; font-weight:200; color:9e9e9e;">
-    <div>
+<div class="category-name con flex-jc-center">category</div>
+<h1 class="con flex-jc-center"  style="font-size:30px; font-weight:600; color:#5a5a5a; margin-bottom:10px;"><?=$row['title']?></h1></h1>
+<div class="con information-box flex-jc-center"  style="font-size:15px; font-weight:200; color:#9e9e9e;">
+    <div class="user-name">
         Han da-eun
     </div>
     <div>
         등록날짜 : <?=$row['updateDate']?>
     </div>
+    <div>
+        조회
+    </div>
 </div>
+
+<div class="contour-line con"></div>
 
 <div class="con flex-jc-center" style="display:none;" id="origin1">
     <?=$row['body']?>
 </div>
 <div class="con" id="viewer1"></div>
 
+<div class="contour-line con"></div>
+
 <div class="con list-btn flex-jc-center">
-    <a href="#">< prev</a>
+    <a href="#">< Prev</a>
     <a href="/list.php">List</a>
-    <a href="#">next ></a>
+    <a href="#">Next ></a>
 </div>
+
+<div class="contour-line con"></div>
 
 
 <script>

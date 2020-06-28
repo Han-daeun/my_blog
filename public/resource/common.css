@@ -267,6 +267,11 @@ body.active {
     justify-content:center;
   }
 
+  * > .flex-jc-between {
+    display:flex;
+    justify-content:space-between;
+  }
+
 * > .flex-ai-c {
   display:flex;
   align-items:center;
@@ -567,4 +572,3 @@ html, body {
     overflow-y: hidden;
   } 
 }
-
