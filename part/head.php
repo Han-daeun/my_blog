@@ -65,9 +65,9 @@
 <div class="left-side-menu visible-sm-down">
   <nav class="mobile-side-menu-01">
     <ul>
-      <li><a href="#">Home</a></li>
+      <li><a href="/">Home</a></li>
       <li>
-        <a href="#">Articles</a></li>
+        <a href="/list.php">Articles</a></li>
       <li><a href="#">About me</a></li>
       <li><a href="#">Portfolio</a></li>
       <li>

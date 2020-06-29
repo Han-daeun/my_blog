@@ -3,7 +3,8 @@ include "../part/head.php"
 ?>
 
 <?php
-$conn = mysqli_connect("127.0.0.1", "root", "", "blog", 3306);
+$conn = mysqli_connect("site3.blog.oa.gg", "site3", "sbs123414", "site3", 3306);
+
 $id = $_GET['id'];
 $sql = "
 SELECT *
@@ -53,14 +54,29 @@ $row = mysqli_fetch_assoc($rs);
     </div>
 </div>
 
-<div class="contour-line con"></div>
+<div class="contour-line con" style="margin-bottom:80px;"></div>
 
 <div class="con flex-jc-center" style="display:none;" id="origin1">
     <?=$row['body']?>
 </div>
 <div class="con" id="viewer1"></div>
 
+<div class="like-btn-bar flex con flex-jc-between" style="margin-top:80px;">
+    <div class="like-btn">
+        <span style="color:#FF5959;">♥</span> 
+        <span style="color:#5A5A5A;">3</span>
+    </div>
+    <div class="delete-btn" style="font-size:13px; font-weight:200; color:#9E9E9E;">
+        <a href="#">수정</a>
+        <a href="#">삭제</a>
+    </div>
+</div>
 <div class="contour-line con"></div>
+<div class="tag-list con" style="color:#5A5A5A; font-size:16px; font-weight:bold;">tag
+    <span style="padding-left:30px;"># Java Script</span>
+    <span># 글써보기</span>
+    <span># abcdefg</span>
+</div>
 
 <div class="con list-btn flex-jc-center">
     <a href="#">< Prev</a>
@@ -68,7 +84,20 @@ $row = mysqli_fetch_assoc($rs);
     <a href="#">Next ></a>
 </div>
 
+<div class="comment flex con" style="font-size:18px; font-weight:bold;">
+    <span style="color:#5A5A5A; padding-right:10px;">댓글</span>
+    <span style="color:#CC8C8C;">1</span>
+</div>
 <div class="contour-line con"></div>
+
+<div class="comment-box con" style="background-color:pink; height:500px;">
+    <div class="user-comment">
+
+    </div>
+    <div class="text-box">
+        
+    </div>
+</div>
 
 
 <script>

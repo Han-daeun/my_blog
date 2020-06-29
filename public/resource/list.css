@@ -127,6 +127,15 @@
     .list-box {
         display: none;
     }
+    .mobile-list-bar {
+        display: block;
+    }
+}
+
+@media (min-width:700px) {
+    .mobile-list-bar {
+        display: none;
+    }
 }
 
 /* 모바일 목록 */
@@ -139,9 +148,81 @@
     justify-content: space-between;
   }
   
-  .mb-article-list > ul > li {
+  .mobile-list-bar > .mb-article-list > ul > li {
     height: 118px;
     background-color: white;
     border-bottom: 1px solid #bdbdbd;
   }
   
+  .mobile-list-bar > .mb-article-list > ul > li > a > div > div > .mb-contents-text {
+    overflow: hidden; 
+    width: 70%;
+    text-overflow: ellipsis; 
+    overflow:hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 라인수 */	
+    -webkit-box-orient: vertical;
+    word-wrap:break-word;
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .mobile-list-bar > .mb-article-list > ul > li > a > div > div > .mb-contents-text-s > span {
+      padding: 0 10px;
+      position: relative;
+  } 
+
+  .mobile-list-bar > .mb-article-list > ul > li > a > div > div > .mb-contents-text-s > span:first-child {
+      padding-left: 0;
+  }
+
+  .mobile-list-bar > .mb-article-list > ul > li > a > div > div > .mb-contents-text-s > span::after {
+      content: "";
+      position: absolute;
+      background-color: #9E9E9E;
+      height: 7px;
+      width: 1px;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+  }
+
+  .mobile-list-bar > .mb-article-list > ul > li > a > div > div > .mb-contents-text-s > span:first-child::after {
+      display: none;
+  }
+
+  .like-btn-bar > .delete-btn > a {
+      padding: 0 10px; 
+      position: relative;
+  }
+
+  .like-btn-bar > .delete-btn > a::after {
+      position: absolute;
+      content: "";
+      background-color: #9E9E9E;
+      width: 1px;
+      height: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+  }
+
+  .like-btn-bar > .delete-btn > a:first-child::after {
+      display: none;
+  }
+
+  .tag-list > span {
+      color: #9E9E9E;
+      font-weight: 200;
+      padding-right: 20px;
+  }
+
+  .list-btn {
+      padding: 70px 0;
+  }
+
+  .like-btn-bar {
+      font-size: 15px;
+      font-weight: bold;
+  }

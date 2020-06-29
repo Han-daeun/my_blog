@@ -41,18 +41,20 @@ include "../part/head.php"
         </div>
         <div><a style="font-size:7px; font-weight:300; background-color:#FF5959; padding:2px 6px; padding-bottom:3px; border-radius:5px; color:white;" href="#">+ writing</a></div>
     </div>
-</div>
-
-<div class="mb-article-list">
+    <div class="mb-article-list">
         <ul>
             <?php for ($i = 6; $i >= 1; $i--) { ?>
             <li>
                 <a href="/detail.php?id=<?=$i?>">
                     <div>
                         <div style="padding-left:30px; padding-top:18px;">
-                            <span class="mb-title-text block" style="font-size:20px; color:#5A5A5A;">제목이 들어갈 부분</span>
-                            <span class="mb-contents-text block" style="font-size:11px; color:#5A5A5A; height:39px; box-sizing:border-box;">내용이 들어갈 부분입니다.</span>
-                            <span class="mb-date-text block" style="font-size:7px; color:#9E9E9E;">2020-00-00</span>
+                            <div class="mb-title-text block" style="font-size:20px; color:#5A5A5A; font-weight:500;">제목이 들어갈 부분</div>
+                            <div class="mb-contents-text block" style="font-size:11px; color:#5A5A5A;">나는 사랑을 찾아 헤매었다. 첫째는 그것이 황홀을 가져다 주기 때문이다. 그 황홀은 너무나 찬란해서 몇 시간의 이 즐거움을 위해서는 남은 생애를 전부 희생해도 좋다고 생각하는 일도 가끔 있었다. 둘째로는 그것이 고독감- 하나의 떨리는 의식이 이 세상 너머로 차고 생명없는 끝없는 심연을</div>
+                            <div class="flex mb-contents-text-s" style="font-size:7px; color:#9E9E9E;">
+                                <span style="color:#FF5959;">category</span>
+                                <span>2020-00-00</span>
+                                <span>조회</span>
+                            </div>
                         </div>
                     </div>
                 </a>
@@ -61,6 +63,9 @@ include "../part/head.php"
         </ul>
         <div class="mb-photo-pre"></div>
     </div>
+</div>
+
+
 
 
 <?php
