@@ -1,3 +1,21 @@
+@media (min-width:900px) {
+    .md-category {
+        display: none;
+    }
+}
+
+@media (max-width:1199px) {
+    .md-category {
+        display: block;
+    }
+}
+
+@media (max-width:699px) {
+    .md-category {
+        display: none;
+    }
+}
+
 .list-box {
     height: calc(100vh - 180px);
 }

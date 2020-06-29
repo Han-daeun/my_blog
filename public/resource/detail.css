@@ -61,3 +61,16 @@
     border-radius: 5px;
     margin: 0 5px;
 }
+
+.comment-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.comment-box > .com-pic {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50px;
+    margin: 10px 20px;
+}

@@ -90,16 +90,16 @@ $row = mysqli_fetch_assoc($rs);
 </div>
 <div class="contour-line con"></div>
 
-<div class="comment-box con" style="background-color:pink; height:500px;">
-    <div class="user-comment">
-
-    </div>
-    <div class="text-box">
-        
+<div class="comment-box con flex">
+    <div class="com-pic"></div>
+    <div class="com-info">
+        <div style="color:#5A5A5A; font-size:15px; font-weight:400;">방문자 1</div>
+        <div style="color:#9E9E9E; font-size:8px; font-weight:200;">2020. 06. 30 15:00:00</div>
+        <div class="com-txt" style="color:#5A5A5A; font-size:12px; font-weight:300; padding-top:5px;">잘 보고갑니다.</div>
     </div>
 </div>
-
-
+<div class="text-box con" style="width:100%; height:169px; border:solid 1px #D6D6D6;"></div>
+<div class="com-btn con flex flex-jc-end" style="margin-top:20px; margin-bottom: 30px;"><a href="#" style="background-color:#FF5959; color:white; font-size:16px; font-weight:400; padding:5px 12px;">등록</a></div>
 <script>
 var editor1__initialValue = $('#origin1').html();
 var editor1 = new toastui.Editor({

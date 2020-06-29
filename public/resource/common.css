@@ -31,6 +31,10 @@ label[for] {
   display:inline-block;
 }
 
+.absolute {
+  position:absolute;
+}
+
 .absolute-left {
   position:absolute;
   left:0;

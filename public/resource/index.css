@@ -126,6 +126,21 @@
     text-align: center;
   }
 
+  .list-01 > .post-list > div > ul > .article-cont > .article-long {
+    font-size: 10px;
+    color: 5a5a5a;
+    overflow: hidden; 
+    width: 410px;
+    text-overflow: ellipsis; 
+    overflow:hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* 라인수 */	
+    -webkit-box-orient: vertical;
+    word-wrap:break-word;
+    margin-left: 28px;
+    margin-top: 8px;
+  }
+
   .list-01 > .post-list > div > ul > .article-prev > .prev-img {
     width: 100px;
     height: 100px;
