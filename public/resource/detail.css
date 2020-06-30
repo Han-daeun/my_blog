@@ -1,4 +1,4 @@
-.category-name {
+.category-name > a {
     color: #FF5959;
     font-size: 18px;
     font-weight: 600;

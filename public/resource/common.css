@@ -276,6 +276,11 @@ body.active {
     justify-content:space-between;
   }
 
+  * > .flex-jc-around {
+    display:flex;
+    justify-content:space-around;
+  }
+
 * > .flex-ai-c {
   display:flex;
   align-items:center;

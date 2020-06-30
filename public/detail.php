@@ -40,7 +40,7 @@ $row = mysqli_fetch_assoc($rs);
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
-<div class="category-name con flex-jc-center">category</div>
+<div class="category-name con flex-jc-center"><a href="#">category</a></div>
 <h1 class="con flex-jc-center"  style="font-size:30px; font-weight:600; color:#5a5a5a; margin-bottom:10px;"><?=$row['title']?></h1></h1>
 <div class="con information-box flex-jc-center"  style="font-size:15px; font-weight:200; color:#9e9e9e;">
     <div class="user-name">
