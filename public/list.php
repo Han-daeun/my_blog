@@ -1,17 +1,14 @@
 <?php
 include "../part/head.php";
 
-// 전화번호 세팅
 $dbHost = "site3.blog.oa.gg";
 $dbPort = 3306;
 $dbId = "site3";
 $dbPw = "sbs123414";
 $dbName = 'site3';
 
-// 전화걸기
 $dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName, $dbPort) or die("DB CONNECTION ERROR");
 
-// 전화연결이 성공했다면 이 부분 실행됨
 
 if ( isset($_GET['cateItemId']) == false ) {
     $_GET['cateItemId'] = 1;
@@ -28,7 +25,6 @@ $rs = mysqli_query($dbConn, $sql);
 $row = mysqli_fetch_assoc($rs);
 $cateItemName = $row['name'];
 
-// 상대방에게 할말 적기
 $sql = "
 SELECT *
 FROM article
@@ -36,7 +32,6 @@ WHERE cateItemId = '{$cateItemId}'
 ORDER BY id DESC
 ";
 
-// 말하고 응답받기
 $rs = mysqli_query($dbConn, $sql);
 $rows = [];
 while ( true ) {
@@ -70,17 +65,25 @@ while ( true ) {
         <div class="search-box"></div>
         <div class="writ-btn"><a href="#">+ writing</a></div>
     </div>
-    <div class="article-list">
+    
+    <?php if ( empty($rows) ) { ?>
+    <div class="con">
+        게시물이 존재하지 않습니다.
+    </div>
+    <?php } else { ?>
+        <div class="article-list">
         <ul class="flex flex-wrap flex-jc-center">
-            <?php for ($i = 5; $i >= 1; $i--) { ?>
+            <?php foreach ( $rows as $row ) { ?>
             <li>
-                <a href="/detail.php?id=<?=$i?>">
+                <a href="/detail.php?id=<?=$row['id']?>">
                     <div class="article-list-det">
-                        <div class="photo-pre"></div>
+                        <div class="photo-pre">
+                            <img src="<?=$row['thumbImgUrl']?>" alt="" width='250'>
+                        </div>
                         <div class="title-box">
-                            <span class="title-text" style="font-size:18px; font-weight:500; color:#5a5a5a; padding-top:8px;">제목이 들어갈 부분</span>
-                            <span class="contents-text" style="font-size:8px; font-weight:200; color:#5a5a5a; padding-top:3px; padding-left:17px;">내용 미리보기</span>
-                            <span class="date-text" style="font-size:8px; font-weight:200; color:#9e9e9e; text-align:right; padding-right:15px;">2020-00-00</span>
+                            <span class="title-text" style="font-size:18px; font-weight:500; color:#5a5a5a; padding-top:8px;"><?=$row['title']?></span>
+                            <span class="contents-text" style="font-size:8px; font-weight:200; color:#5a5a5a; padding-top:3px; padding-left:17px; padding-right:17px;"><?=$row['summary']?></span>
+                            <span class="date-text" style="font-size:8px; font-weight:200; color:#9e9e9e; text-align:right; padding-top:3px; padding-right:15px;"><?=$row['regDate']?></span>
                         </div>
                     </div>
                 </a>
@@ -88,6 +91,7 @@ while ( true ) {
             <?php } ?>
         </ul>
     </div>
+    <?php } ?>
 </div>
 
 <div class="mobile-list-bar">

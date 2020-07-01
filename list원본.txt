@@ -1,0 +1,30 @@
+﻿<div class="list-box con flex">
+    <div class="category">
+        <ul>
+            <li><a href="#" style="font-size:16px; font-weight:400;">All</a></li>
+            <li><a href="#">HTML</a></a></li>
+            <li><a href="#">Photo Shop</a></li>
+            <li><a href="#">Java Script</a></li>
+        </ul>
+        <div class="search-box"></div>
+        <div class="writ-btn"><a href="#">+ writing</a></div>
+    </div>
+    <div class="article-list">
+        <ul class="flex flex-wrap flex-jc-center">
+            <?php for ($i = 5; $i >= 1; $i--) { ?>
+            <li>
+                <a href="/detail.php?id=<?=$i?>">
+                    <div class="article-list-det">
+                        <div class="photo-pre"></div>
+                        <div class="title-box">
+                            <span class="title-text" style="font-size:18px; font-weight:500; color:#5a5a5a; padding-top:8px;">제목이 들어갈 부분</span>
+                            <span class="contents-text" style="font-size:8px; font-weight:200; color:#5a5a5a; padding-top:3px; padding-left:17px;">내용 미리보기</span>
+                            <span class="date-text" style="font-size:8px; font-weight:200; color:#9e9e9e; text-align:right; padding-right:15px;">2020-00-00</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <?php } ?>
+        </ul>
+    </div>
+</div>
