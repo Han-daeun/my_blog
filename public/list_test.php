@@ -1,5 +1,5 @@
 <?php
-$dbConn = mysqli_connect("site3.blog.oa.gg", "site3", "sbs123414", "site3", 3306) or die ("DB CONNECTION ERROR");
+$dbConn = mysqli_connect("site3.blog.oa.gg", "site3", "sbs123414", "site3", 3306) or die("DB CONNECTION ERROR");
 
 $cateItemId = $_GET['cateItemId'];
 
@@ -8,7 +8,6 @@ SELECT *
 FROM cateItem
 WHERE id = {$cateItemId}
 ";
-
 $rs = mysqli_query($dbConn, $sql);
 $row = mysqli_fetch_assoc($rs);
 $cateItemName = $row['name'];
@@ -16,28 +15,24 @@ $cateItemName = $row['name'];
 $sql = "
 SELECT *
 FROM article
-WHERE cateItemID = {$cateItemId}
+WHERE cateItemId = {$cateItemId}
 ORDER BY ID DESC
-"; 
-
+";
 $rs = mysqli_query($dbConn, $sql);
+$articleRows = [];
 while ( true ) {
     $row = mysqli_fetch_assoc($rs);
-    if ( $row == null) {
+
+    if ( $row == null ) {
         break;
     }
 
     $articleRows[] = $row;
 }
-
 ?>
 
 
-
-<?php foreach ( $articleRows as $article ) { ?>
-
-
-    <?php
+<?php
 include "../part/head.php"
 ?>
 
@@ -54,19 +49,19 @@ include "../part/head.php"
 <div class="list-box con flex">
     <div class="category">
         <ul>
-            <li><a href="#" style="font-size:16px; font-weight:400;">All (15)</a></li>
-            <li><a href="#">HTML (3)</a></a></li>
-            <li><a href="#">Photo Shop (2)</a></li>
-            <li><a href="#">Java Script (10)</a></li>
+            <li><a href="#" style="font-size:16px; font-weight:400;">All</a></li>
+            <li><a href="#">HTML</a></a></li>
+            <li><a href="#">Photo Shop</a></li>
+            <li><a href="#">Java Script</a></li>
         </ul>
         <div class="search-box"></div>
         <div class="writ-btn"><a href="#">+ writing</a></div>
     </div>
     <div class="article-list">
         <ul class="flex flex-wrap flex-jc-center">
-            <?php for ($i = 1; $i >= 1; $i--) { ?>
+            <?php foreach ( $articleRows as $article ) { ?>
             <li>
-                <a href="/detail.php?id=<?=$i?>">
+                <a href="/detail.php?id=<?=$article['id']?>">
                     <div class="article-list-det">
                         <div class="photo-pre"></div>
                         <div class="title-box">
@@ -92,9 +87,9 @@ include "../part/head.php"
     </div>
     <div class="mb-article-list">
         <ul>
-            <?php for ($i = 1; $i >= 1; $i--) { ?>
+            <?php foreach ( $articleRows as $article ) { ?>
             <li>
-                <a href="/detail.php?id=<?=$i?>">
+                <a href="/detail.php?id=<?=$article['id']?>">
                     <div class="relative">
                         <div style="padding-left:30px; padding-top:18px;">
                             <div class="mb-title-text block" style="font-size:20px; color:#5A5A5A; font-weight:500;"><?=$article['title']?></div>
@@ -108,8 +103,8 @@ include "../part/head.php"
                         <div class="content-pic-pre absolute" style="width:70px; height:70px; background-color:pink; top:0; right:0; margin-top:25px; margin-right:40px;"></div>
                     </div>
                 </a>
+                <?php } ?>
             </li>
-            <?php } ?>
         </ul>
         <div class="mb-photo-pre"></div>
     </div>
@@ -122,4 +117,3 @@ include "../part/head.php"
 include "../part/foot.php"
 ?>
 
-<?php } ?>

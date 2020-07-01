@@ -1,5 +1,52 @@
 <?php
-include "../part/head.php"
+include "../part/head.php";
+
+// 전화번호 세팅
+$dbHost = "site3.blog.oa.gg";
+$dbPort = 3306;
+$dbId = "site3";
+$dbPw = "sbs123414";
+$dbName = 'site3';
+
+// 전화걸기
+$dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName, $dbPort) or die("DB CONNECTION ERROR");
+
+// 전화연결이 성공했다면 이 부분 실행됨
+
+if ( isset($_GET['cateItemId']) == false ) {
+    $_GET['cateItemId'] = 1;
+}
+
+$cateItemId = $_GET['cateItemId'];
+
+$sql = "
+SELECT name
+FROM cateItem
+WHERE id = '{$cateItemId}'
+";
+$rs = mysqli_query($dbConn, $sql);
+$row = mysqli_fetch_assoc($rs);
+$cateItemName = $row['name'];
+
+// 상대방에게 할말 적기
+$sql = "
+SELECT *
+FROM article
+WHERE cateItemId = '{$cateItemId}'
+ORDER BY id DESC
+";
+
+// 말하고 응답받기
+$rs = mysqli_query($dbConn, $sql);
+$rows = [];
+while ( true ) {
+    $row = mysqli_fetch_assoc($rs);
+    if ( $row == null ) {
+        break;
+    }
+    $rows[] = $row;
+}
+
 ?>
 
 <div class="md-category">
@@ -15,17 +62,17 @@ include "../part/head.php"
 <div class="list-box con flex">
     <div class="category">
         <ul>
-            <li><a href="#" style="font-size:16px; font-weight:400;">All (15)</a></li>
-            <li><a href="#">HTML (3)</a></a></li>
-            <li><a href="#">Photo Shop (2)</a></li>
-            <li><a href="#">Java Script (10)</a></li>
+            <li><a href="#" style="font-size:16px; font-weight:400;">All</a></li>
+            <li><a href="#">HTML</a></a></li>
+            <li><a href="#">Photo Shop</a></li>
+            <li><a href="#">Java Script</a></li>
         </ul>
         <div class="search-box"></div>
         <div class="writ-btn"><a href="#">+ writing</a></div>
     </div>
     <div class="article-list">
         <ul class="flex flex-wrap flex-jc-center">
-            <?php for ($i = 6; $i >= 1; $i--) { ?>
+            <?php for ($i = 5; $i >= 1; $i--) { ?>
             <li>
                 <a href="/detail.php?id=<?=$i?>">
                     <div class="article-list-det">
@@ -53,7 +100,7 @@ include "../part/head.php"
     </div>
     <div class="mb-article-list">
         <ul>
-            <?php for ($i = 6; $i >= 1; $i--) { ?>
+            <?php for ($i = 5; $i >= 1; $i--) { ?>
             <li>
                 <a href="/detail.php?id=<?=$i?>">
                     <div class="relative">
