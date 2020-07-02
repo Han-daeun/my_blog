@@ -11,24 +11,37 @@ $dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName, $dbPort) or die("DB CON
 
 
 if ( isset($_GET['cateItemId']) == false ) {
-    $_GET['cateItemId'] = 1;
+    $_GET['cateItemId'] = 0;
 }
 
 $cateItemId = $_GET['cateItemId'];
 
-$sql = "
-SELECT name
-FROM cateItem
-WHERE id = '{$cateItemId}'
-";
-$rs = mysqli_query($dbConn, $sql);
-$row = mysqli_fetch_assoc($rs);
-$cateItemName = $row['name'];
+$cateItemName = '전체';
+
+if ( $cateItemId ) {
+    $sql = "
+    SELECT name
+    FROM cateItem
+    WHERE id = '{$cateItemId}'
+    ";
+    $rs = mysqli_query($dbConn, $sql);
+    $row = mysqli_fetch_assoc($rs);
+    $cateItemName = $row['name'];
+}
+
 
 $sql = "
 SELECT *
 FROM article
-WHERE cateItemId = '{$cateItemId}'
+";
+
+if ( $cateItemId ) {
+    $sql .= "
+    WHERE cateItemId = '{$cateItemId}'
+    ";
+}
+
+$sql .= "
 ORDER BY id DESC
 ";
 
@@ -57,10 +70,10 @@ while ( true ) {
 <div class="list-box con flex">
     <div class="category">
         <ul>
-            <li><a href="#" style="font-size:16px; font-weight:400;">All</a></li>
-            <li><a href="#">HTML</a></a></li>
-            <li><a href="#">Photo Shop</a></li>
-            <li><a href="#">Java Script</a></li>
+            <li><a href="/list.php" style="font-size:16px; font-weight:400;">All</a></li>
+            <li><a href="/list.php?cateItemId=2">Category1</a></a></li>
+            <li><a href="/list.php?cateItemId=3">Category2</a></li>
+            <li><a href="/list.php?cateItemId=4">Category3</a></li>
         </ul>
         <div class="search-box"></div>
         <div class="writ-btn"><a href="#">+ writing</a></div>
@@ -72,13 +85,13 @@ while ( true ) {
     </div>
     <?php } else { ?>
         <div class="article-list">
-        <ul class="flex flex-wrap flex-jc-center">
+        <ul class="flex">
             <?php foreach ( $rows as $row ) { ?>
             <li>
                 <a href="/detail.php?id=<?=$row['id']?>">
                     <div class="article-list-det">
                         <div class="photo-pre">
-                            <img src="<?=$row['thumbImgUrl']?>" alt="" width='250'>
+                            <img src="<?=$row['thumbImgUrl']?>" alt="">
                         </div>
                         <div class="title-box">
                             <span class="title-text" style="font-size:18px; font-weight:500; color:#5a5a5a; padding-top:8px;"><?=$row['title']?></span>
@@ -95,6 +108,7 @@ while ( true ) {
 </div>
 
 <div class="mobile-list-bar">
+
     <div class="mobile-sub-bar flex" style="padding:0 15px;">
         <div class="category-box">
             <span style="font-size:10px; color:#5a5a5a;">category</span>
@@ -102,29 +116,35 @@ while ( true ) {
         </div>
         <div><a style="font-size:7px; font-weight:300; background-color:#FF5959; padding:2px 6px; padding-bottom:3px; border-radius:5px; color:white;" href="#">+ writing</a></div>
     </div>
+    
+    <?php if ( empty($rows) ) { ?>
+    <div class="con">
+        게시물이 존재하지 않습니다.
+    </div>
+    <?php } else { ?>
     <div class="mb-article-list">
         <ul>
-            <?php for ($i = 5; $i >= 1; $i--) { ?>
+            <?php foreach ( $rows as $row ) { ?>
             <li>
-                <a href="/detail.php?id=<?=$i?>">
+                <a href="/detail.php?id=<?=$row['id']?>">
                     <div class="relative">
                         <div style="padding-left:30px; padding-top:18px;">
-                            <div class="mb-title-text block" style="font-size:20px; color:#5A5A5A; font-weight:500;">제목이 들어갈 부분</div>
-                            <div class="mb-contents-text block" style="font-size:11px; color:#5A5A5A;">나는 사랑을 찾아 헤매었다. 첫째는 그것이 황홀을 가져다 주기 때문이다. 그 황홀은 너무나 찬란해서 몇 시간의 이 즐거움을 위해서는 남은 생애를 전부 희생해도 좋다고 생각하는 일도 가끔 있었다. 둘째로는 그것이 고독감- 하나의 떨리는 의식이 이 세상 너머로 차고 생명없는 끝없는 심연을</div>
+                            <div class="mb-title-text block" style="font-size:20px; color:#5A5A5A; font-weight:500;"><?=$row['title']?></div>
+                            <div class="mb-contents-text block" style="font-size:11px; color:#5A5A5A; height:35px;"><?=$row['summary']?></div>
                             <div class="flex mb-contents-text-s" style="font-size:7px; color:#9E9E9E;">
                                 <span style="color:#FF5959;">category</span>
-                                <span>2020-00-00</span>
+                                <span><?=$row['regDate']?></span>
                                 <span>조회</span>
                             </div>
                         </div>
-                        <div class="content-pic-pre absolute" style="width:70px; height:70px; background-color:pink; top:0; right:0; margin-top:25px; margin-right:40px;"></div>
+                        <div class="content-pic-pre absolute" style="width:70px; height:70px; background-image:url(<?=$row['thumbImgUrl']?>); top:0; right:0; margin-top:25px; margin-right:40px; background-size:contain;"></div>
                     </div>
                 </a>
             </li>
             <?php } ?>
         </ul>
-        <div class="mb-photo-pre"></div>
     </div>
+    <?php } ?>
 </div>
 
 

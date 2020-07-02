@@ -22,10 +22,10 @@
 
 .list-box > .category {
     width: 217px;
+    height: 100%;
     background-color: white;
     border-right: 1px solid #e8e8e8;
     position: relative;
-    
 }
 
 .list-box > .category > ul {
@@ -91,32 +91,51 @@
 .list-box > .article-list {
     width: 983px;
     background-color: white;
+    padding-top:50px;
 }
 
+.list-box > .article-list > ul {
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.list-box > .article-list > ul > li {
+    width: calc(100% / 3);
+    padding:0 30px;
+    box-sizing: border-box;
+    margin-bottom:30px;
+}
+
+.list-box > .article-list > ul > li > a {
+    display: block;
+}
+
+@media ( max-width:900px ) {
+    .list-box > .article-list > ul > li {
+        width: calc(100% / 2);
+    }
+}
+
+
 .list-box > .article-list > ul > li > a > .article-list-det {
-    width: 250px;
-    height: 250px;
     position: relative;
-    box-shadow: 1px 1px 5px gray;
-    margin-top: 48px;
-    margin-right: 33px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition:box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.list-box > .article-list > ul > li > a > .article-list-det:hover {
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3), 0 5px 5px rgba(0,0,0,0.3);
 }
 
 .list-box > .article-list > ul > li > a > .article-list-det:first-child {
     
 }
-/*
-.list-box > .article-list > ul > li > a > .article-list-det > .photo-pre {
-    background:url(https://han-daeun.github.io/img1/blog/article/2020/sum-6.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+.list-box > .article-list > ul > li > a > .article-list-det > .photo-pre > img {
+    display: block;
+    width:100%;
 }
-*/
+
 .list-box > .article-list > ul > li > a > .article-list-det > .title-box {
-    position: absolute;
     background-color: white;
     width: 100%;
     height: 80px;
@@ -165,7 +184,7 @@
     display: flex;
     justify-content: space-between;
   }
-  
+
   .mobile-list-bar > .mb-article-list > ul > li {
     height: 118px;
     background-color: white;

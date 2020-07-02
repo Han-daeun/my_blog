@@ -286,6 +286,11 @@ body.active {
   align-items:center;
 }
 
+* > .flex-ai-s {
+  display:flex;
+  align-items:start;
+}
+
 * > .flex-ai-end {
   display:flex;
   align-items:flex-end;
@@ -294,6 +299,11 @@ body.active {
 * > .flex-wrap {
   flex-wrap:wrap;
 }
+
+* > .flex-nowrap {
+  flex-wrap:nowrap;
+}
+
 
 * > .flex-row-nowrap {
   flex-direction:row;
