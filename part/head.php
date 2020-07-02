@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="/resource/list.css">
     <link rel="stylesheet" href="/resource/detail.css">
     <link rel="stylesheet" href="/resource/portfolio.css">
-    <link rel="stylesheet" href="/resource/index2.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
     <script src="/resource/index.js"></script>
@@ -33,7 +32,7 @@
       <li><a href="/aboutMe.php">About me</a></li>
       <li><a href="/portfolio.php">Portfolio</a></li>
       <li>
-        <a href="/index2.php">SNS</a>
+        <a href="#">SNS</a>
         <ul>
           <li><a href="https://github.com/Han-daeun" target="_blank">GITHUB</a></li>
           <li>

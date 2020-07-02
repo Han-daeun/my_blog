@@ -1,6 +1,20 @@
 <?php
 include "../part/head.php"
 ?>
+
+<div class="main-index">
+    <div class="index-pic">
+        <div class="index-pic-front" style="background: linear-gradient(to left, #FC354C, #0ABFBC);"></div>
+        <div class="index-pic-back"  style="background-color:white;"></div>
+        <ul class="index-text">
+            <li>Welcome to</li>
+            <li>My Blog</li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+
+<!--
 <div class="img-slide con">
   <div class="slides">
     <div class="active" style="background-image:url(https://images.unsplash.com/photo-1592212935668-b96a76e9a63e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);"></div>
@@ -86,17 +100,6 @@ include "../part/head.php"
         </li>
       </ul>
     </div>
-  </div>
-</div>
-
-<!--
-<div class="profile-box con flex">
-  <div class="profile-img flex flex-ai-c">
-    <img src="../resource/img/mycon.png" alt="" width="120">
-  </div>
-  <div class="p-txt">
-    <h1>Daeun Han</h1>
-    <p>내용이 들어갈 부분입니다.</p>
   </div>
 </div>
 -->

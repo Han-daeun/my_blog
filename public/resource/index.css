@@ -1,4 +1,56 @@
-/* 슬라이드박스 */
+
+.main-index {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: calc(100vh - 180px);
+}
+
+.main-index > .index-pic {
+  position: relative;
+}
+
+.main-index > .index-pic > div {
+  width:450px;
+  height: 0px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+  transform: translateX(-50%) translateY(-35%);
+  transition: height .8s, transform .8s;
+}
+
+.main-index:hover > .index-pic > div {
+  height: 600px;
+}
+
+.main-index > .index-pic:hover > div:first-child {
+  transform: translateX(-50%) translateY(-35%) rotate(10deg);
+}
+
+.main-index > .index-pic:hover > div:last-child {
+  transform: translateX(-50%) translateY(-35%) rotate(-5deg);
+}
+
+.main-index > .index-pic > .index-text {
+  position: absolute;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 80px;
+  top:270px;
+  left: 45%;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.main-index > .index-pic:hover > .index-text {
+  opacity: 100%;
+}
+
+
+/*
 .img-slide {
   margin-top: 20px;
     background-color:#FAECC5;
@@ -50,37 +102,6 @@
   .img-slide > .slides > div.active {
     opacity:1;
   }
-
-  /* 프로필박스
-  .profile-box {
-    height: 200px;
-    border: 1px solid rgb(160, 160, 160, 0.5); 
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
-  .profile-box > .profile-img {
-    padding: 0 40px;
-  }
-
-  .profile-box > .p-txt > h1 {
-    margin-top: 40px;
-  }
-
-  @media (max-width:799px) {
-    .profile-box {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-  }
-
-  @media (max-width:459px) {
-    .profile-box {
-      display: none;
-    }
-  }
-  */
 
   .list-01 {
     margin-top: 67px;
@@ -134,7 +155,7 @@
     text-overflow: ellipsis; 
     overflow:hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* 라인수 */	
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     word-wrap:break-word;
     margin-left: 28px;
@@ -148,3 +169,4 @@
     background-color: #C4C4C4;
     margin-top: 25px;
   }
+*/
