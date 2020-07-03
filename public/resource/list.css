@@ -16,15 +16,20 @@
     }
 }
 
+.list-box > .list-background {
+    background-color: white;
+    height: calc( 100vh - 180px );
+}
+
 .list-box {
-    height: calc(100vh - 180px);
+    height: 100%;
+    background-color: white; 
 }
 
 .list-box > .category {
     width: 217px;
     height: 100%;
     background-color: white;
-    border-right: 1px solid #e8e8e8;
     position: relative;
 }
 
@@ -92,11 +97,11 @@
     width: 983px;
     background-color: white;
     padding-top:50px;
+    border-left: 1px solid #e8e8e8;
 }
 
 .list-box > .article-list > ul {
     flex-wrap: wrap;
-    background-color: white;
 }
 
 .list-box > .article-list > ul > li {

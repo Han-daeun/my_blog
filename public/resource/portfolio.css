@@ -1,5 +1,5 @@
 .portfolio-01 {
-    height: 100vh;
+    height: calc( 100vh - 180px );
     background-color: white;
 }
 
@@ -7,22 +7,27 @@
     position: relative;
 }
 
-.portfolio-01 > .slide-box > img {
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    transform: translateX(-50%);
+.portfolio-01 > .slide-box > .img-box {
+  width: 100%;
+}
+
+.portfolio-01 > .slide-box > .img-box > img {
+  padding-top: 25px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
 }
 
 .img-slide {
-    margin-top: 20px;
-      background-color:#FAECC5;
-      position:relative;
-      width: 100%;
-      height:300px;
-      display: block;
-      user-select:none;
-      opacity: 0;
+    position: absolute;
+    background-color:#FAECC5;
+    width: 385px;
+    height: 212px;
+    display: block;
+    user-select:none;
+    top:56px;
+    left: 50%;
+    transform: translateX(-50%);
     }
     
     .img-slide .side-bars > div {

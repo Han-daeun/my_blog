@@ -1,9 +1,11 @@
 <?php
 include "../part/head.php"
 ?>
-<div class="portfolio-01">
-    <div class="slide-box con">
-        <img src="../resource/img/pc2.png" alt="" width="360">
+<div class="portfolio-01 con">
+    <div class="slide-box">
+        <div class="img-box">
+            <img src="../resource/img/pc2.png" alt="" width="360">
+        </div>
         <div class="img-slide con">
             <div class="slides">
                 <div class="active" style="background-image:url(https://images.unsplash.com/photo-1592212935668-b96a76e9a63e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);"></div>

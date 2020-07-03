@@ -3,13 +3,12 @@ include "../part/head.php"
 ?>
 
 <div class="main-index">
-    <div class="index-pic">
+    <div class="index-pic style="background-color:gray;">
         <div class="index-pic-front" style="background: linear-gradient(to left, #FC354C, #0ABFBC);"></div>
         <div class="index-pic-back"  style="background-color:white;"></div>
         <ul class="index-text">
-            <li>Welcome to</li>
-            <li>My Blog</li>
-            <li></li>
+            <li class="welcome">Welcome To</li>
+            <li class="myblog">MY BLoG</li>
         </ul>
     </div>
 </div>

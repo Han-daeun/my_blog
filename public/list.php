@@ -105,6 +105,7 @@ while ( true ) {
         </ul>
     </div>
     <?php } ?>
+    <div class="list-background con"></div>
 </div>
 
 <div class="mobile-list-bar">

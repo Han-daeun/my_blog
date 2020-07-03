@@ -1,4 +1,5 @@
 console.clear();
+/* 모바일 사이드바 */
 function MobileSideBar__toggle() {
     var $btn = $('.btn-toggle-mobile-side-bar');
     var $leftSideMenu = $('.left-side-menu');
@@ -20,6 +21,8 @@ function MobileSideBar__toggle() {
     }
 }
 
+
+/* 슬라이드박스 */
 function MobileSideBar__init() {
     $('.btn-toggle-mobile-side-bar, .mobile-side-menu-bg').click(MobileSideBar__toggle);
 
@@ -37,4 +40,23 @@ function MobileSideBar__init() {
 
 $(function() {
     MobileSideBar__init();
+});
+
+/* 인덱스 */
+function indexPage__pic() {
+    var $act = $('.main-index > .index-pic');
+
+    $act.addClass('active');
+}
+
+function indexPage__pic2() {
+    var $act2 = $('.main-index > .index-pic > div');
+
+    $act2.addClass('active');
+}
+
+$(function() {
+    setTimeout(indexPage__pic, 500);
+
+    setTimeout(indexPage__pic2, 1500);
 });
