@@ -71,17 +71,18 @@ while ( true ) {
     <div class="category">
         <ul>
             <li><a href="/list.php" style="font-size:16px; font-weight:400;">All</a></li>
-            <li><a href="/list.php?cateItemId=2">Category1</a></a></li>
-            <li><a href="/list.php?cateItemId=3">Category2</a></li>
-            <li><a href="/list.php?cateItemId=4">Category3</a></li>
+            <li><a href="/list.php?cateItemId=1">Daily life</a></li>
+            <li><a href="/list.php?cateItemId=2">IT basic</a></li>
+            <li><a href="/list.php?cateItemId=3">IT series</a></li>
+            <li><a href="/list.php?cateItemId=4">Design</a></li>
         </ul>
         <div class="search-box"></div>
         <div class="writ-btn"><a href="#">+ writing</a></div>
     </div>
     
     <?php if ( empty($rows) ) { ?>
-    <div class="con">
-        게시물이 존재하지 않습니다.
+    <div class=" article-list con">
+        <span class="non-article flex flex-jc-center">게시물이 존재하지 않습니다.</span>
     </div>
     <?php } else { ?>
         <div class="article-list">

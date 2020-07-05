@@ -7,33 +7,14 @@ include "../part/head.php"
         <div class="index-pic-front" style="background: linear-gradient(to left, #FC354C, #0ABFBC);"></div>
         <div class="index-pic-back"  style="background-color:white;"></div>
         <ul class="index-text">
-            <li class="welcome">Welcome To</li>
-            <li class="myblog">MY BLoG</li>
+            <li><span class="welcome">Welcome</span></li>
+            <li><span class="to">To</span></li>
+            <li><span class="myblog">MY BLoG</span></li>
         </ul>
     </div>
 </div>
 
 <!--
-<div class="img-slide con">
-  <div class="slides">
-    <div class="active" style="background-image:url(https://images.unsplash.com/photo-1592212935668-b96a76e9a63e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);"></div>
-    <div style="background-image:url(https://images.unsplash.com/photo-1570283626328-53f8bfd59a0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);"></div>
-    <div style="background-image:url(https://images.unsplash.com/photo-1592284441902-bd5fde3e6f87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80); background-size:contain;"></div>
-  </div>
-  <div class="side-bars">
-    <div>
-      <span style="color:white">
-        <i class="fas fa-caret-left fa-2x"></i>
-      </span>
-    </div>
-    <div>
-      <span style="color:white">
-        <i class="fas fa-caret-right fa-2x"></i>
-      </span>
-    </div>
-  </div>
-</div>
-
 <div class="list-01">
   <div class="post-list">
     <div>

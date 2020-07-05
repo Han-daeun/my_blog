@@ -69,7 +69,7 @@
     border: solid 0.5px #888888;
     left: 50%;
     transform: translateX(-50%);
-    top:295px;
+    top:340px;
     position: absolute;
 }
 
@@ -78,7 +78,7 @@
     height: 25px;
     left: 50%;
     transform: translateX(-50%);
-    top:350px;
+    top:400px;
     position: absolute;
     background-color: #FF5959;
 }
@@ -98,6 +98,13 @@
     background-color: white;
     padding-top:50px;
     border-left: 1px solid #e8e8e8;
+}
+
+.list-box > .article-list > .non-article {
+    width: 100%;
+    height: 100%;
+    padding-top: 20%;
+    color: #888888;
 }
 
 .list-box > .article-list > ul {

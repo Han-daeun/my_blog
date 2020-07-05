@@ -2,7 +2,9 @@
 include "../part/head.php"
 ?>
 
-<h1>프로필</h1>
+<div class="about-me con">
+
+</div>
 
 <?php
 include "../part/foot.php"
