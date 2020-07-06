@@ -1,15 +1,14 @@
-
 .main-index {
   height: calc(100vh - 180px);
   position: relative;
 }
 
-.main-index > .index-pic {
+.main-index>.index-pic {
   position: relative;
 }
 
-.main-index > .index-pic {
-  width:450px;
+.main-index>.index-pic {
+  width: 450px;
   height: 0px;
   position: relative;
   top: 36%;
@@ -19,81 +18,83 @@
 }
 
 @media (max-width:799px) {
-  .main-index > .index-pic {
-    top:40%;
+  .main-index>.index-pic {
+    top: 40%;
   }
-  .main-index > .more-btn {
-    top:100%;
+
+  .main-index>.more-btn {
+    top: 100%;
   }
 }
 
-.main-index > .index-pic.active {
+.main-index>.index-pic.active {
   height: 600px;
 }
 
-.main-index > .index-pic > div {
+.main-index>.index-pic>div {
   width: 100%;
   height: 100%;
   position: absolute;
-  box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
   transition: transform .8s;
 }
 
-.main-index > .index-pic > div.active {
+.main-index>.index-pic>div.active {
   transform: rotate(10deg);
 }
 
-.main-index > .index-pic > div:first-child.active {
+.main-index>.index-pic>div:first-child.active {
   transform: rotate(-10deg);
 }
 
-.main-index > .index-pic > .index-text {
+.main-index>.index-pic>.index-text {
   position: absolute;
   font-size: 80px;
   font-weight: 600;
   line-height: 80px;
-  top:150px;
+  top: 150px;
   left: 40%;
 }
 
-.main-index > .index-pic > .index-text > li {
+.main-index>.index-pic>.index-text>li {
   overflow: hidden;
   position: relative;
   width: 358px;
   height: 80px;
 }
 
-.main-index > .index-pic > .index-text > li > span {
-  top:358px;
+.main-index>.index-pic>.index-text>li>span {
+  top: 358px;
   position: absolute;
   transition: top .5s;
 }
 
-.main-index > .index-pic > .index-text > li > .welcome.active {
+.main-index>.index-pic>.index-text>li>.welcome.active {
   top: 0;
 }
 
-.main-index > .index-pic > .index-text > li > .to.active {
+.main-index>.index-pic>.index-text>li>.to.active {
   top: 0;
 }
 
-.main-index > .index-pic > .index-text > li > .myblog.active {
+.main-index>.index-pic>.index-text>li>.myblog.active {
   top: 0;
 }
 
-.main-index > .more-btn {
+.main-index>.more-btn {
   position: absolute;
-  top:95%;
+  top: 95%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.2rem;
   font-weight: 300;
   color: #494949;
-  opacity: 0;
-  transition: opacity .3s
+  opacity: 1;
+  transition: opacity .3s;
+  cursor: pointer;
 }
 
-.main-index > .more-btn.active {
+.main-index>.more-btn.active {
   opacity: 1;
 }
 
@@ -151,69 +152,77 @@
   }
 */
 
-  .list-01 {
-    margin-top: 67px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 700px;
-    height: 450px;
-    border-top: 1px solid #777777;
-  }
+.new-article-box {
+  max-width: 800px;
+  height: 580px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
 
-  .list-01 > .post-list {
-    height: calc(100%/3);
-  }
+.new-article-box.active {
+  height: 580px;
+}
 
-  .list-01 > .post-list > div {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: relative;
-  }
+.list-01 {
+  height: 450px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-top: 1px solid #777777;
+}
 
-  .list-01 > .post-list > div {
-    border-bottom:0.5px solid #BDBDBD;
-  }
+.list-01>.post-list {
+  height: calc(100%/3);
+}
 
-  .list-01 > .post-list > div:nth-child(3) {
-    border-bottom: 1px solid #777777;
-  }
+.list-01>.post-list>div {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
 
-  .list-01 > .post-list > div > ul {
-    height: 100%;
-  }
+.list-01>.post-list>div>ul>li {
+  border-bottom: 0.5px solid #BDBDBD;
+}
 
-  .list-01 > .post-list > div > ul > .article-look {
-    width: 89px;
-    background-color: #FBFBFB;
-    font-weight: 500;
-    padding-top: 53px;
-  }
+.list-01>.post-list>div>ul {
+  height: 100%;
+}
 
-  .list-01 > .post-list > div > ul > .article-look > div {
-    text-align: center;
-  }
+.list-01>.post-list>div>ul>.article-look {
+  width: 89px;
+  background-color: #FBFBFB;
+  font-weight: 500;
+  padding-top: 53px;
+}
 
-  .list-01 > .post-list > div > ul > .article-cont > .article-long {
-    font-size: 10px;
-    color: 5a5a5a;
-    overflow: hidden; 
-    width: 410px;
-    text-overflow: ellipsis; 
-    overflow:hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    word-wrap:break-word;
-    margin-left: 28px;
-    margin-top: 8px;
-  }
+.list-01>.post-list>div>ul>.article-look>div {
+  text-align: center;
+}
 
-  .list-01 > .post-list > div > ul > .article-prev > .prev-img {
-    width: 100px;
-    height: 100px;
-    margin: 0 30px;
-    background-color: #C4C4C4;
-    margin-top: 25px;
-  }
+.list-01>.post-list>div>ul>.article-cont>.article-long {
+  font-size: 10px;
+  color: 5a5a5a;
+  overflow: hidden;
+  width: 410px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  margin-left: 28px;
+  margin-top: 8px;
+}
+
+.list-01>.post-list>div>ul>.article-prev>.prev-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 30px;
+  background-color: #C4C4C4;
+  margin-top: 25px;
+}
+
