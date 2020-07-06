@@ -73,6 +73,12 @@ function indexPage__text3() {
     $textAct3.addClass('active');
 }
 
+function indexPage__moteBtn() {
+    var $moreBtn = $('.main-index > .more-btn');
+
+    $moreBtn.addClass('active');
+}
+
 
 
 $(function() {
@@ -85,4 +91,6 @@ $(function() {
     setTimeout(indexPage__text2, 2600);
 
     setTimeout(indexPage__text3, 2700);
+
+    setTimeout(indexPage__moteBtn, 4000);
 });

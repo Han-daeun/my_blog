@@ -12,9 +12,10 @@ include "../part/head.php"
             <li><span class="myblog">MY BLoG</span></li>
         </ul>
     </div>
+    <div class="more-btn">+ MORE</div>
 </div>
 
-<!--
+
 <div class="list-01">
   <div class="post-list">
     <div>
@@ -82,7 +83,6 @@ include "../part/head.php"
     </div>
   </div>
 </div>
--->
 
 <?php
 include "../part/foot.php"

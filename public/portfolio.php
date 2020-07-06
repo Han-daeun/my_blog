@@ -2,6 +2,7 @@
 include "../part/head.php"
 ?>
 <div class="portfolio-01 con">
+    <!-- 슬라이트박스 임시
     <div class="slide-box">
         <div class="img-box">
             <img src="../resource/img/pc2.png" alt="" width="360">
@@ -26,6 +27,19 @@ include "../part/head.php"
             </div>
         </div>
     </div>
+    -->
+
+    <div class="box-01 con">
+        <div class="box active" style="background-image:url(https://images.unsplash.com/photo-1593435050642-aa402b8ffd63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80); background-position:center;">
+            <div class="box-text"></div>
+        </div>
+        <div class="box" style="background-image:url(https://images.unsplash.com/photo-1593729383954-d24da9783be4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80); background-position:center;"></div>
+        <div class="box" style="background-image:url(https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80); background-position:center;"></div>
+        <div class="box" style="background-image:url(https://images.unsplash.com/photo-1593338718919-2d73ea76bff1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80); background-position:center;"></div>
+        <div class="box" style="background-image:url(https://images.unsplash.com/photo-1593443320739-77f74939d0da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80); background-position:center;"></div>
+    </div>
+
+
     <div class="portfolio-box con">
         <div class="pf-category flex-jc-center">
             <a href="#">All</a>

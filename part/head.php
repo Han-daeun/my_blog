@@ -14,6 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
     <script src="/resource/index.js"></script>
+    <script src="/resource/portfolio.js"></script>
     <link rel="icon" href="../resource/img/icon.png">
     <title>블로그</title>
 </head>
