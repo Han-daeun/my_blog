@@ -21,14 +21,10 @@
   .main-index>.index-pic {
     top: 40%;
   }
-
-  .main-index>.more-btn {
-    top: 100%;
-  }
 }
 
 .main-index>.index-pic.active {
-  height: 600px;
+  height: 580px;
 }
 
 .main-index>.index-pic>div {
@@ -69,18 +65,18 @@
   transition: top .5s;
 }
 
-.main-index>.index-pic>.index-text>li>.welcome.active {
+.main-index .index-pic>.index-text>li>.welcome.active {
   top: 0;
 }
 
-.main-index>.index-pic>.index-text>li>.to.active {
+.main-index .index-pic>.index-text>li>.to.active {
   top: 0;
 }
 
-.main-index>.index-pic>.index-text>li>.myblog.active {
+.main-index .index-pic>.index-text>li>.myblog.active {
   top: 0;
 }
-
+/*
 .main-index>.more-btn {
   position: absolute;
   top: 95%;
@@ -152,6 +148,7 @@
   }
 */
 
+/*
 .new-article-box {
   max-width: 800px;
   height: 580px;
@@ -168,9 +165,19 @@
 
 .list-01 {
   height: 450px;
-  margin-left: 5%;
-  margin-right: 5%;
-  border-top: 1px solid #777777;
+  margin-top:12%;
+  position: relative;
+}
+
+.list-01::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 687px;
+  background-color: #BDBDBD;
+  top:100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .list-01>.post-list {
@@ -181,11 +188,10 @@
   display: block;
   width: 100%;
   height: 100%;
-  position: relative;
 }
 
 .list-01>.post-list>div>ul>li {
-  border-bottom: 0.5px solid #BDBDBD;
+  border-top: 0.5px solid #BDBDBD;
 }
 
 .list-01>.post-list>div>ul {
@@ -205,7 +211,7 @@
 
 .list-01>.post-list>div>ul>.article-cont>.article-long {
   font-size: 10px;
-  color: 5a5a5a;
+  color: #5a5a5a;
   overflow: hidden;
   width: 410px;
   text-overflow: ellipsis;
@@ -225,4 +231,4 @@
   background-color: #C4C4C4;
   margin-top: 25px;
 }
-
+*/

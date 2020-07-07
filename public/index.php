@@ -12,11 +12,10 @@ include "../part/head.php"
       <li><span class="myblog">MY BLoG</span></li>
     </ul>
   </div>
-  <div class="more-btn">MORE</div>
 </div>
-
-<div class="new-article-box con">
-  <div class="list-01">
+<!--
+<div class="new-article-box flex con">
+  <div class="list-01 flex flex-wrap flex-jc-center">
     <?php for ($i = 3; $i >= 1; $i--) { ?>
     <div class="post-list">
       <div>

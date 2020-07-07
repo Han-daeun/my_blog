@@ -128,18 +128,18 @@ while ( true ) {
         <ul>
             <?php foreach ( $rows as $row ) { ?>
             <li>
-                <a href="/detail.php?id=<?=$row['id']?>">
-                    <div class="relative">
-                        <div style="padding-left:30px; padding-top:18px;">
+                <a href="/detail.php?id=<?=$row['id']?>" class="block height-100p">
+                    <div class="flex height-100p flex-jc-between flex-ai-c">
+                        <div class="flex-1-0-0" style="margin-left:15px;">
                             <div class="mb-title-text block" style="font-size:20px; color:#5A5A5A; font-weight:500;"><?=$row['title']?></div>
-                            <div class="mb-contents-text block" style="font-size:11px; color:#5A5A5A; height:35px;"><?=$row['summary']?></div>
+                            <div class="mb-contents-text block" style="font-size:11px; color:#5A5A5A; height:35px; word-break:break-all;"><?=$row['summary']?></div>
                             <div class="flex mb-contents-text-s" style="font-size:7px; color:#9E9E9E;">
                                 <span style="color:#FF5959;">category</span>
                                 <span><?=$row['regDate']?></span>
                                 <span>조회</span>
                             </div>
                         </div>
-                        <div class="content-pic-pre absolute" style="width:70px; height:70px; background-image:url(<?=$row['thumbImgUrl']?>); top:0; right:0; margin-top:25px; margin-right:40px; background-size:contain;"></div>
+                        <div class="content-pic-pre" style="background-image:url(<?=$row['thumbImgUrl']?>);"></div>
                     </div>
                 </a>
             </li>

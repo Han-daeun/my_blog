@@ -4,7 +4,7 @@
     }
 }
 
-@media (max-width:1199px) {
+@media (max-width:1023px) {
     .md-category {
         display: block;
     }
@@ -162,7 +162,7 @@
     display: block;
 }
 
-@media (max-width:1199px) {
+@media (max-width:1023px) {
     .list-box > .category {
         display: none;
     }
@@ -203,7 +203,6 @@
     border-bottom: 1px solid #bdbdbd;
   }
   
-
   .list-box > div > ul > li > a > .article-list-det > .title-box > .contents-text {
     overflow: hidden; 
     text-overflow: ellipsis; 
@@ -212,12 +211,20 @@
     -webkit-line-clamp: 1; /* 라인수 */	
     -webkit-box-orient: vertical;
     word-wrap:break-word;
-      
+  }
+
+  .mobile-list-bar > .mb-article-list > ul > li > a > div > div > .mb-title-text {
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    overflow:hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* 라인수 */	
+    -webkit-box-orient: vertical;
+    word-wrap:break-word;
   }
 
   .mobile-list-bar > .mb-article-list > ul > li > a > div > div > .mb-contents-text {
     overflow: hidden; 
-    width: 70%;
     text-overflow: ellipsis; 
     overflow:hidden;
     display: -webkit-box;
@@ -251,6 +258,13 @@
 
   .mobile-list-bar > .mb-article-list > ul > li > a > div > div > .mb-contents-text-s > span:first-child::after {
       display: none;
+  }
+
+  .mobile-list-bar > .mb-article-list > ul > li > a > div > .content-pic-pre {
+    width:70px; 
+    height:70px;
+    margin: 0 15px;
+    background-size:contain;
   }
 
   .like-btn-bar > .delete-btn > a {
