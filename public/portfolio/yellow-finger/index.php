@@ -51,6 +51,42 @@
         <br class="type-03">
         중점을 두며 창의적인 솔루션을 제공합니다.
     </div>
+
+    <div class="article-box con">
+        <div class="filter flex">
+            <span class="filter-icon">
+                <img src="https://han-daeun.github.io/img1/pf/yellow-finger/filter.svg" alt="" class="flex-ai-center">
+            </span>
+            <span class="filter-text flex-ai-center">FILTER : 
+                <span>ALL</span>
+            </span>
+        </div>
+        <div class="article-list con">
+            <ul class="flex">
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -1,8 +1,10 @@
 /* 폰트적용 */
 @import url('//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 html {
-    font-family: 'NanumSquareRound',sans-serif;
+    font-family: 'Roboto','NanumSquareRound',sans-serif;
 }
 
 /* 노말라이즈 */
@@ -160,7 +162,8 @@ a {
     text-align: center;
     font-size: 18px;
     line-height: 1.8;
-    font-weight: 400;
+    font-weight: 500;
+    padding-bottom: 60px;
 }
 
 .main-text-box > p {
@@ -176,3 +179,68 @@ a {
 .type-03 {
     display: none;
 }
+
+/* 게시글박스 시작 */
+/* 필터바 */
+.article-box {
+    padding-top: 60px;
+}
+
+.article-box > .filter {
+    cursor: pointer;
+    padding-bottom: 45px;
+}
+
+.article-box > .filter > .filter-icon {
+    width: 18px;
+}
+
+.article-box > .filter > .filter-text {
+    padding-left: 10px;
+}
+
+.article-box > .filter > .filter-text > span {
+    color: #6a6a6a;
+    margin-left: 3px;
+    position: relative;
+}
+
+.article-box > .filter > .filter-text > span::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: #6a6a6a;
+}
+
+/* 리스트 */
+.article-box > .article-list > ul > li {
+    width: calc(100% / 3);
+    height: auto;
+    padding-left: 17px;
+}
+
+.article-box > .article-list > ul > li:first-child {
+    padding-left: 0;
+}
+
+.article-box > .article-list > ul > li > a > div {
+    width: 100%;
+    height: auto;
+}
+
+.article-box > .article-list > ul > li:first-child > a > div {
+    background-image: url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-01.jpg);
+}
+
+.article-box > .article-list > ul > li:nth-child(2) > a > div {
+    background-image: url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-02.jpg);
+}
+
+.article-box > .article-list > ul > li:nth-child(3) > a > div {
+    background-image: url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-03.jpg);
+}
+
+/* 게시글박스 끝 */
