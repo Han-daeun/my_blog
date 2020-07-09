@@ -14,7 +14,7 @@
 
 <body>
     <div class="top-box-01 fixed">
-        <div class="top-bar con flex flex-ai-center">
+        <div class="top-bar padding-80 flex flex-ai-center">
             <div class="logo flex flex-1-0-0">
                 <div class="logo-box relative">
                     <a href="#" class="logo-border absolute">
@@ -32,13 +32,13 @@
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </nav>
-            <div class="contact-btn flex-1-0-0 relative">
+            <div class="contact-btn flex-1-0-0 flex-ai-center relative">
                 <a href="#" class="absolute"><span>프로젝트 문의</span></a>
             </div>
         </div>
     </div>
 
-    <div class="main-text-box con">
+    <div class="main-text-box padding-80">
         <p>논리와 감성의 균형<span>.</span></p>
         <br>
         옐로우핑거는 브랜드를 돋보이게 하는
@@ -52,7 +52,7 @@
         중점을 두며 창의적인 솔루션을 제공합니다.
     </div>
 
-    <div class="article-box con">
+    <div class="article-box padding-80">
         <div class="filter flex">
             <span class="filter-icon">
                 <img src="https://han-daeun.github.io/img1/pf/yellow-finger/filter.svg" alt="" class="flex-ai-center">
@@ -61,26 +61,39 @@
                 <span>ALL</span>
             </span>
         </div>
-        <div class="article-list con">
+
+        <div class="article-list">
             <ul class="flex">
                 <li>
                     <a href="#">
-                        <div>
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="">
+                        <div class="article-img">
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-01.jpg)">
+                        </div>
+                        <div class="article-text">
+                            <span class="art-name block">한화큐셀(주)</span>
+                            <span class="art-title block">한화큐셀 공식 웹진 제작사례</span>
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <div>
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="">
+                        <div class="article-img">
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-02.jpg)">
+                        </div>
+                        <div class="article-text">
+                            <span class="art-name block">KPR</span>
+                            <span class="art-title block">KPR 기업홈페이지 제작 사례</span>
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <div>
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="">
+                        <div class="article-img">
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-03.jpg)">
+                        </div>
+                        <div class="article-text">
+                            <span class="art-name block">마리앤코</span>
+                            <span class="art-title block">웨딩 홈페이지 제작 사례</span>
                         </div>
                     </a>
                 </li>
