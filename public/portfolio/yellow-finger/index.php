@@ -15,7 +15,7 @@
 
 <body>
     <div class="top-box-01 fixed">
-        <div class="top-bar padding-80 flex flex-ai-center">
+        <div class="top-bar flex flex-ai-center">
             <div class="logo flex flex-1-0-0">
                 <div class="logo-box relative">
                     <a href="#" class="logo-border absolute">
@@ -64,7 +64,7 @@
         </div>
 
         <div class="article-list">
-            <ul class="flex">
+            <ul class="flex flex-wrap">
                 <li>
                     <a href="#">
                         <div class="article-img relative">
@@ -72,9 +72,9 @@
                             <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
                             <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-01.jpg);"></div>
                         </div>
-                        <div class="article-text">
+                        <div class="article-text active">
                             <span class="art-name block">한화큐셀(주)</span>
-                            <span class="art-title block">한화큐셀 공식 웹진 제작사례</span>
+                            <span class="art-title block">한화큐셀 공식 웹진 제작 사례</span>
                         </div>
                     </a>
                 </li>
@@ -86,7 +86,7 @@
                             </div>
                             <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-02.jpg);"></div>
                         </div>
-                        <div class="article-text">
+                        <div class="article-text active">
                             <span class="art-name block">KPR</span>
                             <span class="art-title block">KPR 기업홈페이지 제작 사례</span>
                         </div>
@@ -99,9 +99,49 @@
                             <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
                             <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-03.jpg);"></div>
                         </div>
-                        <div class="article-text">
+                        <div class="article-text active">
                             <span class="art-name block">마리앤코</span>
                             <span class="art-title block">웨딩 홈페이지 제작 사례</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="article-img relative">
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
+                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
+                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983717744794.jpg);"></div>
+                        </div>
+                        <div class="article-text active">
+                            <span class="art-name block">아이듀오</span>
+                            <span class="art-title block">디자인회사 홈페이지 제작 사례</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="article-img relative">
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
+                            <div class="article-img-bg absolute" style="background-color:#fed130;">
+                            </div>
+                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983737865009.jpg);"></div>
+                        </div>
+                        <div class="article-text active">
+                            <span class="art-name block">PMC엔터테인먼트</span>
+                            <span class="art-title block">엔터테인먼트 홈페이지 제작 사례</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <div class="article-img relative">
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
+                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
+                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983763003518.jpg);"></div>
+                        </div>
+                        <div class="article-text active">
+                            <span class="art-name block">한화큐셀(주)</span>
+                            <span class="art-title block">한화큐셀 랜딩페이지 제작 사례</span>
                         </div>
                     </a>
                 </li>
