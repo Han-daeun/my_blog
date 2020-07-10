@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Yellow finger</title>
-    <link rel="stylesheet" href="yellow-finger/index.css">
-    <script src="yellow-finger/index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
     <link rel="stylesheet" type="text/css"
         href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
 </head>
@@ -145,7 +145,122 @@
                         </div>
                     </a>
                 </li>
+                <li>
+                    <a href="#">
+                        <div class="article-img relative">
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
+                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
+                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983864034090.jpg);"></div>
+                        </div>
+                        <div class="article-text active">
+                            <span class="art-name block">시드스테이지</span>
+                            <span class="art-title block">제품소개 및 회사 홈페이지 제작 사례</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="article-img relative">
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
+                            <div class="article-img-bg absolute" style="background-color:#fed130;">
+                            </div>
+                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591984322694980.jpg);"></div>
+                        </div>
+                        <div class="article-text active">
+                            <span class="art-name block">울산창조경제혁신센터</span>
+                            <span class="art-title block">메이커스페이스 반응형 홈페이지 제작 사례</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <div class="article-img relative">
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
+                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
+                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983896670490.jpg);"></div>
+                        </div>
+                        <div class="article-text active">
+                            <span class="art-name block">몬도미오</span>
+                            <span class="art-title block">제품소개 및 회사 홈페이지 제작 사례</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="article-img relative">
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
+                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
+                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1592142630209890.jpg);"></div>
+                        </div>
+                        <div class="article-text active">
+                            <span class="art-name block">봄디자인</span>
+                            <span class="art-title block">인테리어 홈페이지 제작 사례</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="article-img relative">
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
+                            <div class="article-img-bg absolute" style="background-color:#fed130;">
+                            </div>
+                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983931670847.jpg);"></div>
+                        </div>
+                        <div class="article-text active">
+                            <span class="art-name block">큐브브릿지</span>
+                            <span class="art-title block">기업 홈페이지 제작 사례</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <div class="article-img relative">
+                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
+                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
+                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591984360734303.jpg);"></div>
+                        </div>
+                        <div class="article-text active">
+                            <span class="art-name block">(주)알라딘</span>
+                            <span class="art-title block">제품소개 및 회사 홈페이지 제작 사례</span>
+                        </div>
+                    </a>
+                </li>
             </ul>
+        </div>
+    </div>
+
+    <div class="footer-box">
+        <div class="footer-article flex flex-jc-between">
+            <a href="#" class="ft-largetxt">
+                <img src="https://han-daeun.github.io/img1/pf/yellow-finger/contact_label_icon.svg" alt="">    
+                프로젝트 문의하기
+            </a>
+            <div class="ft-smalltxt">
+                <div class="ft-content ft-content-01 flex">
+                    <div class="ft-01-address ft-50ps">
+                        <div class="ft-01-address-title ft-title">Address</div>
+                        <div class="ft-01-address-contents ft-contents">서울특별시 성동구 성수일로8길 59 B동 7층</div>
+                    </div>
+                    <div class="ft-01-number ft-50ps">
+                        <div class="ft-01-number-title ft-title">Number</div>
+                        <div class="ft-01-number-contents ft-contents">02 · 2205 · 4128</div>
+                    </div>
+                </div>
+                <div class="ft-content ft-content-02 flex">
+                    <div class="ft-02-email ft-50ps">
+                        <div class="ft-02-email-title ft-title">Email</div>
+                        <div class="ft-02-email-contents ft-contents">contact@yellow-finger.com</div>
+                    </div>
+                    <div class="ft-02-fllowus ft-50ps">
+                        <div class="ft-02-fllowus-title ft-title">Fllow us</div>
+                        <div class="ft-02-fllowus-contents ft-contents">Blog</div>
+                    </div>
+                </div>
+                <div class="ft-content-03">
+                    <div class="copy">COPYRIGHT 2015 - 2020 YELLOW-FINGER. ALL RIGHTS RESERVED.</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
