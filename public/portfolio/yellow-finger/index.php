@@ -61,7 +61,7 @@
     </div>
 
     <div class="article-box padding-80">
-        <div class="filter flex active">
+        <div class="filter flex">
             <span class="filter-icon">
                 <img src="https://han-daeun.github.io/img1/pf/yellow-finger/filter.svg" alt="" class="flex-ai-center">
             </span>
@@ -77,9 +77,9 @@
                         <div class="article-img relative">
                             <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
                             <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-01.jpg);"></div>
+                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-01.jpg);"></div>
                         </div>
-                        <div class="article-text active">
+                        <div class="article-text">
                             <span class="art-name block">한화큐셀(주)</span>
                             <span class="art-title block">한화큐셀 공식 웹진 제작 사례</span>
                         </div>
@@ -91,9 +91,9 @@
                             <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
                             <div class="article-img-bg absolute" style="background-color:#fed130;">
                             </div>
-                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-02.jpg);"></div>
+                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-02.jpg);"></div>
                         </div>
-                        <div class="article-text active">
+                        <div class="article-text">
                             <span class="art-name block">KPR</span>
                             <span class="art-title block">KPR 기업홈페이지 제작 사례</span>
                         </div>
@@ -104,9 +104,9 @@
                     <div class="article-img relative">
                             <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
                             <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-03.jpg);"></div>
+                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-03.jpg);"></div>
                         </div>
-                        <div class="article-text active">
+                        <div class="article-text">
                             <span class="art-name block">마리앤코</span>
                             <span class="art-title block">웨딩 홈페이지 제작 사례</span>
                         </div>
@@ -117,9 +117,9 @@
                         <div class="article-img relative">
                             <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
                             <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983717744794.jpg);"></div>
+                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983717744794.jpg);"></div>
                         </div>
-                        <div class="article-text active">
+                        <div class="article-text">
                             <span class="art-name block">아이듀오</span>
                             <span class="art-title block">디자인회사 홈페이지 제작 사례</span>
                         </div>
@@ -131,9 +131,9 @@
                             <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
                             <div class="article-img-bg absolute" style="background-color:#fed130;">
                             </div>
-                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983737865009.jpg);"></div>
+                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983737865009.jpg);"></div>
                         </div>
-                        <div class="article-text active">
+                        <div class="article-text">
                             <span class="art-name block">PMC엔터테인먼트</span>
                             <span class="art-title block">엔터테인먼트 홈페이지 제작 사례</span>
                         </div>
@@ -144,9 +144,9 @@
                     <div class="article-img relative">
                             <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
                             <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983763003518.jpg);"></div>
+                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983763003518.jpg);"></div>
                         </div>
-                        <div class="article-text active">
+                        <div class="article-text">
                             <span class="art-name block">한화큐셀(주)</span>
                             <span class="art-title block">한화큐셀 랜딩페이지 제작 사례</span>
                         </div>
@@ -157,9 +157,9 @@
                         <div class="article-img relative">
                             <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
                             <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983864034090.jpg);"></div>
+                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983864034090.jpg);"></div>
                         </div>
-                        <div class="article-text active">
+                        <div class="article-text">
                             <span class="art-name block">시드스테이지</span>
                             <span class="art-title block">제품소개 및 회사 홈페이지 제작 사례</span>
                         </div>
@@ -171,9 +171,9 @@
                             <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
                             <div class="article-img-bg absolute" style="background-color:#fed130;">
                             </div>
-                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591984322694980.jpg);"></div>
+                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591984322694980.jpg);"></div>
                         </div>
-                        <div class="article-text active">
+                        <div class="article-text">
                             <span class="art-name block">울산창조경제혁신센터</span>
                             <span class="art-title block">메이커스페이스 반응형 홈페이지 제작 사례</span>
                         </div>
@@ -184,9 +184,9 @@
                     <div class="article-img relative">
                             <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
                             <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983896670490.jpg);"></div>
+                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983896670490.jpg);"></div>
                         </div>
-                        <div class="article-text active">
+                        <div class="article-text">
                             <span class="art-name block">몬도미오</span>
                             <span class="art-title block">제품소개 및 회사 홈페이지 제작 사례</span>
                         </div>
@@ -197,9 +197,9 @@
                         <div class="article-img relative">
                             <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
                             <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1592142630209890.jpg);"></div>
+                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1592142630209890.jpg);"></div>
                         </div>
-                        <div class="article-text active">
+                        <div class="article-text">
                             <span class="art-name block">봄디자인</span>
                             <span class="art-title block">인테리어 홈페이지 제작 사례</span>
                         </div>
@@ -211,9 +211,9 @@
                             <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
                             <div class="article-img-bg absolute" style="background-color:#fed130;">
                             </div>
-                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983931670847.jpg);"></div>
+                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983931670847.jpg);"></div>
                         </div>
-                        <div class="article-text active">
+                        <div class="article-text">
                             <span class="art-name block">큐브브릿지</span>
                             <span class="art-title block">기업 홈페이지 제작 사례</span>
                         </div>
@@ -224,9 +224,9 @@
                     <div class="article-img relative">
                             <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
                             <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute active" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591984360734303.jpg);"></div>
+                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591984360734303.jpg);"></div>
                         </div>
-                        <div class="article-text active">
+                        <div class="article-text">
                             <span class="art-name block">(주)알라딘</span>
                             <span class="art-title block">제품소개 및 회사 홈페이지 제작 사례</span>
                         </div>

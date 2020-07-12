@@ -46,19 +46,19 @@ function articleImg__01() {
 function articleImg__02() {
     var $imgAct = $('.article-box > .article-list > ul > li > a > .article-img > .article-img-01');
 
-    $imgAct.removeClass('active');
+    $imgAct.addClass('active');
 }
 
 function filterBtn__move() {
     var $filterBtn = $('.article-box > .filter');
 
-    $filterBtn.removeClass('active');
+    $filterBtn.addClass('active');
 }
 
 function articleText__move() {
     var $articleText = $('.article-box > .article-list > ul > li > a > .article-text');
 
-    $articleText.removeClass('active');
+    $articleText.addClass('active');
 }
 
 

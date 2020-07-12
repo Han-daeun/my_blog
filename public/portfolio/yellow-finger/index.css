@@ -478,16 +478,16 @@ html {
 
 .article-box > .filter {
     cursor: pointer;
-    padding-bottom: 45px;
-    padding-top: 0;
+    padding-bottom: 0;
+    padding-top: 45px;
     transition: padding .6s , opacity .4s;
-    opacity: 1;
+    opacity: 0;
 }
 
 .article-box > .filter.active {
-    padding-bottom: 0;
-    padding-top: 45px;
-    opacity: 0;
+    padding-bottom: 45px;
+    padding-top: 0;
+    opacity: 1;
 }
 
 .article-box > .filter > .filter-icon {
@@ -590,21 +590,21 @@ html {
 }
 
 .article-box > .article-list > ul > li > a > .article-img > .article-img-01 {
-    top:0px; 
-    left:0px; 
-    right:0px; 
-    bottom:0px; 
-    background-size: contain;
-    transition: top .3s, left .3s, right .3s, bottom .3s;
-    opacity: 100%;
-}
-
-.article-box > .article-list > ul > li > a > .article-img > .article-img-01.active {
     top:-70px; 
     left:-70px; 
     right:-70px; 
     bottom:-70px;
+    background-size: contain;
+    transition: top .3s, left .3s, right .3s, bottom .3s;
     opacity: 0;
+}
+
+.article-box > .article-list > ul > li > a > .article-img > .article-img-01.active {
+    top:0px; 
+    left:0px; 
+    right:0px; 
+    bottom:0px;
+    opacity: 100%;
 }
 
 .article-box > .article-list > ul > li > a:hover > .article-img > .article-img-01 {
@@ -616,16 +616,16 @@ html {
 }
 
 .article-box > .article-list > ul > li > a > .article-text {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 0;
     transition: padding .6s , opacity .4s;
-    opacity: 1;
+    opacity: 0;
 }
 
 .article-box > .article-list > ul > li > a > .article-text.active {
-    padding-top: 60px;
-    padding-bottom: 0;
-    opacity: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    opacity: 1;
 }
 
 .article-box > .article-list > ul > li > a > .article-text > .art-name {
@@ -681,7 +681,6 @@ html {
     margin-bottom: 60px;
     width: 100%;
     position: relative;
-    cursor: pointer;
 }
 
 .lead-more-btn > img {
@@ -691,6 +690,7 @@ html {
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     transition: opacity .3s;
+    cursor: pointer;
 }
 
 .lead-more-btn:hover > .img-base {
@@ -698,13 +698,13 @@ html {
 }
 
 .lead-more-btn > span {
-    text-align: center;
     font-size: 18px;
     margin-top: 20px;
     font-weight: 600;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 /* 더보기버튼 끝 */
