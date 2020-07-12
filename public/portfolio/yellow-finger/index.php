@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Yellow finger</title>
-    <link rel="stylesheet" href="./index.css">
-    <script src="./index.js"></script>
+    <link rel="stylesheet" href="yellow-finger/index.css">
+    <script src="yellow-finger/index.js"></script>
     <link rel="stylesheet" type="text/css"
         href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
 </head>
@@ -35,6 +35,13 @@
             </nav>
             <div class="contact-btn flex-1-0-0 flex-ai-center relative">
                 <a href="#" class="absolute"><span>프로젝트 문의</span></a>
+            </div>
+            <div class="mobile-side-menu">
+                <div class="side-menu-btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
         </div>
     </div>
@@ -229,6 +236,12 @@
         </div>
     </div>
 
+    <div class="lead-more-btn">
+        <img src="https://han-daeun.github.io/img1/pf/yellow-finger/more_over.svg" alt="" class="img-more">
+        <img src="https://han-daeun.github.io/img1/pf/yellow-finger/more.svg" alt="" class="img-base">
+        <span>LEAD MORE</span>
+    </div>
+
     <div class="footer-box">
         <div class="footer-article flex flex-jc-between">
             <a href="#" class="ft-largetxt">
@@ -237,21 +250,21 @@
             </a>
             <div class="ft-smalltxt">
                 <div class="ft-content ft-content-01 flex">
-                    <div class="ft-01-address ft-50ps">
+                    <div class="ft-01-address ft-content-s">
                         <div class="ft-01-address-title ft-title">Address</div>
                         <div class="ft-01-address-contents ft-contents">서울특별시 성동구 성수일로8길 59 B동 7층</div>
                     </div>
-                    <div class="ft-01-number ft-50ps">
+                    <div class="ft-01-number ft-content-s">
                         <div class="ft-01-number-title ft-title">Number</div>
                         <div class="ft-01-number-contents ft-contents">02 · 2205 · 4128</div>
                     </div>
                 </div>
                 <div class="ft-content ft-content-02 flex">
-                    <div class="ft-02-email ft-50ps">
+                    <div class="ft-02-email ft-content-s">
                         <div class="ft-02-email-title ft-title">Email</div>
                         <div class="ft-02-email-contents ft-contents">contact@yellow-finger.com</div>
                     </div>
-                    <div class="ft-02-fllowus ft-50ps">
+                    <div class="ft-02-fllowus ft-content-s">
                         <div class="ft-02-fllowus-title ft-title">Fllow us</div>
                         <div class="ft-02-fllowus-contents ft-contents">Blog</div>
                     </div>
