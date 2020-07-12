@@ -30,7 +30,7 @@ include "../part/head.php"
     -->
 
     <div class="box-01 con">
-        <div class="box active" style="background-image:url(https://images.unsplash.com/photo-1593435050642-aa402b8ffd63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80); background-position:center;">
+        <div class="box active" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/yellow-finger.png); background-position:center;">
             <div class="box-text"></div>
         </div>
         <div class="box" style="background-image:url(https://images.unsplash.com/photo-1593729383954-d24da9783be4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80); background-position:center;"></div>
