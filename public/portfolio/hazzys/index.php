@@ -16,7 +16,7 @@
                 <img src="https://han-daeun.github.io/img1/pf/hazzys/6581d95a723446c894917a3ab46cb0f9.jpg" alt="">
             </div>
         </a>
-        <div class="top-header-bar con">
+        <div class="top-header-bar con relative">
             <a href="#" class="logo"></a>
             <div class="login-bar">
                 <ul class="flex">
@@ -29,7 +29,22 @@
         <div class="top-bar-menu">
             <nav class="menu-bar flex flex-jc-center flex-ai-center">
                 <ul class="flex">
-                    <li><a href="#">ARCHUVE</a></li>
+                    <li>
+                        <a href="#">ARCHUVE</a>
+                        <div>
+                            <ul>
+                                <div>
+                                    <a href="#" class="flex flex-jc-center">ARCHIVE</a>
+                                </div>
+                                <li class="flex flex-jc-center">
+                                    <a href="#">HERITAGE</a>
+                                    <a href="#">HISTORY</a>
+                                    <a href="#">CULTURE</a>
+                                    <a href="#">2020+</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href="#">MEN</a></li>
                     <li><a href="#">WOMEN</a></li>
                     <li><a href="#">ACC</a></li>

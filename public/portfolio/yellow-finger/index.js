@@ -34,6 +34,8 @@ $(function() {
     topBar__change();
 }); 
 
+/* 토글 버튼 */
+
 /* 리스트 */
 /* 발견되면 액티브 실행 */
 function NumAni__start(selector) {

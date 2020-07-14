@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&display=swap');
+
 html {
     font-family: 'Noto Sans', sans-serif;
 }
@@ -109,7 +111,6 @@ html {
 .top-bar > .top-header-bar {
     max-width: 1600px;
     min-width: 1215px;
-    position: relative;
 }
 
 .top-bar > .top-header-bar > a {
@@ -119,7 +120,7 @@ html {
     background: url(https://han-daeun.github.io/img1/pf/hazzys/logo_hazzys_20.png); 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 45px;
+    padding-top: 45px;
     background-repeat: no-repeat;
     background-position: bottom;
     overflow: hidden;
@@ -130,15 +131,47 @@ html {
     top:50%;
     left: auto;
     right: 0;
-    transform: translateY(-50%);
 }
 
 .top-bar > .top-header-bar > .login-bar > ul > li > a {
     font-size: 12px;
     color: #777;
-    font-weight: bold;
-    margin: 0 18px;
+    font-weight: 800;
+    padding: 0 18px;
+    font-family: 'Nunito Sans', 'Noto Sans KR', 'Nanum Gothic';
+    position: relative;
+    line-height: 50px;
 }
+
+.top-bar > .top-header-bar > .login-bar > ul > li:first-child > a::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 8px;
+    background-color: #bdbdbd;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+
+.top-bar > .top-header-bar > .login-bar > ul > li:last-child > a {
+    padding: 0 30px 0 28px;
+}
+
+.top-bar > .top-header-bar > .login-bar > ul > li:nth-child(2) > a {
+    margin-right: 22px;
+}
+
+.top-bar > .top-header-bar > .login-bar > ul > li:last-child > a::before {
+    position: absolute;
+    content: "";
+    background: url(http://www.hazzys.com/static/renewal/images/hazzys/common/btn_shopping.png) no-repeat 0 0;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+}
+
 
 .top-bar > .top-bar-menu {
     width: 100%;
@@ -156,4 +189,42 @@ html {
     color: #0b253e;
     font-size: 14px;
     font-weight: 800;
+}
+
+/* 2차메뉴 */
+.top-bar > .top-bar-menu > nav > ul > li {
+    
+}
+
+.top-bar > .top-bar-menu > nav > ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #0b253e;
+    height: 300px;
+}
+.top-bar > .top-bar-menu > nav > ul ul > div {
+    margin-top: 70px;
+}
+
+.top-bar > .top-bar-menu > nav > ul ul > div > a {
+    font-size: 28px;
+    color: white;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: .08em;
+}
+
+.top-bar > .top-bar-menu > nav > ul ul > li {
+    padding-top: 30px;
+}
+
+.top-bar > .top-bar-menu > nav > ul ul > li > a {
+    margin: 0 50px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Nunito Sans', 'Noto Sans KR', 'Nanum Gothic';
+    border-bottom: 1px solid white;
+    padding-bottom: 7px;
 }

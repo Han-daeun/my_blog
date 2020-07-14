@@ -694,29 +694,54 @@ html {
     padding-top: 42px;
     width: 100%;
     position: relative;
-    margin: 120px 0;
     opacity: 0;
     transition: opacity .5s, margin .5s;
 }
 
 @media (min-width:1279px) {
+    .lead-more-btn {
+        margin-top: 180px;
+        margin-bottom: 60px;
+    }
     .lead-more-btn.active {
         opacity: 1;
-        margin: 60px 0 180px 0;
+        margin-top: 120px;
+        margin-bottom: 120px;
     }
 }
 
 @media (min-width:1024px) {
+    .lead-more-btn {
+        margin-top: 140px;
+        margin-bottom: 40px;
+    }
     .lead-more-btn.active {
         opacity: 1;
-        margin: 40px 0 140px 0;
+        margin-top: 90px;
+        margin-bottom: 90px;
     }
 }
 
-@media (max-width:1023px) {
+@media (min-width:750px) {
+    .lead-more-btn {
+        margin-top: 75px;
+        margin-bottom: 15px;
+    }
     .lead-more-btn.active {
         opacity: 1;
-        margin: 15px 0 75px 0;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+}
+@media (max-width:749px) {
+    .lead-more-btn {
+        margin-top: 75px;
+        margin-bottom: 15px;
+    }
+    .lead-more-btn.active {
+        opacity: 1;
+        margin-top: 45px;
+        margin-bottom: 45px;
     }
 }
 
@@ -743,7 +768,6 @@ html {
 
 @media (max-width:1279px) {
     .lead-more-btn {
-        margin: 90px 0; 
         padding-top: 35px;
     }
     .lead-more-btn > img {
@@ -757,7 +781,6 @@ html {
 
 @media (max-width:1024px) {
     .lead-more-btn {
-        margin: 45px 0; 
         padding-top: 33px;
     }
     .lead-more-btn > img {
