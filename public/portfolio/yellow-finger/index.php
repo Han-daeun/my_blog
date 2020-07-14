@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Yellow finger</title>
-    <link rel="stylesheet" href="yellow-finger/index.css">
-    <script src="yellow-finger/index.js"></script>
+    <link rel="stylesheet" href="/portfolio/yellow-finger/index.css">
+    <script src="/portfolio/yellow-finger/index.js"></script>
     <link rel="stylesheet" type="text/css"
         href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
 </head>
@@ -61,23 +61,23 @@
     </div>
 
     <div class="article-box padding-80">
-        <div class="filter flex">
+        <div class="filter active-on-visible flex">
             <span class="filter-icon">
                 <img src="https://han-daeun.github.io/img1/pf/yellow-finger/filter.svg" alt="" class="flex-ai-center">
             </span>
-            <span class="filter-text flex-ai-center">FILTER : 
+            <span class="filter-text flex-ai-center">FILTER :
                 <span>ALL</span>
             </span>
         </div>
 
         <div class="article-list">
-            <ul class="flex flex-wrap">
-                <li>
+            <ul class="flex flex-wrap active-on-visible">
+                <li class="active-on-visible">
                     <a href="#">
                         <div class="article-img relative">
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
-                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-01.jpg);"></div>
+                            <div class="article-img-01 absolute"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-01.jpg);">
+                            </div>
                         </div>
                         <div class="article-text">
                             <span class="art-name block">한화큐셀(주)</span>
@@ -85,13 +85,13 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="active-on-visible">
                     <a href="#">
                         <div class="article-img relative">
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
-                            <div class="article-img-bg absolute" style="background-color:#fed130;">
+                            
+                            <div class="article-img-01 absolute"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-02.jpg);">
                             </div>
-                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-02.jpg);"></div>
                         </div>
                         <div class="article-text">
                             <span class="art-name block">KPR</span>
@@ -99,12 +99,14 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="active-on-visible">
                     <a href="#">
-                    <div class="article-img relative">
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
-                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-03.jpg);"></div>
+                        <div class="article-img relative">
+                            
+                            
+                            <div class="article-img-01 absolute"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/mainimg-03.jpg);">
+                            </div>
                         </div>
                         <div class="article-text">
                             <span class="art-name block">마리앤코</span>
@@ -112,12 +114,14 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="active-on-visible">
                     <a href="#">
                         <div class="article-img relative">
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
-                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983717744794.jpg);"></div>
+                            
+                            
+                            <div class="article-img-01 absolute"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983717744794.jpg);">
+                            </div>
                         </div>
                         <div class="article-text">
                             <span class="art-name block">아이듀오</span>
@@ -125,13 +129,15 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="active-on-visible">
                     <a href="#">
                         <div class="article-img relative">
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
+                            
                             <div class="article-img-bg absolute" style="background-color:#fed130;">
                             </div>
-                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983737865009.jpg);"></div>
+                            <div class="article-img-01 absolute"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983737865009.jpg);">
+                            </div>
                         </div>
                         <div class="article-text">
                             <span class="art-name block">PMC엔터테인먼트</span>
@@ -139,12 +145,14 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="active-on-visible">
                     <a href="#">
-                    <div class="article-img relative">
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
-                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983763003518.jpg);"></div>
+                        <div class="article-img relative">
+                            
+                            
+                            <div class="article-img-01 absolute"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983763003518.jpg);">
+                            </div>
                         </div>
                         <div class="article-text">
                             <span class="art-name block">한화큐셀(주)</span>
@@ -152,12 +160,14 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="active-on-visible">
                     <a href="#">
                         <div class="article-img relative">
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
-                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983864034090.jpg);"></div>
+                            
+                            
+                            <div class="article-img-01 absolute"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983864034090.jpg);">
+                            </div>
                         </div>
                         <div class="article-text">
                             <span class="art-name block">시드스테이지</span>
@@ -165,13 +175,15 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="active-on-visible">
                     <a href="#">
                         <div class="article-img relative">
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
+                            
                             <div class="article-img-bg absolute" style="background-color:#fed130;">
                             </div>
-                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591984322694980.jpg);"></div>
+                            <div class="article-img-01 absolute"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591984322694980.jpg);">
+                            </div>
                         </div>
                         <div class="article-text">
                             <span class="art-name block">울산창조경제혁신센터</span>
@@ -179,12 +191,14 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="active-on-visible">
                     <a href="#">
-                    <div class="article-img relative">
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
-                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983896670490.jpg);"></div>
+                        <div class="article-img relative">
+                            
+                            
+                            <div class="article-img-01 absolute"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983896670490.jpg);">
+                            </div>
                         </div>
                         <div class="article-text">
                             <span class="art-name block">몬도미오</span>
@@ -192,12 +206,14 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="active-on-visible">
                     <a href="#">
                         <div class="article-img relative">
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
-                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1592142630209890.jpg);"></div>
+                            
+                            
+                            <div class="article-img-01 absolute"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1592142630209890.jpg);">
+                            </div>
                         </div>
                         <div class="article-text">
                             <span class="art-name block">봄디자인</span>
@@ -205,13 +221,15 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="active-on-visible">
                     <a href="#">
                         <div class="article-img relative">
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
+                            
                             <div class="article-img-bg absolute" style="background-color:#fed130;">
                             </div>
-                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983931670847.jpg);"></div>
+                            <div class="article-img-01 absolute"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591983931670847.jpg);">
+                            </div>
                         </div>
                         <div class="article-text">
                             <span class="art-name block">큐브브릿지</span>
@@ -219,12 +237,14 @@
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="active-on-visible">
                     <a href="#">
-                    <div class="article-img relative">
-                            <img src="https://han-daeun.github.io/img1/pf/yellow-finger/main_block.png" alt="" class="relative">
-                            <div class="article-img-bg absolute" style="background-color:#fed130;"></div>
-                            <div class="article-img-01 absolute" style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591984360734303.jpg);"></div>
+                        <div class="article-img relative">
+                            
+                            
+                            <div class="article-img-01 absolute"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/yellow-finger/1591984360734303.jpg);">
+                            </div>
                         </div>
                         <div class="article-text">
                             <span class="art-name block">(주)알라딘</span>
@@ -245,7 +265,7 @@
     <div class="footer-box">
         <div class="footer-article flex flex-jc-between">
             <a href="#" class="ft-largetxt">
-                <img src="https://han-daeun.github.io/img1/pf/yellow-finger/contact_label_icon.svg" alt="">    
+                <img src="https://han-daeun.github.io/img1/pf/yellow-finger/contact_label_icon.svg" alt="">
                 프로젝트 문의하기
             </a>
             <div class="ft-smalltxt">
@@ -271,10 +291,10 @@
                 </div>
                 <div class="ft-content-03">
                     <div class="copy">COPYRIGHT 2015 - 2020 YELLOW-FINGER. ALL RIGHTS RESERVED.</div>
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 
