@@ -88,6 +88,7 @@ html {
 }
 
 /* 커스텀 */
+/* 탑바 시작 */
 .top-bar {
     position: fixed;
     width: 100%;
@@ -109,7 +110,6 @@ html {
 }
 
 .top-bar > .top-header-bar {
-    max-width: 1600px;
     min-width: 1215px;
 }
 
@@ -175,8 +175,6 @@ html {
 
 .top-bar > .top-bar-menu {
     width: 100%;
-    height: 115px;
-    max-width: 1900px;
     min-width: 1215px;
 }
 
@@ -184,31 +182,58 @@ html {
     height: 100%;
 }
 
+.top-bar > .top-bar-menu > .menu-bar > ul > li {
+    height: 115px;
+}
+
 .top-bar > .top-bar-menu > .menu-bar > ul > li > a {
-    padding: 37.5px 45px 0;
+    padding:0 45px;
     color: #0b253e;
     font-size: 14px;
     font-weight: 800;
 }
 
-/* 2차메뉴 */
-.top-bar > .top-bar-menu > nav > ul > li {
-    
+/* 2차메뉴 시작*/
+
+.top-bar > .top-bar-menu > nav > ul >li > div > ul {
+    display: none;
 }
 
-.top-bar > .top-bar-menu > nav > ul ul {
+.top-bar > .top-bar-menu > nav > ul >li:hover > div > ul {
+    display: block;
+}
+
+.top-bar > .top-bar-menu > nav > ul >li:first-child > div > ul {
     position: absolute;
-    top: 100%;
+    top: calc(100% + 1px);
     left: 0;
     right: 0;
     background-color: #0b253e;
-    height: 300px;
-}
-.top-bar > .top-bar-menu > nav > ul ul > div {
-    margin-top: 70px;
+    border-bottom: 1px solid white;
+    padding: 60px 0;
+    min-width: 1215px;
 }
 
-.top-bar > .top-bar-menu > nav > ul ul > div > a {
+.top-bar > .top-bar-menu > nav > ul >li:not(:first-child) > div > ul {
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 50px 0;
+    min-width: 1215px;
+}
+
+.top-bar > .top-bar-menu > nav > ul > li > div > ul > div {
+    padding-top: 10px;
+    max-width: 1215px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.top-bar > .top-bar-menu > nav > ul > li > div > ul > div > a {
     font-size: 28px;
     color: white;
     font-weight: 900;
@@ -216,15 +241,75 @@ html {
     letter-spacing: .08em;
 }
 
-.top-bar > .top-bar-menu > nav > ul ul > li {
+.top-bar > .top-bar-menu > nav > ul > li > div > ul > li {
     padding-top: 30px;
+    padding-bottom: 120px;
 }
 
-.top-bar > .top-bar-menu > nav > ul ul > li > a {
+.top-bar > .top-bar-menu > nav > ul > li:first-child > div > ul > li > a {
     margin: 0 50px;
     color: white;
     font-size: 14px;
     font-family: 'Nunito Sans', 'Noto Sans KR', 'Nanum Gothic';
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid transparent;
     padding-bottom: 7px;
+    transition: border 0s;
 }
+
+.top-bar > .top-bar-menu > nav > ul > li > div > ul > li > a:hover {
+    border-bottom: 1px solid white;
+    transition: border 0.3s;
+}
+
+.top-bar > .top-bar-menu > nav > ul ul .sub-menu-title > a {
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: .08em;
+}
+
+.top-bar > .top-bar-menu > nav > ul ul .sub-menu-list {
+    padding-bottom: 18px;
+}
+
+.top-bar > .top-bar-menu > nav > ul ul .sub-menu-list > .sub-title {
+    width: 132px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.top-bar > .top-bar-menu > nav > ul ul .sub-menu-list > .sub-menu-list-items > ul {
+    width: 130px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Nunito Sans', 'Noto Sans KR', 'Nanum Gothic';
+}
+
+.top-bar > .top-bar-menu > nav > ul ul .sub-menu-list > .sub-menu-list-items {
+    padding-left: 25px;
+}
+
+.top-bar > .top-bar-menu > nav > ul ul .sub-menu-list > .sub-menu-list-items > ul > li {
+    margin-bottom: 22px;
+}
+
+.top-bar > .top-bar-menu > nav > ul ul .sub-menu-list > .sub-menu-list-items > ul > li > a {
+    padding-bottom: 7px;
+    border-bottom: 1px solid transparent;
+    transition: border 0s;
+    line-height: 17px;
+    display: inline-block;
+}
+
+.top-bar > .top-bar-menu > nav > ul ul .sub-menu-list > .sub-menu-list-items > ul > li > a:hover {
+    border-bottom: 1px solid black;
+    transition: border 0.3s;
+}
+
+.top-bar > .top-bar-menu > nav > ul ul .sub-menu-pic {
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+
+/* 2차메뉴 끝*/
