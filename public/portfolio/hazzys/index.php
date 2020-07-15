@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAZZYS</title>
     <link rel="stylesheet" href="hazzys/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="hazzys/index.js"></script>
     <link rel="stylesheet" type="text/css"
         href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
+    <!--owl 캐러셀-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
 </head>
 <body>
     <div class="top-bar">
         <a href="#" class="top-ad-bar">
-            <div class="con">
+            <div>
                 <img src="https://han-daeun.github.io/img1/pf/hazzys/6581d95a723446c894917a3ab46cb0f9.jpg" alt="">
             </div>
         </a>
@@ -48,7 +53,7 @@
                     <li class="flex flex-ai-center">
                         <a href="#">MEN</a>
                         <div>
-                            <ul>
+                            <ul style="padding-bottom:30px;">
                                 <div class="relative">
                                     <div class="sub-menu-title"><a href="#">MEN</a></div>
                                     <div class="sub-menu-list flex"  style="padding-top:30px;">
@@ -83,7 +88,7 @@
                     <li class="flex flex-ai-center">
                         <a href="#">WOMEN</a>
                         <div>
-                            <ul>
+                            <ul style="padding-bottom:30px;">
                                 <div class="relative">
                                     <div class="sub-menu-title"><a href="#">WOMEN</a></div>
                                     <div class="sub-menu-list flex"  style="padding-top:30px;">
@@ -121,7 +126,7 @@
                     <li class="flex flex-ai-center">
                         <a href="#">ACC</a>
                         <div>
-                            <ul>
+                            <ul style="padding-bottom:30px;">
                                 <div class="relative">
                                     <div class="sub-menu-title"><a href="#">ACC</a></div>
                                     <div class="sub-menu-list flex"  style="padding-top:30px;">
@@ -160,7 +165,7 @@
                     <li class="flex flex-ai-center">
                         <a href="#">GOLF</a>
                         <div>
-                            <ul style="padding-bottom:62px;">
+                            <ul style="padding-bottom:72px;">
                                 <div class="relative">
                                     <div class="sub-menu-title"><a href="#">GOLF</a></div>
                                     <div class="sub-menu-list flex"  style="padding-top:30px;">
@@ -193,7 +198,7 @@
                     <li class="flex flex-ai-center">
                         <a href="#">BEAUTY</a>
                         <div>
-                            <ul style="padding-bottom:110px;">
+                            <ul style="padding-bottom:120px;">
                                 <div class="relative">
                                     <div class="sub-menu-title"><a href="#">BEAUTY</a></div>
                                     <div class="sub-menu-list flex"  style="padding-top:30px;">
@@ -224,7 +229,7 @@
                     <li class="flex flex-ai-center">
                         <a href="#">STORIES</a>
                         <div>
-                            <ul style="padding-bottom:130px;">
+                            <ul style="padding-bottom:140px;">
                                 <div class="relative">
                                     <div class="sub-menu-title"><a href="#">STORIES</a></div>
                                     <div class="sub-menu-list flex"  style="padding-top:30px;">
@@ -249,5 +254,69 @@
             </nav>
         </div>
     </div>
+
+    <div class="my-slider-1">
+        <div class="owl-carousel owl-theme">
+            <div class="item" style="background-image:url(https://han-daeun.github.io/img1/pf/hazzys/71d4ebd2b9004df1a9da9cfb14747a7b.jpg);"></div>
+            <div class="item" style="background-image:url(https://han-daeun.github.io/img1/pf/hazzys/bbf25439c39744359e80a1e3cb2e38c8.jpg);"></div>
+            <div class="item" style="background-image:url(https://han-daeun.github.io/img1/pf/hazzys/030384992e734f8abe0310a7daac0220.jpg);"></div>
+            <div class="item" style="background-image:url(https://han-daeun.github.io/img1/pf/hazzys/af19a634cc9d45c78a14a2d059e5c3ef.jpg);"></div>
+            <div class="item" style="background-image:url(https://han-daeun.github.io/img1/pf/hazzys/738e2170bb9c4a1bbf8fc549a2a400eb.jpg);"></div>
+        </div>
+        <div class="custom-nav"></div>
+    </div>
+    <div class="eve-list">
+        <div>
+            <a href="#">
+                <img src="https://han-daeun.github.io/img1/pf/hazzys/53f5998863174af08735864a819941e8.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://han-daeun.github.io/img1/pf/hazzys/ac5e462c046548eda66a948145a12e1e.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://han-daeun.github.io/img1/pf/hazzys/7cffcbfb3b3d46a1af7415f2515a43da.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://han-daeun.github.io/img1/pf/hazzys/b07523cded2040ee9215cf49564cb290.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://han-daeun.github.io/img1/pf/hazzys/ca75f9ac3c854c4d8c7527d942f8b094.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://han-daeun.github.io/img1/pf/hazzys/367db93a57a840ad88e64902d8f1b887.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://han-daeun.github.io/img1/pf/hazzys/28b34710aa094592aadacb6a56da8ead.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://han-daeun.github.io/img1/pf/hazzys/86c1b5eed31a4c47ae2ddf597a775335.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://han-daeun.github.io/img1/pf/hazzys/69b9c059fdde43e598a5fbe881944304.jpg" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://han-daeun.github.io/img1/pf/hazzys/4b4b915c6f38495b94dec36784200158.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    
 </body>
 </html>

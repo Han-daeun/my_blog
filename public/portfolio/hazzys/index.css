@@ -87,12 +87,18 @@ html {
     min-width: 1215px;
 }
 
+.con {
+    max-width:1900px;
+}
+
 /* 커스텀 */
 /* 탑바 시작 */
 .top-bar {
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #d3d3d3;
+    background-color: white;
+    z-index: 10;
 }
 
 .top-bar > .top-ad-bar > div {
@@ -110,6 +116,7 @@ html {
 }
 
 .top-bar > .top-header-bar {
+    max-width: 1600px;
     min-width: 1215px;
 }
 
@@ -221,12 +228,12 @@ html {
     right: 0;
     background-color: white;
     border-bottom: 1px solid #d3d3d3;
-    padding: 50px 0;
+    padding-top:50px;
     min-width: 1215px;
 }
 
 .top-bar > .top-bar-menu > nav > ul > li > div > ul > div {
-    padding-top: 10px;
+    
     max-width: 1215px;
     margin-left: auto;
     margin-right: auto;
@@ -311,5 +318,75 @@ html {
     right: 0;
 }
 
-
 /* 2차메뉴 끝*/
+
+/* 슬라이드박스 시작 */
+.my-slider-1 {
+    position: relative;
+    padding-top:220px;
+    max-width: 1915px;
+    min-width: 1215px;
+}
+
+.my-slider-1 .item {
+    height:600px;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+
+.my-slider-1 > .custom-nav {
+}
+
+.my-slider-1 > .custom-nav > div {
+    position: absolute;
+    color: white;
+    top: 62%;
+    left: 0;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', 'Noto Sans KR', 'Nanum Gothic';
+    margin-left: 9%;
+    user-select: none;
+}
+
+.my-slider-1 > .custom-nav > div:last-child {
+    left: auto;
+    right: 0;
+    margin-left: 0;
+    margin-right: 9%;
+}
+
+.my-slider-1 > .custom-nav > div::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    left: -6px;
+    bottom: -6px;
+}
+/* 슬라이드박스 끝 */
+
+/* 이벤트리스트 시작 */
+.eve-list {
+    max-width: 1915px;
+    min-width: 1215px;
+    position: relative;
+    overflow: hidden;
+}
+
+.eve-list > div {
+    height: 600px;
+}
+
+.eve-list > div {
+    position: relative;
+    left: 50%;
+    margin-left: -100%;
+    text-align: center;
+}
+
+/* 이벤트리스트 끝 */
