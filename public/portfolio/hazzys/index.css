@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
 html {
     font-family: 'Noto Sans', sans-serif;
 }
@@ -118,6 +120,7 @@ html {
 .top-bar > .top-header-bar {
     max-width: 1600px;
     min-width: 1215px;
+    position: relative;
 }
 
 .top-bar > .top-header-bar > a {
@@ -133,11 +136,21 @@ html {
     overflow: hidden;
 }
 
+.top-bar > .top-header-bar > a.active {
+    position: absolute;
+    padding-top: 28px;
+    margin-left: 26px;
+}
+
 .top-bar > .top-header-bar > .login-bar {
     position: absolute;
     top:50%;
     left: auto;
     right: 0;
+}
+
+.top-bar > .top-header-bar > .login-bar.active {
+    padding-top: 35px;
 }
 
 .top-bar > .top-header-bar > .login-bar > ul > li > a {
@@ -198,6 +211,16 @@ html {
     color: #0b253e;
     font-size: 14px;
     font-weight: 800;
+}
+
+@media (max-width:1460px) {
+    .top-bar > .top-bar-menu > .menu-bar > ul {
+        justify-content: flex-start;
+        margin-left: 115px;
+    }
+    .top-bar > .top-bar-menu > .menu-bar > ul > li > a {
+        padding: 0 32px;
+    }
 }
 
 /* 2차메뉴 시작*/
@@ -390,3 +413,221 @@ html {
 }
 
 /* 이벤트리스트 끝 */
+
+/* 슬라이더2 시작 */
+.slider-02 {
+    position: relative;
+    max-width: 1910px;
+    min-width: 1215px;
+    height: 420px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.slider-02 > div {
+    width: 4200px;
+    transition: all .5s;
+}
+
+.slider-02:hover > div {
+    margin-left: -2290px;
+}
+
+.slider-02 > div > div {
+    width: 420px;
+    height: 420px;
+}
+
+.slider-02 > div > div > a > img {
+    width: 100%;
+}
+/* 슬라이더2 끝 */
+
+/* 푸터 시작 */
+.footer {
+    max-width: 1910px;
+    min-width: 1215px;
+    background-color: #333333;
+    width: 100%;
+    font-family: 'Open Sans','Noto Sans KR','Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','돋움',dotum, sans-serif;
+    position: relative;
+}
+
+.footer > .footer-01 {
+    padding: 40px 40px 32px;
+}
+
+.footer > .footer-01 > ul > li:first-child {
+    margin-left: 0;
+}
+
+.footer > .footer-01 > ul > li {
+    margin-left: 40px;
+}
+
+.footer > .footer-01 > ul > li > a {
+    color:white;
+    font-size:13px;
+    display: block;
+}
+
+.footer > .footer-01 > .copyright {
+    font-size: 13px;
+    color: #9a9a9a;
+    margin-top: 30px;
+}
+
+.footer > .footer-01 > .copyright span {
+    display: inline-block;
+    margin: 7px 0;
+    padding: 0 9px 0 13px;
+    line-height: 10px;
+    letter-spacing: -0.1px;
+}
+
+.footer > .footer-01 > .copyright > .copyright-01 > a {
+    position: relative;
+    display: inline-block;
+    margin: 7px 0;
+    padding: 0 9px 0 13px;
+    line-height: 10px;
+    letter-spacing: -0.1px;
+    font-size: 11px;
+    background-image: url(https://han-daeun.github.io/img1/pf/hazzys/btn_more_write.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.footer > .footer-01 > .copyright > .copyright-01 > a:hover {
+    color: white;
+}
+
+.footer > .footer-01 > .copyright > .copyright-01 > a::before {
+    position: absolute;
+    content: "";
+    width: 88px;
+    height: 1px;
+    background-color: #5c5c5c;
+    left: 13px;
+    bottom: -7px;
+}
+
+.footer > .footer-02 {
+    background-color: #252525;
+    padding: 30px 40px;
+}
+
+.footer > .footer-02 > ul > li {
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.footer > .footer-02 > ul > li > .text-link {
+    font-size: 11px;;
+    color: #9a9a9a;
+    position: relative;
+    background-image: url(https://han-daeun.github.io/img1/pf/hazzys/btn_more_write.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 13px;
+}
+
+.footer > .footer-02 > ul > li > .text-link:hover::after {
+    position: absolute;
+    content: "";
+    width: 105px;
+    height: 1px;
+    background-color: #9a9a9a;
+    left: 0px;
+    top:13px;
+}
+
+.footer > .footer-02 > ul > li > .text-link::before {
+    position: absolute;
+    content: "";
+    width: 115px;
+    height: 1px;
+    background-color: #5c5c5c;
+    left: 0px;
+    bottom: -6px;
+}
+
+.footer > .util-box {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+
+.footer > .util-box > div {
+    padding: 20px 16px;
+    margin-left: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.footer > .util-box > div > div {
+    color: white;
+    font-size: 14px;
+    line-height: 32px;
+    width: 180px;
+    height: 32px;
+    border-bottom: 1px solid #9a9a9a;
+    position: relative;
+}
+
+.footer > .util-box > div > div::before {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 7px;
+    background-image: url(http://www.hazzys.com/static/renewal/images/hazzys/common/btn_select_black.png);
+    right: 0;
+    top: 12px;
+    transition: transform .2s;
+}
+
+.footer > .util-box > div:hover > div::before {
+    transform: rotate(180deg);
+}
+
+.footer > .util-box > div > ul {
+    background-color: #333;
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    left: 0;
+    display: none;
+}
+
+.footer > .util-box > div:hover > ul {
+    display: block;
+}
+
+.footer > .util-box > div > ul > li > a {
+    color: white;
+    padding: 0 16px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+/* 맨위로가기 버튼 */
+.footer > .button {
+    width: 45px;
+    height: 45px;
+    background: url(http://www.hazzys.com/static/renewal/images/hazzys/common/btn_top.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    overflow: hidden;
+    text-indent: 200%;
+}
+
+.footer > .button > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* 푸터 끝 */

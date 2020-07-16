@@ -317,6 +317,145 @@
             </a>
         </div>
     </div>
+
+
+
+    <div class="slider-02">
+        <div class="flex">
+            <div>
+                <a href="#">
+                    <img src="https://han-daeun.github.io/img1/pf/hazzys/0b82a43658d24ec4ba82cd534a4b706c.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://han-daeun.github.io/img1/pf/hazzys/9a5f2b2c4ed5401991644ebb8aad5804.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://han-daeun.github.io/img1/pf/hazzys/4f4d5e2f55ec45e7b0cb677e88f3745a.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://han-daeun.github.io/img1/pf/hazzys/193b994664df491e8c1f7a4653f57360.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://han-daeun.github.io/img1/pf/hazzys/9aae43bce90c4dfe9dce2401fa28e535.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://han-daeun.github.io/img1/pf/hazzys/9cc61198ace54c9eb0e380917919713f.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://han-daeun.github.io/img1/pf/hazzys/cd19f03f0e364b43baa3281acfa6c262.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://han-daeun.github.io/img1/pf/hazzys/af80357e126043cd9c5bcf46a2d10bad.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://han-daeun.github.io/img1/pf/hazzys/e2a14c7f8fa6483da604290afb3363c9.jpg" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="https://han-daeun.github.io/img1/pf/hazzys/04ee7ac57f544167b9bdf846f8452017.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
     
+
+
+    <div class="footer">
+        <div class="button"><a href="#"></a></div>
+        <div class="footer-01">
+            <ul class="flex">
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+                <li><a href="#">청소년보호정책</a></li>
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">LFMALL</a></li>
+                <li><a href="#">공지사항</a></li>
+            </ul>
+            <div class="copyright">
+                <div class="copyright-01">
+                    <span style="padding-left:0;">사업자 등록번호 : 211-87-87724</span>
+                    <span style="border-left: 1px solid #555;">통신판매업신고 : 제 2010-서울강남-00066호</span>
+                    <a href="#" style="border-left: 1px solid #555;">사업자 정보확인</a>
+                </div>
+                <div class="copyright-02">
+                    <span style="padding-left:0;">대표전화 : 1544-5114</span>
+                    <span style="border-left: 1px solid #555;">(유료)팩스 : 031-360-0003</span>
+                </div>
+                <div class="copyright-03">
+                    <span style="padding-left:0;">서울 강남구 언주로 870</span>
+                    <span style="border-left: 1px solid #555;">(주)LF</span>
+                    <span style="border-left: 1px solid #555;">대표이사 오규식, 패션사업부문장 김상균</span>
+                </div>
+                <span style="padding-left:0;">COPYRIGHT © 2019 HAZZYS ALL RIGHTS RESERVED.</span>
+            </div>
+        </div>
+        <div class="footer-02">
+            <ul class="flex">
+                <li style="margin-left:0;">
+                    <a href="#">
+                        <img src="https://han-daeun.github.io/img1/pf/hazzys/footer_copy_01.png?param=202007090051" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://han-daeun.github.io/img1/pf/hazzys/footer_copy_02.png?param=202007090051" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://han-daeun.github.io/img1/pf/hazzys/footer_copy_03.png?param=202007090051" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://han-daeun.github.io/img1/pf/hazzys/footer_copy_04.png?param=202007090051" alt="">
+                    </a>
+                </li>
+                <li style="margin-left:10px;">
+                    <a href="#" class="text-link">서비스 가입사실 확인</a>
+                </li>
+            </ul>
+        </div>
+        <div class="util-box flex">
+            <div>
+                <div>LANGUAGE</div>
+                <ul>
+                    <li><a href="#">KOREAN</a></li>
+                    <li><a href="#">ENGLISH</a></li>
+                </ul>
+            </div>
+            <div>
+                <div>FAMILY SITE</div>
+                <ul>
+                    <li><a href="#">LF CORF</a></li>
+                    <li><a href="#">JILL STUART</a></li>
+                    <li><a href="#">LAFUMA</a></li>
+                    <li><a href="#">TNGT</a></li>
+                    <li><a href="#">DAKS</a></li>
+                    <li><a href="#">MAESTRO</a></li>
+                    <li><a href="#">BLUE LOUNGE MAESTRO</a></li>
+                    <li><a href="#">A.T.CORNER</a></li>
+                    <li><a href="#">LF MALL</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
