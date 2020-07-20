@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+    font-family: 'Roboto','Noto Sans KR','Malgun Gothic','AppleSDGothicNeo',sans-serif;
+}
+
+/* 노말라이즈 */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    height: 1000px;
+}
+/* 라이브러리 */
+.block {
+    display: block;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1-0-0 {
+    flex: 1 0 0;
+}
+
+.flex-jc-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-jc-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-jc-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-ai-center {
+    display: flex;
+    align-items: center;
+}
+
+.bc-red {
+    background-color: red;
+}
+
+.padding-80 {
+    padding: 0 80px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.con {
+    max-width: 1020px;
+}
+
+
+/* 탑바 시작 */
+
+.top-bar {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    padding: 40px 80px 0;
+    box-sizing: border-box;
+}
+
+.top-bar > .search-btn {
+    background-image: url(https://han-daeun.github.io/img1/pf/rar/icons.png);
+    width: 32px;
+    height: 32px;
+    background-size: 320px auto;
+    background-position: 0 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.top-bar > .side-toggle-btn {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+}
+
+.top-bar > .side-toggle-btn > span {
+    background-color: black;
+    position: absolute;
+    left: 0;
+}
+
+/* 탑바 끝 */
+
+.container {
+    min-height: calc(100vh - 445px);
+    padding: 100px 0 160px;
+    padding-top: 0;
+}
+.container > .section {
+    max-width: 1920px;
+    min-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.container > .section > .text {
+    width: 50%;
+    min-height: 100vh;
+    padding: 60px 0;
+    box-sizing: border-box;
+}
+
+.container > .section-left > .text {
+    margin-right: 50%;
+}
+
+.container > #daily-life > .text {
+    padding-top: calc(50vh - 97px);
+}
+
+.visual {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://han-daeun.github.io/img1/pf/rar/visual01.jpg);
+    z-index: -1;
+}
+
+.container > .section-left .visual {
+    right: 0;
+    background-position: 50vw top;
+}
+
+.container > #daily-life > .text > .content {
+    width: 486px;
+    margin: 0 auto;
+}
+
+.container > #daily-life > .text > .content > .logo {
+    width: 284px;
+    height: 82px;
+    margin-bottom: 60px;
+    background-image: url(https://han-daeun.github.io/img1/pf/rar/logo.png);
+    background-repeat: no-repeat;
+    background-size: 284px;
+    background-position: center center;
+}
+
+.container > #daily-life > .text > .content > .copy {
+    font-size: 16px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.38;
+}
+
+.container > #story {
+    position: relative;
+    height: 720px;
+    background-image: url(https://han-daeun.github.io/img1/pf/rar/parallax_bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container > #story::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.17);
+}
+
+.container > #story > .contents {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 240px;
+    transform: translate(-50%,0);
+    width: 432px;
+    height: 432px;
+    text-align: center;
+}
+
+.container > #story > .contents > .title {
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.container > #story > .contents > .sub {
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: -0.9px;
+}
+
+.container > #story > .contents > .sub > a {
+    display: block;
+    width: 180px;
+    margin: 60px auto 0;
+    padding: 10px 0;
+    border: solid 1px white;
+}
+
+.container > #moments {
+    min-height: inherit;
+    padding: 120px 0 100px;
+}
+
+.container > #moments > .row {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.container > #moments > .img-box {
+    position: relative;
+    height: 714px; 
+    background-color:#76887f;
+    color: white;
+    overflow: hidden;
+
+}
