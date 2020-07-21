@@ -11,13 +11,17 @@
     <script src="/portfolio/rar/index.js"></script>
     <link rel="stylesheet" type="text/css"
         href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
+    <!--owl 캐러셀-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
 </head>
 <body>
     <header class="top-bar flex-jc-between">
         <div class="side-toggle-btn">
-            <span style="width:24px; height:1px; top:7px;"></span>
-            <span style="width:20px; height:1px; top:12px;"></span>
-            <span style="width:12px; height:1px; top:17px;"></span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
         <div class="search-btn"></div>
     </header>
@@ -254,6 +258,8 @@
 
     <div class="search-box">
         <div class="box-inner">
+            <input type="text" placeholder ="상품명을 입력해주세요">
+            <a href="#"></a>
             <div class="pop-search">
                 <h3>인기 검색어</h3>
                 <ol>

@@ -124,6 +124,40 @@ html {
     background-color: black;
     position: absolute;
     left: 0;
+    transition: transform .2s, width .2s, top .2s;
+}
+
+.top-bar > .side-toggle-btn > span:nth-child(1) {
+    width: 24px;
+    height:1px;
+    top:7px;
+}
+
+.top-bar > .side-toggle-btn > span:nth-child(2) {
+    width: 20px;
+    height:1px; 
+    top:12px;
+}
+
+.top-bar > .side-toggle-btn > span:nth-child(3) {
+    width: 12px;
+    height:1px; 
+    top:17px;
+}
+
+.top-bar > .side-toggle-btn > span:nth-child(1).active {
+    transform: rotate(45deg);
+    top:11px;
+}
+
+.top-bar > .side-toggle-btn > span:nth-child(2).active {
+    width: 0;
+}
+
+.top-bar > .side-toggle-btn > span:nth-child(3).active {
+    width: 24px;
+    top:11px;
+    transform: rotate(-45deg);
 }
 
 .con-min {
@@ -890,6 +924,15 @@ html {
     height: auto;
     border: 1px solid #d5d5d5;
     background-color: white;
+    display: none;
+}
+
+.search-box.active {
+    display: block;
+}
+
+body.active {
+    overflow-y: hidden;
 }
 
 .search-box > .box-inner {
@@ -942,5 +985,29 @@ html {
     color: white;
     font-size: 20px;
     cursor: pointer;
+}
+
+.search-box > .box-inner > input {
+    width: 401px;
+    height: 52px;
+    padding: 16px 80px 14px 0;
+    line-height: 24px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-box > .box-inner > a {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-image: url(https://han-daeun.github.io/img1/pf/rar/icons.png);
+    background-size: 320px auto;
+    background-repeat: no-repeat;
+    top: 44px;
+    right: 34px;
 }
 /* 서치박스 끝 */
