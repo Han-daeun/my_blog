@@ -38,7 +38,7 @@
             <div class="contents">
                 <p class="title">The Life Cosmetic<br>ROUND A'ROUND</p>
                 <p class="sub">라운드어라운드는 나를 둘러싼 일상에 기분 좋은 휴식을 선물하는<br>NO.1 라이프 코스메틱 브랜드입니다.
-                    <a href="#">Brans Story</a>
+                    <a href="#">Brand Story</a>
                 </p>
             </div>
         </div>
@@ -177,7 +177,7 @@
     </div>
 
     <section class="sns-box">
-        <div>
+        <div class="sns-box-01">
             <h3># ROUND A’ROUND</h3>
             <p>
                 <a href="#">
@@ -186,14 +186,86 @@
                 </a>
             </p>
             <div class="slider">
-                
+                <ul class="flex">
+                    <li>
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/rar/rr_5.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/rar/rr_3.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/rar/rr_2.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/rar/rr_1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/rar/rr_0.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>  
+            </div>
+        </div>
+        <div class="side-btn">
+            <div>
+                <div></div>
+            </div>
+            <div>
+                <div></div>
             </div>
         </div>
     </section>
 
     <div class="footer">
-
+        <div class="footer-layout">
+            <p class="footer-logo">
+                <a href="#"></a>
+            </p>
+            <nav>
+                <ul class="flex">
+                    <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">법적고지</a></li>
+                </ul>
+            </nav>
+            <div class="address">
+                <p class="flex">
+                    <span>씨제이올리브영 주식회사</span>
+                    <span>대표이사 : 구창근</span>
+                    <span>사업자등록번호 : 809-81-01574</span>
+                </p>
+                <p class="flex">    
+                    <span>고객센터 : 1522-0882</span>
+                    <span>주소 : (04323) 서울특별시 용산구 한강대로 366 (동자동) 6층</span>
+                </p>
+            </div>
+            <p class="copyright">Copyright ©2019 CJ OliveYoung. All rights reserved.</p>
+        </div>
     </div>
 
+    <div class="search-box">
+        <div class="box-inner">
+            <div class="pop-search">
+                <h3>인기 검색어</h3>
+                <ol>
+                    <li><a href="#">그린티 시카 선로션</a></li>
+                    <li><a href="#">그린티 약산성 클렌징폼</a></li>
+                    <li><a href="#">센티드 디퓨저</a></li>
+                    <li><a href="#">라이프 프래그런스</a></li>
+                    <li><a href="#">버블 바쓰</a></li>
+                </ol>
+            </div>
+            <p class="close-btn flex flex-jc-center flex-ai-center">닫기</p>
+        </div>
+    </div>
 </body>
 </html>

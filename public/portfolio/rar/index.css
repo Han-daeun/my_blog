@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+
 html {
     font-family: 'Roboto','Noto Sans KR','Malgun Gothic','AppleSDGothicNeo',sans-serif;
 }
@@ -309,11 +313,12 @@ html {
 }
 
 .container > #moments > .row > .img-box > .box-02 > a > p {
-    font-size: 15.8px;
+    font-size: 16px;
     font-weight: 200;
     line-height: 1.38;
     text-align: left;
     margin: 0;
+    letter-spacing: -1px;
 }
 
 .container > #moments > .row > .img-box > .box-02 > a > p > span {
@@ -397,7 +402,7 @@ html {
 }
 
 .container > #skincare > .text > .type-right {
-    background-image: url(https://han-daeun.github.io/img1/pf/rar/figure03.jpg);
+    background-image: url(https://han-daeun.github.io/img1/pf/rar/figure04.jpg);
 }
 
 .container > #skincare > .text > .type-right > p {
@@ -706,9 +711,9 @@ html {
 
 .sns-box {
     position: relative;
-    min-width: 1200px;
-    max-width: 1920px;
-    padding: 120px 0 0;
+    min-width: 1020px;
+    max-width: 1200px;
+    padding: 120px 0 160px;
     margin: 0 auto;
     text-align: center;
 }
@@ -739,9 +744,203 @@ html {
     display: inline-block;
 }
 
+.sns-box > div > .slider {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sns-box > div > .slider > ul {
+    height: 282px;
+}
+
+.sns-box > div > .slider > ul > li {
+    width: 282px;
+    height: 282px;
+    margin-right: 24px;
+}
+
+.sns-box > div > .slider > ul > li > a > img {
+    object-fit: cover;
+    width: 282px;
+}
+
+.sns-box > .side-btn {
+    position: absolute;
+    top: calc(50% + 40px);
+    width: 100%;
+}
+
+.sns-box > .side-btn > div {
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.sns-box > .side-btn > div:last-child {
+    left: auto;
+    right: 0;
+}
+
+.sns-box > .side-btn > div > div {
+    position: relative;
+    width: 15px;
+    height: 30px;
+    overflow: hidden;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.sns-box > .side-btn > div > div::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 19px;
+    height: 19px;
+    margin-left: 7px;
+    border-left: 1px solid rgba(170, 170, 170);
+    border-bottom: 1px solid rgba(170, 170, 170); 
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.sns-box > .side-btn > div:last-child > div::before {
+    margin-left: -7px;
+    transform: translate(-50%,-50%) rotate(225deg);
+}
+
 .footer {
     background-color: #f9f9f9;
     padding: 60px 0 40px;
     position: relative;
     overflow: hidden;
+    width:100%;
 }
+
+.footer > .footer-layout {
+    max-width: 1020px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #777;
+}
+
+.footer > .footer-layout > .footer-logo {
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #ededed;
+}
+
+.footer > .footer-layout > .footer-logo > a {
+    display: block;
+    width: 160px;
+    height: 46px;
+    background-image: url(https://han-daeun.github.io/img1/pf/rar/logo_s.png);
+    background-position: 0 0;
+    background-size: 160px;
+    background-repeat: no-repeat;
+}
+
+.footer > .footer-layout > nav > ul {
+    line-height: 1.38;
+}
+
+.footer > .footer-layout > nav > ul > li {
+    margin-right: 40px;
+}
+
+.footer > .footer-layout > nav > ul > li > a {
+    letter-spacing: -1px;
+}
+
+.footer > .footer-layout p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer > .footer-layout > .address > p > span {
+    font-weight: 400;
+}
+
+.footer > .footer-layout > .address {
+    margin: 20px 0 40px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.footer > .footer-layout > .address > p > span {
+    font-weight: 350;
+    margin-right: 20px;
+    line-height: 1.38;
+}
+
+/* 서치박스 시작 */
+
+.search-box {
+    position: fixed;
+    top: 89px;
+    left: auto;
+    right: 80px;
+    width: 467px;
+    height: auto;
+    border: 1px solid #d5d5d5;
+    background-color: white;
+}
+
+.search-box > .box-inner {
+    padding: 32px;
+    position: relative;
+    background-color: white;
+}
+
+.search-box > .box-inner > .pop-search {
+    margin: 34px 0 40px;
+}
+
+.search-box > .box-inner > .pop-search > h3 {
+    font-weight: 400;
+    line-height: 1.38;
+    font-size: 14px;
+    margin: 0;
+}
+
+.search-box > .box-inner > .pop-search > ol {
+    padding-top: 8px;
+    padding-left: 0;
+    margin: 0;
+}
+
+.search-box > .box-inner > .pop-search > ol > li {
+    border-bottom: 1px solid #ededed;
+    counter-increment: item;
+}
+
+.search-box > .box-inner > .pop-search > ol > li > a {
+    padding: 16px 0;
+    font-size: 16px;
+    font-weight: 200;
+    display: block;
+}
+
+.search-box > .box-inner > .pop-search > ol > li > a::before {
+    content: counter(item) ". ";
+    font-weight: 400;
+}
+
+.search-box > .box-inner > .close-btn {
+    margin: 0;
+    padding: 0;
+    min-width: 280px;
+    width:100%;
+    height: 56px;
+    background-color: #000;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* 서치박스 끝 */
