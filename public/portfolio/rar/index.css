@@ -167,6 +167,72 @@ html {
 
 /* 탑바 끝 */
 
+/* 사이드메뉴 시작 */
+
+.menu-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 50;
+}
+
+.menu-box > .left-side-menu {
+    width: 288px;
+    height: 100vh;
+    background-color: pink;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-box > .left-side-menu > ul {
+    padding: 130px 0 40px;
+    position: relative;
+}
+
+.menu-box > .left-side-menu > ul > li {
+    padding: 0 40px 0 80px;
+    margin-bottom: 12px;
+}
+
+.menu-box > .left-side-menu > ul > li > a {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.menu-box > .left-side-menu > ul > li > a > i {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.menu-box > .left-side-menu > ul > li > a > i::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9px;
+    height: 9px;
+    margin-left: -3px;
+    transform: translate(-50%,-50%) rotate(45deg);
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.menu-box > .left-side-menu > ul > li > a > span:hover {
+    font-weight: 700;
+    border-bottom: 1px solid #000;
+}
+
+/* 사이드메뉴 끝 */
+
 .container {
     min-height: calc(100vh - 445px);
     padding-top: 100px;
@@ -351,8 +417,15 @@ html {
     font-weight: 200;
     line-height: 1.38;
     text-align: left;
-    margin: 0;
     letter-spacing: -1px;
+    transform: translateY(40px);
+    opacity: 0;
+    transition: opacity 1s, transform 1s;
+}
+
+.container > #moments > .row > .img-box > .box-02 > a > p.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .container > #moments > .row > .img-box > .box-02 > a > p > span {
@@ -404,6 +477,16 @@ html {
     line-height: 1.38;
 }
 
+.container > #moments > .row > .img-box > .box-03 > .box-03-text > p {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1s, transform 1s;
+}
+
+.container > #moments > .row > .img-box > .box-03 > .box-03-text > p.active {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 .container > #skincare .visual {
     background-image: url(https://han-daeun.github.io/img1/pf/rar/visual03.jpg);
@@ -801,36 +884,38 @@ html {
     width: 282px;
 }
 
-.sns-box > .side-btn {
+.sns-box > .sns-box-01 > .my-slider-1 > .custom-nav > button {
     position: absolute;
-    top: calc(50% + 40px);
-    width: 100%;
-}
-
-.sns-box > .side-btn > div {
-    position: absolute;
-    left: 0;
+    color: white;
     width: 40px;
     height: 40px;
+    top: 55%;
+    left: 0;
     cursor: pointer;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', 'Noto Sans KR', 'Nanum Gothic';
+    user-select: none;
+    background-color: transparent;
+    border: 0;
 }
 
-.sns-box > .side-btn > div:last-child {
+.sns-box > .sns-box-01 > .my-slider-1 > .custom-nav > button:last-child {
     left: auto;
     right: 0;
 }
 
-.sns-box > .side-btn > div > div {
+.sns-box > .sns-box-01 > .my-slider-1 > .custom-nav > button > span {
     position: relative;
+    display: inline-block;
     width: 15px;
     height: 30px;
     overflow: hidden;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    color: transparent;
 }
 
-.sns-box > .side-btn > div > div::before {
+.sns-box > .sns-box-01 > .my-slider-1 > .custom-nav > button > span::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -843,7 +928,7 @@ html {
     transform: translate(-50%,-50%) rotate(45deg);
 }
 
-.sns-box > .side-btn > div:last-child > div::before {
+.sns-box > .sns-box-01 > .my-slider-1 > .custom-nav > button:nth-child(2) > span::before {
     margin-left: -7px;
     transform: translate(-50%,-50%) rotate(225deg);
 }
@@ -1011,3 +1096,36 @@ body.active {
     right: 34px;
 }
 /* 서치박스 끝 */
+
+.container .content > p {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+}
+
+.container .content > p.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.container .products > p {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+}
+
+.container .products > p.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.container .products > .sub-img {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+}
+
+.container .products > .sub-img.active {
+    opacity: 1;
+    transform: translateY(0);
+}

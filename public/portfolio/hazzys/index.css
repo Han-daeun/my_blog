@@ -358,9 +358,6 @@ html {
     background-repeat:no-repeat;
   }
 
-.my-slider-1 > .custom-nav {
-}
-
 .my-slider-1 > .custom-nav > div {
     position: absolute;
     color: white;

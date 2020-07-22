@@ -12,9 +12,9 @@
     <link rel="stylesheet" type="text/css"
         href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
     <!--owl 캐러셀-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 <body>
     <header class="top-bar flex-jc-between">
@@ -25,6 +25,42 @@
         </div>
         <div class="search-btn"></div>
     </header>
+    <div class="menu-box">
+        <nav class="left-side-menu">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span>About</span>
+                        <i></i>
+                    </a>
+                    <div>
+                        <ul>
+                            <li><a href="#">Brand Story</a></li>
+                            <li><a href="#">Awards</a></li>
+                            <li><a href="#">ROUND A'ROUND FOR REST</a></li>
+                            <li><a href="#">CupOfTherapy</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Products</span>
+                        <i></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>RARA Moments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Stores</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
     <div class="container">
         <div id="daily-life" class="section section-left">
@@ -56,7 +92,7 @@
                     </div>
                     <div class="box-02">
                         <a href="#">
-                            <p>
+                            <p class="active-on-visible">
                                 라운드어라운드와<br>함께하는 모든 행복의 순간
                                 <span>More</span>
                             </p>
@@ -77,8 +113,11 @@
                         <p>
                             <img src="https://han-daeun.github.io/img1/pf/rar/moment04.jpg" alt="">
                         </p>
-                        <div class="box-03-text">나와 나를 둘러싼 모든 일상이
-                            <br>더 아름다워집니다
+                        <div class="box-03-text">
+                            <p class="active-on-visible">
+                                나와 나를 둘러싼 모든 일상이
+                                <br>더 아름다워집니다
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -88,18 +127,18 @@
         <div id="skincare" class="section section-right">
             <div class="text">
                 <div class="content">
-                    <p style="font-size:40px; font-weight:300;margin-bottom:16px; margin-top:0;">Skin Care</p>
-                    <p style="font-weight:300; color:#555; margin:0;">바쁜 일상 속에서도 그 무엇보다 소중한
+                    <p style="font-size:40px; font-weight:300;margin-bottom:16px; margin-top:0;" class="active-on-visible">Skin Care</p>
+                    <p style="font-weight:300; color:#555; margin:0;" class="active-on-visible">바쁜 일상 속에서도 그 무엇보다 소중한
                         <br>나의 피부를 위한 스킨케어를 제안합니다
                         <a href="#">More</a>
                     </p>
                 </div>
                 <div class="products type-right">
-                    <p class="title">Greentea<br>Skin Care</p>
-                    <p class="sub">피부를 위한<br>‘착한’ 스킨케어의 시작<br>그린티 수분 진정<br>스킨케어 라인
+                    <p class="title active-on-visible">Greentea<br>Skin Care</p>
+                    <p class="sub active-on-visible">피부를 위한<br>‘착한’ 스킨케어의 시작<br>그린티 수분 진정<br>스킨케어 라인
                         <a href="#">More</a>
                     </p>
-                    <div class="sub-img">
+                    <div class="sub-img active-on-visible">
                         <div>
                             <a href="#">
                                 <img src="https://han-daeun.github.io/img1/pf/rar/51c45f341efb4b99b8c4365284ecbf1e.png" alt="">
@@ -109,11 +148,11 @@
                     </div>
                 </div>
                 <div class="products type-left">
-                <p class="title">Basic<br>Skin Care</p>
-                    <p class="sub">꼭 필요한 것만 담아<br>매일이 더 편안한 피부<br>베이직 스킨케어 라인
+                    <p class="title active-on-visible">Basic<br>Skin Care</p>
+                    <p class="sub active-on-visible">꼭 필요한 것만 담아<br>매일이 더 편안한 피부<br>베이직 스킨케어 라인
                         <a href="#">More</a>
                     </p>
-                    <div class="sub-img">
+                    <div class="sub-img active-on-visible">
                         <div class="flex">
                             <a href="#">
                                 <img src="https://han-daeun.github.io/img1/pf/rar/e042dc2f77276592e7f89fdc1e94f783.png" alt="">
@@ -133,18 +172,18 @@
         <div id="fragrance" class="section section-left">
             <div class="text">
                 <div class="content">
-                    <p style="font-size:40px; font-weight:300;margin-bottom:16px; margin-top:0;">Fragrance</p>
-                    <p style="font-weight:300; color:#555; margin:0;">나와 나를 둘러싼 모든 시간과 공간을 더 가치있게
+                    <p style="font-size:40px; font-weight:300;margin-bottom:16px; margin-top:0;" class="active-on-visible">Fragrance</p>
+                    <p style="font-weight:300; color:#555; margin:0;" class="active-on-visible">나와 나를 둘러싼 모든 시간과 공간을 더 가치있게
                         <br>채워주는 라운드어라운드의 프래그런스
                         <a href="#">More</a>
                     </p>
                 </div>
                 <div class="products type-right">
-                    <p class="title">Home<br>Fragrance</p>
-                    <p class="sub">은은하게 오랫동안 지속되는<br>향기로 공간을 스타일링 하는<br>홈 프래그런스
+                    <p class="title active-on-visible">Home<br>Fragrance</p>
+                    <p class="sub active-on-visible">은은하게 오랫동안 지속되는<br>향기로 공간을 스타일링 하는<br>홈 프래그런스
                         <a href="#">More</a>
                     </p>
-                    <div class="sub-img">
+                    <div class="sub-img active-on-visible">
                         <div class="flex">
                             <a href="#">
                                 <img src="https://han-daeun.github.io/img1/pf/rar/d7ddc258ee3515ca62bc42d23f470abf.png" alt="">
@@ -158,11 +197,11 @@
                     </div>
                 </div>
                 <div class="products type-left">
-                <p class="title">Life<br>Fragrance</p>
-                    <p class="sub">남들과는 다르게 나의 일상을<br>특별하게 채우는 감성적인 향기
+                <p class="title active-on-visible">Life<br>Fragrance</p>
+                    <p class="sub active-on-visible">남들과는 다르게 나의 일상을<br>특별하게 채우는 감성적인 향기
                         <a href="#">More</a>
                     </p>
-                    <div class="sub-img">
+                    <div class="sub-img active-on-visible">
                         <div class="flex">
                             <a href="#">
                                 <img src="https://han-daeun.github.io/img1/pf/rar/12673b38437d638fa152214077861de8.png" alt="">
@@ -189,42 +228,45 @@
                     roundaround_official
                 </a>
             </p>
-            <div class="slider">
-                <ul class="flex">
-                    <li>
-                        <a href="#">
-                            <img src="https://han-daeun.github.io/img1/pf/rar/rr_5.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="https://han-daeun.github.io/img1/pf/rar/rr_3.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="https://han-daeun.github.io/img1/pf/rar/rr_2.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="https://han-daeun.github.io/img1/pf/rar/rr_1.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="https://han-daeun.github.io/img1/pf/rar/rr_0.jpg" alt="">
-                        </a>
-                    </li>
-                </ul>  
-            </div>
-        </div>
-        <div class="side-btn">
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
+            <div class="my-slider-1">
+                <div class="owl-carousel owl-theme slider">
+                    <ul class="item">
+                        <li>
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/rar/rr_5.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="item">
+                        <li>
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/rar/rr_3.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="item">
+                        <li>
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/rar/rr_2.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="item">
+                        <li>
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/rar/rr_1.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="item">
+                        <li>
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/rar/rr_0.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="custom-nav"></div>
             </div>
         </div>
     </section>
