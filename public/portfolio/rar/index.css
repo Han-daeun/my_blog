@@ -168,7 +168,7 @@ html {
 /* 탑바 끝 */
 
 /* 사이드메뉴 시작 */
-
+/* 1차메뉴 */
 .menu-box {
     position: fixed;
     top: 0;
@@ -176,12 +176,20 @@ html {
     width: 100%;
     background-color: transparent;
     z-index: 50;
+    opacity: 0;
+    transition: opacity .3s;
+    visibility: hidden;
+}
+
+.menu-box.active {
+    opacity: 1;
+    visibility: visible;
 }
 
 .menu-box > .left-side-menu {
     width: 288px;
     height: 100vh;
-    background-color: pink;
+    background-color: rgba(255,255,255,0.95);
     position: relative;
     z-index: 1;
 }
@@ -202,6 +210,8 @@ html {
     font-size: 16px;
     font-weight: 400;
     padding: 10px 0;
+    color: #555;
+    line-height: 1.38;
 }
 
 .menu-box > .left-side-menu > ul > li > a > i {
@@ -226,11 +236,159 @@ html {
     border-right: 1px solid #000;
 }
 
-.menu-box > .left-side-menu > ul > li > a > span:hover {
+.menu-box > .left-side-menu > ul > li > a > span.active {
     font-weight: 700;
     border-bottom: 1px solid #000;
+    color:#000;
+}
+/* 2차메뉴 */
+.menu-box > .left-side-menu > ul > li > div {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: rgba(255,255,255,0.95);
+    width: 0;
+    height: 100vh;
+    padding-top: 130px;
+    transition: width .3s;
 }
 
+.menu-box > .left-side-menu > ul > li > div.active {
+    width: 320px;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul {
+    opacity: 0;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul.active {
+    opacity: 1;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li {
+    padding: 0 20px 0 40px;
+    margin-bottom: 12px;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > a {
+    display: block;
+    position: relative;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color:#555;
+    line-height: 1.38;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > a > span.active {
+    font-weight: 700;
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > a > i {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > a > i::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9px;
+    height: 9px;
+    margin-left: -3px;
+    transform: translate(-50%,-50%) rotate(45deg);
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+}
+/* 3차메뉴 */
+.menu-box > .left-side-menu > ul > li > div > ul > li > div {
+    position: absolute;
+    top:0;
+    left: 100%;
+    width: 0;
+    height: 100vh;
+    background-color: rgba(255,255,255);
+    transition: width .3s;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > div.active {
+    width: 430px;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > div > ul {
+    position: relative;
+    width: 430px;
+    opacity: 0;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > div > ul.active {
+    opacity: 1;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > div > ul > li {
+    width: 206px;
+    height: 224px;
+    padding: 29px 0 11px;
+    text-align: center;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > div > ul > li > a {
+    display: block;
+    position: relative;
+    padding: 10px 0;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > div > ul > li > a > p:first-child {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 20px;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > div > ul > li > a > p:last-child {
+    margin: 0;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > div > ul > li > a > p > img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > div > ul > li > a > p > span {
+    font-size: 14px;
+    color: #555;
+    font-weight: 300;
+}
+
+.menu-box > .left-side-menu > ul > li > div > ul > li > div > ul > li:hover > a > p > span {
+    color: #000;
+    border-bottom: solid 1px #000;
+}
+
+.side-menu-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    background-color: rgba(0,0,0,0);
+    transition: background-color .3s;
+    z-index: 5;
+}
+
+.side-menu-bg.active {
+    background-color: rgba(0,0,0,0.3);   
+    visibility: visible;
+}
 /* 사이드메뉴 끝 */
 
 .container {
