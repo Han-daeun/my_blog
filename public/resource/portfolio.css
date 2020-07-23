@@ -74,7 +74,8 @@
 
     */
 
-/*슬라이드박스 시작*/    
+/*슬라이드박스 시작*/  
+/*  
     .box-01 {
       width:calc(100% - 100px);
       min-width:500px;
@@ -136,8 +137,8 @@
 /*포트폴리오 리스트 시작*/
 .portfolio-box > .pf-category > a {
     padding: 0 20px;
-    font-size: 16px;
-    font-weight: 200;
+    font-size: 25px;
+    font-weight: 400;
     color: #494949;
     margin-top: 20px;
     position: relative;
@@ -163,15 +164,33 @@
 }
 
 .portfolio-box > .pf-list > ul {
-    margin-top: 30px;
+    margin: 50px 0;
 }
 
 .portfolio-box > .pf-list > ul > li {
-    width: 210px;
+    width: 250px;
     height: 270px;
-    background: url(https://images.unsplash.com/photo-1593087470062-9cb963d64d8a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&q=80);
-    background-position: center;
+    background-position: top;
     background-size: cover;
-    margin: 0 20px;
+    margin: 0 40px;
+    background-color: salmon;
+    position: relative;
+}
+
+.portfolio-box > .pf-list > ul > li::before {
+  position: absolute;
+  content: "";
+  background-color: rgba(0,0,0,0);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  visibility: hidden;
+  z-index: 2;
+}
+
+.portfolio-box > .pf-list > ul > li:hover::before {
+  background-color: rgba(0,0,0,.3);
+  visibility: visible;
 }
 /*포트폴리오 리스트 끝*/

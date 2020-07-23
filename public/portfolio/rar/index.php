@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>round a'round</title>
-    <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+    <link
+        rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
     <link rel="stylesheet" href="/portfolio/rar/index.css">
     <script src="/portfolio/rar/index.js"></script>
     <link rel="stylesheet" type="text/css"
@@ -14,8 +16,10 @@
     <!--owl 캐러셀-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
+
 <body>
     <div class="loading"></div>
     <header class="top-bar flex-jc-between">
@@ -26,335 +30,358 @@
         </div>
         <div class="search-btn"></div>
     </header>
-    <div class="menu-box">
+
+    </div>
+    <div class="side-bar">
         <div class="inner-toggle-btn">
             <span></span>
             <span></span>
             <span></span>
         </div>
-        <nav class="left-side-menu">
+        <nav class="menu-box-1">
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="#" class="block">
                         <span>About</span>
                         <i></i>
                     </a>
-                    <div>
-                        <ul>
-                            <li><a href="#"><span>Brand Story</span></a></li>
-                            <li><a href="#"><span>Awards</span></a></li>
-                            <li><a href="#"><span>ROUND A'ROUND FOR REST</span></a></li>
-                            <li><a href="#"><span>CupOfTherapy</span></a></li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li>
+                            <a href="#" class="block"><span>Brand Story</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="block"><span>Awards</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="block"><span>ROUND A'ROUND FOR REST</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="block"><span>CupOfTherapy</span></a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#" class="block">
                         <span>Products</span>
                         <i></i>
                     </a>
-                    <div>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <span>Greentea Skin Care</span><i></i>
-                                </a>
-                                <div>
-                                    <ul class="flex flex-wrap">
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                    <img src="https://han-daeun.github.io/img1/pf/rar/a97c89735dc970a554ea69cf02bea7c1.png" alt="">
-                                                </p>
-                                                <p><span>그린티 약산성 에센스 워터</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                    <img src="https://han-daeun.github.io/img1/pf/rar/22810acbbe3c988155fdf3880bdd75b2.png" alt="">
-                                                </p>
-                                                <p><span>그린티 약산성 에센스 로션</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/9bd7b8ed37109bf258b8acdc6df7e2cf.png" alt="">
-                                                </p>
-                                                <p><span>그린티 시카 세럼</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/277ec840195669e16733d63badbf53cc.png" alt="">
-                                                </p>
-                                                <p><span>그린티 수딩 미스트</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/3bd998e51656f33148deff37a8c2183b.png" alt="">
-                                                </p>
-                                                <p><span>그린티 시카 배리어 크림</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/7b0a3869c628b7961d388cfbd829bab5.png" alt="">
-                                                </p>
-                                                <p><span>그린티 릴리프 크림</span></p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Greentea Cleanser</span><i></i>
-                                </a>
-                                <div>
-                                    <ul class="flex flex-wrap">
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                    <img src="https://han-daeun.github.io/img1/pf/rar/2cda15b7452630064cc80e60239fd354.png" alt="">
-                                                </p>
-                                                <p><span>그린티 약산성 클렌징폼</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                    <img src="https://han-daeun.github.io/img1/pf/rar/8555522319d3cf71e86b472ad0cfbf29.png" alt="">
-                                                </p>
-                                                <p><span>그린티 퓨어 클렌징 오일</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/73aface97257e973324256d438dbc62b.png" alt="">
-                                                </p>
-                                                <p><span>그린티 트러블 버블폼</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/07cfcf215efc48ad6a6f3dc2b715a085.png" alt="">
-                                                </p>
-                                                <p><span>그린티 약산성 립앤아이 리무버</span></p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Greentea Sun Care</span><i></i>
-                                </a>
-                                <div>
-                                    <ul class="flex flex-wrap">
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                    <img src="https://han-daeun.github.io/img1/pf/rar/85213581c42b9faaa66e49832fffe92d.png" alt="">
-                                                </p>
-                                                <p><span>그린티 시카 선로션</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                    <img src="https://han-daeun.github.io/img1/pf/rar/c7b1d3a0cf82b3c64b22b514cb322cf6.png" alt="">
-                                                </p>
-                                                <p><span>그린티 시카 선스틱</span></p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Basic Skin Care</span><i></i>
-                                </a>
-                                <div>
-                                    <ul class="flex flex-wrap">
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/4f3c70270ddc2588ef1d815a0f0594ce.png" alt="">
-                                                </p>
-                                                <p><span>컴포트 하이드레이팅 워터</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/3e2e33ff656a40844c8c6ef29d93eb87.png" alt="">
-                                                </p>
-                                                <p><span>에센셜 부스팅 하리드레이터</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/034f48f257df947fad4ded18fe8d68b5.png" alt="">
-                                                </p>
-                                                <p><span>리페어링 액티브 세럼</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/f04828654521d9ec5a487aa45cafecbd.png" alt="">
-                                                </p>
-                                                <p><span>인텐스 배리어 크림</span></p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Home Fragrance</span><i></i>
-                                </a>
-                                <div>
-                                    <ul class="flex flex-wrap">
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                    <img src="https://han-daeun.github.io/img1/pf/rar/f66da2770b016e30475ef7aa755db33e.png" alt="">
-                                                </p>
-                                                <p><span>드라이플라워 디퓨저</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                    <img src="https://han-daeun.github.io/img1/pf/rar/dd33fb30600c9b4ffc0ac21d356d41f4.png" alt="">
-                                                </p>
-                                                <p><span>리빙케어 스프레이</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/6b4b6c15b626d9ad25d574ce5ff9eb0d.png" alt="">
-                                                </p>
-                                                <p><span>릴렉싱 필로우 미스트</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/3a0808f83e7ec2575c8f6665dc2f398e.png" alt="">
-                                                </p>
-                                                <p><span>센티드 캔들</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/a41a7b4c316a948415a31820d3b77511.png" alt="">
-                                                </p>
-                                                <p><span>선인장 디퓨저</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/32e434d74603596cc164199aa869fbf5.png" alt="">
-                                                </p>
-                                                <p><span>마이 러블리 펫 디퓨저</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/c0c87f8181540e30bd94146186d87e0d.png" alt="">
-                                                </p>
-                                                <p><span>드라이플라워 센티드 카드</span></p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Life Fragrance</span><i></i>
-                                </a>
-                                <div>
-                                    <ul class="flex flex-wrap">
-                                        
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/f20f14b68a43da332aecc303f20eafef.png" alt="">
-                                                </p>
-                                                <p><span>블룸 에디션</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/1706e08885c668b50d255d23b5e1768c.png" alt="">
-                                                </p>
-                                                <p><span>라이프 프래그런스</span></p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>Body Care</span><i></i>
-                                </a>
-                                <div>
-                                    <ul class="flex flex-wrap">
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/71998fef000f59b17c24188fb7eba301.png" alt="">
-                                                </p>
-                                                <p><span>그린티 약산성 바디워시</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/fde970e954657b9de172c5e12129a707.png" alt="">
-                                                </p>
-                                                <p><span>버블 바쓰</span></p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <p>
-                                                <img src="https://han-daeun.github.io/img1/pf/rar/00054c1b7f54ba3672124b8045fbfe90.png" alt="">
-                                                </p>
-                                                <p><span>드라이플리워 바디&헤어 미스트</span></p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li>
+                            <a href="#" class="block">
+                                <span>Greentea Skin Care</span>
+                                <i></i>
+                            </a>
+                            <ul class="flex flex-wrap flex-start">
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/a97c89735dc970a554ea69cf02bea7c1.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 약산성 에센스 워터</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/22810acbbe3c988155fdf3880bdd75b2.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 약산성 에센스 로션</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/9bd7b8ed37109bf258b8acdc6df7e2cf.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 시카 세럼</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/277ec840195669e16733d63badbf53cc.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 수딩 미스트</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/3bd998e51656f33148deff37a8c2183b.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 시카 배리어 크림</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/7b0a3869c628b7961d388cfbd829bab5.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 릴리프 크림</span></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="block">
+                                <span>Greentea Cleanser</span>
+                                <i></i>
+                            </a>
+                            <ul class="flex flex-wrap flex-start">
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/2cda15b7452630064cc80e60239fd354.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 약산성 클렌징폼</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/8555522319d3cf71e86b472ad0cfbf29.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 퓨어 클렌징 오일</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/73aface97257e973324256d438dbc62b.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 트러블 버블폼</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/07cfcf215efc48ad6a6f3dc2b715a085.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 약산성 립앤아이 리무버</span></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="block">
+                                <span>Greentea Sun Care</span>
+                                <i></i>
+                            </a>
+                            <ul class="flex flex-wrap">
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/85213581c42b9faaa66e49832fffe92d.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 시카 선로션</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/c7b1d3a0cf82b3c64b22b514cb322cf6.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 시카 선스틱</span></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="block">
+                                <span>Basic Skin Care</span>
+                                <i></i>
+                            </a>
+                            <ul class="flex flex-wrap flex-start">
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/4f3c70270ddc2588ef1d815a0f0594ce.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>컴포트 하이드레이팅 워터</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/3e2e33ff656a40844c8c6ef29d93eb87.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>에센셜 부스팅 하리드레이터</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/034f48f257df947fad4ded18fe8d68b5.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>리페어링 액티브 세럼</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/f04828654521d9ec5a487aa45cafecbd.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>인텐스 배리어 크림</span></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="block">
+                                <span>Home Fragrance</span>
+                                <i></i>
+                            </a>
+                            <ul class="flex flex-wrap flex-start">
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/f66da2770b016e30475ef7aa755db33e.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>드라이플라워 디퓨저</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/dd33fb30600c9b4ffc0ac21d356d41f4.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>리빙케어 스프레이</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/6b4b6c15b626d9ad25d574ce5ff9eb0d.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>릴렉싱 필로우 미스트</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/3a0808f83e7ec2575c8f6665dc2f398e.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>센티드 캔들</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/a41a7b4c316a948415a31820d3b77511.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>선인장 디퓨저</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/32e434d74603596cc164199aa869fbf5.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>마이 러블리 펫 디퓨저</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/c0c87f8181540e30bd94146186d87e0d.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>드라이플라워 센티드 카드</span></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="block">
+                                <span>Life Fragrance</span>
+                                <i></i>
+                            </a>
+                            <ul class="flex flex-wrap flex-start">
+
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/f20f14b68a43da332aecc303f20eafef.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>블룸 에디션</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/1706e08885c668b50d255d23b5e1768c.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>라이프 프래그런스</span></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="block">
+                                <span>Body Care</span>
+                                <i></i>
+                            </a>
+                            <ul class="flex flex-wrap flex-start">
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/71998fef000f59b17c24188fb7eba301.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>그린티 약산성 바디워시</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/fde970e954657b9de172c5e12129a707.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>버블 바쓰</span></p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>
+                                            <img src="https://han-daeun.github.io/img1/pf/rar/00054c1b7f54ba3672124b8045fbfe90.png"
+                                                alt="">
+                                        </p>
+                                        <p><span>드라이플리워 바디&헤어 미스트</span></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#">
-                        <span>RARA Moments</span>
-                    </a>
+                    <a href="#" class="block"><span>RARA Moments</span></a>
                 </li>
                 <li>
-                    <a href="#">
-                        <span>Stores</span>
-                    </a>
+                    <a href="#" class="block"><span>Stores</span></a>
                 </li>
             </ul>
         </nav>
@@ -362,13 +389,13 @@
 
     <div class="side-menu-bg"></div>
 
-
     <div class="container">
         <div id="daily-life" class="section section-left">
             <div class="text">
                 <div class="content">
                     <div class="logo"></div>
-                    <div class="copy">일상 속 기분 좋은 휴식<br>라이프 코스메틱 <span style="font-weight:400; color:#000;">라운드어라운드</span>
+                    <div class="copy">일상 속 기분 좋은 휴식<br>라이프 코스메틱 <span
+                            style="font-weight:400; color:#000;">라운드어라운드</span>
                     </div>
                 </div>
             </div>
@@ -428,7 +455,8 @@
         <div id="skincare" class="section section-right">
             <div class="text">
                 <div class="content">
-                    <p style="font-size:40px; font-weight:300;margin-bottom:16px; margin-top:0;" class="active-on-visible">Skin Care</p>
+                    <p style="font-size:40px; font-weight:300;margin-bottom:16px; margin-top:0;"
+                        class="active-on-visible">Skin Care</p>
                     <p style="font-weight:300; color:#555; margin:0;" class="active-on-visible">바쁜 일상 속에서도 그 무엇보다 소중한
                         <br>나의 피부를 위한 스킨케어를 제안합니다
                         <a href="#">More</a>
@@ -442,7 +470,8 @@
                     <div class="sub-img active-on-visible">
                         <div>
                             <a href="#">
-                                <img src="https://han-daeun.github.io/img1/pf/rar/51c45f341efb4b99b8c4365284ecbf1e.png" alt="">
+                                <img src="https://han-daeun.github.io/img1/pf/rar/51c45f341efb4b99b8c4365284ecbf1e.png"
+                                    alt="">
                                 <span>그린티 약산성 클렌징폼</span>
                             </a>
                         </div>
@@ -456,11 +485,13 @@
                     <div class="sub-img active-on-visible">
                         <div class="flex">
                             <a href="#">
-                                <img src="https://han-daeun.github.io/img1/pf/rar/e042dc2f77276592e7f89fdc1e94f783.png" alt="">
+                                <img src="https://han-daeun.github.io/img1/pf/rar/e042dc2f77276592e7f89fdc1e94f783.png"
+                                    alt="">
                                 <span>리페어링 액티브 세럼</span>
                             </a>
                             <a href="#">
-                                <img src="https://han-daeun.github.io/img1/pf/rar/2ff6aa7c09d06fa881a27fe832dd6305.png" alt="">
+                                <img src="https://han-daeun.github.io/img1/pf/rar/2ff6aa7c09d06fa881a27fe832dd6305.png"
+                                    alt="">
                                 <span>컴포트 하이드레이팅 워터</span>
                             </a>
                         </div>
@@ -473,8 +504,10 @@
         <div id="fragrance" class="section section-left">
             <div class="text">
                 <div class="content">
-                    <p style="font-size:40px; font-weight:300;margin-bottom:16px; margin-top:0;" class="active-on-visible">Fragrance</p>
-                    <p style="font-weight:300; color:#555; margin:0;" class="active-on-visible">나와 나를 둘러싼 모든 시간과 공간을 더 가치있게
+                    <p style="font-size:40px; font-weight:300;margin-bottom:16px; margin-top:0;"
+                        class="active-on-visible">Fragrance</p>
+                    <p style="font-weight:300; color:#555; margin:0;" class="active-on-visible">나와 나를 둘러싼 모든 시간과 공간을 더
+                        가치있게
                         <br>채워주는 라운드어라운드의 프래그런스
                         <a href="#">More</a>
                     </p>
@@ -487,29 +520,33 @@
                     <div class="sub-img active-on-visible">
                         <div class="flex">
                             <a href="#">
-                                <img src="https://han-daeun.github.io/img1/pf/rar/d7ddc258ee3515ca62bc42d23f470abf.png" alt="">
+                                <img src="https://han-daeun.github.io/img1/pf/rar/d7ddc258ee3515ca62bc42d23f470abf.png"
+                                    alt="">
                                 <span>릴렉싱 필로우 미스트</span>
                             </a>
                             <a href="#">
-                                <img src="https://han-daeun.github.io/img1/pf/rar/2d7b1b9a73ad925a94cd5a419c8c3d2e.png" alt="">
+                                <img src="https://han-daeun.github.io/img1/pf/rar/2d7b1b9a73ad925a94cd5a419c8c3d2e.png"
+                                    alt="">
                                 <span>선인장 디퓨저</span>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="products type-left">
-                <p class="title active-on-visible">Life<br>Fragrance</p>
+                    <p class="title active-on-visible">Life<br>Fragrance</p>
                     <p class="sub active-on-visible">남들과는 다르게 나의 일상을<br>특별하게 채우는 감성적인 향기
                         <a href="#">More</a>
                     </p>
                     <div class="sub-img active-on-visible">
                         <div class="flex">
                             <a href="#">
-                                <img src="https://han-daeun.github.io/img1/pf/rar/12673b38437d638fa152214077861de8.png" alt="">
+                                <img src="https://han-daeun.github.io/img1/pf/rar/12673b38437d638fa152214077861de8.png"
+                                    alt="">
                                 <span>블룸 에디션</span>
                             </a>
                             <a href="#">
-                                <img src="https://han-daeun.github.io/img1/pf/rar/8952bcce8c3907e1259c866dd93c1997.png" alt="">
+                                <img src="https://han-daeun.github.io/img1/pf/rar/8952bcce8c3907e1259c866dd93c1997.png"
+                                    alt="">
                                 <span>라이프 프래그런스</span>
                             </a>
                         </div>
@@ -590,7 +627,7 @@
                     <span>대표이사 : 구창근</span>
                     <span>사업자등록번호 : 809-81-01574</span>
                 </p>
-                <p class="flex">    
+                <p class="flex">
                     <span>고객센터 : 1522-0882</span>
                     <span>주소 : (04323) 서울특별시 용산구 한강대로 366 (동자동) 6층</span>
                 </p>
@@ -601,7 +638,7 @@
 
     <div class="search-box">
         <div class="box-inner">
-            <input type="text" placeholder ="상품명을 입력해주세요">
+            <input type="text" placeholder="상품명을 입력해주세요">
             <a href="#"></a>
             <div class="pop-search">
                 <h3>인기 검색어</h3>
@@ -617,4 +654,5 @@
         </div>
     </div>
 </body>
+
 </html>

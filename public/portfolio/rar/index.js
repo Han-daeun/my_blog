@@ -12,8 +12,8 @@ $(function(){
 /* 모바일 사이드 바 */
 function MobileSideBar__toggle() {
     var $btn = $('.top-bar > .side-toggle-btn > span');
-    var $innerBtn = $('.menu-box > .inner-toggle-btn > span');
-    var $sideMenu = $('.menu-box');
+    var $innerBtn = $('.side-bar > .inner-toggle-btn > span');
+    var $sideMenu = $('.side-bar');
     var $sideMenuBg = $('.side-menu-bg');
     var $body = $('body');
 
@@ -34,7 +34,7 @@ function MobileSideBar__toggle() {
 }
 
 function MobileSideBar__init() {
-    $('.side-toggle-btn, .inner-toggle-btn').click(MobileSideBar__toggle);
+    $('.side-toggle-btn, .inner-toggle-btn, .side-menu-bg').click(MobileSideBar__toggle);
 }
 
 /* 서치 버튼 */
@@ -99,31 +99,6 @@ function slideBar__carousel() {
 $(function(){
     slideBar__carousel();
 });
-
-
-/* 스크롤액션 */
-/*
-function scrollAction__init() {
-    $(document).ready(function() {
-        $(window).scroll( function(){
-            $('.fadein').each( function(i){
-                
-                var bottom_of_element = $(this).offset().top + $(this).outerHeight();
-                var bottom_of_window = $(window).scrollTop() + $(window).height();
-                
-                if( bottom_of_window > bottom_of_element ){
-                    $(this).animate({'opacity':'1', 'margin-top':'0px'},500);
-                }
-                
-            }); 
-        });
-    });
-}
-
-$(function(){
-    scrollAction__init();
-});
-*/
 
 /* 발견되면 액티브 실행 */
 function NumAni__start(selector) {
@@ -226,3 +201,39 @@ function ActiveOnVisible__checkAndActive() {
 $(function() {
     ActiveOnVisible__init();
 });
+
+/* 사이드바 */
+function SideBar__init() {
+    $('.side-bar ul > li').mouseenter(function() {
+      // 선택된 li
+      var $li = $(this);
+      
+      // 선택된 li의 부모
+      var $ul = $li.parent();
+  
+      // 선택된 녀석에게 selected 부여, 이것과 상관없이 모든 형제들의 자식은 ul은 활성화된다. 다만 z-index에 의해서 이 녀석의 자식만 보인다.
+      $li.addClass('selected');
+      
+      // 선택된 녀석들의 후손들 중에서, 기존에 활성화 된것들 정리
+      $li.find('.hover, .selected').removeClass('hover').removeClass('selected');
+      // 형제들의 후손들 중에서, 기존에 활성화 된것들 정리
+      $li.siblings('.selected').find('.hover, .selected').removeClass('hover').removeClass('selected');
+      // 형제들 중에서, 기존에 활성화 된것들 정리
+      $li.siblings('.selected').removeClass('selected');
+  
+      // 내가 선택한 녀석이 자식인 ul이 있다면
+      // 나를 포함한 모든 형제가 자식인 ul을 활성화 하도록, 부모에게 hover 클래스 삽입
+      if ( $li.find(' > ul').length > 0 ) {
+        $ul.addClass('hover');
+      }
+      else {
+        $ul.removeClass('hover');
+      }
+  
+      return false;
+    });
+  }
+  
+  $(function() {
+    SideBar__init();
+  })
