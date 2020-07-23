@@ -90,6 +90,18 @@ html {
 }
 
 
+/* 커스텀 */
+/*
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color:white; 
+    z-index: 9999;
+}
+
 /* 탑바 시작 */
 
 .top-bar {
@@ -100,7 +112,7 @@ html {
     left: 0;
     padding: 40px 80px 0;
     box-sizing: border-box;
-    z-index: 999;
+    z-index: 20;
 }
 
 .top-bar > .search-btn {
@@ -236,7 +248,7 @@ html {
     border-right: 1px solid #000;
 }
 
-.menu-box > .left-side-menu > ul > li > a > span.active {
+.menu-box > .left-side-menu > ul > li:hover > a > span {
     font-weight: 700;
     border-bottom: 1px solid #000;
     color:#000;
@@ -253,7 +265,7 @@ html {
     transition: width .3s;
 }
 
-.menu-box > .left-side-menu > ul > li > div.active {
+.menu-box > .left-side-menu > ul > li:hover > div {
     width: 320px;
 }
 
@@ -261,7 +273,7 @@ html {
     opacity: 0;
 }
 
-.menu-box > .left-side-menu > ul > li > div > ul.active {
+.menu-box > .left-side-menu > ul > li:hover > div > ul {
     opacity: 1;
 }
 
@@ -280,7 +292,7 @@ html {
     line-height: 1.38;
 }
 
-.menu-box > .left-side-menu > ul > li > div > ul > li > a > span.active {
+.menu-box > .left-side-menu > ul > li > div > ul > li:hover > a > span {
     font-weight: 700;
     border-bottom: 1px solid #000;
     color: #000;
@@ -318,7 +330,7 @@ html {
     transition: width .3s;
 }
 
-.menu-box > .left-side-menu > ul > li > div > ul > li > div.active {
+.menu-box > .left-side-menu > ul > li > div > ul > li:hover > div {
     width: 430px;
 }
 
@@ -328,7 +340,7 @@ html {
     opacity: 0;
 }
 
-.menu-box > .left-side-menu > ul > li > div > ul > li > div > ul.active {
+.menu-box > .left-side-menu > ul > li > div > ul > li:hover > div > ul {
     opacity: 1;
 }
 
@@ -382,12 +394,64 @@ html {
     visibility: hidden;
     background-color: rgba(0,0,0,0);
     transition: background-color .3s;
-    z-index: 5;
+    z-index: 30;
 }
 
 .side-menu-bg.active {
     background-color: rgba(0,0,0,0.3);   
     visibility: visible;
+}
+
+/* 사이드메뉴 이너 버튼 */
+
+.menu-box > .inner-toggle-btn {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    cursor: pointer;
+    top: 40px;
+    left: 80px;
+    z-index: 60;
+}
+
+.menu-box > .inner-toggle-btn > span {
+    background-color: black;
+    position: absolute;
+    left: 0;
+    transition: transform .2s, width .2s, top .2s;
+}
+
+.menu-box > .inner-toggle-btn > span:nth-child(1) {
+    width: 24px;
+    height:1px;
+    top:7px;
+}
+
+.menu-box > .inner-toggle-btn > span:nth-child(2) {
+    width: 20px;
+    height:1px; 
+    top:12px;
+}
+
+.menu-box > .inner-toggle-btn > span:nth-child(3) {
+    width: 12px;
+    height:1px; 
+    top:17px;
+}
+
+.menu-box > .inner-toggle-btn > span:nth-child(1).active {
+    transform: rotate(45deg);
+    top:11px;
+}
+
+.menu-box > .inner-toggle-btn > span:nth-child(2).active {
+    width: 0;
+}
+
+.menu-box > .inner-toggle-btn > span:nth-child(3).active {
+    width: 24px;
+    top:11px;
+    transform: rotate(-45deg);
 }
 /* 사이드메뉴 끝 */
 

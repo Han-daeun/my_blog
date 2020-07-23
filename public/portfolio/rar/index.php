@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 <body>
+    <div class="loading"></div>
     <header class="top-bar flex-jc-between">
         <div class="side-toggle-btn">
             <span></span>
@@ -26,6 +27,11 @@
         <div class="search-btn"></div>
     </header>
     <div class="menu-box">
+        <div class="inner-toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <nav class="left-side-menu">
             <ul>
                 <li>

@@ -1,18 +1,32 @@
+/* 로딩페이지 */
+function loadingPage__init() {
+    $(window).load(function(){
+        $('.loading').fadeOut();
+    });
+}
+
+$(function(){
+    loadingPage__init();
+});
+
 /* 모바일 사이드 바 */
 function MobileSideBar__toggle() {
     var $btn = $('.top-bar > .side-toggle-btn > span');
+    var $innerBtn = $('.menu-box > .inner-toggle-btn > span');
     var $sideMenu = $('.menu-box');
     var $sideMenuBg = $('.side-menu-bg');
     var $body = $('body');
 
     if ( $btn.hasClass('active') ) {
         $btn.removeClass('active');
+        $innerBtn.removeClass('active');
         $sideMenu.removeClass('active');
         $sideMenuBg.removeClass('active');
         $body.removeClass('active');
     }
     else {
         $btn.addClass('active');
+        $innerBtn.addClass('active');
         $sideMenu.addClass('active');
         $sideMenuBg.addClass('active');
         $body.addClass('active');
@@ -20,34 +34,8 @@ function MobileSideBar__toggle() {
 }
 
 function MobileSideBar__init() {
-    $('.side-toggle-btn').click(MobileSideBar__toggle);
+    $('.side-toggle-btn, .inner-toggle-btn').click(MobileSideBar__toggle);
 }
-
-function sideBar__hover() {
-    var $sidemenu2nd = $('.menu-box > .left-side-menu > ul > li > div');
-    var $sidemenu2ndUl = $('.menu-box > .left-side-menu > ul > li > div > ul');
-    var $sidemenu2ndTextover = $('.menu-box > .left-side-menu > ul > li > a > span');
-
-    var $sidemenu3rd = $('.menu-box > .left-side-menu > ul > li > div > ul > li > div');
-    var $sidemenu3rdUl = $('.menu-box > .left-side-menu > ul > li > div > ul > li > div > ul');
-    var $sidemenu3rdTextover = $('.menu-box > .left-side-menu > ul > li > div > ul > li > a > span');
-
-    $('.menu-box > .left-side-menu > ul > li > a').mouseenter(function(){
-        $sidemenu2nd.addClass('active');
-        $sidemenu2ndUl.addClass('active');
-        $sidemenu2ndTextover.addClass('active');
-    });
-
-    $('.menu-box > .left-side-menu > ul > li > div > ul > li > a').mouseenter(function(){
-        $sidemenu3rd.addClass('active');
-        $sidemenu3rdUl.addClass('active');
-        $sidemenu3rdTextover.addClass('active');
-    });
-}
-
-$(function(){
-    sideBar__hover();
-});
 
 /* 서치 버튼 */
 function searchBtn__toggle() {
