@@ -42,13 +42,22 @@ include "../part/head.php"
 
     <div class="portfolio-box con">
         <div class="pf-category flex-jc-center">
-            <a href="#">Portfolio list</a>
+            <a href="#">Web site</a>
         </div>
         <div class="pf-list">
             <ul class="flex flex-jc-center">
-                <li style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/yellow-finger_s.png);"><a href="#"></a></li>
-                <li style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/hazzys_s.png);"><a href="#"></a></li>
-                <li style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/round-a'round_s.png);"><a href="#"></a></li>
+                <li><a href="https://site3.blog.oa.gg/portfolio/yellow-finger/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/yellow-finger_s.png);"></a></li>
+                <li><a href="https://site3.blog.oa.gg/portfolio/hazzys/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/hazzys_s.png);"></a></li>
+                <li><a href="https://site3.blog.oa.gg/portfolio/rar/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/round-around_s.png);"></a></li>
+            </ul>
+        </div>
+
+        <div class="pf-design flex-jc-center">
+            <a href="#">Design</a>
+        </div>
+        <div class="de-list">
+            <ul class="flex flex-jc-center">
+                <li><a href="https://han-daeun.github.io/img1/pf/design/design02.jpg" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/design/design02.jpg);"></a></li>
             </ul>
         </div>
     </div>

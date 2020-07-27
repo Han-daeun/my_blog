@@ -1,5 +1,5 @@
 .portfolio-01 {
-    height: calc( 100vh - 180px );
+    height: 100%;
     background-color: white;
 }
 
@@ -140,7 +140,7 @@
     font-size: 25px;
     font-weight: 400;
     color: #494949;
-    margin-top: 20px;
+    margin-top: 30px;
     position: relative;
 }
 
@@ -159,9 +159,6 @@
     display: none;
 }
 
-.portfolio-box > .pf-category > a:hover {
-    color: #FC354C;
-}
 
 .portfolio-box > .pf-list > ul {
     margin: 50px 0;
@@ -170,14 +167,18 @@
 .portfolio-box > .pf-list > ul > li {
     width: 250px;
     height: 270px;
-    background-position: top;
-    background-size: cover;
     margin: 0 40px;
     background-color: salmon;
     position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition:box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-.portfolio-box > .pf-list > ul > li::before {
+.portfolio-box > .pf-list > ul > li:hover {
+  box-shadow: 0 10px 10px rgba(0,0,0,0.3), 0 5px 5px rgba(0,0,0,0.3);
+}
+
+.portfolio-box > .pf-list > ul > li > a::before {
   position: absolute;
   content: "";
   background-color: rgba(0,0,0,0);
@@ -189,8 +190,90 @@
   z-index: 2;
 }
 
-.portfolio-box > .pf-list > ul > li:hover::before {
+.portfolio-box > .pf-list > ul > li > a:hover::before {
   background-color: rgba(0,0,0,.3);
   visibility: visible;
 }
+
+.portfolio-box > .pf-list > ul > li > a {
+  display: block;
+  width: 250px;
+  height: 270px;
+  background-position: top;
+  background-size: cover;
+}
+
 /*포트폴리오 리스트 끝*/
+
+
+.portfolio-box > .pf-design > a {
+  padding: 0 20px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #494949;
+  margin-top: 30px;
+  position: relative;
+}
+
+.portfolio-box > .pf-design > a::after {
+  content: "";
+  position: absolute;
+  background-color: #494949;
+  width: 1px;
+  height: 13px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.portfolio-box > .pf-design > a:first-child::after {
+  display: none;
+}
+
+
+.portfolio-box > .de-list {
+  margin-bottom: 30px;
+}
+
+.portfolio-box > .de-list > ul {
+  margin: 50px 0;
+}
+
+.portfolio-box > .de-list > ul > li {
+  width: 250px;
+  height: 270px;
+  margin: 0 40px;
+  background-color: salmon;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition:box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.portfolio-box > .de-list > ul > li:hover {
+  box-shadow: 0 10px 10px rgba(0,0,0,0.3), 0 5px 5px rgba(0,0,0,0.3);
+}
+
+.portfolio-box > .de-list > ul > li > a::before {
+position: absolute;
+content: "";
+background-color: rgba(0,0,0,0);
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+visibility: hidden;
+z-index: 2;
+}
+
+.portfolio-box > .de-list > ul > li > a:hover::before {
+background-color: rgba(0,0,0,.3);
+visibility: visible;
+}
+
+.portfolio-box > .de-list > ul > li > a {
+  display: block;
+  width: 250px;
+  height: 270px;
+  background-position: top;
+  background-size: cover;
+}

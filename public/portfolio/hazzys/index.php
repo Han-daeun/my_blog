@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAZZYS</title>
-    <link rel="stylesheet" href="hazzys/index.css">
+    <link rel="stylesheet" href="/portfolio/hazzys/index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="hazzys/index.js"></script>
+    <script src="/portfolio/hazzys/index.js"></script>
     <link rel="stylesheet" type="text/css"
         href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
     <!--owl 캐러셀-->

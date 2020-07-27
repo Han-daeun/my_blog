@@ -82,7 +82,7 @@ $(function() {
     MobileSideBar__init();
     searchBtn__init();
     searchBox__init();
-});
+    searchBox__init()});
 
 /* 슬라이더 */
 

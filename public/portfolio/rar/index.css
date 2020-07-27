@@ -1179,6 +1179,7 @@ html {
     border: 1px solid #d5d5d5;
     background-color: white;
     display: none;
+    z-index: 10;
 }
 
 .search-box.active {
