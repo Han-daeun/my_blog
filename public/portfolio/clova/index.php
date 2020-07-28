@@ -103,7 +103,7 @@
             </div>
         </div>
         <div class="swiper-slide page-03">
-            <div class=" section flex-ai-center flex-jc-center">
+            <div class=" section purchase flex-ai-center flex-jc-center">
                 <div class="select-friends">
                     <strong>원하는 명령어를 선택하고, 프렌즈 미니의 답변을 들어보세요.</strong>
                     <em class="sub-title"></em>
@@ -138,26 +138,151 @@
                         </div>
                     </div>
                     <div class="speach-btn">
-                        <a href="#">캐릭터</a>
+                        <a href="#"></a>
                     </div>
                     <p class="notice">
-                    클로바 프렌즈 및 미니 전 제품에서 공통적으로 사용 가능한 명령어 입니다. 명령어에 대한 답변은 실제 클로바 프렌즈 미니의 답변을 예시로 구성되었으며,
-                    <br>
-                    5분 간격으로 업데이트 됩니다. 클로바 프렌즈 미니를 구매하시면, 위 명령어 예시 외에도 다양한 명령어를 사용할 수있습니다.
-                    <br>
-                    호출명은 [네이버 클로바 앱 > 디바이스 메뉴 > 호출명] 에서 수정할 수 있습니다.
+                        클로바 프렌즈 및 미니 전 제품에서 공통적으로 사용 가능한 명령어 입니다. 명령어에 대한 답변은 실제 클로바 프렌즈 미니의 답변을 예시로 구성되었으며,
+                        <br>
+                        5분 간격으로 업데이트 됩니다. 클로바 프렌즈 미니를 구매하시면, 위 명령어 예시 외에도 다양한 명령어를 사용할 수있습니다.
+                        <br>
+                        호출명은 [네이버 클로바 앱 > 디바이스 메뉴 > 호출명] 에서 수정할 수 있습니다.
                     </p>
                 </div>
             </div>
         </div>
         <div class="swiper-slide page-04">
-            <div class="section"></div>
+            <div class="section purchase flex-ai-center flex-jc-center">
+                <div class="select-friends">
+                    <strong style="color:white;">원하는 명령어를 선택하고, 미니언즈의 답변을 들어보세요.</strong>
+                    <em class="sub-title"></em>
+                    <div class="speaker-area flex">
+                        <div class="speaker-area-img">
+                            <div>
+                                <img src="https://han-daeun.github.io/img1/pf/clova/speaker_minions_light_on.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="speach-area">
+                            <div>
+                                <a href="#">바나나 좋아해?</a>
+                            </div>
+                            <div>
+                                <a href="#">미니언즈 지금 뭐해?</a>
+                            </div>
+                            <div>
+                                <a href="#">오늘 기분 어때?</a>
+                            </div>
+                            <div>
+                                <a href="#">미니언 노래 불러줘</a>
+                            </div>
+                            <div>
+                                <a href="#">미니언 웃어봐</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="speach-btn">
+                        <a href="#"></a>
+                    </div>
+                    <p class="notice">
+                        미니언즈와 대화하기 기능은 클로바 프렌즈 미니언즈의 전용 기능입니다.
+                        <br>
+                        명령어에 대한 답변은 실제 클로바 프렌즈 미니언즈의 답변을 예시로 구성되었으며, 5분 간격으로 업데이트 됩니다.
+                        <br>
+                        클로바 프렌즈 미니언즈를 구매하시면, 위 명령어 예시 외에도 다양한 명령어를 사용할 수 있습니다.
+                        <span>
+                            <span>
+                                <span class="clova"></span>
+                                <span class="minions"></span>
+                            </span>
+                            Despicable Me, Minion Made and all related marks and characters are trademarks and
+                            <br>
+                            copyrights of Universal Studios. Licensed by Universal Studios. All Rights Reserved.
+                        </span>
+                    </p>
+                </div>
+            </div>
         </div>
         <div class="swiper-slide page-05">
-            <div class="section"></div>
+            <div class="section purchase">
+                <div class="select-friends">
+                    <strong style="color:rgba(0, 101, 179, 0.8);">원하는 명령어를 선택하고, 도라에몽의 답변을 들어보세요.</strong>
+                    <em class="sub-title"></em>
+                    <div class="speaker-area">
+                        <div class="speach-area">
+                            <a href="#" style="width:113px; height:48px; background-position: 0px -685px;"><span>안녕</span></a>
+                            <a href="#" style="width:163px; height:48px; background-position: -830px -555px;"><span>너는 누구야</span></a>
+                            <a href="#" style="width:162px; height:48px; background-position: -359px -346px;"><span>성별이 뭐야</span></a>
+                            <a href="#" style="width:111px; height:48px; background-position: -232px -685px;"><span>남자?</span></a>
+                            <a href="#" style="width:214px; height:48px; background-position: -878px -304px;"><span>좋아하는 사람 있어?</span></a>
+                            <a href="#" style="width:179px; height:48px; background-position: -851px -451px;"><span>나비가 누구야</span></a>
+                            <a href="#" style="width:187px; height:48px; background-position: -660px -451px;"><span>비밀도구 꺼내봐</span></a>
+                            <a href="#" style="width:149px; height:48px; background-position: -625px -633px;"><span>말놀이 하자</span></a>
+                            <a href="#" style="width:130px; height:48px; background-position: -525px -346px;"><span>다녀올게</span></a>
+                            <a href="#" style="width:109px; height:48px; background-position: -573px -685px;"><span>덥다</span></a>
+                            <a href="#" style="width:148px; height:48px; background-position: -930px -633px;"><span>생일축하해</span></a>
+                            <a href="#" style="width:162px; height:48px; background-position: -364px -246px;"><span>팥빵 먹을래?</span></a>
+                            <a href="#" style="width:166px; height:48px; background-position: -843px -503px;"><span>시험 빵점이야</span></a>
+                            <a href="#" style="width:149px; height:48px; background-position: -319px -633px;"><span>노래 불러줘</span></a>
+                            <a href="#" style="width:122px; height:48px; background-position: -1013px -503px;"><span>고마워</span></a>
+                            <a href="#" style="width:109px; height:48px; background-position: -686px -685px;"><span>잘자</span></a>
+                        </div>
+                        <div class="speaker">
+                            <img src="https://han-daeun.github.io/img1/pf/clova/speaker_doraemon_light_on.png" alt="">
+                        </div>
+                        <div class="speaker-btn">
+                            <a href="#"></a>
+                        </div>
+                        <p class="notice">
+                        도라에몽과 대화하기 기능은 클로바 프렌즈 도라에몽의 전용 기능입니다. 명령어에 대한 답변은 실제 제품의 답변을 예시로 구성되었으며,
+                        <br>
+                        5분 간격으로 업데이트 됩니다. 이외 다양한 명령어 예시는 도라에몽 소개페이지 하단의 매뉴얼에서 확인하실 수 있습니다.
+                            <span></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="swiper-slide page-06">
-            <div class="section"></div>
+            <div class="section purchase flex flex-ai-center">
+                <div class="info-container">
+                    <strong>클로바 프렌즈 구매처 안내</strong>
+                    <div class="inner-section">
+                        <div class="info-area flex">
+                            <div class="info-title">온라인 구매처</div>
+                            <div class="info-detail">
+                                <a href="#">클로바 스마트 스토어</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-section" style="margin-top:52px;">
+                        <div class="info-area flex">
+                            <div class="info-title">고객센터</div>
+                            <div class="info-detail" style="line-height:40px;">
+                                <span class="detail-01">
+                                    <span style="color:#4c4c4c">대표전화</span>
+                                    <span style="color:#28c67f">1833-5387</span>
+                                </span>
+                                <span class="detail-02">
+                                    <span style="color:#4c4c4c;">운영시간</span>
+                                    <span style="color:#939393;">09:00 ~ 18:00 (주말 및 공휴일 휴무)</span>
+                                </span>
+                                <br>
+                                <span class="detail-01">
+                                    <span style="color:#4c4c4c;">Clova 고객센터</span>
+                                    <span style="color:#28c67f;">
+                                        <바로가기>
+                                    </span>
+                                </span>
+                                <span class="detail-02">
+                                    <span style="color:#4c4c4c;">주소</span>
+                                    <span style="color:#939393;">경기도 성남시 분당구 성남대로 385 분당클리닉빌딩 7층 A/S센터 우편번호 :
+                                        13595</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
