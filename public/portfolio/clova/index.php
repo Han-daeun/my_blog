@@ -90,7 +90,7 @@
                             </div>
                         </div>
                         <div class="speaker-item">
-                            <a href="#" class="speaker">
+                            <a href="#" class="speaker flex">
                                 <div>
                                     <img src="https://han-daeun.github.io/img1/pf/clova/speaker_doraemon_main.png"
                                         alt="">
@@ -104,109 +104,6 @@
                 </div>
             </div>
         </div>
-        <!--
-        <div class="swiper-slide page-03" style="height:969px;">
-            <div class=" section purchase flex-ai-center flex-jc-center">
-                <div class="select-friends">
-                    <strong>원하는 명령어를 선택하고, 프렌즈 미니의 답변을 들어보세요.</strong>
-                    <em class="sub-title"></em>
-                    <div class="speaker-area flex flex-jc-center">
-                        <div class="speaker-area-img flex">
-                            <div>
-                                <img src="https://han-daeun.github.io/img1/pf/clova/speaker_mini_brown_on.png" alt="">
-                            </div>
-                            <div>
-                                <img src="https://han-daeun.github.io/img1/pf/clova/speaker_mini_sally_on.png" alt="">
-                            </div>
-                        </div>
-                        <div class="speach-area">
-                            <div>
-                                <a href="#">헤이 클로바, 오늘 강남구 날씨 어때?</a>
-                            </div>
-                            <div>
-                                <a href="#">헤이 클로바, 오늘 제주도 초미세먼지 지수 알려줘</a>
-                            </div>
-                            <div>
-                                <a href="#">헤이 클로바, 랩해줘</a>
-                            </div>
-                            <div>
-                                <a href="#">헤이 클로바, 올해 추석 연휴가 언제야?</a>
-                            </div>
-                            <div>
-                                <a href="#">헤이 클로바, 서울에서 강릉까지 얼마나 걸려?</a>
-                            </div>
-                            <div>
-                                <a href="#">헤이 클로바, 코스피 지수 알려줘</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="speach-btn">
-                        <a href="#"></a>
-                    </div>
-                    <p class="notice">
-                        클로바 프렌즈 및 미니 전 제품에서 공통적으로 사용 가능한 명령어 입니다. 명령어에 대한 답변은 실제 클로바 프렌즈 미니의 답변을 예시로 구성되었으며,
-                        <br>
-                        5분 간격으로 업데이트 됩니다. 클로바 프렌즈 미니를 구매하시면, 위 명령어 예시 외에도 다양한 명령어를 사용할 수있습니다.
-                        <br>
-                        호출명은 [네이버 클로바 앱 > 디바이스 메뉴 > 호출명] 에서 수정할 수 있습니다.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide page-04" style="height:969px;">
-            <div class="section purchase flex-ai-center flex-jc-center">
-                <div class="select-friends">
-                    <strong style="color:white;">원하는 명령어를 선택하고, 미니언즈의 답변을 들어보세요.</strong>
-                    <em class="sub-title"></em>
-                    <div class="speaker-area flex">
-                        <div class="speaker-area-img">
-                            <div>
-                                <img src="https://han-daeun.github.io/img1/pf/clova/speaker_minions_light_on.png"
-                                    alt="">
-                            </div>
-                        </div>
-                        <div class="speach-area">
-                            <div>
-                                <a href="#">바나나 좋아해?</a>
-                            </div>
-                            <div>
-                                <a href="#">미니언즈 지금 뭐해?</a>
-                            </div>
-                            <div>
-                                <a href="#">오늘 기분 어때?</a>
-                            </div>
-                            <div>
-                                <a href="#">미니언 노래 불러줘</a>
-                            </div>
-                            <div>
-                                <a href="#">미니언 웃어봐</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="speach-btn">
-                        <a href="#"></a>
-                    </div>
-                    <p class="notice">
-                        미니언즈와 대화하기 기능은 클로바 프렌즈 미니언즈의 전용 기능입니다.
-                        <br>
-                        명령어에 대한 답변은 실제 클로바 프렌즈 미니언즈의 답변을 예시로 구성되었으며, 5분 간격으로 업데이트 됩니다.
-                        <br>
-                        클로바 프렌즈 미니언즈를 구매하시면, 위 명령어 예시 외에도 다양한 명령어를 사용할 수 있습니다.
-                        <span>
-                            <span>
-                                <span class="clova"></span>
-                                <span class="minions"></span>
-                            </span>
-                            Despicable Me, Minion Made and all related marks and characters are trademarks and
-                            <br>
-                            copyrights of Universal Studios. Licensed by Universal Studios. All Rights Reserved.
-                        </span>
-                    </p>
-                </div>
-            </div>
-        </div>
--->
-
         <div class="swiper-slide page-03" style="height:969px;">
             <div class="section purchase flex-ai-center flex-jc-center">
                 <div class="select-friends">

@@ -251,365 +251,26 @@ body {
     margin: 0 auto 5px;
     content: "";
 }
-/* 2페이지 끝 */
 
-
-/* 3페이지 시작 */
-/*
-.container > .page-03 > .section > .select-friends > .sub-title {
-    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
-    background-position: 0 -585px;
-    width: 480px;
-    height: 44px;
-    display: inline-block;
+.container > .page-02 > .section > .select-friends > .speaker-img > .speaker-item > .speaker {
+    transition: transform .5s;
 }
 
-.container > .page-03 > .section > .select-friends > .speach-area {
-    padding-top: 114px;
-    padding-left: 50px;
-    min-width: 460px;
-    text-align: left;
-}
-
-.container > .page-03 > .section > .select-friends > .speaker-area-img {
-    padding-right: 30px;
-}
-
-@media (max-width:1440px) {
-    .container > .page-03 > .section > .select-friends > .speaker-area-img {
+@media(max-width:1440px) {
+    .container > .page-02 > .section > .select-friends > .speaker-img > .speaker-item {
+        padding-top: 100px;
+        margin-left: 0;
+    }
+    .container > .page-02 > .section > .select-friends > .speaker-img > .speaker-item > .speaker {
         transform: scale(0.8);
     }
-    .container > .page-03 > .section > .select-friends > .speach-area {
-        padding-top: 60px;
+    .container > .page-02 > .section > .select-friends > .speaker-img > .speaker-item > .choice-btn {
+        padding-top: 30px;
+        transform: scale(0.9);
     }
 }
 
-.container > .page-03 > .section > .select-friends > .speach-area > div > a {
-    position: relative;
-    display: inline-block;
-    height: 52px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #5f5f5f;
-    letter-spacing: -0.9px;
-    line-height: 52px;
-    padding-right: 24px;
-    margin-left: 50px;
-    text-indent: 10px;
-    white-space: nowrap;
-    border: solid 1px #c0c5c5;
-    border-width: 1px 1px 1px 0;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-left: 0;
-    background-color: transparent;
-    box-sizing: border-box;
-}
-
-.container > .page-03 > .section > .select-friends > .speach-area > div > a::before {
-    content: "";
-    position: absolute;
-    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
-    background-position: -868px -192px;
-    width: 100px;
-    height: 108px;
-    top: -1px;
-    left: -50px;
-    bottom: 0;
-    margin: -27px 0 0 -25px;
-    transform: scale(0.5);
-    
-}
-
-.container > .page-03 > .section > .select-friends > .speach-area > div {
-    margin-top: 15px;
-}
-
-.container > .page-03 > .section > .select-friends > .speach-area > div:first-child {
-    margin-top: 0;
-}
-
-.container > .page-03 > .section > .select-friends > .speach-area > div > a::after {
-    content: "";
-    position: absolute;
-    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
-    background-position: -1076px -256px;
-    width: 56px;
-    height: 36px;
-    top: 8px;
-    left: -45px;
-    transform: scale(0.5);
-}
-
-.container > .page-03 > .section > .select-friends > .speach-area > div:nth-child(2) > a::after {
-    background-position: -510px -489px;
-    width: 44px;
-    height: 44px;
-    top: 4px;
-    left: -40px;
-}
-
-.container > .page-03 > .section > .select-friends > .speach-area > div:nth-child(3) > a::after {
-    background-position: -528px -585px;
-    width: 48px;
-    height: 36px;
-}
-
-.container > .page-03 > .section > .select-friends > .speach-area > div:nth-child(4) > a::after {
-    background-position: -1096px -304px;
-    width: 42px;
-    height: 44px;
-    top: 4px;
-    left: -40px;
-}
-
-.container > .page-03 > .section > .select-friends > .speach-area > div:nth-child(5) > a::after {
-    background-position: -250px -737px;
-    width: 44px;
-    height: 46px;
-    top: 3px;
-    left: -42px;
-}
-
-.container > .page-03 > .section > .select-friends > .speach-area > div:nth-child(6) > a::after {
-    background-position: -342px -737px;
-    width: 40px;
-    height: 40px;
-    top: 5px;
-    left: -40px;
-}
-
-
-
-.container > .page-03 > .section > .select-friends > .speach-btn {
-    margin-top: 40px;
-}
-
-.container > .page-03 > .section > .select-friends > .speach-btn {
-    margin-top: 40px;
-    display: block;
-}
-
-.container > .page-03 > .section > .select-friends > .speach-btn > a {
-    width: 46px;
-    height: 46px;
-    display: inline-block;
-    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
-    background-position: -100px -737px;
-    position: relative;
-}
-
-.container > .page-03 > .section > .select-friends > .speach-btn > a::before {
-    content: "캐릭터";
-    position: absolute;
-    top: 54px;
-    left: 0;
-    right: 0;
-    font-size: 14px;
-    color: #5f5f5f;
-    font-weight: 400;
-    letter-spacing: -0.7px;
-}
-
-.container > .page-03 > .section > .select-friends > p {
-    margin: auto;
-    padding-top: 66px;
-    font-size: 14px;
-    color: rgba(125,125,125,0.7);
-    line-height: 22px;
-    letter-spacing: -0.7px;
-    text-align: center;
-}
-*/
-/* 3페이지 끝 */
-
-/* 4페이지 시작 */
-/*
-.container > .page-04 > .purchase {
-    background: url(https://han-daeun.github.io/img1/pf/clova/bg_02.png) 50% 50% no-repeat;
-    background-size: cover;
-}
-
-.container > .page-04 > .section > .select-friends > .sub-title {
-    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
-    background-position: -660px -96px;
-    width: 467px;
-    height: 44px;
-    display: inline-block;
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area {
-    margin-top: 67px;
-}
-
-@media (max-width:1440px) {
-    .container > .page-04 > .section > .select-friends > .speaker-area {
-        margin-top: 0
-    }
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area > .speach-area {
-    padding-top: 80px;
-    min-width: 270px;
-    text-align: left;
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area > .speaker-area-img {
-    padding-right: 30px;
-}
-
-@media (max-width:1440px) {
-    .container > .page-04 > .section > .select-friends > .speaker-area > .speaker-area-img {
-        transform: scale(0.7);
-    }
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area > .speach-area > div > a {
-    position: relative;
-    display: inline-block;
-    height: 52px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #ffffff;
-    letter-spacing: -0.9px;
-    line-height: 52px;
-    padding-right: 24px;
-    margin-left: 50px;
-    text-indent: 10px;
-    white-space: nowrap;
-    border-color: transparent;
-    border-width: 1px 1px 1px 0;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-left: 0;
-    background-color: rgba(11, 80, 96, 0.2);
-    box-sizing: border-box;
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area > .speach-area > div > a::before {
-    content: "";
-    position: absolute;
-    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
-    background-position: -660px -192px;
-    width: 100px;
-    height: 108px;
-    top: 0;
-    left: -50px;
-    bottom: 0;
-    margin: -27px 0 0 -25px;
-    transform: scale(0.5);
-    
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area > .speach-area > div {
-    margin-top: 15px;
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area > .speach-area > div:first-child {
-    margin-top: 0;
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area > .speach-area > div > a::after {
-    content: "";
-    position: absolute;
-    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
-    background-position: -1023px -144px;
-    width: 52px;
-    height: 40px;
-    top: 5px;
-    left: -45px;
-    transform: scale(0.5);
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area > .speach-area > div:nth-child(2) > a::after {
-    background-position: -558px -489px;
-    width: 44px;
-    height: 44px;
-    top: 4px;
-    left: -40px;
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area > .speach-area > div:nth-child(3) > a::after {
-    background-position: -1099px -685px;
-    width: 40px;
-    height: 46px;
-    top: 2px;
-    left: -40px;
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area > .speach-area > div:nth-child(4) > a::after {
-    background-position: -484px -585px;
-    width: 40px;
-    height: 44px;
-    top: 4px;
-    left: -40px;
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area > .speach-area > div:nth-child(5) > a::after {
-    background-position: -558px -537px;
-    width: 44px;
-    height: 44px;
-    top: 3px;
-    left: -42px;
-}
-
-.container > .page-04 > .section > .select-friends > .speaker-area > .speach-btn {
-    margin-top: 40px;
-}
-
-.container > .page-04 > .section > .select-friends > .speach-btn {
-    display: block;
-}
-
-.container > .page-04 > .section > .select-friends > .speach-btn > a {
-    width: 46px;
-    height: 46px;
-    display: inline-block;
-    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
-    background-position: -100px -737px;
-    position: relative;
-}
-
-.container > .page-04 > .section > .select-friends > .speach-btn > a::before {
-    content: "캐릭터";
-    position: absolute;
-    top: 54px;
-    left: 0;
-    right: 0;
-    font-size: 14px;
-    color: #ffffff;
-    font-weight: 400;
-    letter-spacing: -0.7px;
-}
-
-.container > .page-04 > .section > .select-friends > p {
-    margin: auto;
-    padding-top: 38px;
-    font-size: 14px;
-    color: rgba(255,255,255,0.7);
-    line-height: 22px;
-    letter-spacing: -0.7px;
-    text-align: center;
-}
-
-.container > .page-04 > .section > .select-friends > p > span {
-    display: block;
-    padding-top: 24px;
-}
-
-.container > .page-04 > .section > .select-friends > p > span > span {
-    padding-bottom: 10px;
-    display: block;
-}
-
-.container > .page-04 > .section > .select-friends > p > span > span > .clova {
-    width: 47px;
-    height: 13px; 
-    background-color: #c0c5c5;  
-}
-*/
-/* 4페이지 끝 */
-
+/* 2페이지 끝 */
 
 /* 3페이지 */
 
@@ -623,6 +284,8 @@ body {
 
 .container > .page-03 > .section > .select-friends > div {
     margin-top: 28px;
+    max-width:1076px;
+    width:100%;
 }
 
 .container > .page-03 > .section > .select-friends > div > .speach-area {
@@ -634,15 +297,6 @@ body {
 
 .container > .page-03 > .section > .select-friends > div > .speaker-area-img {
     padding-right: 30px;
-}
-
-@media (max-width:1440px) {
-    .container > .page-03 > .section > .select-friends > div > .speaker-area-img {
-        transform: scale(0.8);
-    }
-    .container > .page-03 > .section > .select-friends > div > .speach-area {
-        padding-top: 60px;
-    }
 }
 
 .container > .page-03 > .section > .select-friends > div > .speach-area > div > a {
@@ -740,10 +394,6 @@ body {
     left: -40px;
 }
 
-
-
-
-
 .container > .page-03 > .section > .select-friends > div > .speach-btn {
     margin-top: 40px;
 }
@@ -784,6 +434,22 @@ body {
     text-align: center;
 }
 
+@media (max-width:1440px) {
+    .container > .page-03 > .section > .select-friends > div {
+        margin: 0;
+        padding: 0;
+    }
+    .container > .page-03 > .section > .select-friends > div > .speaker-area-img {
+        transform: scale(0.7);
+    }
+    .container > .page-03 > .section > .select-friends > div > .speach-area {
+        padding-top: 60px;
+    }
+    .container > .page-03 > .section > .select-friends > div > .speach-btn {
+        margin-top: 0;
+    }
+}
+
 
 /* 4페이지 */
 .container > .page-04 > .purchase {
@@ -804,13 +470,15 @@ body {
 }
 
 .container > .page-04 > .section > .select-friends > div > .speach-area {
-    padding-top: 80px;
+    padding-top: 110px;
     min-width: 270px;
     text-align: left;
 }
 
 .container > .page-04 > .section > .select-friends > div > .speaker-area-img {
     padding-right: 30px;
+    margin-right: 80px;
+    margin-left: -100px;
 }
 
 
@@ -912,7 +580,7 @@ body {
     height: 46px;
     display: inline-block;
     background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
-    background-position: -100px -737px;
+    background-position: -949px -685px;
     position: relative;
 }
 
@@ -951,9 +619,48 @@ body {
 .container > .page-04 > .section > .select-friends > div > p > span > span > .clova {
     width: 47px;
     height: 13px; 
-    background-color: #c0c5c5;  
+    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
+    background-position: -660px -607px;
+    display: inline-block;  
 }
 
+.container > .page-04 > .section > .select-friends > div > p > span > span > .minions {
+    width: 67px;
+    height: 13px; 
+    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
+    background-position: -897px -433px;
+    display: inline-block; 
+    margin-left: 15px; 
+    position: relative;
+}
+
+.container > .page-04 > .section > .select-friends > div > p > span > span > .minions::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 11px;
+    background-color: #fff;
+    opacity: 0.5;
+    left: 0;
+    margin-left: -10px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+@media(max-width:1440px) {
+    .container > .page-04 > .section > .select-friends > div > .speaker-area-img > div {
+        transform: scale(0.7);
+    }
+    .container > .page-04 > .section > .select-friends > div {
+        margin-top: 0;
+    }
+    .container > .page-04 > .section > .select-friends > div > .speach-area {
+        padding-top: 80px;
+    }
+    .container > .page-04 > .section > .select-friends > div > .speach-btn {
+        margin-top: -60px;
+    }
+}
 
 /* 5페이지 시작 */
 
