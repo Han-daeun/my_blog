@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>클로바 온라인 쇼룸</title>
-    <link rel="stylesheet" href="/portfolio/clova/index.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- 풀페이지 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
+    <link rel="stylesheet" href="/portfolio/clova/index.css">
     <script src="/portfolio/clova/index.js"></script>
 </head>
 
 <body>
-
-    <div class="container">
-        <div class="swiper-slide page-01" style="height:969px;">
-            <div class="section">
+    <div id="fullpage" class="container">
+        <div class="section swiper-slide page-01" style="height:969px;">
+            <div class="section-01">
                 <div class="slider">
                     <div class="bg_main bg_main4 active"
                         style="background:url(https://han-daeun.github.io/img1/pf/clova/bg_main_4.jpg) 50% 50%; background-size:cover;">
@@ -37,10 +38,11 @@
                     <p></p>
                 </div>
             </div>
+            <a href="#" class="clova-text-box">클로바 프렌즈 가상 체험하기</a>
         </div>
 
-        <div class="swiper-slide page-02" style="height:969px;">
-            <div class="section flex-ai-center flex-jc-center">
+        <div class="section swiper-slide page-02" style="height:969px;">
+            <div class="section-01 flex-ai-center flex-jc-center">
                 <div class="select-friends">
                     <strong>원하는 프렌즈를 선택해보세요.</strong>
                     <em class="sub-title"></em>
@@ -104,8 +106,9 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide page-03" style="height:969px;">
-            <div class="section purchase flex-ai-center flex-jc-center">
+        
+        <div class="section swiper-slide page-03" style="height:969px;">
+            <div class="section-01 purchase flex-ai-center flex-jc-center">
                 <div class="select-friends">
                     <strong>원하는 명령어를 선택하고, 프렌즈 미니의 답변을 들어보세요.</strong>
                     <em class="sub-title"></em>
@@ -153,8 +156,8 @@
             </div>
         </div>
 
-        <div class="swiper-slide page-04" style="height:969px;">
-            <div class="section purchase flex-ai-center flex-jc-center">
+        <div class="section swiper-slide page-04" style="height:969px;">
+            <div class="section-01 purchase flex-ai-center flex-jc-center">
                 <div class="select-friends">
                     <strong style="color:white;">원하는 명령어를 선택하고, 미니언즈의 답변을 들어보세요.</strong>
                     <em class="sub-title"></em>
@@ -206,8 +209,8 @@
             </div>
         </div>
 
-        <div class="swiper-slide page-05" style="height:969px;">
-            <div class="section purchase flex flex-ai-center flex-jc-center">
+        <div class="section swiper-slide page-05" style="height:969px;">
+            <div class="section-01 purchase flex flex-ai-center flex-jc-center">
                 <div class="select-friends">
                     <strong style="color:rgba(0, 101, 179, 0.8);">원하는 명령어를 선택하고, 도라에몽의 답변을 들어보세요.</strong>
                     <em class="sub-title"></em>
@@ -263,11 +266,11 @@
             </div>
         </div>
 
-        <div class="swiper-slide page-06" style="height:969px;">
-            <div class="section purchase flex flex-ai-center">
+        <div class="section swiper-slide page-06" style="height:969px;">
+            <div class="section-01 purchase flex flex-ai-center">
                 <div class="info-container">
                     <strong>클로바 프렌즈 구매처 안내</strong>
-                    <div class="inner-section">
+                    <div class="inner-section-01">
                         <div class="info-area flex">
                             <div class="info-title">온라인 구매처</div>
                             <div class="info-detail">
@@ -275,7 +278,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="inner-section" style="margin-top:52px;">
+                    <div class="inner-section-01" style="margin-top:52px;">
                         <div class="info-area flex">
                             <div class="info-title">고객센터</div>
                             <div class="info-detail" style="line-height:40px;">
