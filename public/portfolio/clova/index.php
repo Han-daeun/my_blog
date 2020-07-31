@@ -38,12 +38,21 @@
                     <p></p>
                 </div>
             </div>
-            <a href="#" class="clova-text-box">클로바 프렌즈 가상 체험하기</a>
+            <a href="#anchor2" class="clova-text-box">클로바 프렌즈 가상 체험하기</a>
         </div>
 
         <div class="section swiper-slide page-02" style="height:969px;">
             <div class="section-01 flex-ai-center flex-jc-center">
                 <div class="select-friends">
+
+                    <div class="cover-select-page">
+
+                    </div>
+
+                    <div class="sticker-select-page">
+                        
+                    </div>
+
                     <strong>원하는 프렌즈를 선택해보세요.</strong>
                     <em class="sub-title"></em>
                     <div class="speaker-img flex">
@@ -72,7 +81,7 @@
                                 </div>
                             </a>
                             <div class="choice-btn">
-                                <a href="#">음성 답변 들어보기</a>
+                                <a href="#anchor3">음성 답변 들어보기</a>
                             </div>
                         </div>
                         <div class="speaker-item">
@@ -87,7 +96,7 @@
                                 </div>
                             </a>
                             <div class="choice-btn flex flex-jc-center">
-                                <a href="#" style="width:50%;">미니언즈와 대화하기</a>
+                                <a href="#anchor4" style="width:50%;">미니언즈와 대화하기</a>
                                 <a href="#" style="width:50%;">Face 스티커 선택하기</a>
                             </div>
                         </div>
@@ -99,7 +108,7 @@
                                 </div>
                             </a>
                             <div class="choice-btn">
-                                <a href="#">도라에몽과 대화하기</a>
+                                <a href="#anchor5">도라에몽과 대화하기</a>
                             </div>
                         </div>
                     </div>
@@ -142,7 +151,7 @@
                             </div>
                         </div>
                         <div class="speach-btn">
-                            <a href="#"></a>
+                            <a href="#anchor2"></a>
                         </div>
                         <p class="notice">
                             클로바 프렌즈 및 미니 전 제품에서 공통적으로 사용 가능한 명령어 입니다. 명령어에 대한 답변은 실제 클로바 프렌즈 미니의 답변을 예시로 구성되었으며,
@@ -186,7 +195,7 @@
                             </div>
                         </div>
                         <div class="speach-btn">
-                            <a href="#"></a>
+                            <a href="#anchor2"></a>
                         </div>
                         <p class="notice">
                             미니언즈와 대화하기 기능은 클로바 프렌즈 미니언즈의 전용 기능입니다.
@@ -253,7 +262,7 @@
                             <img src="https://han-daeun.github.io/img1/pf/clova/speaker_doraemon_light_on.png" alt="">
                         </div>
                         <div class="speaker-btn">
-                            <a href="#"></a>
+                            <a href="#anchor2"></a>
                         </div>
                         <p class="notice">
                             도라에몽과 대화하기 기능은 클로바 프렌즈 도라에몽의 전용 기능입니다. 명령어에 대한 답변은 실제 제품의 답변을 예시로 구성되었으며,
