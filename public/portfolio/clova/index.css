@@ -85,6 +85,10 @@ body {
     flex-wrap: wrap;
 }
 
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
 .con-min-width {
     min-width: 1215px;
 }
@@ -142,27 +146,16 @@ body {
     opacity: 1;
 }
 
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
 /* 1페이지 시작 */
 .container > .section > .fp-tableCell .section-01 {
     width: 100%;
     min-width: 0;
     min-height: 100%;
-}
-
-.container > .section > .fp-tableCell .section-01 > div > .bg_main {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    animation: mainBgSlider 20s ease 15s infinite;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.container > .section > .fp-tableCell .section-01 > div > .bg_main.active {
-    opacity: 1;
-    visibility: visible;
 }
 
 .container > .section > .fp-tableCell .main-text {
@@ -231,12 +224,264 @@ body {
     color: rgba(0,0,0,0.8); 
 }
 
-.container > .page-02 > .section-01 >  .select-friends > .cover-select-page {
+/* 후디선택페이지 시작 */
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page {
     width: 100%;
-    height: 969px;
-    background-color: #28c67f;
-
+    background-image: url(https://han-daeun.github.io/img1/pf/clova/bg.jpg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    display: none;
 }
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page.active {
+    display: block;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > strong {
+    display: block;
+    padding-bottom: 19px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -1.4px;
+    color: rgba(0,0,0,0.8);
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .sub-title {
+    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
+    background-position: -660px -144px;
+    width: 359px;
+    height: 44px;
+    display: inline-block;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .speaker-area-img {
+    margin-top: 67px;
+}
+
+@media(max-width:1440px) {
+    .container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .speaker-area-img {
+        transform: scale(0.8);
+    }
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn {
+    margin-top: 104px;
+    font-size: 0;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a {
+    width: 46px;
+    height: 46px;
+    position: relative;
+    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
+    display: inline-block;
+    margin-left: 14px;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a:first-child {
+    margin-left: 0;
+    background-position: -100px -737px;
+    position: relative;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a:first-child::before {
+    position: absolute;
+    content: "캐릭터";
+    top: 54px;
+    right: 0;
+    left: 0;
+    font-size: 14px;
+    color: #5f5f5f;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a:first-child:hover {
+    background-position: 0px -737px;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a:first-child:hover::before {
+    color: black;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a:nth-child(2) {
+    background-position: -200px -737px;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a:nth-child(3) {
+    background-position: -899px -685px;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a:nth-child(4) {
+    background-position: -1082px -633px;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a:nth-child(5) {
+    background-position: -999px -685px;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a:nth-child(6) {
+    background-position: -1034px -451px;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a:nth-child(7) {
+    background-position: -1088px -356px;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a:nth-child(8) {
+    background-position: -50px -737px;
+}
+/* 후디선택페이지 끝 */
+
+/* 스티커페이지 시작 */
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page {
+    width: 100%;
+    background-image: url(https://han-daeun.github.io/img1/pf/clova/bg.jpg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    display: none;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page.active {
+    display: block;
+}
+
+.container > .page-02 > .fp-tableCell
+ > .section-01 >  .select-friends > .sticker-select-page > strong {
+    display: block;
+    padding-bottom: 19px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -1.4px;
+    color: rgba(0,0,0,0.8);
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .sub-title {
+    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
+    background-position: -660px -48px;
+    width: 467px;
+    height: 44px;
+    display: inline-block;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .speaker-area-img {
+    margin-top: 69px;
+}
+
+@media(max-width:1440px) {
+    .container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .speaker-area-img {
+       transform: scale(0.8);
+    }    
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn {
+    margin-top: 100px;
+    font-size: 0;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a {
+    width: 46px;
+    height: 46px;
+    position: relative;
+    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
+    display: inline-block;
+    margin-left: 14px;
+    border-radius: 50%;
+    line-height: 79px;
+    color: white;
+    text-align: center;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:first-child {
+    margin-left: 0;
+    background-position: -100px -737px;
+    position: relative;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:first-child::before {
+    position: absolute;
+    content: "캐릭터";
+    top: 38px;
+    right: 0;
+    left: 0;
+    font-size: 14px;
+    color: #5f5f5f;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:first-child:hover {
+    background-position: 0px -737px;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:first-child:hover::before {
+    color: black;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:nth-child(2) {
+    background-position: -200px -737px;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:nth-child(3) {
+    background-color: #c51162;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:nth-child(4) {
+    background-color: #720d5d;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:nth-child(5) {
+    background-color: #344955;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:nth-child(6) {
+    background-color: #3700b3;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:nth-child(7) {
+    background-color: #0277bd;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:nth-child(8) {
+    background-color: #00838f;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:nth-child(9) {
+    background-color: #00bfa5;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:nth-child(10) {
+    background-color: #f9aa33;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .notice {
+    padding-top: 50px;
+    font-size: 14px;
+    color: rgba(125,125,125,0.7);
+    letter-spacing: -0.7px;
+    position: relative;
+}
+
+.container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .notice::before {
+    content: "";
+    background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
+    background-position: -407px -298px;
+    width: 17px;
+    height: 17px;
+    margin-right: 4px;
+    display: inline-block;
+    position: absolute;
+    left: 37.8%;
+}
+/* 스티커페이지 끝 */
 
 .container > .page-02 > .fp-tableCell .section-01 > .select-friends > .sub-title {
     background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
@@ -409,6 +654,12 @@ body {
 
 .container > .page-03 > .fp-tableCell .section-01 > .select-friends > div > .speaker-area-img > div {
     position: relative;
+}
+
+@media(max-width:1440px) {
+    .container > .page-03 > .fp-tableCell .section-01 > .select-friends > div > .speaker-area-img > div {
+        transform: scale(0.7);
+    }
 }
 
 .container > .page-03 > .fp-tableCell .section-01 > .select-friends > div > .speaker-area-img > div::before {
@@ -603,9 +854,11 @@ body {
         margin: 0;
         padding: 0;
     }
+    /*
     .container > .page-03 > .fp-tableCell .section-01 > .select-friends > div > .speaker-area-img {
         transform: scale(0.7);
     }
+    */
     .container > .page-03 > .fp-tableCell .section-01 > .select-friends > div > .speach-area {
         padding-top: 60px;
     }
@@ -643,6 +896,13 @@ body {
     padding-right: 30px;
     margin-right: 80px;
     margin-left: -100px;
+}
+
+@media(max-width:1440px) {
+    .container > .page-04 > .fp-tableCell .section-01 > .select-friends > div > .speaker-area-img {
+        transform: scale(0.7);
+        margin-right: 20px;
+    }
 }
 
 .container > .page-04 > .fp-tableCell .section-01 > .select-friends > div > .speaker-area-img > div {
@@ -871,9 +1131,11 @@ body {
 }
 
 @media(max-width:1440px) {
+    /*
     .container > .page-04 > .fp-tableCell .section-01 > .select-friends > div > .speaker-area-img > div {
         transform: scale(0.7);
     }
+    */
     .container > .page-04 > .fp-tableCell .section-01 > .select-friends > div {
         margin-top: 0;
     }

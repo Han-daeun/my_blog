@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>클로바 온라인 쇼룸</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--스와이프 슬라이드-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
     <!-- 풀페이지 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
@@ -16,18 +19,18 @@
 <body>
     <div id="fullpage" class="container">
         <div class="section swiper-slide page-01" style="height:969px;">
-            <div class="section-01">
-                <div class="slider">
-                    <div class="bg_main bg_main4 active"
+            <div class="section-01 swiper-container">
+                <div class="slider swiper-wrapper">
+                    <div class="bg_main bg_main4 swiper-slide"
                         style="background:url(https://han-daeun.github.io/img1/pf/clova/bg_main_4.jpg) 50% 50%; background-size:cover;">
                     </div>
-                    <div class="bg_main bg_main3"
+                    <div class="bg_main bg_main3 swiper-slide"
                         style="background:url(https://han-daeun.github.io/img1/pf/clova/bg_main_3.jpg) 50% 50%; background-size:cover;">
                     </div>
-                    <div class="bg_main bg_main2"
+                    <div class="bg_main bg_main2 swiper-slide"
                         style="background:url(https://han-daeun.github.io/img1/pf/clova/bg_main_2.jpg) 50% 50%; background-size:cover;">
                     </div>
-                    <div class="bg_main bg_main1"
+                    <div class="bg_main bg_main1 swiper-slide"
                         style="background:url(https://han-daeun.github.io/img1/pf/clova/bg_main_1.jpg) 50% 50%; background-size:cover;">
                     </div>
                 </div>
@@ -46,11 +49,49 @@
                 <div class="select-friends">
 
                     <div class="cover-select-page">
-
+                        <strong>후디 커버를 입혀보세요.</strong>
+                        <em class="sub-title"></em>
+                        <div class="speaker-area-img flex flex-jc-center">
+                            <div>
+                                <img src="https://han-daeun.github.io/img1/pf/clova/speaker_brown.png" alt="">
+                            </div>
+                            <div>
+                                <img src="https://han-daeun.github.io/img1/pf/clova/speaker_sally.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cover-select-btn">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
                     </div>
 
                     <div class="sticker-select-page">
-                        
+                        <strong>Face 스티커를 붙여보세요.</strong>
+                        <em class="sub-title"></em>
+                        <div class="speaker-area-img">
+                            <div>
+                                <img src="https://han-daeun.github.io/img1/pf/clova/speaker_minions.png" alt="">
+                            </div>
+                        </div>
+                        <div class="cover-select-btn flex flex-jc-center">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#">관심</a>
+                            <a href="#">멋짐</a>
+                            <a href="#">웃음</a>
+                            <a href="#">공포</a>
+                            <a href="#">근엄</a>
+                            <a href="#">황당</a>
+                            <a href="#">의심</a>
+                            <a href="#">충격</a>
+                        </div>
+                        <div class="notice">클로바 프렌즈 미니언즈 구매 시 Face 스티커가 동봉됩니다.</div>
                     </div>
 
                     <strong>원하는 프렌즈를 선택해보세요.</strong>
