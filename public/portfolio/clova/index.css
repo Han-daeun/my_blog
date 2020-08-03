@@ -660,6 +660,9 @@ body {
     .container > .page-03 > .fp-tableCell .section-01 > .select-friends > div > .speaker-area-img > div {
         transform: scale(0.7);
     }
+    .container > .page-03 > .fp-tableCell .section-01 > .select-friends > div > .speaker-area-img > div:first-child {
+        transform: scale(0.7) translateX(45%);
+    }
 }
 
 .container > .page-03 > .fp-tableCell .section-01 > .select-friends > div > .speaker-area-img > div::before {

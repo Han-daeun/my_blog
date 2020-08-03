@@ -1,0 +1,246 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap');
+
+body {
+    font-family: 'NanumSquare', 'Montserrat', sans-serif;
+     }
+
+/* 노말라이즈 */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    height: 1000px;
+}
+
+body {
+
+}
+/* 라이브러리 */
+.block {
+    display: block;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1-0-0 {
+    flex: 1 0 0;
+}
+
+.flex-jc-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-jc-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-jc-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-ai-center {
+    display: flex;
+    align-items: center;
+}
+
+.bc-red {
+    background-color: red;
+}
+
+.padding-80 {
+    padding: 0 80px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.con-min-width {
+    min-width: 1215px;
+}
+
+.con {
+    max-width:1280px;
+}
+
+.section-box {
+    width: 100%;
+    height: auto;
+    padding: 150px 0;
+    text-align: center;
+    position: relative;
+}
+
+/* 커스텀 */
+body {
+    background-color: green;
+}
+
+/* 상단바 시작 */
+.header {
+    box-sizing: border-box;
+    padding: 45px 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header.active {
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 25px 60px;
+}
+
+.header > .logo, .header > .logo > a {
+    width: 95px;
+    height: 36px;
+    line-height: 30px;
+    position: relative;
+}
+
+.header > .logo > a > img {
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: auto;
+    position: absolute;
+}
+
+.header > .logo > a > .logo-c {
+    opacity: 0;
+}
+
+.header.active > .logo > a > .logo-c {
+    opacity: 1;
+}
+
+.header.active > .logo > a > .logo-w {
+    opacity: 0;
+}
+
+.header > .header-right > .language {
+    width: auto;
+    height: auto;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    line-height: 1.5;
+    opacity: 0.4;
+    color: white;
+}
+
+.header.active > .header-right > .language {
+    color: black;
+}
+
+.header > .header-right > .language.active {
+    opacity: 1;
+}
+
+.header > .header-right > .language.active > span {
+    opacity: 1;
+}
+
+.header > .header-right > .language > span {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.header.active > .header-right > .language > span {
+    background-color: black;
+}
+
+.header > .header-right > .toggle-btn {
+    width: 25px;
+    height: 18px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.header > .header-right > .toggle-btn > div {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+}
+
+.header.active > .header-right > .toggle-btn > div {
+    background-color: black;
+}
+
+.header > .header-right > .toggle-btn > div:nth-child(2) {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header > .header-right > .toggle-btn > div:nth-child(3) {
+    left: 0;
+    bottom: 0;
+}
+/* 상단바 끝 */
+
+/* 2페이지 시작 */
+.page-02 > .section-inner {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.page-02 > .section-more-box {
+    left: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    max-width: 1280px;
+    height: 65px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+/* 2페이지 끝 */
