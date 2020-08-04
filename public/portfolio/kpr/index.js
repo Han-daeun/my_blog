@@ -5,6 +5,7 @@ function FullPage() {
         $('#fullpage').fullpage({
             autoScrolling:false,
             navigation: true,
+            scrollBar: true,
             navigationPosition: 'right',
             anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5']
         });

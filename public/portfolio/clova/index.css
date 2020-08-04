@@ -280,6 +280,7 @@ body {
     background-image: url(https://han-daeun.github.io/img1/pf/clova/sp_app.png);
     display: inline-block;
     margin-left: 14px;
+    color: white;
 }
 
 .container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .cover-select-page > .cover-select-btn > a:first-child {
@@ -395,9 +396,10 @@ body {
     display: inline-block;
     margin-left: 14px;
     border-radius: 50%;
-    line-height: 79px;
+    line-height: 48px;
     color: white;
     text-align: center;
+    font-size: 16px;
 }
 
 .container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:first-child {
@@ -416,6 +418,7 @@ body {
     color: #5f5f5f;
     font-weight: 400;
     letter-spacing: -0.7px;
+    line-height: 76px;
 }
 
 .container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .cover-select-btn > a:first-child:hover {
@@ -467,7 +470,6 @@ body {
     font-size: 14px;
     color: rgba(125,125,125,0.7);
     letter-spacing: -0.7px;
-    position: relative;
 }
 
 .container > .page-02 > .fp-tableCell > .section-01 >  .select-friends > .sticker-select-page > .notice::before {
@@ -478,8 +480,6 @@ body {
     height: 17px;
     margin-right: 4px;
     display: inline-block;
-    position: absolute;
-    left: 37.8%;
 }
 /* 스티커페이지 끝 */
 

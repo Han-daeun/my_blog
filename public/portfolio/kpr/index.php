@@ -19,7 +19,7 @@
 <body>
 
     <div id="fullpage" class="container">
-        <div class="section page-01" style="height:auto;">
+        <div class="section page-01" style="background-color:black;">
             <div class="header flex flex-jc-between">
                 <div class="logo">
                     <a href="#">
@@ -39,32 +39,37 @@
                     </a>
                 </div>
             </div>
+            <div class="side-menu">
+
+            </div>
         </div>
 
-        <div class="section page-02 section-box">
+        <div class="section page-02 section-box fp-auto-height">
             <div class="section-inner relative">
-                <div>
+                <div class="sec-sub-title">
                     <span>ABOUT KPR</span>
                     <div></div>
                 </div>
-                <div>국내 PR 산업 발전을 선도해온 KPR은 국내외 고객사들의 명성과 가치를
-                    높이는 통합 커뮤니케이션 솔루션 서비스 기업입니다</div>
-                <div></div>
-                <div></div>
+                <div class="sec-title">국내 PR 산업 발전을 선도해온 KPR은 국내외 고객사들의 명성과 가치를<br>
+                    높이는 <span>통합 커뮤니케이션 솔루션 서비스 기업</span>입니다</div>
+                <div class="about-slider"></div>
+                <div class="about-pic">
+                    <img src="https://han-daeun.github.io/img1/pf/kpr/about_pic.jpg" alt="">
+                </div>
             </div>
             <div class="section-more-box absolute"></div>
         </div>
 
         <div class="section page-03 section-box">
             <div class="section-inner relative">
-                <div>
+                <div class="sec-sub-title">
                     <span>FROM INSIGHT TO IMPACT</span>
                     <div></div>
                 </div>
-                <div>KPR은 새로운 미디어 환경에 최적화된
-전략적이고 통합적인 커뮤니케이션 솔루션과
-아이디어와 기술이 결합한
-창의적인 컨텐츠를 제공합니다</div>
+                <div class="sec-title">KPR은 새로운 미디어 환경에 최적화된<br>
+전략적이고 통합적인 <span>커뮤니케이션 솔루션</span>과<br>
+아이디어와 기술이 결합한<br>
+<span>창의적인 컨텐츠를 제공</span>합니다</div>
                 <div></div>
                 <div></div>
             </div>
@@ -73,12 +78,12 @@
 
         <div class="section page-04 section-box">
             <div class="section-inner relative">
-                <div>
+                <div class="sec-sub-title">
                     <span>OUR IMPACT</span>
                     <div></div>
                 </div>
-                <div>KPR은 지난 30년 간
-다양한 분야의 클라이언트와 함께 성장해 왔습니다.</div>
+                <div class="sec-title">KPR은 지난 30년 간<br>
+<span>다양한 분야의 클라이언트와 함께 성장</span>해 왔습니다.</div>
                 <div></div>
                 <div></div>
             </div>
@@ -87,25 +92,25 @@
 
         <div class="section page-05 section-box">
             <div class="section-inner relative">
-                <div>
+                <div class="sec-sub-title">
                     <span>OUR NEWS</span>
                     <div></div>
                 </div>
-                <div>실시간으로 다양하고 생생한 KPR의 이야기를 들려드립니다</div>
+                <div class="sec-title">실시간으로 다양하고 생생한 <span>KPR의 이야기</span>를 들려드립니다</div>
                 <div></div>
                 <div></div>
             </div>
             <div class="section-more-box absolute"></div>
         </div>
 
-        <div class="section page-06 section-box">
+        <div class="section page-06 section-box" style="background-color:black;">
             <div class="section-inner relative">
-                <div>
+                <div class="sec-sub-title">
                     <span>CONTACT US</span>
                     <div></div>
                 </div>
-                <div>통합 커뮤니케이션 솔루션 서비스 기업, KPR과 지금 만나보세요
-여러분의 경험과 가치를 높여드리겠습니다</div>
+                <div class="sec-title"><span>통합 커뮤니케이션 솔루션 서비스 기업, KPR과 지금 만나보세요<br>
+여러분의 경험과 가치를 높여드리겠습니다</span></div>
                 <div></div>
                 <div></div>
             </div>

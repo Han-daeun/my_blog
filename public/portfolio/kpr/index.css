@@ -22,9 +22,6 @@ html {
     height: 1000px;
 }
 
-body {
-
-}
 /* 라이브러리 */
 .block {
     display: block;
@@ -98,18 +95,68 @@ body {
 .con {
     max-width:1280px;
 }
-
+/* 공통CSS */
 .section-box {
     width: 100%;
     height: auto;
-    padding: 150px 0;
     text-align: center;
     position: relative;
 }
 
+.section-box > div {
+    padding: 150px;
+    box-sizing: border-box;
+}
+
+.section-box > div > .section-inner {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.section-box > div > .section-inner > .sec-sub-title {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    color: #8c8c8c;
+    text-align: center;
+    line-height: 1;
+}
+
+.section-box > div > .section-inner > .sec-sub-title > span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.section-box > div > .section-inner > .sec-sub-title > div {
+    width: 40px;
+    height: 2px;
+    margin-top: 20px;
+    background-color: #c5c5c5;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-box > div > .section-inner > .sec-title {
+    margin-top: 50px;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+}
+
 /* 커스텀 */
-body {
-    background-color: green;
+
+.fp-tableCell {
+    vertical-align: top;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
 }
 
 /* 상단바 시작 */
@@ -223,7 +270,11 @@ body {
     left: 0;
     bottom: 0;
 }
+
 /* 상단바 끝 */
+
+/* 1페이지 */
+
 
 /* 2페이지 시작 */
 .page-02 > .section-inner {
@@ -232,6 +283,19 @@ body {
     height: auto;
     padding: 0 40px;
     box-sizing: border-box;
+}
+
+.page-02 > div > .section-inner > .sec-title > span {
+    color: #7e3985;
+}
+
+.page-02 > div > .section-inner > .about-slider {
+    width: 100%;
+    height: 205px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    background-color: #aaaaaa;
 }
 
 .page-02 > .section-more-box {
@@ -243,4 +307,29 @@ body {
     padding: 0 40px;
     box-sizing: border-box;
 }
+
 /* 2페이지 끝 */
+
+/* 3페이지 시작 */
+.page-03 > div > .section-inner > .sec-title > span {
+    color: #00acd7;
+}
+/* 3페이지 끝 */
+
+/* 4페이지 시작 */
+.page-04 > div > .section-inner > .sec-title > span {
+    color: #ef8903;
+}
+/* 4페이지 끝 */
+
+/* 5페이지 시작 */
+.page-05 > div > .section-inner > .sec-title > span {
+    color: #1f7fb6;
+}
+/* 5페이지 끝 */
+
+/* 6페이지 시작 */
+.page-06 > div > .section-inner > .sec-title > span {
+    color: #fff;
+}
+/* 6페이지 끝 */
