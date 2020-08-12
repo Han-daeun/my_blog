@@ -203,7 +203,7 @@ a {
 /* 메인페이지 시작 */
 
 .shop-main .title-box {
-    margin-bottom: 50px;
+    margin-bottom: 85px;
 }
 
 .shop-main .title-box > .title {
@@ -237,17 +237,47 @@ a {
     margin: 0 auto;
 }
 
-.shop-main > .choice-box > .clice-slide > div {
-    width: 100%;
-    height: 100%;
-    position: relative;
+/* 카테고리베스트 시작 */
+
+.shop-main > .best-item-box > .best-item {
+    width: 1000px;
+    height: 670px;
+    border: solid 1px #fed53e;
+    margin: 0 auto 150px auto;
+
 }
 
-.shop-main > .choice-box > .clice-slide > div > div {
-    width: 200px;
-    height: 100%;
-    background-color: khaki;
-    margin-right: 35px;
+/* 카테고리베스트 끝 */
+
+/* sns슬라이드 시작 */
+.sns-slide {
+    width: 100%;
+    height: 525px;
+    background-image: url(https://han-daeun.github.io/img1/pf/skinfood/insta_bg.png);
 }
+
+.sns-slide > .sns-title-box {
+    padding: 27px 0;
+}
+
+.sns-slide > .sns-title-box > .sns-title {
+    font-family: 'Noticia Text', serif;
+    font-style: italic;
+    font-size: 15pt;
+}
+
+.sns-slide > .sns-title-box > .sns-title-bar {
+    width: 15px;
+    height: 1px;
+    background-color: black;
+    margin: 15px auto 15px auto;
+}
+
+.sns-slide > .sns-title-box > .sns-contents {
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 30pt;
+    font-weight: 200;
+}
+/* sns슬라이드 끝 */
 
 /* 메인페이지 끝 */

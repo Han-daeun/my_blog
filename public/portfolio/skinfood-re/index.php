@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--제이쿼리적용-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!--슬릭슬라이더-->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!--스와이프슬라이더-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
     <title>스킨푸드</title>
     <!--스타일적용-->
     <link rel="stylesheet" href="/portfolio/skinfood-re/index.css">
@@ -64,21 +63,7 @@
                 <span class="title-bar flex flex-jc-center"></span>
                 <span class="contents flex flex-jc-center">"망설이고있을 나를 위한 MD 강추상품!"</span>
             </div>
-            <div class="clice-slide">
-                <div class="flex">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="slide-nav"></div>
-            </div>
+            <div class="clice-slide"></div>
         </div>
         <div class="best-item-box">
             <div class="title-box">
@@ -86,10 +71,22 @@
                 <span class="title-bar flex flex-jc-center"></span>
                 <span class="contents flex flex-jc-center">"내 피부를 위한 특별한 선택"</span>
             </div>
+            <div class="skincare-box best-item"></div>
+            <div class="makeup-box best-item"></div>
         </div>
-        <div class="sns-slide"></div>
     </div>
-    <div class="notice-page"></div>
-    <footer></footer>
+    <div class="sns-slide">
+        <div class="sns-title-box">
+            <span class="sns-title flex flex-jc-center">instagram</span>
+            <span class="sns-title-bar flex flex-jc-center"></span>
+            <span class="sns-contents flex flex-jc-center">#SKINFOOD</span>
+        </div>
+    </div>
+    <div class="notice-page con" style="width:100%; height:290px; background-color:#cdcdcd;">
+        <div class="notice-box"></div>
+        <div class="call-box"></div>
+        <div class="movie-box"></div>
+    </div>
+    <footer class="con" style="width:100%; height:400px; background-color:#e0e0e0;"></footer>
 </body>
 </html>
