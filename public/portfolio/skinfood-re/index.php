@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,13 +15,14 @@
     <!--폰트적용-->
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
 </head>
+
 <body>
 
     <div class="header">
         <div class="top-bar">
             <div class="top-bar-small flex flex-ai-center">
                 <div class="con flex">
-                    <div class="text-01">    
+                    <div class="text-01">
                         <a href="#"><span>로그인</span></a>
                         <a href="#"><span>회원가입</span></a>
                         <a href="#"><span>장바구니</span></a>
@@ -54,7 +56,7 @@
         </nav>
     </div>
     <div class="slide-box">
-        
+
     </div>
     <div class="shop-main con">
         <div class="choice-box">
@@ -71,8 +73,72 @@
                 <span class="title-bar flex flex-jc-center"></span>
                 <span class="contents flex flex-jc-center">"내 피부를 위한 특별한 선택"</span>
             </div>
-            <div class="skincare-box best-item"></div>
-            <div class="makeup-box best-item"></div>
+            <div class="skincare-box best-item">
+                <div class="sk-wrapper">
+                    <div class="sk-item1">
+                        <img src="https://han-daeun.github.io/img1/pf/skinfood/skin_bg.png" alt="">
+                    </div>
+                    <div class="sk-item2">
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/skinfood/sk1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="sk-item3">
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/skinfood/sk2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="sk-item4">
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/skinfood/sk3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="sk-item5">
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/skinfood/sk4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="sk-item6">
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/skinfood/sk5.png" alt="">
+                        </a>
+                    </div>
+                    <div class="sk-item7"></div>
+                </div>
+            </div>
+            <div class="makeup-box best-item">
+                <div class="mk-wrapper">
+                    <div class="mk-item1">
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/skinfood/mk1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="mk-item2">
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/skinfood/mk2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="mk-item3">
+                        <img src="https://han-daeun.github.io/img1/pf/skinfood/make_bg.png" alt="">
+                    </div>
+                    <div class="mk-item4"></div>
+                    <div class="mk-item5">
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/skinfood/mk3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="mk-item6">
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/skinfood/mk4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="mk-item7">
+                        <a href="#">
+                            <img src="https://han-daeun.github.io/img1/pf/skinfood/mk5.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="sns-slide">
@@ -83,7 +149,7 @@
         </div>
     </div>
     <div class="notice-page con">
-        <div class="flex">    
+        <div class="flex">
             <div class="notice-box">
                 <div class="flex flex-jc-between">
                     <div class="notice-page-title">NOTICE</div>
@@ -115,7 +181,9 @@
             </div>
             <div class="movie-box">
                 <div>
-                <iframe width="365" height="205" src="https://www.youtube.com/embed/ymcWOsCDoKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="365" height="205" src="https://www.youtube.com/embed/ymcWOsCDoKg" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -151,7 +219,7 @@
                     </span>
                 </div>
                 <div class="copy">
-                    <span>Copyright© 2015  SKINFOOD. ALL RIGHTS RESERVED.</span>
+                    <span>Copyright© 2015 SKINFOOD. ALL RIGHTS RESERVED.</span>
                 </div>
             </div>
             <div class="ft-sub-menu">
@@ -160,12 +228,16 @@
                     <a href="#">CHINESE</a>
                 </div>
                 <div class="sns-btn flex">
-                    <a href="#" style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/f_logo_01.png);"></a>
-                    <a href="#" style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/Y_logo_01.png);"></a>
-                    <a href="#" style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/instagram-logo2.png);"></a>
+                    <a href="#"
+                        style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/f_logo_01.png);"></a>
+                    <a href="#"
+                        style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/Y_logo_01.png);"></a>
+                    <a href="#"
+                        style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/instagram-logo2.png);"></a>
                 </div>
             </div>
         </div>
     </footer>
 </body>
+
 </html>

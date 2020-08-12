@@ -242,10 +242,94 @@ a {
 .shop-main > .best-item-box > .best-item {
     width: 1000px;
     height: 670px;
-    border: solid 1px #fed53e;
     margin: 0 auto 150px auto;
-
 }
+
+.shop-main > .best-item-box > .best-item > div > div > a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.shop-main > .best-item-box > .best-item > div > div > a:hover::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows:335px 335px;
+}
+
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper > div {
+    border: solid 1px #b4b4b4;
+    overflow: hidden;
+}
+
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper >.sk-item1 {
+    grid-column: 1 / span 2;
+}
+
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper >.sk-item7 {
+    border-right: transparent;
+    border-bottom: transparent;
+}
+
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper >.sk-item1 ,
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper >.sk-item2 ,
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper >.sk-item4 ,
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper >.sk-item5 ,
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper >.sk-item6 {
+    border-right: transparent;
+} 
+
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper >.sk-item1 ,
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper >.sk-item2 ,
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper >.sk-item3 {
+    border-bottom: transparent;
+}
+
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows:335px 335px;
+}
+
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper > div {
+    border: solid 1px #b4b4b4;
+    overflow: hidden;
+}
+
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper >.mk-item3 {
+    grid-column: 3 / span 2;
+}
+
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper >.mk-item4 {
+    border-left: transparent;
+    border-bottom: transparent;
+}
+
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper >.mk-item1 ,
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper >.mk-item2 ,
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper >.mk-item4 ,
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper >.mk-item5 ,
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper >.mk-item6 {
+    border-right: transparent;
+} 
+
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper >.mk-item1 ,
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper >.mk-item2 ,
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper >.mk-item3 {
+    border-bottom: transparent;
+}
+
 
 /* 카테고리베스트 끝 */
 
