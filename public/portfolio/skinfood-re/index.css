@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html {
-    font-family: 'Noto Sans KR','NanumSquareRound','Nanum Gothic', sans-serif;
+    font-family: 'Noto Sans KR','NanumSquare','Nanum Gothic', sans-serif;
 }
 
 /* font-family: 'Noticia Text', serif; */
@@ -281,3 +281,264 @@ a {
 /* sns슬라이드 끝 */
 
 /* 메인페이지 끝 */
+
+/* 공지박스 시작 */
+.notice-page {
+    box-sizing: border-box;
+    padding: 45px 0;
+    width:100%; 
+    height:290px; 
+}
+
+.notice-page > div {
+    padding: 0 100px;
+}
+
+.notice-page .notice-page-title {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 22px;
+    position: relative;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+}
+
+.notice-page .notice-page-title::after {
+    position: absolute;
+    content: "";
+    width: 33px;
+    height: 2px;
+    background-color: #fed53e;
+    top: 100%;
+    left: 0;
+}
+
+.notice-page > div {
+    width: 100%;
+    height: auto;
+}
+
+.notice-page > div > .notice-box {
+    width: 400px;
+    height: 100%;
+    border-right: 1px solid #e3e3e3;
+    box-sizing: border-box;
+    padding-right: 27px;
+}
+
+.notice-page > div > .notice-box > div > .more-btn {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e3e3e3;
+    position: relative;
+}
+
+.notice-page > div > .notice-box > div > .more-btn > span {
+    position: absolute;
+    width: 13px;
+    height: 1px;
+    background-color: #fed53e;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.notice-page > div > .notice-box > div > .more-btn > span:last-child {
+    width: 1px;
+    height: 13px;
+}
+
+.notice-page > div > .notice-box > .notice-cont {
+    width: 100%;
+    height: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.notice-page > div > .notice-box > .notice-cont > div {
+    box-sizing: border-box;
+    padding: 12px 0 12px 54px;
+    line-height: 14px;
+    border-bottom: 1px solid #e3e3e3;
+    position: relative;
+}
+
+.notice-page > div > .notice-box > .notice-cont > div::before {
+    position: absolute;
+    content: "공 지";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 10px;
+    font-weight: 600;
+    color: #fed53e;
+    padding: 2px 8px;
+    border: 2px solid #fed53e;
+    border-radius: 15px;
+}
+
+.notice-page > div > .notice-box > .notice-cont > div > a {
+    font-size: 14px;
+}
+
+.notice-page > div > .call-box  {
+    padding-left: 32px;
+    width: 375px;
+}
+
+.notice-page > div > .call-box p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 15px;
+    padding-bottom: 18px;
+}
+
+.notice-page > div > .call-box > .open-time {
+    padding-top: 5px;
+    position: relative;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.notice-page > div > .call-box > .open-time::after {
+    position: absolute;
+    content: "주말 및 공휴일은 1:1 문의를 이용해주세요";
+    font-size: 12px;
+    color: #6d6d6d;
+}
+
+.notice-page > div > .call-box > .open-time > span > p:first-child {
+    width: 75px;
+}
+
+.notice-page > div > .call-box > .number {
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    display: block;
+    margin-top: 40px;
+}
+/* 공지박스 끝 */
+
+/* 동영상박스 시작 */
+.movie-box > div {
+    width: 365px;
+    height: 205px;
+}
+/* 동영상박스 끝 */
+
+/* 푸터 시작 */
+footer {
+    font-size: 14px;
+    font-weight: 600;
+    width:100%; 
+    height:365px; 
+    background-color:#f8f8f8;
+    color: #3d3d3d;
+    opacity: 0.8;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+footer > div {
+    padding-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+footer > div > .ft-text > .btn-menu {
+    padding-bottom: 40px;
+}
+
+footer > div > .ft-text > .btn-menu > a {
+    padding: 0 15px; 
+    position: relative;
+}
+
+footer > div > .ft-text > .btn-menu > a:first-child {
+    padding-left: 0;
+}
+
+footer > div > .ft-text > .btn-menu > a::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background-color: #3d3d3d;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+
+footer > div > .ft-text > .btn-menu > a:last-child::after {
+    display: none;
+}
+
+
+footer > div > .ft-text > .info {
+    padding-bottom: 28px;
+}
+
+footer > div > .ft-text > .info > span > p {
+    padding: 0 12px;
+}
+
+footer > div > .ft-text > .info > span > p {
+    margin-bottom: 17px;
+    position: relative;
+}
+
+footer > div > .ft-text > .info > span > p::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background-color: #3d3d3d;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+
+footer > div > .ft-text > .info > span > p:first-child {
+    padding-left: 0;
+}
+
+footer > div > .ft-sub-menu > .lang {
+    padding-bottom: 20px;
+}
+
+footer > div > .ft-sub-menu > .lang > a {
+    padding: 0 12px;
+    position: relative;
+}
+
+footer > div > .ft-sub-menu > .lang > a:first-child {
+    padding-left: 0;
+}
+
+footer > div > .ft-sub-menu > .lang > a:last-child {
+    padding-right: 0;
+}
+
+footer > div > .ft-sub-menu > .lang > a:first-child::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background-color: #3d3d3d;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+
+
+footer > div > .ft-sub-menu > .sns-btn > a {
+    display: block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-left: 22px;
+    background-size: contain;
+}
+
+/* 푸터 끝 */
