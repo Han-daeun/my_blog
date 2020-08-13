@@ -53,11 +53,73 @@
                 <li><a href="#">BODY·HAIR</a></li>
                 <li><a href="#">MEN</a></li>
                 <li><a href="#">CUMMUNITY</a></li>
+                <div class="sun-menu-btn con">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </ul>
-            <div class="sun-menu-btn con">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="sub-menu">
+                <ul class="flex flex-jc-between con">
+                    <li>브랜드
+                        <ul>
+                            <li><a href="#">브랜드스토리</a></li>
+                            <li><a href="#">스킨푸드 소식</a></li>
+                            <li><a href="#">스킨푸드 활동</a></li>
+                            <li><a href="#">푸드 마니아</a></li>
+                            <li><a href="#">글로벌 스킨푸드</a></li>
+                            <li><a href="#">매장안내</a></li>
+                        </ul>
+                    </li>
+                    <li>유형별 상품
+                        <ul>
+                            <li><a href="#">스킨케어</a></li>
+                            <li><a href="#">메이크업</a></li>
+                            <li><a href="#">바디/헤어</a></li>
+                            <li><a href="#">맨</a></li>
+                            <li><a href="#">New Product</a></li>
+                            <li><a href="#">Best Seller</a></li>
+                            <li><a href="#">온라인 구매혜택</a></li>
+                        </ul>
+                    </li>
+                    <li>이벤트
+                        <ul>
+                            <li><a href="#">진행중인 이벤트</a></li>
+                            <li><a href="#">당첨자 발표</a></li>
+                        </ul>
+                    </li>
+                    <li>커뮤니티
+                        <ul>
+                            <li><a href="#">소셜허브</a></li>
+                            <li><a href="#">포토리뷰</a></li>
+                            <li><a href="#">푸드 레시피</a></li>
+                            <li><a href="#">월간 스킨푸드</a></li>
+                            <li><a href="#">멤버십</a></li>
+                        </ul>
+                    </li>
+                    <li>유틸리티
+                        <ul>
+                            <li><a href="#">푸드라인업</a></li>
+                            <li><a href="#">멤버십</a></li>
+                            <li><a href="#">마이페이지</a></li>
+                            <li><a href="#">장바구니</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">주문배송조회</a></li>
+                        </ul>
+                    </li>
+                    <li>풋터
+                        <ul>
+                            <li><a href="#">개인정보 처리방침</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">매장개설 문의</a></li>
+                            <li><a href="#">제휴문의</a></li>
+                            <li><a href="#">본사 오시는길</a></li>
+                            <li><a href="#">US</a></li>
+                            <li><a href="#">China</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
     </div>
@@ -73,6 +135,10 @@
             </div>
             <div class="clice-slide">
                 <div class="slide-box">
+                    <div class="arrowSlider">
+	                    <span class="prev" id="aro1_prev"></span>
+	                    <span class="next" id="aro1_next"></span>
+                    </div>
                     <div class="slider">
                         <div class="item-1">
                             <a href="#">
@@ -149,22 +215,22 @@
                             <img src="https://han-daeun.github.io/img1/pf/skinfood/sk2.png" alt="">
                         </a>
                     </div>
-                    <div class="sk-item4">
+                    <div class="sk-item4"></div>
+                    <div class="sk-item5">
                         <a href="#">
                             <img src="https://han-daeun.github.io/img1/pf/skinfood/sk3.png" alt="">
                         </a>
                     </div>
-                    <div class="sk-item5">
+                    <div class="sk-item6">
                         <a href="#">
                             <img src="https://han-daeun.github.io/img1/pf/skinfood/sk4.png" alt="">
                         </a>
                     </div>
-                    <div class="sk-item6">
+                    <div class="sk-item7">
                         <a href="#">
                             <img src="https://han-daeun.github.io/img1/pf/skinfood/sk5.png" alt="">
                         </a>
                     </div>
-                    <div class="sk-item7"></div>
                 </div>
             </div>
             <div class="makeup-box best-item">
@@ -182,32 +248,38 @@
                     <div class="mk-item3">
                         <img src="https://han-daeun.github.io/img1/pf/skinfood/make_bg.png" alt="">
                     </div>
-                    <div class="mk-item4"></div>
-                    <div class="mk-item5">
+                    <div class="mk-item4">
                         <a href="#">
                             <img src="https://han-daeun.github.io/img1/pf/skinfood/mk3.png" alt="">
                         </a>
                     </div>
-                    <div class="mk-item6">
+                    <div class="mk-item5">
                         <a href="#">
                             <img src="https://han-daeun.github.io/img1/pf/skinfood/mk4.png" alt="">
                         </a>
                     </div>
-                    <div class="mk-item7">
+                    <div class="mk-item6">
                         <a href="#">
                             <img src="https://han-daeun.github.io/img1/pf/skinfood/mk5.png" alt="">
                         </a>
                     </div>
+                    <div class="mk-item7"></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="sns-slide con-min-width">
+    <div class="sns-box con-min-width">
         <div class="sns-title-box">
             <span class="sns-title flex flex-jc-center">instagram</span>
             <span class="sns-title-bar flex flex-jc-center"></span>
             <span class="sns-contents flex flex-jc-center">#SKINFOOD</span>
         </div>
+        <div class="sns-box-item flex flex-jc-center">
+                <div><a href="#" style="background-image: url(https://han-daeun.github.io/img1/pf/skinfood/insta01.jpg);"></a></div>
+                <div><a href="#" style="background-image: url(https://han-daeun.github.io/img1/pf/skinfood/insta02.jpg);"></a></div>
+                <div><a href="#" style="background-image: url(https://han-daeun.github.io/img1/pf/skinfood/insta03.jpg);"></a></div>
+                <div><a href="#" style="background-image: url(https://han-daeun.github.io/img1/pf/skinfood/insta04.jpg);"></a></div>
+            </div>
     </div>
     <div class="notice-page con con-min-width">
         <div class="flex">

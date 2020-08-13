@@ -193,6 +193,7 @@ a {
 
 .header > .menu-bar > ul {
     height: 100%;
+    position: relative;
 }
 
 .header > .menu-bar > ul > li {
@@ -208,19 +209,60 @@ a {
     color: #fed53e;
 }
 
-.header > .menu-bar > .sun-menu-btn {
+.header > .menu-bar > ul > .sun-menu-btn {
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
-.header > .menu-bar > .sun-menu-btn > span {
+.header > .menu-bar > ul > .sun-menu-btn > span {
+    position: absolute;
     display: block;
-    width: 10px;
-    height: 1px;
+    width: 20px;
+    height: 2px;
+    top: 0;
     background-color: black;
 }
+
+.header > .menu-bar > ul > .sun-menu-btn > span:nth-child(2) {
+    top: 40%;
+}
+
+.header > .menu-bar > ul > .sun-menu-btn > span:nth-child(3) {
+    top: 80%;
+}
 /* 메뉴바 끝 */
+
+/* 서브메뉴 시작 */
+
+.header > .menu-bar > .sub-menu {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border-top: 1px solid #e3e3e3;
+    text-align: center;
+}
+
+.header > .menu-bar > .sub-menu > ul {
+    margin-top: 20px;
+}
+
+.header > .menu-bar > .sub-menu > ul > li {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header > .menu-bar > .sub-menu > ul > li > ul > li {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 0;
+}
+
+/* 서브메뉴 끝 */
 
 /* 헤더 끝 */
 
@@ -340,20 +382,36 @@ a {
     content:"10";
 }
 
-.slider > button {
+.shop-main > .choice-box > .clice-slide > .slide-box {
+    position: relative;
+}
+
+.shop-main > .choice-box > .clice-slide > .slide-box > .arrowSlider {
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 50%;
-    transform: translatey(-50%);
+    transform: translateY(-10%);
 }
 
-.slider > .slick-prev {
+.shop-main > .choice-box > .clice-slide > .slide-box > .arrowSlider > span {
+    position: absolute;
+    width: 36px;
+    height: 68px;
+    background-image: url(https://han-daeun.github.io/img1/pf/skinfood/spr_btns.png);
+}
+
+.shop-main > .choice-box > .clice-slide > .slide-box > .arrowSlider > span:first-child {
     right: 100%;
-    margin-right: 70px;
+    margin-right: 50px;
+    background-position: -171px -250px;
 }
 
-.slider > .slick-next {
+.shop-main > .choice-box > .clice-slide > .slide-box > .arrowSlider > span:last-child {
+    right: auto;
     left: 100%;
-    margin-left: 70px;
+    margin-left: 50px;
+    background-position: -273px -250px;
 }
 /* 초이스슬라이드 끝 */
 
@@ -382,6 +440,18 @@ a {
     background-color: rgba(0,0,0,0.5);
 }
 
+.shop-main > .best-item-box > .best-item > div > div > a:hover::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #fed53e;
+}
+
 .shop-main > .best-item-box > .skincare-box > .sk-wrapper {
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
@@ -397,8 +467,8 @@ a {
     grid-column: 1 / span 2;
 }
 
-.shop-main > .best-item-box > .skincare-box > .sk-wrapper >.sk-item7 {
-    border-right: transparent;
+.shop-main > .best-item-box > .skincare-box > .sk-wrapper >.sk-item4 {
+    border-left: transparent;
     border-bottom: transparent;
 }
 
@@ -431,8 +501,8 @@ a {
     grid-column: 3 / span 2;
 }
 
-.shop-main > .best-item-box > .makeup-box > .mk-wrapper >.mk-item4 {
-    border-left: transparent;
+.shop-main > .best-item-box > .makeup-box > .mk-wrapper >.mk-item7 {
+    border-right: transparent;
     border-bottom: transparent;
 }
 
@@ -453,36 +523,55 @@ a {
 
 /* 카테고리베스트 끝 */
 
-/* sns슬라이드 시작 */
-.sns-slide {
+/* sns박스 시작 */
+.sns-box {
     width: 100%;
     height: 525px;
     background-image: url(https://han-daeun.github.io/img1/pf/skinfood/insta_bg.png);
 }
 
-.sns-slide > .sns-title-box {
-    padding: 27px 0;
+.sns-box > .sns-title-box {
+    padding: 25px 0;
 }
 
-.sns-slide > .sns-title-box > .sns-title {
+.sns-box > .sns-title-box > .sns-title {
     font-family: 'Noticia Text', serif;
     font-style: italic;
     font-size: 15pt;
 }
 
-.sns-slide > .sns-title-box > .sns-title-bar {
+.sns-box > .sns-title-box > .sns-title-bar {
     width: 15px;
     height: 1px;
     background-color: black;
     margin: 15px auto 15px auto;
 }
 
-.sns-slide > .sns-title-box > .sns-contents {
+.sns-box > .sns-title-box > .sns-contents {
     font-family: 'NanumSquare', sans-serif;
-    font-size: 30pt;
+    font-size: 40px;
     font-weight: 200;
 }
-/* sns슬라이드 끝 */
+
+.sns-box > .sns-box-item > div {
+    width: 260px;
+    height: 260px;
+    margin-right: 30px;
+    padding: 19px 14px 35px 14px;
+    background-color: rgba(255,255,255,0.6);
+}
+
+.sns-box > .sns-box-item > div:last-child {
+    margin-right: 0;
+}
+
+.sns-box > .sns-box-item > div > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+/* sns박스 끝 */
 
 /* 메인페이지 끝 */
 
