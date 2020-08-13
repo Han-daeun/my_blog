@@ -7,7 +7,8 @@
     <!--제이쿼리적용-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--스와이프슬라이더-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <title>스킨푸드</title>
     <!--스타일적용-->
     <link rel="stylesheet" href="/portfolio/skinfood-re/index.css">
@@ -18,7 +19,7 @@
 
 <body>
 
-    <div class="header">
+    <div class="header con-min-width">
         <div class="top-bar">
             <div class="top-bar-small flex flex-ai-center">
                 <div class="con flex">
@@ -35,13 +36,13 @@
                 </div>
             </div>
         </div>
-        <div class="logo-bar">
+        <div class="logo-bar con">
             <div class="logo flex flex-jc-center flex-ai-center">
                 <a href="#"><img src="https://han-daeun.github.io/img1/pf/skinfood/logo.png" alt=""></a>
             </div>
-            <div class="sub-btn">
-                <a href="#"></a>
-                <a href="#"></a>
+            <div class="sub-btn flex">
+                <a href="#" style="background-image: url(https://han-daeun.github.io/img1/pf/skinfood/mypage.png);"></a>
+                <a href="#" style="background-image: url(https://han-daeun.github.io/img1/pf/skinfood/search.png);"></a>
             </div>
         </div>
         <nav class="menu-bar">
@@ -53,19 +54,79 @@
                 <li><a href="#">MEN</a></li>
                 <li><a href="#">CUMMUNITY</a></li>
             </ul>
+            <div class="sun-menu-btn con">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </div>
-    <div class="slide-box">
+    <div class="main-slide con-min-width">
 
     </div>
-    <div class="shop-main con">
+    <div class="shop-main con con-min-width">
         <div class="choice-box">
             <div class="title-box">
                 <span class="title flex flex-jc-center">MD's CHOICE</span>
                 <span class="title-bar flex flex-jc-center"></span>
                 <span class="contents flex flex-jc-center">"망설이고있을 나를 위한 MD 강추상품!"</span>
             </div>
-            <div class="clice-slide"></div>
+            <div class="clice-slide">
+                <div class="slide-box">
+                    <div class="slider">
+                        <div class="item-1">
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/skinfood/md1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item-2">
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/skinfood/md2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item-3">
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/skinfood/md3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item-4">
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/skinfood/md4.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item-5">
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/skinfood/md5.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item-6">
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/skinfood/md6.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item-7">
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/skinfood/md7.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item-8">
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/skinfood/md8.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item-9">
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/skinfood/md9.png" alt="">
+                            </a>
+                        </div>
+                        <div class="item-10">
+                            <a href="#">
+                                <img src="https://han-daeun.github.io/img1/pf/skinfood/md10.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="best-item-box">
             <div class="title-box">
@@ -141,14 +202,14 @@
             </div>
         </div>
     </div>
-    <div class="sns-slide">
+    <div class="sns-slide con-min-width">
         <div class="sns-title-box">
             <span class="sns-title flex flex-jc-center">instagram</span>
             <span class="sns-title-bar flex flex-jc-center"></span>
             <span class="sns-contents flex flex-jc-center">#SKINFOOD</span>
         </div>
     </div>
-    <div class="notice-page con">
+    <div class="notice-page con con-min-width">
         <div class="flex">
             <div class="notice-box">
                 <div class="flex flex-jc-between">
@@ -188,7 +249,7 @@
             </div>
         </div>
     </div>
-    <footer>
+    <footer class="con-min-width">
         <div class="con flex flex-jc-between">
             <div class="ft-text">
                 <div class="btn-menu flex">
