@@ -63,6 +63,10 @@ include "../part/head.php"
                 <a href="https://clova.ai/friends" target="_blank" class="text">clova</a>
                 </li>
                 <li>
+                <a href="https://site3.blog.oa.gg/portfolio/skinfood-re/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/skinfood_s.png);"></a>
+                <a href="#" class="text">skinfood_re</a>
+                </li>
+                <li>
                 <a href="https://site3.blog.oa.gg/portfolio/kpr/" target="_blank" style="background-color:pink;"></a>
                 <a href="http://www.kpr.co.kr/" target="_blank" class="text">KPR</a>
                 </li>

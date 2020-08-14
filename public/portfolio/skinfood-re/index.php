@@ -53,15 +53,16 @@
                 <li><a href="#">BODY·HAIR</a></li>
                 <li><a href="#">MEN</a></li>
                 <li><a href="#">CUMMUNITY</a></li>
-                <div class="sun-menu-btn con">
+                <div class="sub-menu-btn con">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
             </ul>
-            <div class="sub-menu">
+            <div class="sub-menu con">
                 <ul class="flex flex-jc-between con">
-                    <li>브랜드
+                    <li>
+                        <div>브랜드</div>
                         <ul>
                             <li><a href="#">브랜드스토리</a></li>
                             <li><a href="#">스킨푸드 소식</a></li>
@@ -71,7 +72,8 @@
                             <li><a href="#">매장안내</a></li>
                         </ul>
                     </li>
-                    <li>유형별 상품
+                    <li>
+                        <div>유형별 상품</div>
                         <ul>
                             <li><a href="#">스킨케어</a></li>
                             <li><a href="#">메이크업</a></li>
@@ -82,13 +84,15 @@
                             <li><a href="#">온라인 구매혜택</a></li>
                         </ul>
                     </li>
-                    <li>이벤트
+                    <li>
+                        <div>이벤트</div>
                         <ul>
                             <li><a href="#">진행중인 이벤트</a></li>
                             <li><a href="#">당첨자 발표</a></li>
                         </ul>
                     </li>
-                    <li>커뮤니티
+                    <li>
+                        <div>커뮤니티</div>
                         <ul>
                             <li><a href="#">소셜허브</a></li>
                             <li><a href="#">포토리뷰</a></li>
@@ -97,7 +101,8 @@
                             <li><a href="#">멤버십</a></li>
                         </ul>
                     </li>
-                    <li>유틸리티
+                    <li>
+                        <div>유틸리티</div>
                         <ul>
                             <li><a href="#">푸드라인업</a></li>
                             <li><a href="#">멤버십</a></li>
@@ -107,7 +112,8 @@
                             <li><a href="#">주문배송조회</a></li>
                         </ul>
                     </li>
-                    <li>풋터
+                    <li>
+                        <div>풋터</div>
                         <ul>
                             <li><a href="#">개인정보 처리방침</a></li>
                             <li><a href="#">이용약관</a></li>
@@ -123,9 +129,13 @@
             </div>
         </nav>
     </div>
-    <div class="main-slide con-min-width">
 
+    <div class="main-slide con-min-width">
+        <div>
+            <img src="https://han-daeun.github.io/img1/pf/skinfood/banner-pre.png" alt="">
+        </div>
     </div>
+
     <div class="shop-main con con-min-width">
         <div class="choice-box">
             <div class="title-box">
@@ -215,7 +225,11 @@
                             <img src="https://han-daeun.github.io/img1/pf/skinfood/sk2.png" alt="">
                         </a>
                     </div>
-                    <div class="sk-item4"></div>
+                    <div class="sk-item4">
+                        <div>
+                            <img src="https://han-daeun.github.io/img1/pf/skinfood/orange.png" alt="">
+                        </div>
+                    </div>
                     <div class="sk-item5">
                         <a href="#">
                             <img src="https://han-daeun.github.io/img1/pf/skinfood/sk3.png" alt="">
@@ -263,7 +277,11 @@
                             <img src="https://han-daeun.github.io/img1/pf/skinfood/mk5.png" alt="">
                         </a>
                     </div>
-                    <div class="mk-item7"></div>
+                    <div class="mk-item7">
+                        <div>
+                            <img src="https://han-daeun.github.io/img1/pf/skinfood/avocado.png" width="200" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -282,7 +300,7 @@
             </div>
     </div>
     <div class="notice-page con con-min-width">
-        <div class="flex">
+        <div class="flex flex-jc-center">
             <div class="notice-box">
                 <div class="flex flex-jc-between">
                     <div class="notice-page-title">NOTICE</div>
@@ -371,6 +389,17 @@
             </div>
         </div>
     </footer>
+    <div class="background">
+        <div>
+            <img src="https://han-daeun.github.io/img1/pf/skinfood/grass.png" alt="">
+        </div>
+        <div>
+            <img src="https://han-daeun.github.io/img1/pf/skinfood/spoon.png" alt="">
+        </div>
+        <div>
+            <img src="https://han-daeun.github.io/img1/pf/skinfood/honeyspoon.png" alt="">
+        </div>
+    </div>
 </body>
 
 </html>
