@@ -31,6 +31,22 @@ function subMenuBtn__init() {
     $('.header > .menu-bar > ul > .sub-menu-btn').click(subMenuBtn__toggle);
 }
 
+/* 서브페이지 슬라이드 */
+function subpageSlide__init() {
+    var swiper = new Swiper(".swiper-container", {
+        direction: 'horizontal',
+        slidesPerView: 4,
+        slidesPerColumn: 2,
+        slidesPerGroup : 8,
+        slidesPerColumnFill: 'column',
+        spaceBetween: 50,
+        navigation : {
+            nextEl : '.swiper-button-next',
+            prevEl : '.swiper-button-prev',
+        },
+    });
+}
+
 
 /* 발견되면 액티브 실행 */
 function NumAni__start(selector) {
@@ -134,5 +150,6 @@ function ActiveOnVisible__checkAndActive() {
 $(function () {
     subMenuBtn__init();
     choceSlide__init();
+    subpageSlide__init();
     ActiveOnVisible__init();
 });

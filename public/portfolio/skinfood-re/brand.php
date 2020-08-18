@@ -11,20 +11,21 @@ include "head.php"
         </div>
     </div>
     <div class="sub-main-banner">
-        <img src="https://han-daeun.github.io/img1/pf/skinfood/subpage_banner.png" alt="">
+        <img src="https://han-daeun.github.io/img1/pf/skinfood/subpage_banner2.png" alt="">
     </div>
     <div class="main-text flex-column flex-ai-center active-on-visible">
         <div class="text-title">SKINFOOD</div>
         <div class="text-bar"></div>
         <div class="text-cont">
             <span class="block">스킨푸드는 "Skin + Food"에서 유래한 "피부에 좋은 푸드"라는 네이밍의 의미에서</span>
-            <span class="block">'맛있는 푸드로 맍든 맛있는 화장품'이라는 모토와 함께 '푸드'라는 차별적이고 독특한 컨셉을 담아</span>
+            <span class="block">'맛있는 푸드로 만든 맛있는 화장품'이라는 모토와 함께 '푸드'라는 차별적이고 독특한 컨셉을 담아</span>
             <span class="block">탄생한 최초의 푸드 코스메틱 브랜드 입니다.</span>
         </div>
     </div>
     <div class="better-contents con">
         <div class="better-01 flex" style="margin-top:73px">
-            <div class="better-img" style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/subimg01.png);"></div>
+            <div class="better-img"
+                style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/subimg01.png);"></div>
             <div class="batter-contentns" style="margin-left:35px">
                 <div class="better-title">
                     <div class="better-main-title">
@@ -58,10 +59,12 @@ include "head.php"
                     <span class="block">아름다운 피부를 위해 꼭 필요한 푸드 뷰티의 힘을 전해드리겠습니다. </span>
                 </div>
             </div>
-            <div class="better-img" style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/subimg02.png);"></div>
+            <div class="better-img"
+                style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/subimg02.png);"></div>
         </div>
         <div class="better-03 flex" style="margin-top:73px">
-            <div class="better-img" style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/subimg03.png);"></div>
+            <div class="better-img"
+                style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/subimg03.png);"></div>
             <div class="batter-contentns" style="margin-left:35px">
                 <div class="better-title">
                     <div class="better-main-title">
@@ -80,11 +83,99 @@ include "head.php"
         </div>
     </div>
     <div class="food-slide">
-            <div class="slide-title flex-column flex-ai-center">
-                <span class="slide-title-01">FOOD STORY</span>
-                <span class="slide-title-02"></span>
-                <span class="slide-title-03">피부에 좋은 특별한 푸드이야기</span>
+        <div class="slide-title flex-column flex-ai-center">
+            <span class="slide-title-01">FOOD STORY</span>
+            <span class="slide-title-02"></span>
+            <span class="slide-title-03">피부에 좋은 특별한 푸드이야기</span>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="height:270px;">
+                    <img src="https://han-daeun.github.io/img1/pf/skinfood/01.png" alt="">
+                    <div class="slide-text">
+                        <span>BLACK SUGAR</span>
+                        <span>블랙슈가 퍼펙트 라인</span>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="height:270px;">
+                    <img src="https://han-daeun.github.io/img1/pf/skinfood/02.png" alt="">
+                    <div class="slide-text">
+                        <span>AQUA GRAPE</span>
+                        <span>수분 포도 바운스 라인</span>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="height:270px;">
+                    <img src="https://han-daeun.github.io/img1/pf/skinfood/03.png" alt="">
+                    <div class="slide-text">
+                        <span>ROYAL HONEY</span>
+                        <span>로열 허니 라인</span>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="height:270px;">
+                    <img src="https://han-daeun.github.io/img1/pf/skinfood/04.png" alt="">
+                    <div class="slide-text">
+                        <span>PEACH COTTEN</span>
+                        <span>피치 뽀송 라인</span>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="height:270px;">
+                    <img src="https://han-daeun.github.io/img1/pf/skinfood/05.png" alt="">
+                    <div class="slide-text">
+                        <span>YUJA WHITE C</span>
+                        <span>유자 C 잡티 맑음 라인</span>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="height:270px;">
+                    <img src="https://han-daeun.github.io/img1/pf/skinfood/06.png" alt="">
+                    <div class="slide-text">
+                        <span>GOLD CAVIAR</span>
+                        <span>골드캐비어 콜라겐 플러스 라인</span>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="height:270px;">
+                    <img src="https://han-daeun.github.io/img1/pf/skinfood/07.png" alt="">
+                    <div class="slide-text">
+                        <span>PREMIUM TOMATO</span>
+                        <span>프리미엄 토마토 화이트닝 라인</span>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="height:270px;">
+                    <img src="https://han-daeun.github.io/img1/pf/skinfood/08.png" alt="">
+                    <div class="slide-text">
+                        <span>LETTUCE & CUCUMBER</span>
+                        <span>상추오이 워터리 라인</span>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="height:270px;">
+                    <img src="https://han-daeun.github.io/img1/pf/skinfood/09.png" alt="">
+                    <div class="slide-text">
+                        <span>AVOCADO</span>
+                        <span>아보카도 라인</span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" style="height:270px;">
+                    <img src="https://han-daeun.github.io/img1/pf/skinfood/10.png" alt="">
+                    <div class="slide-text">
+                        <span>BLACK POMEGRANATE</span>
+                        <span>흑석류 라인</span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide" style="height:270px;">
+                    <img src="https://han-daeun.github.io/img1/pf/skinfood/11.png" alt="">
+                    <div class="slide-text">
+                        <span>EGG WHITE</span>
+                        <span>에그 화이트 라인</span>
+                    </div>
+                </div>
+
             </div>
+        </div>
+        <div class="slider-nav">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
     </div>
 
 

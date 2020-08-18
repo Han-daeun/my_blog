@@ -52,7 +52,7 @@
 .sub-page-01 > .main-text {
     width: 100%;
     opacity: 0;
-    transition: opacity .5s;
+    transition: all .5s;
 }
 
 .sub-page-01 > .main-text.active {
@@ -158,6 +158,7 @@
     width: 100%;
     height: 998px;
     background-image: url(https://han-daeun.github.io/img1/pf/skinfood/subslide_bg.png); 
+    position: relative;
 }
 
 .sub-page-01 > .food-slide > .slide-title {
@@ -181,4 +182,63 @@
 
 .sub-page-01 > .food-slide > .slide-title > .slide-title-03 {
     font-size: 14pt;
+}
+
+.sub-page-01 > .food-slide > .swiper-container {
+    width: 1306px;
+    height: 745px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-family: 'Noto Sans KR',sans-serif;
+  }
+
+  .sub-page-01 > .food-slide > .swiper-container .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgba(255,255,255,0.6);
+    height: 500px;
+    position: relative;
+}
+
+.sub-page-01 > .food-slide > .swiper-container .swiper-slide > img {
+    width: 270px;
+}
+
+.sub-page-01 > .food-slide > .slider-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sub-page-01 > .food-slide > .swiper-container .swiper-slide > .slide-text {
+    text-align: center;
+}
+
+.sub-page-01 > .food-slide > .swiper-container .swiper-slide > .slide-text
+ > span {
+     display: block;
+     font-size: 14pt;
+     color: #483835;
+ }
+
+ .sub-page-01 > .food-slide > .swiper-container .swiper-slide > .slide-text
+ > span:first-child {
+     font-weight: bold;
+ }
+
+.sub-page-01 > .food-slide > .slider-nav > div {
+    position: absolute;
+    top: 50%;
+}
+
+.sub-page-01 > .food-slide > .slider-nav > .swiper-button-next {
+    left: auto;
+    right: 10%;
+}
+
+.sub-page-01 > .food-slide > .slider-nav > .swiper-button-prev {
+    left: 10%;
 }
