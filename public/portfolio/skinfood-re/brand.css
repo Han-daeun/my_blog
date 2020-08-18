@@ -45,4 +45,140 @@
 .sub-page-01 > .sub-main-banner {
     width: 100%;
     height: 600px;
+    margin-bottom: 100px;
+}
+
+/* 서브페이지 메인텍스트 */
+.sub-page-01 > .main-text {
+    width: 100%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.sub-page-01 > .main-text.active {
+    opacity: 1;
+}
+
+.sub-page-01 > .main-text > .text-title {
+    font-size: 20pt;
+    color: #555150;
+}
+
+.sub-page-01 > .main-text > .text-bar {
+    width: 40px;
+    height: 3px;
+    background-color: #555150;
+    margin: 30px 0;
+}
+
+.sub-page-01 > .main-text > .text-cont {
+    color: #6A6B6B;
+    font-size: 13pt;
+    line-height: 22pt;
+    text-align: center;
+}
+
+.sub-page-01 > .better-contents {
+    font-family: 'NanumSquare', sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.sub-page-01 > .better-contents .better-img {
+    width: 618px;
+    height: 320px;
+    background-color: #9B999A;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub-page-01 > .better-contents .better-title {
+    color: #EAC848;
+}
+
+.sub-page-01 > .better-contents .better-title > .better-main-title > span {
+    font-style: italic;
+    font-family: 'Noticia Text', serif;
+} 
+
+.sub-page-01 > .better-contents .better-title > .better-main-title > span:first-child {
+    font-size: 38pt;
+    line-height: 38pt;
+}
+
+
+.sub-page-01 > .better-contents .better-title > .better-main-title > span:nth-child(2) {
+    font-size: 25pt;
+    line-height: 25pt;
+}
+
+.sub-page-01 > .better-contents .better-title > .better-sub-title {
+    font-size: 28pt;
+    color: #392A27;
+    padding-top: 17px;
+    padding-left: 65px;
+}
+
+.sub-page-01 > .better-contents > .better-02 .better-title > .better-sub-title {
+    padding-left: 0;
+    padding-right: 65px;
+}
+
+.sub-page-01 > .better-contents .better-text > .better-main-title-bar {
+    width: 35px;
+    height: 2px;
+    background-color: #EAC848;
+    margin: 30px 0;
+}
+
+.sub-page-01 > .better-contents > .better-02 {
+    text-align: right;
+}
+
+.sub-page-01 > .better-contents > .better-02 .better-text > .better-main-title-bar {
+    margin-left: auto;
+    margin-right: 0;  
+}
+
+.sub-page-01 > .better-contents .better-text {
+    color: #5D5E5E;
+    line-height: 22pt;
+    padding-left: 30px;
+    font-size: 13pt;
+}
+
+.sub-page-01 > .better-contents > .better-02 .better-text {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+/* 푸드라인 슬라이드 */
+.sub-page-01 > .food-slide {
+    width: 100%;
+    height: 998px;
+    background-image: url(https://han-daeun.github.io/img1/pf/skinfood/subslide_bg.png); 
+}
+
+.sub-page-01 > .food-slide > .slide-title {
+    font-family: 'NanumSquare', sans-serif;
+    padding: 45px 0;
+    color: #3D3331;
+}
+
+.sub-page-01 > .food-slide > .slide-title > .slide-title-01 {
+    font-size: 40pt;
+    line-height: 40pt;
+}
+
+.sub-page-01 > .food-slide > .slide-title > .slide-title-02 {
+    width: 40px;
+    height: 2px;
+    background-color: #3D3331;
+    display: block;
+    margin: 20px 0;
+}
+
+.sub-page-01 > .food-slide > .slide-title > .slide-title-03 {
+    font-size: 14pt;
 }
