@@ -31,6 +31,21 @@ function subMenuBtn__init() {
     $('.header > .menu-bar > ul > .sub-menu-btn').click(subMenuBtn__toggle);
 }
 
+/* 메인페이지 슬라이드 */
+function mainpageSlide__init() {
+var swiper = new Swiper('.main-swiper-container', {
+    loop: true, 
+    autoplay : { 
+        delay : 5000,
+    }, 
+    speed : 1000,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+}
+
 /* 서브페이지 슬라이드 */
 function subpageSlide__init() {
     var swiper = new Swiper(".swiper-container", {
@@ -150,6 +165,7 @@ function ActiveOnVisible__checkAndActive() {
 $(function () {
     subMenuBtn__init();
     choceSlide__init();
+    mainpageSlide__init();
     subpageSlide__init();
     ActiveOnVisible__init();
 });
