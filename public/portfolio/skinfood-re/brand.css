@@ -2,13 +2,17 @@
     font-family: 'NanumBarunGothic', 'Noto Sans KR','NanumSquare', 'Nanum Gothic', sans-serif;
     width: 100%;
     height: 3310px;
+    position: relative;
+    min-width: 1600px;
 }
 
 .sub-page-01 > .sub-background {
     position: absolute;
     width: 100%;
-    top: 238px;
+    top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     z-index: -1;
 }
 
@@ -46,13 +50,14 @@
     width: 100%;
     height: 600px;
     margin-bottom: 100px;
+    background-image: url(https://han-daeun.github.io/img1/pf/skinfood/subpage_banner2.png);
 }
 
 /* 서브페이지 메인텍스트 */
 .sub-page-01 > .main-text {
     width: 100%;
     opacity: 0;
-    transition: all .5s;
+    transition: all 1s;
 }
 
 .sub-page-01 > .main-text.active {
@@ -153,13 +158,49 @@
     padding-right: 30px;
 }
 
+
+.sub-page-01 > .better-contents > .better-01 {
+    margin-left: -250px;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.sub-page-01 > .better-contents > .better-02 {
+    margin-right: -250px;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.sub-page-01 > .better-contents > .better-03 {
+    margin-left: -250px;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.sub-page-01 > .better-contents > .better-01.active {
+    margin-left: 0;
+    opacity: 1;
+}
+
+.sub-page-01 > .better-contents > .better-02.active {
+    margin-right: 0;
+    opacity: 1;
+}
+
+.sub-page-01 > .better-contents > .better-03.active {
+    margin-left: 0;
+    opacity: 1;
+}
+
 /* 푸드라인 슬라이드 */
 .sub-page-01 > .food-slide {
     width: 100%;
     height: 998px;
     background-image: url(https://han-daeun.github.io/img1/pf/skinfood/subslide_bg.png); 
     position: relative;
+    min-width: 1903px;
 }
+
 
 .sub-page-01 > .food-slide > .slide-title {
     font-family: 'NanumSquare', sans-serif;
@@ -199,10 +240,12 @@
     background: rgba(255,255,255,0.6);
     height: 500px;
     position: relative;
+    cursor: pointer;
 }
 
 .sub-page-01 > .food-slide > .swiper-container .swiper-slide > img {
     width: 270px;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
 }
 
 .sub-page-01 > .food-slide > .slider-nav {
@@ -232,13 +275,18 @@
 .sub-page-01 > .food-slide > .slider-nav > div {
     position: absolute;
     top: 50%;
+    width: 60px;
+    height: 115px;
+    background-size: contain;
 }
 
 .sub-page-01 > .food-slide > .slider-nav > .swiper-button-next {
     left: auto;
     right: 10%;
+    background-image: url(https://han-daeun.github.io/img1/pf/skinfood/arrow-r.png);
 }
 
 .sub-page-01 > .food-slide > .slider-nav > .swiper-button-prev {
     left: 10%;
+    background-image: url(https://han-daeun.github.io/img1/pf/skinfood/arrow-l.png);
 }

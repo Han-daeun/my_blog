@@ -45,8 +45,8 @@
                 <a href="#"><img src="https://han-daeun.github.io/img1/pf/skinfood/logo.png" alt=""></a>
             </div>
             <div class="sub-btn flex">
-                <a href="#" style="background-image: url(https://han-daeun.github.io/img1/pf/skinfood/mypage.png);"></a>
                 <a href="#" style="background-image: url(https://han-daeun.github.io/img1/pf/skinfood/search.png);"></a>
+                <a href="#" style="background-image: url(https://han-daeun.github.io/img1/pf/skinfood/mypage.png);"></a>
             </div>
         </div>
         <nav class="menu-bar">

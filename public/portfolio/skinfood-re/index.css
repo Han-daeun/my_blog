@@ -345,6 +345,12 @@ a {
 
 .shop-main .title-box {
     margin-bottom: 85px;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.shop-main .title-box.active {
+    opacity: 1;
 }
 
 .shop-main .title-box > .title {
@@ -374,7 +380,16 @@ a {
 .shop-main > .choice-box > .clice-slide {
     max-width: 1145px;
     height: 315px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.shop-main > .choice-box > .clice-slide.active {
+    margin-top: 0;
+    opacity: 1;
 }
 
 /* 초이스슬라이드 시작 */
@@ -519,6 +534,14 @@ a {
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
     grid-template-rows:335px 335px;
+    margin-left: -150px;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.shop-main > .best-item-box > .skincare-box.active > .sk-wrapper {
+    margin-left: 0;
+    opacity: 1;
 }
 
 .shop-main > .best-item-box > .skincare-box > .sk-wrapper > div {
@@ -576,6 +599,14 @@ a {
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
     grid-template-rows:335px 335px;
+    margin-left: 150px;
+    opacity: 0;
+}
+
+.shop-main > .best-item-box > .makeup-box.active > .mk-wrapper {
+    margin-left: 0;
+    opacity: 1;
+    transition: all 1.5s;
 }
 
 .shop-main > .best-item-box > .makeup-box > .mk-wrapper > div {

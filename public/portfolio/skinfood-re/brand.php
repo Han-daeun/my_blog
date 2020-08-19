@@ -10,9 +10,7 @@ include "head.php"
             <span>브랜드스토리</span>
         </div>
     </div>
-    <div class="sub-main-banner">
-        <img src="https://han-daeun.github.io/img1/pf/skinfood/subpage_banner2.png" alt="">
-    </div>
+    <div class="sub-main-banner"></div>
     <div class="main-text flex-column flex-ai-center active-on-visible">
         <div class="text-title">SKINFOOD</div>
         <div class="text-bar"></div>
@@ -23,7 +21,7 @@ include "head.php"
         </div>
     </div>
     <div class="better-contents con">
-        <div class="better-01 flex" style="margin-top:73px">
+        <div class="better-01 flex active-on-visible" style="margin-top:73px">
             <div class="better-img"
                 style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/subimg01.png);"></div>
             <div class="batter-contentns" style="margin-left:35px">
@@ -43,7 +41,7 @@ include "head.php"
                 </div>
             </div>
         </div>
-        <div class="better-02 flex flex-jc-end" style="margin-top:73px">
+        <div class="better-02 flex flex-jc-end active-on-visible" style="margin-top:73px">
             <div class="batter-contentns" style="margin-right:35px">
                 <div class="better-title">
                     <div class="better-main-title">
@@ -62,7 +60,7 @@ include "head.php"
             <div class="better-img"
                 style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/subimg02.png);"></div>
         </div>
-        <div class="better-03 flex" style="margin-top:73px">
+        <div class="better-03 flex active-on-visible" style="margin-top:73px">
             <div class="better-img"
                 style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/subimg03.png);"></div>
             <div class="batter-contentns" style="margin-left:35px">
@@ -82,7 +80,7 @@ include "head.php"
             </div>
         </div>
     </div>
-    <div class="food-slide">
+    <div class="food-slide active-on-visible">
         <div class="slide-title flex-column flex-ai-center">
             <span class="slide-title-01">FOOD STORY</span>
             <span class="slide-title-02"></span>
@@ -179,8 +177,7 @@ include "head.php"
     </div>
 
 
-    <div class="sub-background">
-        <img src="https://han-daeun.github.io/img1/pf/skinfood/subpage01_bg.jpg" alt="">
+    <div class="sub-background" style="background-image:url(https://han-daeun.github.io/img1/pf/skinfood/subpage01_bg.jpg);">
     </div>
 </div>
 
