@@ -42,16 +42,17 @@
         </div>
         <div class="logo-bar con">
             <div class="logo flex flex-jc-center flex-ai-center">
-                <a href="#"><img src="https://han-daeun.github.io/img1/pf/skinfood/logo.png" alt=""></a>
+                <a href="https://site3.blog.oa.gg/portfolio/skinfood-re/"><img src="https://han-daeun.github.io/img1/pf/skinfood/logo.png" alt=""></a>
             </div>
             <div class="sub-btn flex">
+                <input type="">
                 <a href="#" style="background-image: url(https://han-daeun.github.io/img1/pf/skinfood/search.png);"></a>
                 <a href="#" style="background-image: url(https://han-daeun.github.io/img1/pf/skinfood/mypage.png);"></a>
             </div>
         </div>
         <nav class="menu-bar">
             <ul class="con flex flex-jc-center flex-ai-center">
-                <li><a href="#">BRAND</a></li>
+                <li><a href="https://site3.blog.oa.gg/portfolio/skinfood-re/brand.php">BRAND</a></li>
                 <li><a href="#">SKINCARE</a></li>
                 <li><a href="#">MAKE UP</a></li>
                 <li><a href="#">BODY·HAIR</a></li>
