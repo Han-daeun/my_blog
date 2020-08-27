@@ -80,6 +80,7 @@ include "../part/head.php"
             <ul class="flex flex-jc-center">
                 <li><a href="https://han-daeun.github.io/img1/pf/design/design02.jpg" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/design/design02.jpg);"></a></li>
                 <li><a href="https://han-daeun.github.io/img1/pf/design/design03.png" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/design/design03.png);"></a></li>
+                <li><a href="https://han-daeun.github.io/img1/pf/pf-preview/page.png" target="_blank" style="background-color:skyblue;"></a></li>
             </ul>
         </div>
     </div>

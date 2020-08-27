@@ -13,25 +13,24 @@
 <body>
     <section class="main-page">
         <div class="main-box">
-            <div class="main-border"></div>
             <div class="parallax">
+                <div class="parallax__layer parallax__layer__0">
+                    <img src="https://han-daeun.github.io/img1/pf/pf/b_03.png" />
+                </div>
                 <div class="parallax__layer parallax__layer__1">
-                    <img src="https://han-daeun.github.io/img1/pf/pf/main_04.png" />
+                    <img src="https://han-daeun.github.io/img1/pf/pf/b_02.png" />
                 </div>
                 <div class="parallax__layer parallax__layer__2">
-                    <img src="https://han-daeun.github.io/img1/pf/pf/main-03.png" />
+                    <img src="https://han-daeun.github.io/img1/pf/pf/b_moon.png" />
                 </div>
                 <div class="parallax__layer parallax__layer__3">
-                    <img src="https://han-daeun.github.io/img1/pf/pf/main_moon.png" />
+                    <img src="https://han-daeun.github.io/img1/pf/pf/b_door.png" />
                 </div>
                 <div class="parallax__layer parallax__layer__4">
-                    <img src="https://han-daeun.github.io/img1/pf/pf/main_door.png" />
+                    <img src="https://han-daeun.github.io/img1/pf/pf/b_ship.png" />
                 </div>
                 <div class="parallax__layer parallax__layer__5">
-                    <img src="https://han-daeun.github.io/img1/pf/pf/main-02.png" />
-                </div>
-                <div class="parallax__layer parallax__layer__6">
-                    <img src="https://han-daeun.github.io/img1/pf/pf/main-01.png" />
+                    <img src="https://han-daeun.github.io/img1/pf/pf/b_01.png" />
                 </div>
                 <div class="title-box">
                     <div class="title-text">
@@ -42,7 +41,9 @@
                     </div>
                     <div class="title-bar"></div>
                 </div>
-                <div class="parallax__cover"></div>
+                <div class="parallax__cover">
+                    
+                </div>
             </div>
         </div>
     </section>

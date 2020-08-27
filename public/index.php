@@ -1,5 +1,5 @@
 <?php
-include "head.php"
+include "../part/head.php";
 ?>
 
 <div class="main-index">
@@ -48,5 +48,5 @@ include "head.php"
 </div>
 
 <?php
-include "foot.php"
+include "../part/foot.php";
 ?>

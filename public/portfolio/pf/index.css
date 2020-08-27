@@ -94,66 +94,94 @@ a {
 }
 
 /* 메인 */
+
+.main-page {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
 .main-page > .main-box {
-    width: 100%;
-    height: 937px;
-    background-image: url(https://han-daeun.github.io/img1/pf/pf/main_back.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    
 }
 
-.main-page > .main-box > .main-border {
-    width: 100%;
-    height: 100%;
-    border: solid 42px #fff;
-    box-sizing: border-box;
-    position: relative;
-    z-index: 1;
-}
-
-.main-page > .main-box > .parallax {
+.parallax {
+    -webkit-perspective: 100px;
     perspective: 100px;
     height: 100vh;
-    position: absolute;
     overflow-x: hidden;
     overflow-y: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.main-page > .main-box > .parallax > .parallax__layer {
     position: absolute;
     top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://han-daeun.github.io/img1/pf/pf/main_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parallax__layer {
+    position: absolute;
+    width: 100vw;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+    z-index: -1;
 }
 
-.main-page > .main-box > .parallax > .parallax__layer > img {
+.parallax__layer img {
     display: block;
     position: absolute;
-    left: 50%;
-    bottom: 42px;
-    transform: translateX(-50%);
+    bottom: 0;
 }
 
-.main-page > .main-box > .parallax > .parallax__layer:nth-child(3) > img {
-    left: 42%;
-    bottom: 606px;
+.parallax__cover {
+    background: #fff;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 1000px;
 }
 
-.main-page > .main-box > .parallax > .parallax__layer:nth-child(4) > img {
-    left: 62%;
-    bottom: 141px;
+.parallax__layer__0 {
+    -webkit-transform: translateZ(-300px) scale(4);
+    transform: translateZ(-300px) scale(4);
 }
 
-.main-page > .main-box > .parallax > .parallax__layer:nth-child(5) > img {
-    left: 50%;
-    bottom: 140px;
+.parallax__layer__1 {
+    -webkit-transform: translateZ(-250px) scale(3.5);
+    transform: translateZ(-250px) scale(3.5);
 }
+
+.parallax__layer__2 {
+    -webkit-transform: translateZ(-200px) scale(3);
+    transform: translateZ(-200px) scale(3);
+}
+
+.parallax__layer__3 {
+    -webkit-transform: translateZ(-150px) scale(2.5);
+    transform: translateZ(-150px) scale(2.5);
+}
+
+.parallax__layer__4 {
+    -webkit-transform: translateZ(-100px) scale(2);
+    transform: translateZ(-100px) scale(2);
+}
+
+.parallax__layer__5 {
+    -webkit-transform: translateZ(-50px) scale(1.5);
+    transform: translateZ(-50px) scale(1.5);
+}
+
+.parallax__layer__6 {
+    -webkit-transform: translateZ(0px) scale(1);
+    transform: translateZ(0px) scale(1);
+}
+
 
 .main-page > .main-box > .parallax > .title-box {
     color: #fff;
