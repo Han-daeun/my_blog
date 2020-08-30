@@ -51,12 +51,90 @@
         </div>
 
         <div class="information flex">
-            <div>
+            <div class="info-left">
                 <div class="info-img">
                     <img src="https://han-daeun.github.io/img1/pf/pf/info.png" alt="">
                 </div>
+                <div>
+                    <div class="photo-box"></div>
+                    <div class="info-my">
+                        <img src="https://han-daeun.github.io/img1/pf/pf/Asset_59.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div></div>
+            <div class="info-right">
+                <div class="education">
+                    <div class="info-title flex flex-ai-end">
+                        <span class="title-bar"></span>
+                        <span class="title-num">01</span>
+                        <span class="title-text">EDUCATION</span>
+                    </div>
+                    <div class="info-text">
+                        <div>
+                            <span>2016.02</span>
+                            <span>태안여자고등학교 졸업</span>
+                        </div>
+                        <div>
+                            <span>2018.01</span>
+                            <span>경기과학기술대학고 미디어디자인학과 졸업</span>
+                        </div>
+                        <div>
+                            <span>2020.09</span>
+                            <span>SBS아카데미 UI/UX디자인과정 수강</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="info-title flex flex-ai-end">
+                        <span class="title-bar"></span>
+                        <span class="title-num">02</span>
+                        <span class="title-text">SKILLS</span>
+                    </div>
+                    <div>
+                        <div class="skill-box">
+                            <div class="radial-graph"></div>
+                            <div class="bar-graph">
+                                <div>
+                                    <div class="gh-title">PS</div>
+                                    <div class="gh-pe flex flex-ai-center">
+                                        <span>90%</span>
+                                        <div>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="gh-title">Ai</div>
+                                    <div class="gh-pe flex flex-ai-center">
+                                        <span>70%</span>
+                                        <div>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="gh-title">HTML/CSS</div>
+                                    <div class="gh-pe flex flex-ai-center">
+                                        <span>85%</span>
+                                        <div>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="gh-title">JavaScript</div>
+                                    <div class="gh-pe flex flex-ai-center">
+                                        <span>65%</span>
+                                        <div>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="pf-page">
@@ -170,7 +248,33 @@
             </div>
         </div>
 
-        <div class="contect"></div>
+        <div class="contact">
+            <div class="cont-title flex-jc-center">CONTACT</div>
+            <div class="cont-box flex flex-jc-center flex-ai-center">
+                <div class="cont-email">
+                    <div class="icon" style="background-image:url(https://han-daeun.github.io/img1/pf/pf/icon-blog.png);"></div>
+                    <span>https://marc-hi.blog.oa.gg</span>
+                </div>
+                <div class="cont-home">
+                    <div class="icon" style="background-image:url(https://han-daeun.github.io/img1/pf/pf/icon-home.png);"></div>
+                    <div class="cont-home-text">
+                        <div class="home-text-01">대전 광역시 서구 갈마동</div>
+                        <div class="home-text-02 flex flex-jc-center">
+                            <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/Asset_57.png);"></div>
+                            <span>010. 4846. 1904</span>
+                        </div>
+                        <div class="home-text-03 flex flex-jc-center">
+                            <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/Asset_58.png);"></div>
+                            <span>eun71044@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-git">
+                    <div class="icon" style="background-image:url(https://han-daeun.github.io/img1/pf/pf/icon-github.png);"></div>
+                    <span>https://github.com/Han-daeun</span>
+                </div>
+            </div>
+        </div>
 
         <div class="background-art">
             <div><img src="https://han-daeun.github.io/img1/pf/pf/bg-01.png" alt=""></div>

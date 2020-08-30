@@ -71,6 +71,11 @@ a {
     align-items: center;
 }
 
+.flex-ai-end {
+    display: flex;
+    align-items: flex-end;
+}
+
 .bc-red {
     background-color: red;
 }
@@ -100,7 +105,7 @@ a {
 .main-page {
     position: relative;
     width: 100%;
-    height: 6000px;
+    height: 6767px;
     overflow: hidden;
     box-sizing: border-box;
     /*background-image: url(https://han-daeun.github.io/img1/pf/pf/.png);*/
@@ -204,7 +209,6 @@ a {
 .main-page>.information>div {
     width: 50%;
     height: 1200px;
-    border: solid 1px pink;
     box-sizing: border-box;
     position: relative;
 }
@@ -214,6 +218,160 @@ a {
     top: 35px;
     left: 0;
 }
+
+.main-page>.information>.info-left>div {
+    text-align: right;
+}
+
+.main-page>.information>.info-left>div {
+    margin-right: 85px;
+}
+
+.main-page>.information>.info-left>div>.photo-box {
+    width: 580px;
+    height: 245px;
+    background-color: lavender;
+    margin-left: auto;
+    margin-top: 88px;
+}
+
+.main-page>.information>.info-left>div>.info-my {
+    margin-top: 30px;
+}
+
+.main-page>.information>.info-right {
+    padding-top: 256px;
+}
+
+.main-page>.information>.info-right>div>.info-title>span {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.main-page>.information>.info-right>div>.info-title>span:nth-child(2) {
+    padding-left: 10px;
+}
+
+.main-page>.information>.info-right>div>.info-title>span:nth-child(3) {
+    color: #666666;
+    font-weight: 200;
+    padding-left: 15px;
+}
+
+.main-page>.information>.info-right>div>.info-title>.title-bar {
+    width: 25px;
+    height: 3px;
+    background-color: #c1c4e6;
+}
+
+.main-page>.information>.info-right>.education>.info-text {
+    padding-left: 88px;
+    padding-top: 43px;
+}
+
+.main-page>.information>.info-right>.education>.info-text>div {
+    padding-bottom: 25px;
+}
+
+.main-page>.information>.info-right>.education>.info-text>div>span {
+    font-size: 15px;
+    font-weight: 200;
+    padding-right: 45px;
+}
+
+.main-page>.information>.info-right>div {
+    padding-left: 55px;
+}
+
+
+.main-page>.information>.info-right>.skills {
+    padding-top: 170px;
+}
+
+.main-page>.information>.info-right>.skills>.info-title {
+    padding-bottom: 38px;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div {
+    padding-bottom: 30px;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-title {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-title::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #4a649c;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe {
+    padding-left: 30px;
+    padding-top: 18px;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe>span {
+    display: block;
+    font-size: 12px;
+    font-weight: 200;
+    padding-right: 10px;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe>div {
+    width: 260px;
+    height: 7px;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe>div>span {
+    display: block;
+    width: 0;
+    height: 100%;
+    background-color: #4a649c;
+    transition: width .4s;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe:hover>div>span {
+    width: 95%;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe:hover>div>span:nth-child(2) {
+    width: 70%;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe:hover>div>span:nth-child(3) {
+    width: 85%;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe:hover>div>span:nth-child(4) {
+    width: 65%;
+}
+
+/*
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe>div>span.active {
+    width: 95%;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe>div>span:nth-child(2).active {
+    width: 70%;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe>div>span:nth-child(3).active {
+    width: 85%;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe>div>span:nth-child(4).active {
+    width: 65%;
+}
+*/
 
 /* 포폴슬라이드 */
 .main-page>.pf-page {
@@ -376,6 +534,7 @@ a {
     width: 100%;
     height: 100%;
     background-size: cover;
+    background-position: center;
     transition: transform .4s;
 }
 
@@ -413,6 +572,83 @@ a {
 
 .main-page>.artwork>.artwork-img > .artwork-txt > span:last-child {
     padding-top: 90px;
+}
+
+/* 컨텍페이지 */
+.main-page > .contact {
+    margin-top: 415px;
+    border: 20px solid #fff;
+    box-sizing: border-box;
+    width: 100%;
+    height: 586px;
+    color: #fff;
+    background-image: url(https://han-daeun.github.io/img1/pf/pf/cont-bg.png);
+    font-family: 'NanumSquare', sans-serif;
+}
+
+.main-page > .contact > .cont-title {
+    font-size: 60px;
+    padding-top: 66px;
+}
+
+.main-page > .contact > .cont-box {
+    height: 452px;
+}
+
+.main-page > .contact > .cont-box > div {
+    width: 573px;
+    height: 279px;
+    position: relative;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+.main-page > .contact > .cont-box > div:first-child {
+    border-left: transparent;
+}
+
+.main-page > .contact > .cont-box > div:last-child {
+    border-right: transparent;
+}
+
+.main-page > .contact > .cont-box > div > .icon {
+    width: 45px;
+    height: 45px;
+    margin: 10px auto 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 20px;
+}
+
+.main-page > .contact > .cont-box > div > span {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-page > .contact > .cont-box > .cont-home > .cont-home-text {
+    text-align: center;
+}
+
+.main-page > .contact > .cont-box > .cont-home > .cont-home-text > .home-text-01 {
+    font-size: 25px;
+}
+
+.main-page > .contact > .cont-box > .cont-home > .cont-home-text > div {
+    padding-top: 20px;
+}
+
+.main-page > .contact > .cont-box > .cont-home > .cont-home-text > div:first-child {
+    padding-top: 30px;
+}
+
+.main-page > .contact > .cont-box > .cont-home > .cont-home-text > div > div {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 25px;
 }
 
 /* 백그라운드 */
