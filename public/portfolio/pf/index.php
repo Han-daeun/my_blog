@@ -14,6 +14,11 @@
     <!--스와이프 슬라이더-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <!--라이트박스-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+    <!--chart.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     <script src="/portfolio/pf/index.js"></script>
     <link rel="stylesheet" href="/portfolio/pf/index.css">
 </head>
@@ -23,15 +28,16 @@
 
         <div class="main-box">
             <div class="main-img parallax-bg"
-                style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_03.png);" data-speed=".1"></div>
+                style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_moon.png);" data-speed="-.5"></div>
+            <div class="main-img parallax-bg"
+                style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_03.png);" data-speed=".5"></div>
             <div class="main-img parallax-bg"
                 style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_02.png);" data-speed=".2"></div>
-            <div class="main-img parallax-bg"
-                style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_moon.png);" data-speed=".0"></div>
+            
             <div class="main-img parallax-bg"
                 style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_door.png);" data-speed=".15"></div>
             <div class="main-img parallax-bg"
-                style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_ship.png);" data-speed=".05"></div>
+                style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_ship.png);" data-speed=".0"></div>
             <div class="main-img parallax-bg"
                 style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_01.png);" data-speed=".0"></div>
             <div class="title-box">
@@ -56,14 +62,14 @@
                     <img src="https://han-daeun.github.io/img1/pf/pf/info.png" alt="">
                 </div>
                 <div>
-                    <div class="photo-box"></div>
-                    <div class="info-my">
+                    <div class="photo-box active-on-visible"></div>
+                    <div class="info-my active-on-visible">
                         <img src="https://han-daeun.github.io/img1/pf/pf/Asset_59.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="info-right">
-                <div class="education">
+            <div class="info-right active-on-visible">
+                <div class="education active-on-visible">
                     <div class="info-title flex flex-ai-end">
                         <span class="title-bar"></span>
                         <span class="title-num">01</span>
@@ -76,7 +82,7 @@
                         </div>
                         <div>
                             <span>2018.01</span>
-                            <span>경기과학기술대학고 미디어디자인학과 졸업</span>
+                            <span>경기과학기술대학교 미디어디자인학과 졸업</span>
                         </div>
                         <div>
                             <span>2020.09</span>
@@ -84,22 +90,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="skills">
+                <div class="skills active-on-visible">
                     <div class="info-title flex flex-ai-end">
                         <span class="title-bar"></span>
                         <span class="title-num">02</span>
                         <span class="title-text">SKILLS</span>
                     </div>
                     <div>
-                        <div class="skill-box">
-                            <div class="radial-graph"></div>
+                        <div class="skill-box flex flex-ai-center">
+                            <div class="radial-graph">
+                                <canvas id="radar-chart" width="300" height="300"></canv>
+                            </div>
                             <div class="bar-graph">
                                 <div>
                                     <div class="gh-title">PS</div>
                                     <div class="gh-pe flex flex-ai-center">
                                         <span>90%</span>
                                         <div>
-                                            <span></span>
+                                            <span class="active-on-visible"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -108,7 +116,7 @@
                                     <div class="gh-pe flex flex-ai-center">
                                         <span>70%</span>
                                         <div>
-                                            <span></span>
+                                            <span class="active-on-visible"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +125,7 @@
                                     <div class="gh-pe flex flex-ai-center">
                                         <span>85%</span>
                                         <div>
-                                            <span></span>
+                                            <span class="active-on-visible"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -126,7 +134,7 @@
                                     <div class="gh-pe flex flex-ai-center">
                                         <span>65%</span>
                                         <div>
-                                            <span></span>
+                                            <span class="active-on-visible"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -142,7 +150,7 @@
                 <img src="https://han-daeun.github.io/img1/pf/pf/pf.png" alt="">
             </div>
             <div class="pf-slide">
-                <div class="swiper-container">
+                <div class="swiper-container active-on-visible">
                     <div class="swiper-wrapper" style="height:566px;">
                         <div class="swiper-slide"
                             style="margin-top:60px; background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-05.png);">

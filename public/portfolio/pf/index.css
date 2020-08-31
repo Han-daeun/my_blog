@@ -221,9 +221,6 @@ a {
 
 .main-page>.information>.info-left>div {
     text-align: right;
-}
-
-.main-page>.information>.info-left>div {
     margin-right: 85px;
 }
 
@@ -232,15 +229,40 @@ a {
     height: 245px;
     background-color: lavender;
     margin-left: auto;
+    margin-top: 188px;
+    opacity: 0;
+    transition: opacity 1s, margin 1s;
+}
+
+.main-page>.information>.info-left>div>.photo-box.active {
     margin-top: 88px;
+    opacity: 1;
 }
 
 .main-page>.information>.info-left>div>.info-my {
     margin-top: 30px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.main-page>.information>.info-left>div>.info-my.active {
+    opacity: 1;
 }
 
 .main-page>.information>.info-right {
     padding-top: 256px;
+}
+
+.main-page>.information>.info-right {
+    opacity: 0;
+    margin-left: auto;
+    margin-right: -200px;
+    transition: margin 3s, opacity 3s ;
+}
+
+.main-page>.information>.info-right.active {
+    opacity: 1;
+    margin-right: 0;
 }
 
 .main-page>.information>.info-right>div>.info-title>span {
@@ -264,6 +286,24 @@ a {
     width: 25px;
     height: 3px;
     background-color: #c1c4e6;
+}
+
+.main-page>.information>.info-right>.education {
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.main-page>.information>.info-right>.education.active {
+    opacity: 1;
+}
+
+.main-page>.information>.info-right>.skills {
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.main-page>.information>.info-right>.skills.active {
+    opacity: 1;
 }
 
 .main-page>.information>.info-right>.education>.info-text {
@@ -292,6 +332,18 @@ a {
 
 .main-page>.information>.info-right>.skills>.info-title {
     padding-bottom: 38px;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box > .radial-graph {
+    width: 350px;
+    height: 285px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-weight: 200;
+}
+
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph {
+    margin-left: 60px;
 }
 
 .main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div {
@@ -335,23 +387,23 @@ a {
     display: block;
     width: 0;
     height: 100%;
-    background-color: #4a649c;
-    transition: width .4s;
+    background: linear-gradient(to right, #486195, #BEC1E1);
+    transition: width .6s;
 }
 
-.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe:hover>div>span {
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe>div>span.active {
     width: 95%;
 }
 
-.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe:hover>div>span:nth-child(2) {
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div:nth-child(2)>.gh-pe>div>span.active {
     width: 70%;
 }
 
-.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe:hover>div>span:nth-child(3) {
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div:nth-child(3)>.gh-pe>div>span.active {
     width: 85%;
 }
 
-.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe:hover>div>span:nth-child(4) {
+.main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div:nth-child(4)>.gh-pe>div>span.active {
     width: 65%;
 }
 
@@ -402,6 +454,14 @@ a {
     margin-right: 225px;
     position: relative;
     overflow: visible;
+    opacity: 0;
+    margin-top: 100px;
+    transition: opacity 1s, margin 1s;
+}
+
+.main-page>.pf-page>.pf-slide .swiper-container.active {
+    opacity: 1;
+    margin-top: 0;
 }
 
 .main-page>.pf-page>.pf-slide .swiper-container::before {
