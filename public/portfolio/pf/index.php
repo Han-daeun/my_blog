@@ -32,7 +32,7 @@
             <div class="main-img parallax-bg"
                 style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_03.png);" data-speed=".5"></div>
             <div class="main-img parallax-bg"
-                style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_02.png);" data-speed=".2"></div>
+                style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_02.png);" data-speed=".15"></div>
             
             <div class="main-img parallax-bg"
                 style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_door.png);" data-speed=".15"></div>
@@ -40,7 +40,7 @@
                 style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_ship.png);" data-speed=".0"></div>
             <div class="main-img parallax-bg"
                 style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_01.png);" data-speed=".0"></div>
-            <div class="title-box">
+            <div class="title-box active-on-visible">
                 <div class="title-text">
                     <div>
                         <img src="https://han-daeun.github.io/img1/pf/pf/main-logo.svg" alt="">
@@ -154,50 +154,92 @@
                     <div class="swiper-wrapper" style="height:566px;">
                         <div class="swiper-slide"
                             style="margin-top:60px; background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-05.png);">
+                            <a href="https://site3.blog.oa.gg/portfolio/kpr/" target="_blank">MORE</a>
                             <div class="pf-bottom">
-                                <div class="pf-title">SKIN FOOD</div>
+                                <div class="pf-title">KPR</div>
                                 <div class="pf-bar" style="background-color:#ffc300;"></div>
-                                <div class="pf-cont">반응형페이지 모작</div>
+                                <div class="pf-cont flex flex-jc-between">
+                                    <div>반응형페이지 모작</div>
+                                    <div class="pf-cont-btn flex">
+                                        <a href="#" class="page-icon"></a>
+                                        <a href="#" class="git-icon"></a>
+                                    </div>            
+                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide"
                             style="background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-05.png);">
+                            <a href="https://site3.blog.oa.gg/portfolio/skinfood-re/" target="_blank">MORE</a>
                             <div class="pf-bottom">
                                 <div class="pf-title">SKIN FOOD</div>
                                 <div class="pf-bar" style="background-color:#ffc300;"></div>
-                                <div class="pf-cont">반응형페이지 모작</div>
+                                <div class="pf-cont flex flex-jc-between">
+                                    <div>반응형페이지 모작</div>
+                                    <div class="pf-cont-btn flex">
+                                        <a href="#" class="page-icon"></a>
+                                        <a href="#" class="git-icon"></a>
+                                    </div>            
+                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide"
                             style="margin-top:60px; background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-04.png);">
+                            <a href="https://site3.blog.oa.gg/portfolio/clova/" target="_blank">MORE</a>
                             <div class="pf-bottom">
                                 <div class="pf-title">clova</div>
                                 <div class="pf-bar" style="background-color:#21aabc;"></div>
-                                <div class="pf-cont">반응형페이지 모작</div>
+                                <div class="pf-cont flex flex-jc-between">
+                                    <div>반응형페이지 모작</div>
+                                    <div class="pf-cont-btn flex">
+                                        <a href="#" class="page-icon"></a>
+                                        <a href="#" class="git-icon"></a>
+                                    </div>            
+                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide"
                             style="background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-03.png);">
+                            <a href="https://site3.blog.oa.gg/portfolio/rar/" taret="_blank">MORE</a>
                             <div class="pf-bottom">
                                 <div class="pf-title">round a'round</div>
                                 <div class="pf-bar" style="background-color:#76887f;"></div>
-                                <div class="pf-cont">반응형페이지 모작</div>
+                                <div class="pf-cont flex flex-jc-between">
+                                    <div>반응형페이지 모작</div>
+                                    <div class="pf-cont-btn flex">
+                                        <a href="#" class="page-icon"></a>
+                                        <a href="#" class="git-icon"></a>
+                                    </div>            
+                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide"
                             style="margin-top:60px; background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-02.png);">
+                            <a href="https://site3.blog.oa.gg/portfolio/hazzys/" target="_blank">MORE</a>
                             <div class="pf-bottom">
                                 <div class="pf-title">HAZZYS</div>
                                 <div class="pf-bar" style="background-color:#a50d17;"></div>
-                                <div class="pf-cont">반응형페이지 모작</div>
+                                <div class="pf-cont flex flex-jc-between">
+                                    <div>반응형페이지 모작</div>
+                                    <div class="pf-cont-btn flex">
+                                        <a href="#" class="page-icon"></a>
+                                        <a href="#" class="git-icon"></a>
+                                    </div>            
+                                </div>
                             </div>
                         </div>
                         <div class="swiper-slide"
                             style="background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-01.png);">
+                            <a href="https://site3.blog.oa.gg/portfolio/yellow-finger/" target="_blank">MORE</a>
                             <div class="pf-bottom">
                                 <div class="pf-title">Yellow Finger</div>
                                 <div class="pf-bar" style="background-color:#f6c254;"></div>
-                                <div class="pf-cont">반응형페이지 모작</div>
+                                <div class="pf-cont flex flex-jc-between">
+                                    <div>반응형페이지 모작</div>
+                                    <div class="pf-cont-btn flex">
+                                        <a href="#" class="page-icon"></a>
+                                        <a href="#" class="git-icon"></a>
+                                    </div>            
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -210,7 +252,7 @@
             </div>
         </div>
 
-        <div class="artwork">
+        <div class="artwork active-on-visible">
             <div class="aw-img">
                 <img src="https://han-daeun.github.io/img1/pf/pf/aw.png" alt="">
             </div>
@@ -219,7 +261,7 @@
                 <div class="artwork-txt">
                     <span>웹사이트 리디자인</span>
                     <span>스킨푸드</span>
-                    <a data-title="스킨푸드 리디자인" data-lightbox="example-set" href="https://han-daeun.github.io/img1/pf/pf/art-01.png">VIEW MORE</a>
+                    <a data-title="스킨푸드 리디자인" data-lightbox="example-set" href="https://han-daeun.github.io/img1/pf/pf/artwork_01.jpg">VIEW MORE</a>
                 </div>
             </div>
             <div class="artwork-img">
@@ -227,7 +269,7 @@
                 <div class="artwork-txt">
                     <span>UI·UX 디자인</span>
                     <span>감성 일기어플 '한줄일기'</span>
-                    <a data-title="어플 기획, 디자인" data-lightbox="example-set" href="https://han-daeun.github.io/img1/pf/pf/art-02.png">VIEW MORE</a>
+                    <a data-title="어플 기획, 디자인" data-lightbox="example-set" href="https://han-daeun.github.io/img1/pf/pf/artwork_02.jpg">VIEW MORE</a>
                 </div>
             </div>
             <div class="artwork-img">
@@ -256,7 +298,7 @@
             </div>
         </div>
 
-        <div class="contact">
+        <div class="contact active-on-visible">
             <div class="cont-title flex-jc-center">CONTACT</div>
             <div class="cont-box flex flex-jc-center flex-ai-center">
                 <div class="cont-email">
