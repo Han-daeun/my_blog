@@ -177,4 +177,10 @@ $(function () {
         y: (i, target) => -ScrollTrigger.maxScroll(window) * target.dataset.speed,
         ease: "none"
     });
+    lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true,
+        disableScrolling: false,
+        fitImagesInViewport:false
+    });
 });

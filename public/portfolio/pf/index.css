@@ -571,7 +571,6 @@ a {
     height: 100%;
     box-sizing: border-box;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .main-page>.artwork>.artwork-img::before {
@@ -616,7 +615,7 @@ a {
     opacity: 1;
 }
 
-.main-page>.artwork>.artwork-img > .artwork-txt > span {
+.main-page>.artwork>.artwork-img > .artwork-txt > span,a {
     display: block;
     text-align: center;
     color: #fff;
@@ -630,7 +629,7 @@ a {
     font-weight: 600;
 }
 
-.main-page>.artwork>.artwork-img > .artwork-txt > span:last-child {
+.main-page>.artwork>.artwork-img > .artwork-txt > a {
     padding-top: 90px;
 }
 

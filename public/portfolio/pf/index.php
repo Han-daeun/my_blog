@@ -219,7 +219,7 @@
                 <div class="artwork-txt">
                     <span>웹사이트 리디자인</span>
                     <span>스킨푸드</span>
-                    <span>VIEW MORE</span>
+                    <a data-title="스킨푸드 리디자인" data-lightbox="example-set" href="https://han-daeun.github.io/img1/pf/pf/art-01.png">VIEW MORE</a>
                 </div>
             </div>
             <div class="artwork-img">
@@ -227,7 +227,7 @@
                 <div class="artwork-txt">
                     <span>UI·UX 디자인</span>
                     <span>감성 일기어플 '한줄일기'</span>
-                    <span>VIEW MORE</span>
+                    <a data-title="어플 기획, 디자인" data-lightbox="example-set" href="https://han-daeun.github.io/img1/pf/pf/art-02.png">VIEW MORE</a>
                 </div>
             </div>
             <div class="artwork-img">
