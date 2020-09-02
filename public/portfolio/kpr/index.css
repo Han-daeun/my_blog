@@ -149,6 +149,102 @@ html {
     text-align: center;
 }
 
+/* 공용 더보기버튼 */
+.section-box > div > .section-more-box {
+    bottom: 0;
+    width: 100%;
+    max-width: 1280px;
+    height: 65px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.section-box > div > .section-more-box > .more-box-bar {
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #e0e0e0;
+    position: absolute;
+}
+
+.section-box > div > .section-more-box > .more-box-btn {
+    width: 65px;
+    height: 65px;
+    background-color: #fff;
+    border: solid 1px #e0e0e0;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: background-color .2s;
+}
+
+.section-box > div > .section-more-box > .more-box-btn:hover {
+    background-color: #7e3985;
+}
+
+.section-box > div > .section-more-box > .more-box-btn > div {
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #7e3985;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.section-box > div > .section-more-box > .more-box-btn > div:nth-child(2) {
+    width: 2px;
+    height: 30px;
+}
+
+.section-box > div > .section-more-box > .more-box-btn:hover > div {
+    background-color: #fff;
+}
+
+.page-03 > div > .section-more-box > .more-box-btn:hover {
+    background-color: #00acd7;
+}
+
+.page-03 > div > .section-more-box > .more-box-btn > div {
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #00acd7;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.page-04 > div > .section-more-box > .more-box-btn:hover {
+    background-color: #ef8903;
+}
+
+.page-04 > div > .section-more-box > .more-box-btn > div {
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ef8903;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.page-05 > div > .section-more-box > .more-box-btn:hover {
+    background-color: #1f7fb6;
+}
+
+.page-05 > div > .section-more-box > .more-box-btn > div {
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #1f7fb6;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
 /* 커스텀 */
 
 .fp-tableCell {
@@ -157,6 +253,8 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
+    width: 100%;
+    position: relative;
 }
 
 /* 상단바 시작 */
@@ -167,6 +265,7 @@ html {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 999;
 }
 
 .header.active {
@@ -283,6 +382,7 @@ html {
     height: auto;
     padding: 0 40px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .page-02 > div > .section-inner > .sec-title > span {
@@ -298,21 +398,104 @@ html {
     background-color: #aaaaaa;
 }
 
-.page-02 > .section-more-box {
-    left: 50%;
-    transform: translateY(-50%);
+.page-02 > div > .section-inner > .about-pic > img {
     width: 100%;
-    max-width: 1280px;
-    height: 65px;
-    padding: 0 40px;
-    box-sizing: border-box;
 }
 
 /* 2페이지 끝 */
 
 /* 3페이지 시작 */
+.page-03 > div > .section-inner > .page-03-round-box {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.page-03 > div > .section-inner > .page-03-round-box > div {
+    width: 1040px;
+    height: 160px;
+    background-color: #00acd7;
+    color: #fff;
+    border-radius: 160px;
+    box-sizing: border-box;
+    padding: 30px 90px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-03 > div > .section-inner > .page-03-round-box > div > div {
+    display: inline-block;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+}
+
+.page-03 > div > .section-inner > .page-03-round-box > div > .icon {
+    margin: 0 5px;
+}
+
+.page-03 > div > .section-inner > .page-03-round-box > div > .icon > img {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.page-03 > div > .section-inner > .page-03-round-text {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.page-03 > div > .section-inner > .page-03-round-text > div {
+    box-sizing: border-box;
+    padding: 20px 40px;
+    line-height: 1;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.page-03 > div > .section-inner > .page-03-round-text > div > div {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #8c8c8c;
+    text-align: center;
+    display: inline-block;
+}
+
+.page-03 > div > .section-inner > .page-03-round-text > div > div > .br_05 {
+    display: none;
+}
+
+.page-03 > div > .section-inner > .page-03-round-text > div > div > .br_04 {
+    display: none;
+}
+
+.page-03 > div > .section-inner > .page-03-round-text > div > div > .br_03 {
+    display: none;
+}
+
+.page-03 > div > .section-inner > .page-03-round-text > div > div > span {
+    color: #00acd7;
+}
+
 .page-03 > div > .section-inner > .sec-title > span {
     color: #00acd7;
+}
+
+.page-03 > div > .pr_box {
+    position: relative;
+    padding-top: 60px;
+    z-index: 10;
+    width: 100%;
+    height: 650px;
+    background-color: lawngreen;
+}
+
+.page-03 > div > .pr_box > div {
+    
 }
 /* 3페이지 끝 */
 
@@ -329,6 +512,9 @@ html {
 /* 5페이지 끝 */
 
 /* 6페이지 시작 */
+.page-06 {
+    margin-top: 120px;
+}
 .page-06 > div > .section-inner > .sec-title > span {
     color: #fff;
 }

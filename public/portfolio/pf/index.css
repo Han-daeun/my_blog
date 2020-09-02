@@ -597,53 +597,56 @@ a {
 }
 
 .swiper-slide>.pf-bottom>.pf-cont>.pf-cont-btn>a {
-    display: block;
-    width: 55px;
+    width: 56px;
     height: 20px;
     margin: 0 5px;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: #21aabc;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .swiper-slide>.pf-bottom>.pf-cont>.pf-cont-btn>a>span{
     display: block;
-    font-size: 9px;
+    font-size: 7px;
     color: #fff;
 }
 
 .swiper-slide>.pf-bottom>.pf-cont>.pf-cont-btn>.git-icon>span:first-child {
-    width: 13px;
-    height: 13px;
-    background-color: red;
+    width: 11px;
+    height: 11px;
+    background-image: url(https://han-daeun.github.io/img1/pf/pf/icon-github.png);
+    background-size: contain;
     border-radius: 50%;
+    margin-right: 3px;
 }
 
-#pg-06 >.pf-bottom>.pf-cont>.pf-cont-btn path {
-    fill: #7e3985;
+#pg-06 >.pf-bottom>.pf-cont>.pf-cont-btn>a {
+    background-color: #7e3985;
 }
 
-#pg-05 >.pf-bottom>.pf-cont>.pf-cont-btn path {
-    fill: #ffc300;
+#pg-05 >.pf-bottom>.pf-cont>.pf-cont-btn>a {
+    background-color: #ffc300;
 }
 
-#pg-04 >.pf-bottom>.pf-cont>.pf-cont-btn path {
-    fill: #21aabc;
+#pg-04 >.pf-bottom>.pf-cont>.pf-cont-btn>a {
+    background-color: #21aabc;
 }
 
-#pg-03 >.pf-bottom>.pf-cont>.pf-cont-btn path {
-    fill: #76887f;
+#pg-03 >.pf-bottom>.pf-cont>.pf-cont-btn>a {
+    background-color: #76887f;
 }
 
-#pg-02 >.pf-bottom>.pf-cont>.pf-cont-btn path {
-    fill: #a50d17;
+#pg-02 >.pf-bottom>.pf-cont>.pf-cont-btn>a {
+    background-color: #a50d17;
 }
 
-#pg-01 >.pf-bottom>.pf-cont>.pf-cont-btn path {
-    fill: #f6c254;
+#pg-01 >.pf-bottom>.pf-cont>.pf-cont-btn>a {
+    background-color: #f6c254;
 }
 
-.swiper-slide >.pf-bottom>.pf-cont>.pf-cont-btn:hover path {
-    fill: 
+.swiper-slide >.pf-bottom>.pf-cont>.pf-cont-btn>a:hover {
+    background: linear-gradient(45deg, #df8c7b, #a984bb);
 }
 
 .slide-btn {
