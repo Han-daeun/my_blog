@@ -105,7 +105,7 @@ a {
 .main-page {
     position: relative;
     width: 100%;
-    height: 6767px;
+    height: auto;
     overflow: hidden;
     box-sizing: border-box;
     /*background-image: url(https://han-daeun.github.io/img1/pf/pf/.png);*/
@@ -125,7 +125,17 @@ a {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.main-page>.main-box>div:nth-child(2) {
+    bottom: 50px;
+}
+
+.main-page>.main-box>div:nth-child(3) {
+    bottom: -50px;
 }
 
 .main-page>.main-box>.title-box {
@@ -588,15 +598,52 @@ a {
 
 .swiper-slide>.pf-bottom>.pf-cont>.pf-cont-btn>a {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 55px;
+    height: 20px;
     margin: 0 5px;
-    border-radius: 50%;
-    background-color: lightcoral;
+    border-radius: 2px;
+    background-color: #21aabc;
 }
 
-.swiper-slide>.pf-bottom>.pf-cont>.pf-cont-btn>a:last-child {
-    
+.swiper-slide>.pf-bottom>.pf-cont>.pf-cont-btn>a>span{
+    display: block;
+    font-size: 9px;
+    color: #fff;
+}
+
+.swiper-slide>.pf-bottom>.pf-cont>.pf-cont-btn>.git-icon>span:first-child {
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#pg-06 >.pf-bottom>.pf-cont>.pf-cont-btn path {
+    fill: #7e3985;
+}
+
+#pg-05 >.pf-bottom>.pf-cont>.pf-cont-btn path {
+    fill: #ffc300;
+}
+
+#pg-04 >.pf-bottom>.pf-cont>.pf-cont-btn path {
+    fill: #21aabc;
+}
+
+#pg-03 >.pf-bottom>.pf-cont>.pf-cont-btn path {
+    fill: #76887f;
+}
+
+#pg-02 >.pf-bottom>.pf-cont>.pf-cont-btn path {
+    fill: #a50d17;
+}
+
+#pg-01 >.pf-bottom>.pf-cont>.pf-cont-btn path {
+    fill: #f6c254;
+}
+
+.swiper-slide >.pf-bottom>.pf-cont>.pf-cont-btn:hover path {
+    fill: 
 }
 
 .slide-btn {
@@ -726,6 +773,7 @@ a {
 /* 컨텍페이지 */
 .main-page > .contact {
     margin-top: 615px;
+    margin-bottom: 250px;
     opacity: 0;
     border: 20px solid #fff;
     box-sizing: border-box;
@@ -821,6 +869,12 @@ a {
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.main-page>.background-art>div.active {
+    opacity: 1;
 }
 
 .main-page>.background-art>div:nth-child(1) {
