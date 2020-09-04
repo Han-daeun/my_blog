@@ -108,6 +108,8 @@ a {
     height: auto;
     overflow: hidden;
     box-sizing: border-box;
+    max-width: 1980px;
+    min-width: 1903px;
     /*background-image: url(https://han-daeun.github.io/img1/pf/pf/.png);*/
 }
 
@@ -330,7 +332,7 @@ a {
 
 .main-page>.information>.info-right>.education {
     opacity: 0;
-    transition: opacity 1.5s;
+    transition: opacity 2s;
 }
 
 .main-page>.information>.info-right>.education.active {
@@ -339,7 +341,7 @@ a {
 
 .main-page>.information>.info-right>.skills {
     opacity: 0;
-    transition: opacity 1.5s;
+    transition: opacity 2s;
 }
 
 .main-page>.information>.info-right>.skills.active {
@@ -428,7 +430,7 @@ a {
     width: 0;
     height: 100%;
     background: linear-gradient(to right, #486195, #BEC1E1);
-    transition: width .6s;
+    transition: width 1s;
 }
 
 .main-page>.information>.info-right>.skills>div>.skill-box>.bar-graph>div>.gh-pe>div>span.active {
@@ -496,7 +498,7 @@ a {
     overflow: visible;
     opacity: 0;
     margin-top: 100px;
-    transition: opacity 1s, margin 1s;
+    transition: opacity 2s, margin 2s;
 }
 
 .main-page>.pf-page>.pf-slide .swiper-container.active {
@@ -690,7 +692,7 @@ a {
     grid-template-columns: 50% 50%;
     grid-template-rows:570px 570px 570px;
     font-family: 'NanumSquare', sans-serif;
-    transition: margin 1s, opacity 1s;
+    transition: margin 2s, opacity 2s;
 }
 
 .main-page>.artwork.active {
@@ -785,7 +787,7 @@ a {
     color: #fff;
     background-image: url(https://han-daeun.github.io/img1/pf/pf/cont-bg.png);
     font-family: 'NanumSquare', sans-serif;
-    transition: opacity 1s, margin 1s;
+    transition: opacity 2s, margin 2s;
 }
 
 .main-page > .contact.active {
