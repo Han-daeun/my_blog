@@ -178,7 +178,7 @@
                                 <div class="pf-title">SKIN FOOD</div>
                                 <div class="pf-bar" style="background-color:#ffc300;"></div>
                                 <div class="pf-cont flex flex-jc-between">
-                                    <div>반응형페이지 모작</div>
+                                    <div>홈페이지 리디자인</div>
                                     <div class="pf-cont-btn flex">
                                     <a href="#" class="git-icon flex flex-ai-center flex-jc-center" target="_blank">
                                             <span></span>
@@ -195,7 +195,7 @@
                                 <div class="pf-title">clova</div>
                                 <div class="pf-bar" style="background-color:#21aabc;"></div>
                                 <div class="pf-cont flex flex-jc-between">
-                                    <div>반응형페이지 모작</div>
+                                    <div>풀페이지 모작</div>
                                     <div class="pf-cont-btn flex">
                                     <a href="https://clova.ai/friends" class="page-icon flex-ai-center flex-jc-center" target="_blank">
                                             <span>ORIGINAL</span>
@@ -215,7 +215,7 @@
                                 <div class="pf-title">round a'round</div>
                                 <div class="pf-bar" style="background-color:#76887f;"></div>
                                 <div class="pf-cont flex flex-jc-between">
-                                    <div>반응형페이지 모작</div>
+                                    <div>스크롤페이지 모작</div>
                                     <div class="pf-cont-btn flex">
                                     <a href="http://roundaround.co.kr/" class="page-icon flex-ai-center flex-jc-center" target="_blank">
                                             <span>ORIGINAL</span>
@@ -235,7 +235,7 @@
                                 <div class="pf-title">HAZZYS</div>
                                 <div class="pf-bar" style="background-color:#a50d17;"></div>
                                 <div class="pf-cont flex flex-jc-between">
-                                    <div>반응형페이지 모작</div>
+                                    <div>스크롤페이지 모작</div>
                                     <div class="pf-cont-btn flex">
                                     <a href="http://www.kpr.co.kr/" class="page-icon flex-ai-center flex-jc-center" target="_blank">
                                             <span>ORIGINAL</span>

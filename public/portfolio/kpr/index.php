@@ -58,11 +58,13 @@
                 </div>
             </div>
             <div class="section-more-box absolute">
-                <div class="more-box-bar"></div>
-                <a href="#" class="more-box-btn">
-                    <div></div>
-                    <div></div>
-                </a>
+                <div>
+                    <div class="more-box-bar"></div>
+                    <a href="#" class="more-box-btn">
+                        <div></div>
+                        <div></div>
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -146,8 +148,28 @@
                     </div>
                 </div>
             </div>
-            <div class="pr_box">
-                <div></div>
+            <div class="pr_box flex">
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_01.jpg);">
+
+                </div>
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_02.jpg);">
+                    
+                </div>
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_03.jpg);">
+                    
+                </div>
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_04.jpg);">
+                    
+                </div>
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_05.jpg);">
+                    
+                </div>
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_06.jpg);">
+                    
+                </div>
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_07.jpg);">
+                    
+                </div>
             </div>
         </div>
 
@@ -162,7 +184,15 @@
                 <div></div>
                 <div></div>
             </div>
-            <div class="section-more-box absolute"></div>
+            <div class="section-more-box absolute">
+                <div>
+                    <div class="more-box-bar"></div>
+                    <a href="#" class="more-box-btn">
+                        <div></div>
+                        <div></div>
+                    </a>
+                </div>
+            </div>
         </div>
 
         <div class="section page-05 section-box">
@@ -176,11 +206,13 @@
                 <div></div>
             </div>
             <div class="section-more-box absolute">
-                <div class="more-box-bar"></div>
-                <a href="#" class="more-box-btn">
-                    <div></div>
-                    <div></div>
-                </a>
+                <div>
+                    <div class="more-box-bar"></div>
+                    <a href="#" class="more-box-btn">
+                        <div></div>
+                        <div></div>
+                    </a>
+                </div>
             </div>
         </div>
 

@@ -88,6 +88,10 @@ html {
     flex-wrap: nowrap;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .con-min-width {
     min-width: 1215px;
 }
@@ -104,8 +108,11 @@ html {
 }
 
 .section-box > div {
-    padding: 150px;
+    padding: 150px 0;
     box-sizing: border-box;
+    max-width: 1280px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .section-box > div > .section-inner {
@@ -114,6 +121,7 @@ html {
     padding: 0 40px;
     box-sizing: border-box;
     text-align: center;
+    margin: 0 auto;
 }
 
 .section-box > div > .section-inner > .sec-sub-title {
@@ -155,11 +163,19 @@ html {
     width: 100%;
     max-width: 1280px;
     height: 65px;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 0 40px;
     box-sizing: border-box;
 }
 
-.section-box > div > .section-more-box > .more-box-bar {
+.section-box > div > .section-more-box > div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.section-box > div > .section-more-box > div > .more-box-bar {
     width: 100%;
     height: 1px;
     top: 50%;
@@ -168,7 +184,7 @@ html {
     position: absolute;
 }
 
-.section-box > div > .section-more-box > .more-box-btn {
+.section-box > div > .section-more-box > div > .more-box-btn {
     width: 65px;
     height: 65px;
     background-color: #fff;
@@ -180,11 +196,11 @@ html {
     transition: background-color .2s;
 }
 
-.section-box > div > .section-more-box > .more-box-btn:hover {
+.section-box > div > .section-more-box > div > .more-box-btn:hover {
     background-color: #7e3985;
 }
 
-.section-box > div > .section-more-box > .more-box-btn > div {
+.section-box > div > .section-more-box > div > .more-box-btn > div {
     position: absolute;
     width: 30px;
     height: 2px;
@@ -194,20 +210,20 @@ html {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.section-box > div > .section-more-box > .more-box-btn > div:nth-child(2) {
+.section-box > div > .section-more-box > div > .more-box-btn > div:nth-child(2) {
     width: 2px;
     height: 30px;
 }
 
-.section-box > div > .section-more-box > .more-box-btn:hover > div {
+.section-box > div > .section-more-box > div > .more-box-btn:hover > div {
     background-color: #fff;
 }
 
-.page-03 > div > .section-more-box > .more-box-btn:hover {
+.page-03 > div > .section-more-box > div > .more-box-btn:hover {
     background-color: #00acd7;
 }
 
-.page-03 > div > .section-more-box > .more-box-btn > div {
+.page-03 > div > .section-more-box > div > .more-box-btn > div {
     position: absolute;
     width: 30px;
     height: 2px;
@@ -217,11 +233,11 @@ html {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.page-04 > div > .section-more-box > .more-box-btn:hover {
+.page-04 > div > .section-more-box > div > .more-box-btn:hover {
     background-color: #ef8903;
 }
 
-.page-04 > div > .section-more-box > .more-box-btn > div {
+.page-04 > div > .section-more-box > div > .more-box-btn > div {
     position: absolute;
     width: 30px;
     height: 2px;
@@ -231,11 +247,11 @@ html {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.page-05 > div > .section-more-box > .more-box-btn:hover {
+.page-05 > div > .section-more-box > div > .more-box-btn:hover {
     background-color: #1f7fb6;
 }
 
-.page-05 > div > .section-more-box > .more-box-btn > div {
+.page-05 > div > .section-more-box > div > .more-box-btn > div {
     position: absolute;
     width: 30px;
     height: 2px;
@@ -247,15 +263,18 @@ html {
 
 /* 커스텀 */
 
-.fp-tableCell {
+#fullpage + .fp-tableCell {
     vertical-align: top;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: auto;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
     width: 100%;
     position: relative;
+    text-align: center;
 }
+
+
 
 /* 상단바 시작 */
 .header {
@@ -405,6 +424,11 @@ html {
 /* 2페이지 끝 */
 
 /* 3페이지 시작 */
+
+.page-03 > div {
+    max-width: none;
+}
+
 .page-03 > div > .section-inner > .page-03-round-box {
     margin-top: 50px;
     width: 100%;
@@ -413,6 +437,7 @@ html {
 }
 
 .page-03 > div > .section-inner > .page-03-round-box > div {
+    max-width: 100%;
     width: 1040px;
     height: 160px;
     background-color: #00acd7;
@@ -486,17 +511,27 @@ html {
 }
 
 .page-03 > div > .pr_box {
-    position: relative;
     padding-top: 60px;
     z-index: 10;
     width: 100%;
     height: 650px;
-    background-color: lawngreen;
 }
 
 .page-03 > div > .pr_box > div {
-    
+    width: 14.2587%;
+    height: 100%;
+    box-sizing: border-box;
+    cursor: crosshair;
+    transition: all 120ms ease-in-out;
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
+
+.page-03 > div > .pr_box > div:hover {
+    width: 28%;
+}
+
 /* 3페이지 끝 */
 
 /* 4페이지 시작 */
