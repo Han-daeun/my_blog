@@ -365,6 +365,7 @@ html {
     height: 18px;
     margin-left: 80px;
     position: relative;
+    z-index: 10;
 }
 
 .header > .header-right > .toggle-btn > div {
@@ -372,6 +373,7 @@ html {
     height: 2px;
     background-color: white;
     position: absolute;
+    transition: transform .2s, width .2s, top .2s;
 }
 
 .header.active > .header-right > .toggle-btn > div {
@@ -388,6 +390,25 @@ html {
     left: 0;
     bottom: 0;
 }
+
+.header > .header-right > .toggle-btn.active > div {
+    background-color: #000;
+}
+
+.header > .header-right > .toggle-btn.active > div:nth-child(1) {
+    transform: rotate(45deg);
+    top: 50%;
+}
+
+.header > .header-right > .toggle-btn.active > div:nth-child(2) {
+    opacity: 0;
+}
+
+.header > .header-right > .toggle-btn.active > div:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 50%;
+}
+
 
 /* 상단바 끝 */
 
@@ -537,6 +558,20 @@ html {
 /* 4페이지 시작 */
 .page-04 > div > .section-inner > .sec-title > span {
     color: #ef8903;
+}
+
+.page-04 > div > .section-inner > .page-04-slide {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    margin-left: -18px;
+}
+
+.page-04 > div > .section-inner > .page-04-slide > .swiper-wrapper > .swiper-slide {
+    width: 273px;
+    height: 417px;
+    margin: 18px; 
+    background-color: #ef8903;
 }
 /* 4페이지 끝 */
 

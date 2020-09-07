@@ -118,32 +118,32 @@
                 <div class="page-03-round-text">
                     <div>
                         <div>
-                        오랜 경험으로 축적된 Public Relations 전문역량을
-                        <br class="br_05">
-                        바탕으로
-                        <br class="br_04">
-                        디지털 테크놀로지, 크리에이티브 콘텐츠,
-                        <br>
-                        <br class="br_03">
-                        <br class="br_05">
-                        IMC 콜라보레이션, 마케팅,
-                        <br class="br_04">
-                        프로모션 영역 등
-                        <br class="br_05">
-                        커뮤니케이션 전부문에 걸쳐
-                        <span>Insightful한 전략 컨설팅</span>
-                        으로
-                        <br class="br_05">
-                        <br class="br_04">
-                        고객의
-                        <br class="br_03">
-                        구매 여정에서 가장
-                        <br>
-                        <span>Impactful한 고객 경험을 제공</span>
-                        하는
-                        <br class="br_04">
-                        <br class="br_05">
-                        커뮤니케이션 솔루션 그룹 입니다.
+                            오랜 경험으로 축적된 Public Relations 전문역량을
+                            <br class="br_05">
+                            바탕으로
+                            <br class="br_04">
+                            디지털 테크놀로지, 크리에이티브 콘텐츠,
+                            <br>
+                            <br class="br_03">
+                            <br class="br_05">
+                            IMC 콜라보레이션, 마케팅,
+                            <br class="br_04">
+                            프로모션 영역 등
+                            <br class="br_05">
+                            커뮤니케이션 전부문에 걸쳐
+                            <span>Insightful한 전략 컨설팅</span>
+                            으로
+                            <br class="br_05">
+                            <br class="br_04">
+                            고객의
+                            <br class="br_03">
+                            구매 여정에서 가장
+                            <br>
+                            <span>Impactful한 고객 경험을 제공</span>
+                            하는
+                            <br class="br_04">
+                            <br class="br_05">
+                            커뮤니케이션 솔루션 그룹 입니다.
                         </div>
                     </div>
                 </div>
@@ -153,22 +153,22 @@
 
                 </div>
                 <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_02.jpg);">
-                    
+
                 </div>
                 <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_03.jpg);">
-                    
+
                 </div>
                 <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_04.jpg);">
-                    
+
                 </div>
                 <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_05.jpg);">
-                    
+
                 </div>
                 <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_06.jpg);">
-                    
+
                 </div>
                 <div style="background-image:url(https://han-daeun.github.io/img1/pf/kpr/curtain_07.jpg);">
-                    
+
                 </div>
             </div>
         </div>
@@ -181,8 +181,21 @@
                 </div>
                 <div class="sec-title">KPR은 지난 30년 간<br>
                     <span>다양한 분야의 클라이언트와 함께 성장</span>해 왔습니다.</div>
-                <div></div>
-                <div></div>
+                <div class="page-04-slide swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                </div>
             </div>
             <div class="section-more-box absolute">
                 <div>
