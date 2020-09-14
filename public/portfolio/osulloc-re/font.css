@@ -1,0 +1,24 @@
+@font-face {
+    font-family: aritaburiM;
+    src: url('font/osulloc-hw/Arita-buriM.woff') format('woff');
+    font-weight: 400;
+  }
+
+@font-face {
+    font-family: aritaburiL;
+    src: url('font/osulloc-hw/Arita-buriL.woff') format('woff');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: nixM;
+    src: url('font/osulloc-hw/NIXGONFONTS-M-2.0.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: nixL;
+    src: url('font/osulloc-hw/NIXGONFONTS-L-2.0.woff') format('woff');
+    font-weight: 200;
+}
+

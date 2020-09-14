@@ -1,0 +1,142 @@
+/* 폰트 적용 */
+@font-face {
+    font-family: 'Arita-buri-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: "aritaburiM", "aritaburiL", "nixM", 'NanumSquare', sans-serif;
+}
+
+/* 노말라이즈 */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 라이브러리 */
+.block {
+    display: block;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1-0-0 {
+    flex: 1 0 0;
+}
+
+.flex-jc-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-jc-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-jc-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-ai-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.bc-red {
+    background-color: red;
+}
+
+.padding-80 {
+    padding: 0 80px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 커스텀 */
+
+/* 메인페이지 */
+.main-page {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://han-daeun.github.io/img1/pf/osulloc/main_bg_01.png);
+}
+/* 메뉴바 */
+.main-page > .main-menu {
+    width: 100%;
+    height: 160px;
+    position: relative;
+}
+
+.main-page > .main-menu::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.75px;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+}
+
+.main-page > .main-menu > .logo-box {
+    width: 50px;
+    height: 50px;
+    padding: 36px 0;
+}
+
+.main-page > .main-menu > .logo-box > img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-page > .main-menu > ul {
+    font-family: "nixM";
+    color: #fff;
+    width: 865px;
+    height: 100%;
+    font-size: 18px;
+}
