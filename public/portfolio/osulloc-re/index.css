@@ -97,29 +97,27 @@ a {
     margin-right: auto;
 }
 
+* > p {
+    margin: 0;
+}
+
 /* 커스텀 */
+.con {
+    max-width: 1400px;
+}
 
 /* 메인페이지 */
 .main-page {
     width: 100%;
     height: 100vh;
-    background-image: url(https://han-daeun.github.io/img1/pf/osulloc/main_bg_01.png);
+    position: relative;
 }
 /* 메뉴바 */
 .main-page > .main-menu {
     width: 100%;
     height: 160px;
     position: relative;
-}
-
-.main-page > .main-menu::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0.75px;
-    top: 100%;
-    left: 0;
-    background-color: #fff;
+    z-index: 99;
 }
 
 .main-page > .main-menu > .logo-box {
@@ -140,3 +138,145 @@ a {
     height: 100%;
     font-size: 18px;
 }
+
+.main-page > .main-menu > ul > li {
+    position: relative;
+}
+
+.main-page > .main-menu > ul > li > a {
+    display: block;
+    height: 100%;
+}
+
+.main-page > .main-menu > ul ul {
+    display: none;
+    position: absolute;
+    width: 183px;
+    height: auto;
+    text-align: center;
+    top: 100%;
+    left: 0;
+}
+
+/* .main-page > .main-menu > ul > li:hover > ul {
+    display: block;
+} */
+
+
+/* 백그라운드 */
+.main-page > .main-bg-box {
+    width: 100%;
+    height: calc(100vh - 160px);
+}
+
+.main-page > .main-bg-box > .col {
+    width: 1520px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-page > .main-bg-box > .col::before {
+    position: absolute;
+    content: "";
+    width: 0.5px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.main-page > .main-bg-box > .col::after {
+    position: absolute;
+    content: "";
+    width: 0.5px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.main-page > .main-bg-box > .row {
+    width: 100%;
+    height: 668px;
+    position: absolute;
+    top: 160px;
+    left: 0;
+}
+
+.main-page > .main-bg-box > .row::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.5px;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.main-page > .main-bg-box > .row::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.5px;
+    bottom: 0;
+    left: ;: 0;
+    background-color: #fff;
+}
+
+.main-page > .main-bg-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.main-page > .main-bg-slide > .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.main-page > .main-bg-slide > .swiper-container > .swiper-wrapper > .swiper-slide {
+    position: relative;
+}
+
+.main-page > .main-bg-slide > .swiper-container > .swiper-wrapper > .swiper-slide > .main-text-box {
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+    font-family: "aritaburiL", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main-page > .main-bg-slide > .swiper-container > .swiper-wrapper > .swiper-slide > .main-text-box::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}
+
+.main-page > .main-bg-slide > .swiper-container > .swiper-wrapper > .swiper-slide > .main-text-box::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+}
+
+.main-page > .main-bg-slide > .swiper-container > .swiper-wrapper > .swiper-slide > .main-text-box > span {
+    display: block;
+    border: solid 1px red;
+}
+
