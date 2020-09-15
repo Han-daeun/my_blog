@@ -1,8 +1,16 @@
+/* 실행되자마자 액션 실행 */
+function bgBar__init() {
+    var $act = $('.main-page > .main-bg-box');
+      
+    $act.addClass('active');
+}
+
+/* 메인슬라이드 */
 function mainSlide__init() {
     new Swiper( '.swiper-container', {
 
         effect : 'fade', // 페이드 효과 사용
-        speed: 3000,
+        speed: 5000,
         loop : true, // 무한 반복
         pagination : { // 페이징 설정
             el : '.swiper-pagination',
@@ -15,5 +23,6 @@ function mainSlide__init() {
 }
 
 $(function () {
+    bgBar__init();
     mainSlide__init();
 });

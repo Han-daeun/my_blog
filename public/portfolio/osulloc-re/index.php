@@ -30,7 +30,7 @@
             <div class="logo-box">
                 <img src="https://han-daeun.github.io/img1/pf/osulloc/main_logo.png" alt="">
             </div>
-            <ul class="flex flex-jc-center flex-jc-between">
+            <ul class="flex flex-jc-center">
                 <li>
                     <a href="#">About OSULLOC</a>
                     <ul>
@@ -88,19 +88,19 @@
                 <div class="slider swiper-wrapper">
                     <div class="bg_main bg_main4 swiper-slide"
                         style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/main_bg_01.png); background-size:cover;">
-                        <div class="main-text-box" style="width:860px;">
+                        <div class="main-text-box">
                             <p>차와 제주가 선사하는<br>삶의 아름다움</p>
                         </div>
                     </div>
                     <div class="bg_main bg_main4 swiper-slide"
                         style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/main_bg_02.png); background-size:cover;">
-                        <div class="main-text-box" style="width:1031px;">
+                        <div class="main-text-box">
                             <p>천혜의 자연과<br>사람의 정성으로 만든 명차</p>
                         </div>
                     </div>
                     <div class="bg_main bg_main4 swiper-slide"
                         style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/main_bg_03.png); background-size:cover;">
-                        <div class="main-text-box" style="width:1039px;">
+                        <div class="main-text-box">
                             <p>제주의 자연으로 빚은 발효<br>오설록</p>
                         </div>
                     </div>
