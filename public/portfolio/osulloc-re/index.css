@@ -337,3 +337,254 @@ a {
     border: solid 1px red;
 }
 
+/* md추천상품 */
+/* .md-box {
+    width: 100%;
+    height: 527px;
+    border: solid 1px red;
+    box-sizing: border-box;
+    padding-top: 180px;
+} */
+
+/* 인사페이지 */
+/* .osulloc-info {
+    width: 100%;
+    height: 454px;
+    border: solid 1px red;
+    box-sizing: border-box;
+    padding-top: 180px;
+} */
+
+/* 주간베스트 */
+/* .weekly-best-box {
+    width: 100%;
+    height: 672px;
+    border: solid 1px red;
+    box-sizing: border-box;
+    padding-top: 180px;
+} */
+
+/* 오설록샵 */
+/* .shop-box {
+    width: 100%;
+    height: 445px;
+    border: solid 1px red;
+    box-sizing: border-box;
+    padding-top: 180px;
+} */
+
+/* 이벤트배너 */
+/* .banner-box {
+    width: 100%;
+    height: 343px;
+    border: solid 1px red;
+    box-sizing: border-box;
+    padding-top: 180px;
+} */
+
+/* 인스타그램 */
+/* .sns-box {
+    width: 100%;
+    height: 412px;
+    border: solid 1px red;
+    box-sizing: border-box;
+    padding-top: 180px;
+} */
+
+/* footer */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #23232d;
+    color:rgba(255,255,255,0.8); 
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 500px;
+}
+
+footer > .ft-logo-box {
+    padding: 32px 0;
+    width: 100%;
+    height: auto;
+}
+
+footer > .ft-logo-box > .logo-img {
+    width: 70px;
+    height: 88px;
+    background-image: url(https://han-daeun.github.io/img1/pf/osulloc/logo02.png);
+    background-size: cover;
+    opacity: 80%;
+}
+
+footer > .ft-cont {
+    width: 100%;
+    height: auto;
+}
+
+footer > .ft-cont > div {
+    width: 1590px;
+    
+}
+
+footer > .ft-cont > div > .ft-left {
+    width: 50%;
+    border-right: 1px solid rgba(255,255,255,0.8);
+    box-sizing: border-box;   
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-01 {
+    padding-bottom: 45px;
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-02 {
+    padding-bottom: 45px;
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-03 {
+    padding-bottom: 30px;
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-01 > a {
+    padding: 0 15px;
+    position: relative;
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-01 > a::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 100%;
+    background-color: rgba(255,255,255,0.8);
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-01 > a:last-child::after {
+    display: none;
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-01 > a:first-child {
+    padding-left: 0;
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-02 > div {
+    line-height: 25px;
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-02 > div > span {
+    line-height: 25px;
+    padding: 0 15px;
+    position: relative;
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-02 > div > span::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 100%;
+    background-color: rgba(255,255,255,0.8);
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-02 > div > span:last-child::after {
+    display: none;
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-02 > div > span:first-child {
+    padding-left: 0;
+}
+
+footer > .ft-cont > div > .ft-left > .left-cont-03 > span {
+    line-height: 25px;
+    display: block;
+}
+
+
+footer > .ft-cont > div > .ft-right {
+    width: 50%;   
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+
+footer > .ft-cont > div > .ft-right > .tell-box > div:first-child {
+    padding-right: 110px;
+}
+
+footer > .ft-cont > div > .ft-right > .tell-box > div > span {
+    display: block;
+    padding-bottom: 10px;
+}
+
+footer > .ft-cont > div > .ft-right > .tell-box > div > span:first-child {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+footer > .ft-cont > div > .ft-right > .tell-box > div > span:nth-child(2) {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+footer > .ft-cont > div > .ft-right > .tell-box > div > span:nth-child(3) {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+footer > .ft-cont > div > .ft-right > .tell-box > div > span:last-child {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+footer > .ft-cont > div > .ft-right > .icon-box {
+    margin-top: 35px;
+}
+
+footer > .ft-cont > div > .ft-right > .icon-box > div {
+    width: 50px;
+    height: 50px;
+    margin-right: 33px;
+}
+
+footer > .ft-cont > div > .ft-right > .icon-box > div > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+footer > .ft-cont > div > .ft-right > .icon-box > div > a::after {
+    position: absolute;
+    content: "매장안내";
+    top: 100%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%);
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer > .ft-cont > div > .ft-right > .icon-box > div:nth-child(2) > a::after {
+    content: "멤버십 혜택";
+}
+
+footer > .ft-cont > div > .ft-right > .icon-box > div:nth-child(3) > a::after {
+    content: "FAQ";
+}
+
+footer > .ft-cont > div > .ft-right > .icon-box > div:nth-child(4) > a::after {
+    content: "1:1 문의";
+}
+
+footer > span {
+    display: block;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+    padding: 28px 0;
+    opacity: 80%;
+}
