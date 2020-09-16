@@ -8,9 +8,6 @@
     <title>오설록</title>
     <!--제이쿼리적용-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!--슬릭슬라이더-->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!--스와이프슬라이더-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
@@ -104,7 +101,7 @@
                             <p>제주의 자연으로 빚은 발효<br>오설록</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -114,28 +111,47 @@
         </div>
     </section>
 
-    <div class="md-box">
-        <div class="md-title-box"></div>
-        <div class="md-slide"></div>
+    <div class="md-box con flex">
+        <div class="md-title-box">
+            <span class="md-box-title">MD PICK</span>
+            <span class="md-box-bar"></span>
+            <span class="md-box-cont">9월의 추천상품</span>
+        </div>
+        <div class="md-slide">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                </div>
+                <!-- Add Scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
     </div>
 
-    <div class="osulloc-info">
+    <div class="osulloc-info con flex flex-jc-center">
+        <div class="info-img">
+            <img src="https://han-daeun.github.io/img1/pf/osulloc/info-img.png" alt="">
+        </div>
+        <div class="info-cont">
+
+        </div>
+    </div>
+
+    <div class="weekly-best-box con">
+    </div>
+
+    <div class="shop-box con">
 
     </div>
 
-    <div class="weekly-best-box">
+    <div class="banner-box con">
 
     </div>
 
-    <div class="shop-box">
-
-    </div>
-
-    <div class="banner-box">
-
-    </div>
-
-    <div class="sns-box">
+    <div class="sns-box con">
 
     </div>
 
@@ -162,10 +178,10 @@
                         <div>
                             <span>대표이사: 서혁재</span>
                             <span>주소: 서울특별시 용산구 한강대로 100. 14층(한강로2가)</span>
-                            <span>사업자등록번호: 390-87-01499</span>    
+                            <span>사업자등록번호: 390-87-01499</span>
                         </div>
                         <div>
-                            <span>통신판매업신고번호: 2019-서울용산-117호</span>    
+                            <span>통신판매업신고번호: 2019-서울용산-117호</span>
                             <span>호스팅제공자: (주)오설록</span>
                         </div>
                     </div>
@@ -191,10 +207,18 @@
                         </div>
                     </div>
                     <div class="icon-box flex">
-                        <div><a href="#" style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/ft-img01_w.png);"></a></div>
-                        <div><a href="#" style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/ft-img02_w.png);"></a></div>
-                        <div><a href="#" style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/ft-img03_w.png);"></a></div>
-                        <div><a href="#" style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/ft-img04_w.png);"></a></div>
+                        <div><a href="#"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/ft-img01_w.png);"></a>
+                        </div>
+                        <div><a href="#"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/ft-img02_w.png);"></a>
+                        </div>
+                        <div><a href="#"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/ft-img03_w.png);"></a>
+                        </div>
+                        <div><a href="#"
+                                style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/ft-img04_w.png);"></a>
+                        </div>
                     </div>
                 </div>
             </div>

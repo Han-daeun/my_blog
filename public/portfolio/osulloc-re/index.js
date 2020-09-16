@@ -7,7 +7,7 @@ function bgBar__init() {
 
 /* 메인슬라이드 */
 function mainSlide__init() {
-    new Swiper( '.swiper-container', {
+    new Swiper( '.main-bg-slide > .swiper-container', {
 
         effect : 'fade', // 페이드 효과 사용
         speed: 5000,
@@ -22,7 +22,44 @@ function mainSlide__init() {
     });
 }
 
+/* MD슬라이드 */
+function mdSlide__init() {
+    new Swiper( '.md-slide > .swiper-container', {
+        slidesPerView: "auto",
+        cssWidthAndHeight: true,
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            hide: false,
+          },
+    });
+}
+
+/* weekly슬라이드 */
+function weeklySlide__init() {
+    new Swiper( '.main-bg-slide > .swiper-container', {
+
+    });
+}
+
+/* shop슬라이드 */
+function shopSlide__init() {
+    new Swiper( '.main-bg-slide > .swiper-container', {
+
+    });
+}
+
+/* sns슬라이드 */
+function snsSlide__init() {
+    new Swiper( '.main-bg-slide > .swiper-container', {
+
+    });
+}
+
 $(function () {
     bgBar__init();
     mainSlide__init();
+    mdSlide__init();
+    weeklySlide__init();
+    shopSlide__init();
+    snsSlide__init();
 });

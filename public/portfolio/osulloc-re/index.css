@@ -103,7 +103,7 @@ a {
 
 /* 커스텀 */
 .con {
-    max-width: 1400px;
+    max-width: 1500px;
 }
 
 /* 메인페이지 */
@@ -334,62 +334,120 @@ a {
 
 .main-page > .main-bg-slide > .swiper-container > .swiper-wrapper > .swiper-slide > .main-text-box > span {
     display: block;
-    border: solid 1px red;
 }
 
 /* md추천상품 */
-/* .md-box {
+.md-box {
     width: 100%;
-    height: 527px;
+    height: auto;
+    padding-top: 180px;
+}
+
+.md-box > .md-title-box {
+    width: 414px;
+    padding-right: 100px;
+}
+
+.md-box > .md-title-box > span {
+    display: block;
+    text-align: right;
+    font-size: 25px;
+}
+
+.md-box > .md-title-box > .md-box-title {
+    padding-top: 10px;
+    padding-bottom: 17px;
+}
+
+.md-box > .md-title-box > .md-box-bar {
+    background-color: #288ea5;
+    width: 44px;
+    height: 2px; 
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.md-box > .md-title-box > .md-box-cont {
+    padding-top: 29px;
+    padding-right: 33px;
+    color: #7e7e7e;
+}
+
+.md-box > .md-slide {
+    width: 1087px;
+    height: auto;
+}
+
+.md-box > .md-slide > .swiper-container {
+    /* margin-right: -100%; */
+}
+
+.md-box > .md-slide > .swiper-container > .swiper-wrapper > .swiper-slide {
     border: solid 1px red;
     box-sizing: border-box;
-    padding-top: 180px;
-} */
+    width: 350px;
+    height: 466px;
+}
 
 /* 인사페이지 */
-/* .osulloc-info {
+.osulloc-info {
     width: 100%;
-    height: 454px;
+    height: auto;
     border: solid 1px red;
     box-sizing: border-box;
     padding-top: 180px;
-} */
+}
+
+.osulloc-info > .info-img {
+    width: 682px;
+    height: auto;
+}
+
+.osulloc-info > .info-cont {
+    width: 682px;
+    height: auto;
+}
+
+.osulloc-info > .info-cont > img {
+    width: 100%;
+    display: block;
+}
 
 /* 주간베스트 */
-/* .weekly-best-box {
+.weekly-best-box {
     width: 100%;
-    height: 672px;
+    height: auto;
     border: solid 1px red;
     box-sizing: border-box;
     padding-top: 180px;
-} */
+}
 
 /* 오설록샵 */
-/* .shop-box {
+.shop-box {
     width: 100%;
-    height: 445px;
+    height: auto;
     border: solid 1px red;
     box-sizing: border-box;
     padding-top: 180px;
-} */
+}
 
 /* 이벤트배너 */
-/* .banner-box {
+.banner-box {
     width: 100%;
-    height: 343px;
+    height: auto;
     border: solid 1px red;
     box-sizing: border-box;
     padding-top: 180px;
-} */
+}
 
 /* 인스타그램 */
-/* .sns-box {
+.sns-box {
     width: 100%;
-    height: 412px;
+    height: auto;
     border: solid 1px red;
     box-sizing: border-box;
     padding-top: 180px;
-} */
+}
 
 /* footer */
 footer {
@@ -400,7 +458,6 @@ footer {
     font-family: 'NanumSquare', sans-serif;
     font-size: 12px;
     font-weight: 200;
-    margin-top: 500px;
 }
 
 footer > .ft-logo-box {
