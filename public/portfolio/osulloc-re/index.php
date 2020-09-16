@@ -120,10 +120,50 @@
         <div class="md-slide">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="md-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/md01.png" alt="">
+                            </div>
+                            <div class="md-text">
+                                <span>웰니스티</span>
+                                <span>오설록 프로폴리스 스프레이</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="md-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/md02.png" alt="">
+                            </div>
+                            <div class="md-text">
+                                <span>초콜릿/잼</span>
+                                <span>그린티 웨하스 100g</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="md-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/md03.png" alt="">
+                            </div>
+                            <div class="md-text">
+                                <span>파우더</span>
+                                <span>삼다연 오리지널밀크 10입</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="md-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/md04.png" alt="">
+                            </div>
+                            <div class="md-text">
+                                <span>라이프스타일몰</span>
+                                <span>그린티 클렌징폼</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <!-- Add Scrollbar -->
                 <div class="swiper-scrollbar"></div>
@@ -136,7 +176,10 @@
             <img src="https://han-daeun.github.io/img1/pf/osulloc/info-img.png" alt="">
         </div>
         <div class="info-cont">
-
+            <span>오설록은</span>
+            <span>정신없이 바쁜 현대인들에게 제주 자연과 정성을 담은 차를 통해<br> 
+내면을 아름답게 가꾸고 일상에 삶의 멋을 더하며, 관계를 따뜻하게<br>
+이어주는 가치있는 쉼을 선사합니다.</span>
         </div>
     </div>
 

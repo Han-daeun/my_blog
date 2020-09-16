@@ -106,6 +106,10 @@ a {
     max-width: 1500px;
 }
 
+.swiper-container {
+    font-family: 'NanumSquare', sans-serif;
+}
+
 /* 메인페이지 */
 .main-page {
     width: 100%;
@@ -376,6 +380,7 @@ a {
 .md-box > .md-slide {
     width: 1087px;
     height: auto;
+    position: relative;
 }
 
 .md-box > .md-slide > .swiper-container {
@@ -383,18 +388,51 @@ a {
 }
 
 .md-box > .md-slide > .swiper-container > .swiper-wrapper > .swiper-slide {
-    border: solid 1px red;
-    box-sizing: border-box;
     width: 350px;
     height: 466px;
+}
+
+.md-box > .md-slide > .swiper-container > .swiper-wrapper > .swiper-slide > a > .md-img {
+    width: 100%;
+    height: 327px;
+}   
+
+.md-box > .md-slide > .swiper-container > .swiper-wrapper > .swiper-slide > a > .md-text {
+    width: 100%;
+    height: auto;
+}
+
+.md-box > .md-slide > .swiper-container > .swiper-wrapper > .swiper-slide > a > .md-text > span {
+    display: block;
+    font-size: 20px;
+    color: #686868;
+    padding-top: 22px;
+    padding-left: 38px;
+}
+
+.md-box > .md-slide > .swiper-container > .swiper-wrapper > .swiper-slide > a > .md-text > span:nth-child(2) {
+    font-size: 25px;
+    color: #000;
+    padding-top: 17px;
+    padding-left: 28px;
+}
+
+.md-box > .md-slide::after {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 263px;
+    background-image: url(https://han-daeun.github.io/img1/pf/osulloc/img_object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 35%;
+    left: -150px;
 }
 
 /* 인사페이지 */
 .osulloc-info {
     width: 100%;
     height: auto;
-    border: solid 1px red;
-    box-sizing: border-box;
     padding-top: 180px;
 }
 
@@ -406,11 +444,30 @@ a {
 .osulloc-info > .info-cont {
     width: 682px;
     height: auto;
+    padding-left: 63px;
+    padding-top: 105px;
+    box-sizing: border-box;
 }
 
 .osulloc-info > .info-cont > img {
     width: 100%;
     display: block;
+}
+
+.osulloc-info > .info-cont > span {
+    display: block;
+    font-size: 20px;
+    font-family: "aritaburiL";
+}
+
+.osulloc-info > .info-cont > span:first-child {
+    font-size: 48px;
+    padding-bottom: 50px;
+}
+
+.osulloc-info > .info-cont > span:nth-child(2) {
+    padding-left: 17px;
+    line-height: 43px;
 }
 
 /* 주간베스트 */
