@@ -10,14 +10,14 @@ function mainSlide__init() {
     new Swiper( '.main-bg-slide > .swiper-container', {
 
         effect : 'fade', // 페이드 효과 사용
-        speed: 5000,
+        speed: 4000,
         loop : true, // 무한 반복
         pagination : { // 페이징 설정
             el : '.swiper-pagination',
             clickable : true, // 페이징을 클릭하면 해당 영역으로 이동, 필요시 지정해 줘야 기능 작동
         },
         autoplay: {
-            delay: 5000, 
+            delay: 6000, 
         },
     });
 }
@@ -36,8 +36,14 @@ function mdSlide__init() {
 
 /* weekly슬라이드 */
 function weeklySlide__init() {
-    new Swiper( '.main-bg-slide > .swiper-container', {
-
+    new Swiper( '.weekly-slide > .swiper-container', {
+        slidesPerView: "auto",
+        spaceBetween: 35,
+        cssWidthAndHeight: true,
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            hide: false,
+          },
     });
 }
 

@@ -113,9 +113,9 @@
 
     <div class="md-box con flex">
         <div class="md-title-box">
-            <span class="md-box-title">MD PICK</span>
-            <span class="md-box-bar"></span>
-            <span class="md-box-cont">9월의 추천상품</span>
+            <span class="md-box-title title">MD PICK</span>
+            <span class="md-box-bar bar"></span>
+            <span class="md-box-cont cont">9월의 추천상품</span>
         </div>
         <div class="md-slide">
             <div class="swiper-container">
@@ -177,21 +177,151 @@
         </div>
         <div class="info-cont">
             <span>오설록은</span>
-            <span>정신없이 바쁜 현대인들에게 제주 자연과 정성을 담은 차를 통해<br> 
-내면을 아름답게 가꾸고 일상에 삶의 멋을 더하며, 관계를 따뜻하게<br>
-이어주는 가치있는 쉼을 선사합니다.</span>
+            <span>정신없이 바쁜 현대인들에게 제주 자연과 정성을 담은 차를 통해<br>
+                내면을 아름답게 가꾸고 일상에 삶의 멋을 더하며, 관계를 따뜻하게<br>
+                이어주는 가치있는 쉼을 선사합니다.</span>
         </div>
     </div>
 
     <div class="weekly-best-box con">
+        <div class="weekly-text flex flex-column flex-ai-center">
+            <span class="weekly-box-title title">WEEKLY BEST ITEM</span>
+            <span class="weekly-box-bar bar"></span>
+            <span class="weekly-box-cont cont">금주의 인기상품들을 만나보세요.</span>
+        </div>
+        <div class="weekly-slide">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="wk-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/md02.png" alt="">
+                            </div>
+                            <div class="wk-text">
+                                <span>초콜릿/잼</span>
+                                <span>그린티웨하스 100g</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="wk-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/wk-rb02.png" alt="">
+                            </div>
+                            <div class="wk-text">
+                                <span>웰니스티</span>
+                                <span>워터플러스 버라이어티팩 30입</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="wk-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/wk-rb03.png" alt="">
+                            </div>
+                            <div class="wk-text">
+                                <span>초콜릿/잼</span>
+                                <span>녹차밀크스프레드 200 g</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="wk-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/wk-rb04.png" alt="">
+                            </div>
+                            <div class="wk-text">
+                                <span>허브티(무카페인)</span>
+                                <span>도라지차 10입</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="wk-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/wk-rb05.png" alt="">
+                            </div>
+                            <div class="wk-text">
+                                <span>녹차/발효차/홍차</span>
+                                <span>삼다연 10입</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="wk-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/wk-rb06.png" alt="">
+                            </div>
+                            <div class="wk-text">
+                                <span>블렌디드티</span>
+                                <span>귤꽃향을 품은우잣담 10입</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="wk-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/wk-rb07.png" alt="">
+                            </div>
+                            <div class="wk-text">
+                                <span>녹차/발효차/홍차</span>
+                                <span>세작 40 g</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="wk-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/wk-rb08.png" alt="">
+                            </div>
+                            <div class="wk-text">
+                                <span>파우더</span>
+                                <span>프리미엄 말차 40g</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="wk-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/wk-rb09.png" alt="">
+                            </div>
+                            <div class="wk-text">
+                                <span>허브티(무카페인)</span>
+                                <span>모로칸민트티 10입</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="wk-img">
+                                <img src="https://han-daeun.github.io/img1/pf/osulloc/wk-rb10.png" alt="">
+                            </div>
+                            <div class="wk-text">
+                                <span>블렌디드티</span>
+                                <span>달꽃이 바라보는 바당 10입</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Add Scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
     </div>
 
     <div class="shop-box con">
 
     </div>
 
-    <div class="banner-box con">
+    <div class="banner-box flex flex-jc-center">
+        <div class="banner-img flex">
+            <div class="banner-01">
 
+            </div>
+            <div class="banner-02">
+
+            </div>
+        </div>
     </div>
 
     <div class="sns-box con">
@@ -217,7 +347,7 @@
                         <a href="#">공고</a>
                     </div>
                     <div class="left-cont-02">
-                        <div>(주) 오설록</div>
+                        <div style="font-weight:bold;">(주) 오설록</div>
                         <div>
                             <span>대표이사: 서혁재</span>
                             <span>주소: 서울특별시 용산구 한강대로 100. 14층(한강로2가)</span>
