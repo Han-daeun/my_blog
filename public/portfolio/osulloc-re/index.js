@@ -26,6 +26,7 @@ function mainSlide__init() {
 function mdSlide__init() {
     new Swiper( '.md-slide > .swiper-container', {
         slidesPerView: "auto",
+        spaceBetween: 35,
         cssWidthAndHeight: true,
         scrollbar: {
             el: '.swiper-scrollbar',
@@ -49,7 +50,7 @@ function weeklySlide__init() {
 
 /* shop슬라이드 */
 function shopSlide__init() {
-    new Swiper( '.main-bg-slide > .swiper-container', {
+    new Swiper( '.shop-slide > .swiper-container', {
 
     });
 }

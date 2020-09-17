@@ -15,6 +15,7 @@ body, ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 a {
@@ -350,6 +351,7 @@ a {
 .md-box > .md-title-box {
     width: 414px;
     padding-right: 100px;
+    box-sizing: border-box;
 }
 
 .md-box > .md-title-box > span {
@@ -385,6 +387,7 @@ a {
 
 .md-box > .md-slide > .swiper-container {
     /* margin-right: -100%; */
+    box-sizing: border-box;
 }
 
 .md-box > .md-slide > .swiper-container > .swiper-wrapper > .swiper-slide {
@@ -427,6 +430,10 @@ a {
     background-size: cover;
     top: 35%;
     left: -150px;
+}
+
+.md-box > .md-slide > .swiper-container> .swiper-scrollbar {
+    display: block;
 }
 
 /* 인사페이지 */
@@ -549,6 +556,37 @@ a {
     height: auto;
     margin-top: 180px;
 }
+
+.shop-box > .shop-slide {
+    width: 954px;
+    height: auto;
+}
+
+.shop-box > .shop-title-box {
+    width: 546px;
+    height: auto;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.shop-box > .shop-title-box > span {
+    display: block;
+}
+
+.shop-box > .shop-title-box > .shop-box-title {
+    padding-bottom: 17px;
+}
+
+.shop-box > .shop-title-box > .shop-box-cont {
+    font-size: 20px;
+    font-family: "aritaburiL";
+}
+
+.shop-box > .shop-title-box > .shop-box-cont {
+    padding-top: 29px;
+    padding-left: 18px;
+}
+
 
 /* 이벤트배너 */
 .banner-box {

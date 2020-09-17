@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div class="bg_main bg_main4 swiper-slide"
-                        style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/main_bg_02.png); background-size:cover;">
+                        style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/main_bg_02_02.png); background-size:cover;">
                         <div class="main-text-box">
                             <p>천혜의 자연과<br>사람의 정성으로 만든 명차</p>
                         </div>
@@ -113,9 +113,9 @@
 
     <div class="md-box con flex">
         <div class="md-title-box">
-            <span class="md-box-title title">MD PICK</span>
-            <span class="md-box-bar bar"></span>
-            <span class="md-box-cont cont">9월의 추천상품</span>
+            <span class="md-box-title">MD PICK</span>
+            <span class="md-box-bar"></span>
+            <span class="md-box-cont">9월의 추천상품</span>
         </div>
         <div class="md-slide">
             <div class="swiper-container">
@@ -177,9 +177,9 @@
         </div>
         <div class="info-cont">
             <span>오설록은</span>
-            <span>정신없이 바쁜 현대인들에게 제주 자연과 정성을 담은 차를 통해<br>
-                내면을 아름답게 가꾸고 일상에 삶의 멋을 더하며, 관계를 따뜻하게<br>
-                이어주는 가치있는 쉼을 선사합니다.</span>
+            <span>정신없이 바쁜 현대인들에게 제주 자연과 정성을 담은 차를 통해<br> 
+내면을 아름답게 가꾸고 일상에 삶의 멋을 더하며, 관계를 따뜻하게<br>
+이어주는 가치있는 쉼을 선사합니다.</span>
         </div>
     </div>
 
@@ -309,17 +309,24 @@
         </div>
     </div>
 
-    <div class="shop-box con">
 
+    <div class="shop-box con flex">
+        <div class="shop-slide">
+
+        </div>
+        <div class="shop-title-box">
+            <span class="shop-box-title title">OSULLOC SHOP</span>
+            <span class="shop-box-bar bar"></span>
+            <span class="shop-box-cont cont">오설록이 준비한 티 라인에서<br>
+당신이 찾는 티 스타일을 찾아보세요.</span>
+        </div>
     </div>
 
     <div class="banner-box flex flex-jc-center">
         <div class="banner-img flex">
             <div class="banner-01">
-
             </div>
             <div class="banner-02">
-
             </div>
         </div>
     </div>
@@ -347,7 +354,7 @@
                         <a href="#">공고</a>
                     </div>
                     <div class="left-cont-02">
-                        <div style="font-weight:bold;">(주) 오설록</div>
+                        <div>(주) 오설록</div>
                         <div>
                             <span>대표이사: 서혁재</span>
                             <span>주소: 서울특별시 용산구 한강대로 100. 14층(한강로2가)</span>
