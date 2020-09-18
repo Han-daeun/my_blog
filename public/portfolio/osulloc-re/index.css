@@ -15,7 +15,7 @@ body, ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
-    
+    /* overflow-x: hidden; */
 }
 
 a {
@@ -235,7 +235,7 @@ a {
     position: absolute;
     content: "";
     width: 0;
-    height: 0.5px;
+    height: 1px;
     top: 0;
     left: 0;
     background-color: #fff;
@@ -250,9 +250,9 @@ a {
     position: absolute;
     content: "";
     width: 0;
-    height: 0.5px;
+    height: 1px;
     bottom: 0;
-    left: ;: 0;
+    left: 0;
     background-color: #fff;
     transition: all 2s;
     transition-delay: 1s;
@@ -295,6 +295,7 @@ a {
 .main-page > .main-bg-slide > .swiper-container > .swiper-wrapper > .swiper-slide > .main-text-box > p {
     opacity: 0;
     transition: opacity 4s;
+    /* text-shadow: 1px 1px 5px rgba(0,0,0,0.2); */
 }
 
 .main-page > .main-bg-slide > .swiper-container > .swiper-wrapper > .swiper-slide.swiper-slide-active > .main-text-box > p {
@@ -499,6 +500,38 @@ a {
     margin-top: 180px;
 }
 
+.weekly-best-box > .weekly-text {
+    position: relative;
+}
+
+.weekly-best-box > .weekly-text > .weekly-text-category {
+    position: absolute;
+    right: 0;
+    bottom: 28px;
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.weekly-best-box > .weekly-text > .weekly-text-category > span {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.weekly-best-box > .weekly-text > .weekly-text-category > span:first-child {
+    margin-right: 28px;
+}
+
+.weekly-best-box > .weekly-text > .weekly-text-category > span.active::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    top: 100%;
+    left: 0;
+    background-color: #2D8CA5;
+}
+
 .weekly-best-box > .weekly-text > span {
     display: block;
 }
@@ -517,37 +550,37 @@ a {
     padding-bottom: 40px;
 }
 
-.weekly-best-box > .weekly-slide > .swiper-container > .swiper-wrapper > .swiper-slide {
+.weekly-best-box > .weekly-slide-01 > .swiper-container > .swiper-wrapper > .swiper-slide {
     width: 350px;
     height: 466px;
 }
 
-.weekly-best-box > .weekly-slide > .swiper-container > .swiper-wrapper > .swiper-slide > a > .wk-img {
+.weekly-best-box > .weekly-slide-01 > .swiper-container > .swiper-wrapper > .swiper-slide > a > .wk-img {
     width: 100%;
     height: 327px;
 }  
 
-.weekly-best-box > .weekly-slide > .swiper-container > .swiper-wrapper > .swiper-slide > a > .wk-text {
+.weekly-best-box > .weekly-slide-01 > .swiper-container > .swiper-wrapper > .swiper-slide > a > .wk-text {
     width: 100%;
     height: auto;
     text-align: center;
 }
 
-.weekly-best-box > .weekly-slide > .swiper-container > .swiper-wrapper > .swiper-slide > a > .wk-text > span {
+.weekly-best-box > .weekly-slide-01 > .swiper-container > .swiper-wrapper > .swiper-slide > a > .wk-text > span {
     display: block;
     font-size: 20px;
     color: #686868;
     padding-top: 22px;
 }
 
-.weekly-best-box > .weekly-slide > .swiper-container > .swiper-wrapper > .swiper-slide > a > .wk-text > span:nth-child(2) {
+.weekly-best-box > .weekly-slide-01 > .swiper-container > .swiper-wrapper > .swiper-slide > a > .wk-text > span:nth-child(2) {
     font-size: 25px;
     color: #000;
     padding-top: 17px;
 }
 
-.weekly-best-box > .weekly-slide > .swiper-container > .swiper-scrollbar {
-    /* width: 80%; */
+.weekly-best-box > .weekly-slide-01 > .swiper-container > .swiper-scrollbar {
+    width: 100%;
 }
 
 /* 오설록샵 */
@@ -585,6 +618,45 @@ a {
 .shop-box > .shop-title-box > .shop-box-cont {
     padding-top: 29px;
     padding-left: 18px;
+}
+
+.shop-box > .shop-slide {
+    position: relative;
+}
+
+.shop-box > .shop-slide::after {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 263px;
+    background-image: url(https://han-daeun.github.io/img1/pf/osulloc/img_object_02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 35%;
+    right: -150px;
+}
+
+.shop-box > .shop-slide > .swiper-container {
+    margin-left: -100%;
+    /* padding-left: 1050px; */
+}
+
+.shop-box > .shop-slide > .swiper-container > .swiper-wrapper > .swiper-slide {
+    width: 240px;
+    height: 398px;
+    margin-left: 25px;
+}
+
+.shop-box > .shop-slide > .swiper-container > .swiper-wrapper > .swiper-slide.swiper-slide-active {
+    width: 268px;
+    height: 445px;
+}
+
+.shop-box > .shop-slide > .swiper-container > .swiper-wrapper > .swiper-slide > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 
 
@@ -631,6 +703,68 @@ a {
     margin-top: 180px;
 }
 
+
+.sns-box > .sns-slide {
+    position: relative;
+    width: 1529px;
+    height: auto;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.sns-box > .sns-slide > .sns-title {
+    font-size: 40px;
+    padding-left: 42px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.sns-box > .sns-slide > .sns-title::before {
+    position: absolute;
+    content: "";
+    width: 222px;
+    height: 180px;
+    top: 0;
+    left: -3%;
+    background-image: url(https://han-daeun.github.io/img1/pf/osulloc/insta_deco.png);
+}
+
+.sns-box > .sns-slide::after {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 263px;
+    background-image: url(https://han-daeun.github.io/img1/pf/osulloc/img_object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 55%;
+    left: -150px;
+    transform: translateY(-50%);
+}
+
+.sns-box > .sns-slide > .swiper-container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 45px;
+}
+
+.sns-box > .sns-slide > .swiper-container > .swiper-wrapper > .swiper-slide {
+    width: 275px;
+    height: 275px;
+}
+
+.sns-box > .sns-slide > .swiper-container > .swiper-wrapper > .swiper-slide > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.swiper-container-horizontal>.swiper-scrollbar {
+    left: 0;
+    width: 1294px;
+}
+
 /* footer */
 footer {
     width: 100%;
@@ -640,6 +774,7 @@ footer {
     font-family: 'NanumSquare', sans-serif;
     font-size: 13px;
     font-weight: 200;
+    margin-top: 180px;
 }
 
 footer > .ft-logo-box {

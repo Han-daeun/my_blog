@@ -37,7 +37,7 @@ function mdSlide__init() {
 
 /* weekly슬라이드 */
 function weeklySlide__init() {
-    new Swiper( '.weekly-slide > .swiper-container', {
+    new Swiper( '.weekly-slide-01 > .swiper-container', {
         slidesPerView: "auto",
         spaceBetween: 35,
         cssWidthAndHeight: true,
@@ -51,14 +51,26 @@ function weeklySlide__init() {
 /* shop슬라이드 */
 function shopSlide__init() {
     new Swiper( '.shop-slide > .swiper-container', {
-
+        slidesPerView: "auto",
+        centeredSlides: true,
+        loop: true,
+        cssWidthAndHeight: true,
+        autoplay: {
+            delay: 3000, 
+        },
     });
 }
 
 /* sns슬라이드 */
 function snsSlide__init() {
-    new Swiper( '.main-bg-slide > .swiper-container', {
-
+    new Swiper( '.sns-slide > .swiper-container', {
+        slidesPerView: "auto",
+        spaceBetween: 38,
+        cssWidthAndHeight: true,
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            hide: false,
+          },
     });
 }
 

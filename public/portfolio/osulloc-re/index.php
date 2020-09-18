@@ -177,9 +177,9 @@
         </div>
         <div class="info-cont">
             <span>오설록은</span>
-            <span>정신없이 바쁜 현대인들에게 제주 자연과 정성을 담은 차를 통해<br> 
-내면을 아름답게 가꾸고 일상에 삶의 멋을 더하며, 관계를 따뜻하게<br>
-이어주는 가치있는 쉼을 선사합니다.</span>
+            <span>정신없이 바쁜 현대인들에게 제주 자연과 정성을 담은 차를 통해<br>
+                내면을 아름답게 가꾸고 일상에 삶의 멋을 더하며, 관계를 따뜻하게<br>
+                이어주는 가치있는 쉼을 선사합니다.</span>
         </div>
     </div>
 
@@ -188,8 +188,12 @@
             <span class="weekly-box-title title">WEEKLY BEST ITEM</span>
             <span class="weekly-box-bar bar"></span>
             <span class="weekly-box-cont cont">금주의 인기상품들을 만나보세요.</span>
+            <div class="weekly-text-category flex">
+                <span class="active">리뷰순</span>
+                <span>판매순</span>
+            </div>
         </div>
-        <div class="weekly-slide">
+        <div class="weekly-slide-01">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -312,13 +316,56 @@
 
     <div class="shop-box con flex">
         <div class="shop-slide">
-
+            <div class="swiper-container">
+                <div class="slider swiper-wrapper flex-ai-center">
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/slide-01.png);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/slide-02.png);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/slide-03.png);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/slide-04.png);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/slide-05.png);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/slide-06.png);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/slide-07.png);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/slide-08.png);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/slide-09.png);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/slide-10.png);"></a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="shop-title-box">
             <span class="shop-box-title title">OSULLOC SHOP</span>
             <span class="shop-box-bar bar"></span>
             <span class="shop-box-cont cont">오설록이 준비한 티 라인에서<br>
-당신이 찾는 티 스타일을 찾아보세요.</span>
+                당신이 찾는 티 스타일을 찾아보세요.</span>
         </div>
     </div>
 
@@ -331,8 +378,40 @@
         </div>
     </div>
 
-    <div class="sns-box con">
-
+    <div class="sns-box">
+        <div class="sns-slide">
+            <div class="sns-title">INSTAGRAM</div>
+            <div class="swiper-container">
+                <div class="slider swiper-wrapper flex-ai-center">
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/insta1.jpg);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/insta2.jpg);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/insta3.jpg);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/insta4.jpg);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/insta5.jpg);"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/insta6.jpg);"></a>
+                    </div>
+                </div>
+                <!-- Add Scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
     </div>
 
 
