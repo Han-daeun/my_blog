@@ -21,7 +21,6 @@
 </head>
 
 <body>
-    <div class="loading"></div>
     <header class="top-bar flex-jc-between">
         <div class="side-toggle-btn">
             <span></span>

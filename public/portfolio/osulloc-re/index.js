@@ -22,6 +22,25 @@ function mainSlide__init() {
     });
 }
 
+/* 사이드메뉴버튼 */
+function MobileSideBar__toggle() {
+    var $btn = $('.main-page > .main-menu > .menu-box > .side-menu-btn');
+    var $sideMenu = $('.main-page > .main-menu > .menu-box > .side-menu-tab');
+
+    if ( $btn.hasClass('active') ) {
+        $btn.removeClass('active');
+        $sideMenu.removeClass('active');
+    }
+    else {
+        $btn.addClass('active');
+        $sideMenu.addClass('active');
+    }
+}
+
+function MobileSideBar__init() {
+    $('.main-page > .main-menu > .menu-box > .side-menu-btn').click(MobileSideBar__toggle);
+}
+
 /* MD슬라이드 */
 function mdSlide__init() {
     new Swiper( '.md-slide > .swiper-container', {
@@ -34,6 +53,19 @@ function mdSlide__init() {
           },
     });
 }
+
+/* weekly슬라이드 탭박스 */
+function TabBox__init() {
+    $('[data-tab-head-item-name]').click(function() {
+      var $this = $(this);
+      var tabName = $this.attr('data-tab-name');
+      var itemName = $this.attr('data-tab-head-item-name');
+      $('[data-tab-name="' + tabName + '"]').removeClass('active');
+      
+      $('[data-tab-name="' + tabName + '"][data-tab-head-item-name="' + itemName + '"]').addClass('active');
+      $('[data-tab-name="' + tabName + '"][data-tab-body-item-name="' + itemName + '"]').addClass('active');
+    });
+  }
 
 /* weekly슬라이드 */
 function weeklySlide__init() {
@@ -48,11 +80,25 @@ function weeklySlide__init() {
     });
 }
 
+function weeklySlide02__init() {
+    new Swiper( '.weekly-slide-02 > .swiper-container', {
+        slidesPerView: "auto",
+        spaceBetween: 35,
+        cssWidthAndHeight: true,
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            hide: false,
+          },
+    });
+}
+
+
 /* shop슬라이드 */
 function shopSlide__init() {
     new Swiper( '.shop-slide > .swiper-container', {
         slidesPerView: "auto",
         centeredSlides: true,
+        spaceBetween: 25,
         loop: true,
         cssWidthAndHeight: true,
         autoplay: {
@@ -77,8 +123,11 @@ function snsSlide__init() {
 $(function () {
     bgBar__init();
     mainSlide__init();
+    MobileSideBar__init();
     mdSlide__init();
+    TabBox__init();
     weeklySlide__init();
+    weeklySlide02__init();
     shopSlide__init();
     snsSlide__init();
 });
