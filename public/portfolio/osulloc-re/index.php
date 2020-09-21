@@ -25,7 +25,9 @@
     <section class="main-page">
         <nav class="main-menu flex flex-column flex-ai-center">
             <div class="logo-box">
-                <img src="https://han-daeun.github.io/img1/pf/osulloc/main_logo.png" alt="">
+                <a href="#">
+                    <img src="https://han-daeun.github.io/img1/pf/osulloc/main_logo.png" alt="">
+                </a>
             </div>
             <div class="menu-box flex flex-jc-between">
                 <div class="side-menu-btn">
@@ -93,13 +95,10 @@
                         <div class="flex">
                             <div class="search-box">
                                 <input type="text">
-                                <a href="#" class="btn search-btn"
-                                    style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/ico-find.png);"></a>
+                                <a href="#" class="btn search-btn"></a>
                             </div>
-                            <a href="#" class="btn my-btn"
-                                style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/ico-my.png);"></a>
-                            <a href="#" class="btn cart-btn"
-                                style="background-image:url(https://han-daeun.github.io/img1/pf/osulloc/ico-cart.png);"></a>
+                            <a href="#" class="btn my-btn"></a>
+                            <a href="#" class="btn cart-btn"></a>
                         </div>
                         <nav class="side-menu-01">
                             <ul>
@@ -553,8 +552,11 @@
         <div class="shop-title-box">
             <span class="shop-box-title title">OSULLOC SHOP</span>
             <span class="shop-box-bar bar"></span>
-            <span class="shop-box-cont cont">오설록이 준비한 티 라인에서<br>
-                당신이 찾는 티 스타일을 찾아보세요.</span>
+            <span class="shop-box-cont cont">
+                오설록이 준비한 티 라인에서<br>
+                당신이 찾는 티 스타일을 찾아보세요.
+                <a href="#"><span>전체상품보기</span></a>
+            </span>
         </div>
     </div>
 

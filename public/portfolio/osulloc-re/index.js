@@ -41,6 +41,22 @@ function MobileSideBar__init() {
     $('.main-page > .main-menu > .menu-box > .side-menu-btn').click(MobileSideBar__toggle);
 }
 
+/* 상단바 스크롤 */
+function topBar__init() {
+    var $topBar = $('.main-page>.main-menu');
+  
+    $(window).scroll(function(){
+      var scrollTop = $(window).scrollTop();
+  
+      if ( scrollTop > 200) {
+        $topBar.addClass('active');
+      }
+      else {
+        $topBar.removeClass('active');
+      }
+    });
+  }
+
 /* MD슬라이드 */
 function mdSlide__init() {
     new Swiper( '.md-slide > .swiper-container', {
@@ -124,6 +140,7 @@ $(function () {
     bgBar__init();
     mainSlide__init();
     MobileSideBar__init();
+    topBar__init();
     mdSlide__init();
     TabBox__init();
     weeklySlide__init();
