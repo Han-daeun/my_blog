@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 노말라이즈 */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 라이브러리 */
+.block {
+    display: block;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1-0-0 {
+    flex: 1 0 0;
+}
+
+.flex-jc-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-jc-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-jc-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-ai-center {
+    display: flex;
+    align-items: center;
+}
+
+.bc-red {
+    background-color: red;
+}
+
+.padding-80 {
+    padding: 0 80px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.con {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 커스텀 */
+.con {
+    max-width: 1400px;
+}
+
+/* 탑바 모바일 */
+.wrap {
+    position: relative;
+    min-width: 375px;
+}
+.wrap > .top-bar {
+    width: 100%;
+    height: 55px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    font-size: 18px;
+    line-height: 18px;
+    justify-content: space-between;
+}
+
+.wrap > .top-bar > .logo-box {
+    width: 68px;
+    height: 29px;
+    cursor: pointer;
+}
+
+.wrap > .top-bar > .logo-box > img {
+    width: 100%;
+}
+
+.wrap > .top-bar > .menu-box {
+    display: none;
+}
+
+.wrap > .top-bar > .right-btn {
+    display: none;
+}
+
+.wrap > .top-bar > .right-btn > div > a {
+    display: block;
+    /* width: 120px;
+    height: 43px; */
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+    background-color: #FF9176;
+    padding: 8px 20px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.wrap > .top-bar > .right-btn > div > a:first-child {
+    background-color: #FFF;
+    color: #FF9176;
+    border: solid 1px #FF9176;
+    box-sizing: border-box;
+    margin-left: 0;
+}
+
+/* 탑바 데스크탑 */
+@media screen and (min-width: 1060px) {
+    .wrap > .top-bar {
+        height: 80px;
+        padding: 0 110px;
+        justify-content: center;
+    }
+    .wrap > .top-bar > .logo-box {
+        width: 100px;
+        height: 43px;
+    }
+    .wrap > .top-bar > .logo-box > img {
+        width: 100%;
+    }
+    .wrap > .top-bar > .menu-box {
+        display: block;
+    }
+    .wrap > .top-bar > .right-btn {
+        display: block;
+    }
+}

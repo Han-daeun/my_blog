@@ -1,11 +1,11 @@
 <?php
 include "../part/head.php";
 
-$dbHost = "site3.blog.oa.gg";
+$dbHost = "blog.march-hi.com";
 $dbPort = 3306;
-$dbId = "site3";
+$dbId = "sbsst";
 $dbPw = "sbs123414";
-$dbName = 'site3';
+$dbName = 'blog';
 
 $dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName, $dbPort) or die("DB CONNECTION ERROR");
 

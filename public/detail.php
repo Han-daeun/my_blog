@@ -3,7 +3,13 @@ include "../part/head.php"
 ?>
 
 <?php
-$conn = mysqli_connect("site3.blog.oa.gg", "site3", "sbs123414", "site3", 3306);
+$dbHost = "blog.march-hi.com";
+$dbPort = 3306;
+$dbId = "sbsst";
+$dbPw = "sbs123414";
+$dbName = 'blog';
+
+$conn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName, $dbPort) or die("DB CONNECTION ERROR");
 
 $id = $_GET['id'];
 $sql = "
