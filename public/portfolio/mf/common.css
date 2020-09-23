@@ -104,7 +104,8 @@ a {
     box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
     font-size: 18px;
     line-height: 18px;
-    justify-content: space-between;
+    justify-content: center;
+    position: relative;
 }
 
 .wrap > .top-bar > .logo-box {
@@ -117,7 +118,7 @@ a {
     width: 100%;
 }
 
-.wrap > .top-bar > .menu-box {
+.wrap > .top-bar > .menu-box  {
     display: none;
 }
 
@@ -146,12 +147,54 @@ a {
     margin-left: 0;
 }
 
+.wrap > .top-bar > .side-menu-btn {
+    width: 20px;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.wrap > .top-bar > .side-menu-btn > span {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #6C6C6C;
+    top: 0;
+    left: 0;
+    transition: opacity .3s, transform .3s, top .3s;
+}
+
+.wrap > .top-bar > .side-menu-btn > span:nth-child(2) {
+    top: 50%;
+}
+
+.wrap > .top-bar > .side-menu-btn > span:nth-child(3) {
+    top: 100%;
+}
+
+.wrap > .top-bar > .side-menu-btn.active > span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 50%;
+}
+
+.wrap > .top-bar > .side-menu-btn.active > span:nth-child(2) {
+    opacity: 0;
+}
+
+.wrap > .top-bar > .side-menu-btn.active > span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 50%;
+}
+
 /* 탑바 데스크탑 */
 @media screen and (min-width: 1060px) {
     .wrap > .top-bar {
         height: 80px;
         padding: 0 110px;
-        justify-content: center;
+        justify-content: space-between;
     }
     .wrap > .top-bar > .logo-box {
         width: 100px;
@@ -163,7 +206,105 @@ a {
     .wrap > .top-bar > .menu-box {
         display: block;
     }
+    .wrap > .top-bar > .menu-box > nav > ul > li {
+        box-sizing: border-box;
+        padding-left: 80px;
+    }
     .wrap > .top-bar > .right-btn {
         display: block;
+    }
+    .wrap > .top-bar > .side-menu-btn {
+        display: none;
+    }
+}
+
+
+/* 푸터 모바일 */
+footer {
+    margin-top: 100px;
+    padding-top: 50px;
+    font-size: 12px;
+    color: #ADADAD;
+    display: block;
+    border-top: solid 1px transparent;
+}
+
+footer > .mobile-footer > .m-ft-icon > a {
+    display: block;
+    width: 25px;
+    height: 25px;
+    padding: 0 5px
+}
+
+footer > .mobile-footer > .m-ft-icon > a > img {
+    width: 100%;
+}
+
+footer > .mobile-footer > span {
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+footer > .mobile-footer > span:last-child {
+    font-size: 10px;
+}
+
+footer > .desk-footer {
+    display: none;
+}
+
+
+
+
+/* 푸터 데스크탑 */
+@media screen and (min-width: 1060px) {
+    footer > .mobile-footer {
+        display: none;
+    }
+    footer {
+        border-top: solid 1px #DCDCDC;
+    }
+    footer > .desk-footer {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: block;
+    }
+    footer > .desk-footer > div > .ft-text > span {
+        display: block;
+    }
+    footer > .desk-footer > div > .ft-text > span:first-child {
+        padding-bottom: 10px;
+    }
+    
+    footer > .desk-footer > div > .ft-text > span:nth-child(2) {
+        padding-bottom: 20px;
+    }
+    footer > .desk-footer > div {
+        position: relative;
+    }
+    footer > .desk-footer > div > .ft-icon {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-40%);
+    }
+    footer > .desk-footer > div > .ft-icon > .logo-mini {
+        width: 91px;
+        height: 39px;
+        padding-bottom: 10px;
+    }
+    footer > .desk-footer > div > .ft-icon > .logo-mini > img {
+        width: 100%;
+    }
+    footer > .desk-footer > div > .ft-icon > .sns-icon > a {
+        display: block;
+        width: 25px;
+        height: 25px;
+        padding-right: 10px;
+    }
+    footer > .desk-footer > div > .ft-icon > .sns-icon > a > img {
+        width: 100%;
     }
 }
