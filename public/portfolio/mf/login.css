@@ -1,0 +1,154 @@
+.login-page {
+    width: 100%;
+    padding:0 40px;
+    box-sizing: border-box;
+    margin-top: 65px;
+}
+
+.login-page > .title-box {
+    padding-left: 10px; 
+}
+
+.login-page > .title-box > h1 {
+    font-size: 35px
+}
+
+.login-page > .title-box > span {
+    display: block;
+    width: 97px;
+    height: 3px;
+    background-color: #FF9176;
+    margin: 7px 0 12px 0;
+}
+
+.login-page > .title-box > p {
+    font-size: 13px;
+    color: rgb(100, 100, 100);
+    font-weight: 200;
+    padding-left: 25px;
+}
+
+.login-page > .input-box {
+    margin-top: 55px;
+}
+
+.login-page > .input-box > div > span {
+    font-size: 15px;
+    color: #303030;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.login-page > .input-box > div > input {
+    width: 100%;
+    height: 48px;
+    border: solid 1px #C4C4C4;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+.login-page > .input-box > .btn-box > .all-btn {
+    display: block;
+    width: 100%;
+    height: 48px;
+    border-radius: 3px;
+    background:linear-gradient(to right, #FFA48D, #FF9176);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login-page > .input-box > .btn-box > .all-btn > span {
+    color: #fff;
+    font-size: 15px;
+    padding-top: 12px;
+    display: block;
+}
+
+.login-page > .input-box > .btn-box > .pass-find {
+    padding-top: 10px;
+    text-align: right;
+}
+
+.login-page > .input-box > .btn-box > .pass-find > span {
+    font-size: 12px;
+    color: #8C8C8C;
+    height: 100%;
+}
+
+.login-page > .input-box > .btn-box > .pass-find > a {
+    font-size: 11px;
+    color: #FF9076;
+    padding-left: 10px; 
+}
+
+.login-page > .login-join-box {
+    margin-top: 68px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    border-top:  1px solid #C4C4C4;
+}
+
+.login-page > .login-join-box > p {
+    text-align: center;
+    color: #9A9A9A;
+    font-size: 12px;
+}
+
+.login-page > .login-join-box > .join-btn {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.login-page > .login-join-box > .join-btn > a {
+    display: block;
+    border-radius: 20px;
+    color: #FF9176;
+    border: solid 1px #FF9176;
+    width: 90px;
+    padding: 3px 0;
+}
+
+@media screen and (min-width: 1060px) {
+    .login-page {
+        width: 100%;
+        box-sizing: border-box;
+        max-width: 600px;
+        margin: 85px auto 0 auto;
+    }
+    .login-page > .title-box > h1 {
+        font-size: 50px
+    }
+    .login-page > .title-box > span {
+        width: 138px;
+        margin: 7px 0 12px 0;
+    }
+    .login-page > .title-box > p {
+        font-size: 15px;
+        color: #A9A9A9;
+        font-weight: 200;
+        padding-left: 40px;
+    }
+    .login-page > .input-box > div > span {
+        font-size: 14px;
+    }
+    .login-page > .input-box > div > input {
+        height: 55px;
+    }
+    .login-page > .input-box > .btn-box > .all-btn {
+        display: block;
+        height: 55px;
+        margin-top: 25px;
+    }
+    .login-page > .input-box > .btn-box > .all-btn > span {
+        padding-top: 16px;
+    }
+    .login-page > .login-join-box {
+        padding: 40px 68px 0 68px; 
+    }
+}

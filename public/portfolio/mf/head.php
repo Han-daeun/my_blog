@@ -6,6 +6,9 @@
     <title>SnaF</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="/portfolio/mf/common.css">
+    <link rel="stylesheet" href="/portfolio/mf/login.css">
+    <link rel="stylesheet" href="/portfolio/mf/join.css">
+    <link rel="stylesheet" href="/portfolio/mf/join-02.css">
     <script src="/portfolio/mf/common.js"></script>
     
 </head>

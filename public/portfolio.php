@@ -43,31 +43,32 @@ include "../part/head.php"
     <div class="portfolio-box con">
         <div class="pf-category flex-jc-center">
             <a href="#">Web site</a>
+            <a href="https://blog.march-hi.com/portfolio/pf/" target="_blank">Portfolio</a>
         </div>
         <div class="pf-list">
             <ul class="flex flex-jc-center flex-wrap">
                 <li>
-                    <a href="https://site3.blog.oa.gg/portfolio/yellow-finger/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/yellow-finger_s.png);"></a>
+                    <a href="https://blog.march-hi.com/portfolio/yellow-finger/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/yellow-finger_s.png);"></a>
                     <a href="https://yellow-finger.com/" target="_blank" class="text">yellow finger</a>
                 </li>
                 <li>
-                    <a href="https://site3.blog.oa.gg/portfolio/hazzys/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/hazzys_s.png);"></a>
+                    <a href="https://blog.march-hi.com/portfolio/hazzys/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/hazzys_s.png);"></a>
                     <a href="http://www.hazzys.com/index" target="_blank" class="text">hazzys</a>
                 </li>
                 <li>
-                    <a href="https://site3.blog.oa.gg/portfolio/rar/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/round-around_s.png);"></a>
+                    <a href="https://blog.march-hi.com/portfolio/rar/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/round-around_s.png);"></a>
                     <a href="http://roundaround.co.kr/" target="_blank" class="text">round a'round</a>
                 </li>
                 <li>
-                <a href="https://site3.blog.oa.gg/portfolio/clova/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/clova_s.png);"></a>
+                <a href="https://blog.march-hi.com/portfolio/clova/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/clova_s.png);"></a>
                 <a href="https://clova.ai/friends" target="_blank" class="text">clova</a>
                 </li>
                 <li>
-                <a href="https://site3.blog.oa.gg/portfolio/skinfood-re/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/skinfood_s.png);"></a>
+                <a href="https://blog.march-hi.com/portfolio/skinfood-re/" target="_blank" style="background-image:url(https://han-daeun.github.io/img1/pf/pf-preview/skinfood_s.png);"></a>
                 <a href="#" class="text">skinfood_re</a>
                 </li>
                 <li>
-                <a href="https://site3.blog.oa.gg/portfolio/kpr/" target="_blank" style="background-color:pink;"></a>
+                <a href="https://blog.march-hi.com/portfolio/kpr/" target="_blank" style="background-color:pink;"></a>
                 <a href="http://www.kpr.co.kr/" target="_blank" class="text">KPR</a>
                 </li>
             </ul>
