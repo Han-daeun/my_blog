@@ -1,4 +1,7 @@
 .login-page {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     padding:0 40px;
     box-sizing: border-box;
@@ -112,6 +115,12 @@
     border: solid 1px #FF9176;
     width: 90px;
     padding: 3px 0;
+}
+
+@media screen and (min-width: 600px) {
+    .login-page {
+        max-width: 500px;
+    }
 }
 
 @media screen and (min-width: 1060px) {

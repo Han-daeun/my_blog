@@ -1,4 +1,7 @@
 .join-page-02 {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     padding:0 40px;
     box-sizing: border-box;
@@ -55,8 +58,6 @@
     margin-bottom: 10px;
 }
 
-
-
 .join-page-02 > .input-box > .email-box > div {
     margin-bottom: 15px;
     border-radius: 3px;
@@ -93,6 +94,10 @@ input::placeholder {
     color: #C4C4C4;
     font-size: 13px;
   }
+
+.join-page-02 > .btn-box {
+    margin-top: 50px;
+}
 
 .join-page-02 > .btn-box > .all-btn {
     display: block;
@@ -156,7 +161,7 @@ input::placeholder {
 }
 
 .join-page-02 > .check-menu-box {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .join-page-02 > .check-menu-box > div {
@@ -175,10 +180,14 @@ input::placeholder {
 .join-page-02 > .check-menu-box > div > label {
     color: #979797;
     font-size: 15px;
-    padding-left: 15px;
+    padding-left: 40px;
 }
 
-
+@media screen and (min-width: 600px) {
+    .join-page-02 {
+        max-width: 500px;
+    }
+}
 
 @media screen and (min-width: 1060px) {
     .join-page-02 {
@@ -217,4 +226,36 @@ input::placeholder {
     .join-page-02 > .login-join-box {
         padding: 40px 68px 0 68px; 
     }
+}
+
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label{
+    cursor: pointer;
+}
+
+input[type=checkbox] + label:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, .1), 0px 1px 0px 0px rgba(255, 255, 255, .5);  
+}
+
+.check-menu-box {
+    position: relative;
+}
+
+input[type=checkbox]:checked + label:before{
+    content: "\2714";
+    font-size: 15px; 
+    color: #fff;  
+    background:#FF9176;
+    text-align: center;   
 }

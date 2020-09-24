@@ -13,6 +13,10 @@ body, ul, li, p, h1 {
     list-style: none;
 }
 
+h1 {
+    font-weight: 400;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -155,9 +159,10 @@ a {
     height: 14px;
     position: absolute;
     top: 50%;
-    right: 40px;
+    right: 30px;
     transform: translateY(-50%);
     cursor: pointer;
+    z-index: 50;
 }
 
 .wrap > .top-bar > .side-menu-btn > span {
@@ -192,6 +197,121 @@ a {
     top: 50%;
 }
 
+/* 사이드메뉴 */
+.side-menu > .side-menu-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0);
+    z-index: 1;
+    transition: background-color .5s;
+    visibility: hidden;
+}
+
+.side-menu > .side-menu-bg.active {
+    background-color: rgba(0,0,0,0.6);
+    visibility: visible;
+}
+
+.side-menu > .side-menu-box {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.side-menu > .side-menu-box.active {
+    opacity: 1;
+}
+
+.side-menu > .side-menu-box > .side-menu-logo-box {
+    width: 100%;
+    height: 55px;
+    border: solid 1px #E5E5E5;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .2s;
+}
+
+.side-menu > .side-menu-box.active > .side-menu-logo-box {
+    opacity: 1;
+    visibility: visible;
+}
+
+.side-menu > .side-menu-box > .side-menu-logo-box > .side-menu-logo-img {
+    width: 68px;
+    height: 29px;
+}
+
+.side-menu > .side-menu-box > .side-menu-logo-box > .side-menu-logo-img > img {
+    width: 100%;
+}
+
+.side-menu > .side-menu-box > .side-menu-btn {
+    text-align: center;
+    margin-top: 34px;
+    opacity: 0;
+    transition: opacity .2s;
+    visibility: hidden;
+}
+
+.side-menu > .side-menu-box.active > .side-menu-btn {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.side-menu > .side-menu-box > .side-menu-btn > a {
+    display: block;
+    width: 70px;
+    height: 23px;
+    font-size: 12px;
+    background-color: #FF9176;
+    color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-top: 2px;
+    margin: 0 auto;
+    word-break: break-all;
+}
+
+.side-menu > .side-menu-box > .side-menu-btn > a:last-child {
+    background-color: #FFF;
+    color: #FF9176;
+    border: solid 1px #FF9176;
+    margin-top: 10px;
+}
+
+.side-menu > .side-menu-box > ul {
+    margin-top: 38px;
+    text-align: center;
+    padding: 0 30px;
+    opacity: 0;
+    transition: opacity .2s;
+    visibility: hidden;
+}
+
+.side-menu > .side-menu-box.active > ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+.side-menu > .side-menu-box > ul > li {
+    padding: 10px 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.side-menu > .side-menu-box > ul > li:last-child {
+    border: none;
+}
+
 /* 탑바 데스크탑 */
 @media screen and (min-width: 1060px) {
     .wrap > .top-bar {
@@ -219,6 +339,10 @@ a {
     .wrap > .top-bar > .side-menu-btn {
         display: none;
     }
+    .side-menu {
+        display: none;
+    }
+
 }
 
 

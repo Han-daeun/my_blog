@@ -1,15 +1,18 @@
 /* 사이드메뉴버튼 */
 function MobileSideBar__toggle() {
     var $btn = $('.wrap > .top-bar > .side-menu-btn');
-    // var $sideMenu = $('.main-page > .main-menu > .menu-box > .side-menu-tab');
+    var $sideMenuBox = $('.side-menu > .side-menu-box');
+    var $sideMenuBg = $('.side-menu > .side-menu-bg');
 
     if ( $btn.hasClass('active') ) {
         $btn.removeClass('active');
-        // $sideMenu.removeClass('active');
+        $sideMenuBox.removeClass('active');
+        $sideMenuBg.removeClass('active');
     }
     else {
         $btn.addClass('active');
-        // $sideMenu.addClass('active');
+        $sideMenuBox.addClass('active');
+        $sideMenuBg.addClass('active');
     }
 }
 

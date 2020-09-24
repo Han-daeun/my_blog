@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="/portfolio/mf/login.css">
     <link rel="stylesheet" href="/portfolio/mf/join.css">
     <link rel="stylesheet" href="/portfolio/mf/join-02.css">
+    <link rel="stylesheet" href="/portfolio/mf/join-comp.css">
     <script src="/portfolio/mf/common.js"></script>
+    <script src="/portfolio/mf/join-02.js"></script>
     
 </head>
 <body>
@@ -40,4 +42,23 @@
             <span></span>
         </div>
     </header>
+</div>
+<div class="side-menu">
+    <div class="side-menu-box">
+        <div class="side-menu-logo-box flex-jc-center flex-ai-center">
+            <div class="side-menu-logo-img">
+                <img src="https://han-daeun.github.io/img1/pf/mf/logo.png" alt="">
+            </div>
+        </div>
+        <div class="side-menu-btn">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+        </div>
+        <ul class="side-menu-list">
+            <li>디자인</li>
+            <li>의뢰하기</li>
+            <li>이벤트</li>
+        </ul>
+    </div>
+    <div class="side-menu-bg"></div>
 </div>

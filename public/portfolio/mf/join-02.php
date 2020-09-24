@@ -24,31 +24,31 @@ include "head.php"
     </div>
     <div class="check-menu-box">
         <div class="checkbox-container">
-            <input type="checkbox" id="checkbox1" checked="checked" />
+            <input type="checkbox" id="checkbox1"/>
             <label for="checkbox1">약관에 모두 동의</label>
         </div>
         <div class="checkbox-container">
-            <input type="checkbox" id="checkbox2" />
+            <input type="checkbox" id="checkbox2" name="chk"/>
             <label for="checkbox2">(필수) 만 14세 이상입니다</label>
         </div>
         <div class="checkbox-container">
-            <input type="checkbox" id="checkbox3" />
+            <input type="checkbox" id="checkbox3" name="chk"/>
             <label for="checkbox3">(필수) 서비스 이용약관에 동의</label>
         </div>
         <div class="checkbox-container">
-            <input type="checkbox" id="checkbox3" />
+            <input type="checkbox" id="checkbox4" name="chk"/>
             <label for="checkbox4">(필수) 개인정보 수집이용에 동의</label>
         </div>
         <div class="checkbox-container">
-            <input type="checkbox" id="checkbox3" />
+            <input type="checkbox" id="checkbox5" name="chk"/>
             <label for="checkbox5">(선택) 광고 수신 및 마케팅 이용에 동의</label>
         </div>
     </div>
     <div class="btn-box">
-            <a href="#" class="all-btn">
-                <span>가입 완료</span>
-            </a>
-        </div>
+        <a href="#" class="all-btn">
+            <span>가입 완료</span>
+        </a>
+    </div>
 </div>
 
 <?php
