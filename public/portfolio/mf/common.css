@@ -76,6 +76,11 @@ body {
     align-items: center;
 }
 
+.flex-ai-between {
+    display: flex;
+    align-content: space-between;
+}
+
 .bc-red {
     background-color: red;
 }

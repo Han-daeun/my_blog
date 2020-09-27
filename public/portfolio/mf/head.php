@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="/portfolio/mf/join.css">
     <link rel="stylesheet" href="/portfolio/mf/join-02.css">
     <link rel="stylesheet" href="/portfolio/mf/join-comp.css">
+    <link rel="stylesheet" href="/portfolio/mf/passfind.css">
     <script src="/portfolio/mf/common.js"></script>
     <script src="/portfolio/mf/join-02.js"></script>
+    <script src="/portfolio/mf/passfind.js"></script>
     
 </head>
 <body>
