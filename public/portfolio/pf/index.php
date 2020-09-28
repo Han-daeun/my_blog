@@ -32,7 +32,8 @@
             <div class="main-img parallax-bg"
                 style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_03.png);" data-speed=".4"></div>
             <div class="main-img parallax-bg"
-                style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_02_02.png?dummy1234);" data-speed=".2"></div>
+                style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_02_02.png?dummy1234);"
+                data-speed=".2"></div>
             <div class="main-img parallax-bg"
                 style="background-image:url(https://han-daeun.github.io/img1/pf/pf/b_door.png);" data-speed=".15"></div>
             <div class="main-img parallax-bg"
@@ -151,23 +152,41 @@
             <div class="pf-slide">
                 <div class="swiper-container active-on-visible">
                     <div class="swiper-wrapper" style="height:566px;">
+                        <div id="pg-07" class="swiper-slide"
+                            style="background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-07.png);">
+                            <a href="https://site3.blog.oa.gg/portfolio/clova/" target="_blank">MORE</a>
+                            <div class="pf-bottom">
+                                <div class="pf-title">osulloc</div>
+                                <div class="pf-bar" style="background-color:#81815b;"></div>
+                                <div class="pf-cont flex flex-jc-between">
+                                    <div>홈페이지 리디자인</div>
+                                    <div class="pf-cont-btn flex">
+                                        <a href="#" class="git-icon flex flex-ai-center flex-jc-center" target="_blank">
+                                            <span></span>
+                                            <span>GITHUB</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div id="pg-06" class="swiper-slide"
-                            style="margin-top:60px; background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-05.png);">
+                            style="margin-top:60px; background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-06.png);">
                             <a href="https://site3.blog.oa.gg/portfolio/kpr/" target="_blank">MORE</a>
                             <div class="pf-bottom">
-                                <div class="pf-title">KPR</div>
-                                <div class="pf-bar" style="background-color:#7e3985;"></div>
+                                <div class="pf-title">카카오뱅크</div>
+                                <div class="pf-bar" style="background-color:#fede22;"></div>
                                 <div class="pf-cont flex flex-jc-between">
-                                    <div>반응형페이지 모작</div>
+                                    <div>스크롤페이지 모작</div>
                                     <div class="pf-cont-btn flex">
-                                        <a href="http://www.kpr.co.kr/" class="page-icon flex-ai-center flex-jc-center" target="_blank">
+                                        <a href="http://www.kpr.co.kr/" class="page-icon flex-ai-center flex-jc-center"
+                                            target="_blank">
                                             <span>ORIGINAL</span>
                                         </a>
                                         <a href="#" class="git-icon flex flex-ai-center flex-jc-center" target="_blank">
                                             <span></span>
                                             <span>GITHUB</span>
                                         </a>
-                                    </div>            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -180,11 +199,11 @@
                                 <div class="pf-cont flex flex-jc-between">
                                     <div>홈페이지 리디자인</div>
                                     <div class="pf-cont-btn flex">
-                                    <a href="#" class="git-icon flex flex-ai-center flex-jc-center" target="_blank">
+                                        <a href="#" class="git-icon flex flex-ai-center flex-jc-center" target="_blank">
                                             <span></span>
                                             <span>GITHUB</span>
                                         </a>
-                                    </div>            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -197,14 +216,15 @@
                                 <div class="pf-cont flex flex-jc-between">
                                     <div>풀페이지 모작</div>
                                     <div class="pf-cont-btn flex">
-                                    <a href="https://clova.ai/friends" class="page-icon flex-ai-center flex-jc-center" target="_blank">
+                                        <a href="https://clova.ai/friends"
+                                            class="page-icon flex-ai-center flex-jc-center" target="_blank">
                                             <span>ORIGINAL</span>
                                         </a>
                                         <a href="#" class="git-icon flex flex-ai-center flex-jc-center" target="_blank">
                                             <span></span>
                                             <span>GITHUB</span>
                                         </a>
-                                    </div>            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -217,14 +237,15 @@
                                 <div class="pf-cont flex flex-jc-between">
                                     <div>스크롤페이지 모작</div>
                                     <div class="pf-cont-btn flex">
-                                    <a href="http://roundaround.co.kr/" class="page-icon flex-ai-center flex-jc-center" target="_blank">
+                                        <a href="http://roundaround.co.kr/"
+                                            class="page-icon flex-ai-center flex-jc-center" target="_blank">
                                             <span>ORIGINAL</span>
                                         </a>
                                         <a href="#" class="git-icon flex flex-ai-center flex-jc-center" target="_blank">
                                             <span></span>
                                             <span>GITHUB</span>
                                         </a>
-                                    </div>            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -237,14 +258,15 @@
                                 <div class="pf-cont flex flex-jc-between">
                                     <div>스크롤페이지 모작</div>
                                     <div class="pf-cont-btn flex">
-                                    <a href="http://www.kpr.co.kr/" class="page-icon flex-ai-center flex-jc-center" target="_blank">
+                                        <a href="http://www.kpr.co.kr/" class="page-icon flex-ai-center flex-jc-center"
+                                            target="_blank">
                                             <span>ORIGINAL</span>
                                         </a>
                                         <a href="#" class="git-icon flex flex-ai-center flex-jc-center" target="_blank">
                                             <span></span>
                                             <span>GITHUB</span>
                                         </a>
-                                    </div>            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -257,14 +279,15 @@
                                 <div class="pf-cont flex flex-jc-between">
                                     <div>반응형페이지 모작</div>
                                     <div class="pf-cont-btn flex">
-                                    <a href="https://yellow-finger.com/" class="page-icon flex-ai-center flex-jc-center" target="_blank">
+                                        <a href="https://yellow-finger.com/"
+                                            class="page-icon flex-ai-center flex-jc-center" target="_blank">
                                             <span>ORIGINAL</span>
                                         </a>
                                         <a href="#" class="git-icon flex flex-ai-center flex-jc-center" target="_blank">
                                             <span></span>
                                             <span>GITHUB</span>
                                         </a>
-                                    </div>            
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -283,43 +306,58 @@
                 <img src="https://han-daeun.github.io/img1/pf/pf/aw.png" alt="">
             </div>
             <div class="artwork-img">
-                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-01.png);" class="img-bg"></div>
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-01.png);" class="img-bg">
+                </div>
                 <div class="artwork-txt">
                     <span>웹사이트 리디자인</span>
                     <span>스킨푸드</span>
-                    <a data-title="스킨푸드 리디자인" data-lightbox="example-set" href="https://han-daeun.github.io/img1/pf/pf/artwork_01.jpg">VIEW MORE</a>
+                    <a data-title="스킨푸드 리디자인" data-lightbox="example-set"
+                        href="https://han-daeun.github.io/img1/pf/pf/artwork_01.jpg">VIEW MORE</a>
                 </div>
             </div>
             <div class="artwork-img">
-                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-02.png);" class="img-bg"></div>
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-02.png);" class="img-bg">
+                </div>
                 <div class="artwork-txt">
                     <span>UI·UX 디자인</span>
                     <span>감성 일기어플 '한줄일기'</span>
-                    <a data-title="어플 기획, 디자인" data-lightbox="example-set" href="https://han-daeun.github.io/img1/pf/pf/artwork_02.jpg">VIEW MORE</a>
+                    <a data-title="어플 기획, 디자인" data-lightbox="example-set"
+                        href="https://han-daeun.github.io/img1/pf/pf/artwork_02.jpg">VIEW MORE</a>
                 </div>
             </div>
             <div class="artwork-img">
-                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-03.png);" class="img-bg"></div>
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-03.png);" class="img-bg">
+                </div>
                 <div class="artwork-txt">
                     <span>포스터 디자인</span>
                     <span>서울아프리카페스티벌</span>
-                    <a data-title="어플 기획, 디자인" data-lightbox="example-set" href="https://han-daeun.github.io/img1/pf/pf/artwork_03.jpg">VIEW MORE</a>
+                    <a data-title="어플 기획, 디자인" data-lightbox="example-set"
+                        href="https://han-daeun.github.io/img1/pf/pf/artwork_03.jpg">VIEW MORE</a>
                 </div>
             </div>
             <div class="artwork-img">
-                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-04.png);" class="img-bg"></div>
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-04.png);" class="img-bg">
+                </div>
                 <div class="artwork-txt">
-
+                    <span>웹사이트 리디자인</span>
+                    <span>나뚜루</span>
+                    <a data-title="나뚜루 리디자인" data-lightbox="example-set"
+                        href="https://han-daeun.github.io/img1/pf/pf/artwork_03.jpg">VIEW MORE</a>
                 </div>
             </div>
             <div class="artwork-img">
-                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-05.png);" class="img-bg"></div>
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-05.png);" class="img-bg">
+                </div>
                 <div class="artwork-txt">
-
+                    <span>웹사이트 리디자인</span>
+                    <span>오설록</span>
+                    <a data-title="오설록 리디자인" data-lightbox="example-set"
+                        href="https://han-daeun.github.io/img1/pf/pf/artwork_03.jpg">VIEW MORE</a>
                 </div>
             </div>
             <div class="artwork-img">
-                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-06.png);" class="img-bg"></div>
+                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-06.png);" class="img-bg">
+                </div>
                 <div class="artwork-txt">
 
                 </div>
@@ -330,25 +368,30 @@
             <div class="cont-title flex-jc-center">CONTACT</div>
             <div class="cont-box flex flex-jc-center flex-ai-center">
                 <div class="cont-email">
-                    <div class="icon" style="background-image:url(https://han-daeun.github.io/img1/pf/pf/icon-blog.png);"></div>
+                    <div class="icon"
+                        style="background-image:url(https://han-daeun.github.io/img1/pf/pf/icon-blog.png);"></div>
                     <span>https://marc-hi.blog.oa.gg</span>
                 </div>
                 <div class="cont-home">
-                    <div class="icon" style="background-image:url(https://han-daeun.github.io/img1/pf/pf/icon-home.png);"></div>
+                    <div class="icon"
+                        style="background-image:url(https://han-daeun.github.io/img1/pf/pf/icon-home.png);"></div>
                     <div class="cont-home-text">
                         <div class="home-text-01">대전 광역시 서구 갈마동</div>
                         <div class="home-text-02 flex flex-jc-center">
-                            <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/Asset_57.png);"></div>
+                            <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/Asset_57.png);">
+                            </div>
                             <span>010. 4846. 1904</span>
                         </div>
                         <div class="home-text-03 flex flex-jc-center">
-                            <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/Asset_58.png);"></div>
+                            <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/Asset_58.png);">
+                            </div>
                             <span>eun71044@gmail.com</span>
                         </div>
                     </div>
                 </div>
                 <div class="cont-git">
-                    <div class="icon" style="background-image:url(https://han-daeun.github.io/img1/pf/pf/icon-github.png);"></div>
+                    <div class="icon"
+                        style="background-image:url(https://han-daeun.github.io/img1/pf/pf/icon-github.png);"></div>
                     <span>https://github.com/Han-daeun</span>
                 </div>
             </div>

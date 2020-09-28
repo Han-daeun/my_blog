@@ -162,7 +162,7 @@ a {
     height: 0;
     opacity: 0;
     left: -10px;
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .main-page>.main-box>.title-box.active::before {
@@ -172,8 +172,8 @@ a {
 
 .main-page>.main-box>.title-box>.title-text {
     opacity: 0;
-    transition: opacity 2s;
-    transition-delay: 2s;
+    transition: opacity 1s;
+    transition-delay: 1s;
     
 }
 
@@ -284,7 +284,7 @@ a {
 .main-page>.information>.info-left>div>.info-my {
     margin-top: 30px;
     opacity: 0;
-    transition: opacity 2s;
+    transition: opacity 1s;
 }
 
 .main-page>.information>.info-left>div>.info-my.active {
@@ -332,7 +332,7 @@ a {
 
 .main-page>.information>.info-right>.education {
     opacity: 0;
-    transition: opacity 2s;
+    transition: opacity 1s;
 }
 
 .main-page>.information>.info-right>.education.active {
@@ -341,7 +341,7 @@ a {
 
 .main-page>.information>.info-right>.skills {
     opacity: 0;
-    transition: opacity 2s;
+    transition: opacity 1s;
 }
 
 .main-page>.information>.info-right>.skills.active {
@@ -498,7 +498,7 @@ a {
     overflow: visible;
     opacity: 0;
     margin-top: 100px;
-    transition: opacity 2s, margin 2s;
+    transition: opacity 1s, margin 1s;
 }
 
 .main-page>.pf-page>.pf-slide .swiper-container.active {
@@ -541,6 +541,11 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    background: #f4f4f4;
+}
+
+.swiper-slide:hover {
+    background: linear-gradient(to bottom, #d98b81, #af85b4);
 }
 
 .swiper-slide::before {
@@ -623,8 +628,12 @@ a {
     margin-right: 3px;
 }
 
+#pg-07 >.pf-bottom>.pf-cont>.pf-cont-btn>a {
+    background-color: #81815b;
+}
+
 #pg-06 >.pf-bottom>.pf-cont>.pf-cont-btn>a {
-    background-color: #7e3985;
+    background-color: #fede22;
 }
 
 #pg-05 >.pf-bottom>.pf-cont>.pf-cont-btn>a {
@@ -692,7 +701,7 @@ a {
     grid-template-columns: 50% 50%;
     grid-template-rows:570px 570px 570px;
     font-family: 'NanumSquare', sans-serif;
-    transition: margin 2s, opacity 2s;
+    transition: margin 1s, opacity 1s;
 }
 
 .main-page>.artwork.active {
@@ -787,7 +796,7 @@ a {
     color: #fff;
     background-image: url(https://han-daeun.github.io/img1/pf/pf/cont-bg.png);
     font-family: 'NanumSquare', sans-serif;
-    transition: opacity 2s, margin 2s;
+    transition: opacity 1s, margin 1s;
 }
 
 .main-page > .contact.active {

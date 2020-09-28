@@ -3,7 +3,6 @@ function pfSlide__init() {
     var swiper = new Swiper(".swiper-container", {
         slidesPerView: 4,
         spaceBetween: 70,
-        loop: true,
         /*
         autoplay: {
             delay: 2500,
