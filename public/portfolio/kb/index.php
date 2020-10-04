@@ -313,8 +313,26 @@
 
     <div class="section section-07">
         <div class="background-sky">
-            <div class="sky-blie">
+            <div class="sky-blue">
                 
+            </div>
+            <div class="stars">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="moon">
+                <span class="moon-original"></span>
+                <span class="moon-shadow"></span>
             </div>
         </div>
         <div class="cont-text">
