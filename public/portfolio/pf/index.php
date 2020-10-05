@@ -342,7 +342,7 @@
                     <span>웹사이트 리디자인</span>
                     <span>나뚜루</span>
                     <a data-title="나뚜루 리디자인" data-lightbox="example-set"
-                        href="https://han-daeun.github.io/img1/pf/pf/artwork_03.jpg">VIEW MORE</a>
+                        href="https://han-daeun.github.io/img1/pf/pf/artwork_04.jpg">VIEW MORE</a>
                 </div>
             </div>
             <div class="artwork-img">
@@ -352,16 +352,10 @@
                     <span>웹사이트 리디자인</span>
                     <span>오설록</span>
                     <a data-title="오설록 리디자인" data-lightbox="example-set"
-                        href="https://han-daeun.github.io/img1/pf/pf/artwork_03.jpg">VIEW MORE</a>
+                        href="https://han-daeun.github.io/img1/pf/pf/artwork_05.jpg">VIEW MORE</a>
                 </div>
             </div>
-            <div class="artwork-img">
-                <div style="background-image:url(https://han-daeun.github.io/img1/pf/pf/art-06.png);" class="img-bg">
-                </div>
-                <div class="artwork-txt">
-
-                </div>
-            </div>
+            
         </div>
 
         <div class="contact active-on-visible">

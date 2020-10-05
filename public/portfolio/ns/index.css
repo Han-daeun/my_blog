@@ -70,6 +70,9 @@ a {
     clear: both;
 }
 
+.absolute {
+    position: absolute;
+}
 
 .flex {
     display: flex;
@@ -146,10 +149,30 @@ a {
 }
 
 
+/* 로고 */
+.top-bar-wrap > .top-bar > .logo-left {
+    top: 27px;
+    left: 0;
+}
+
+.top-bar-wrap > .top-bar > .logo-right {
+    top: 36px;
+    right: 0;
+}
+
+
 /* 메인 메뉴바 */
 .top-bar-wrap > .top-bar > .menu-box {
     margin: 0 150px 0 300px;
     height: 100%;
+}
+
+.top-bar-wrap > .top-bar > .menu-box > nav > ul > li {
+    position: relative;
+}
+
+.top-bar-wrap > .top-bar > .menu-box > nav > ul > li:nth-child(4) > a {
+    margin-right: 10px;
 }
 
 .top-bar-wrap > .top-bar > .menu-box > nav > ul > li > a {
@@ -174,14 +197,11 @@ a {
 
 
 /* 2차메뉴 */
-.top-bar-wrap > .top-bar > .menu-box > nav > ul > li {
-    position: relative;
-}
-
 .top-bar-wrap > .top-bar > .menu-box > nav > ul ul {
     position: absolute;
     top: 100%;
     z-index: 1;
+    display: none;
 }
 
 .top-bar-wrap > .top-bar > .menu-box > nav > ul ul > li {
@@ -192,7 +212,7 @@ a {
 
 .top-bar-wrap > .top-bar > .menu-box > nav > ul ul > li > a {
     display: block;
-    padding: 0 52px;
+    padding: 0 50px;
     padding-right: 0;
 }
 
@@ -208,11 +228,53 @@ a {
     color: #e94730;
 }
 
+/* 2차메뉴 백그라운드 */
 .top-bar-wrap > .nav-bg {
     position: absolute;
     top: 91px;
     width: 100%;
-    height: 424px;
+    height: 0;
     background-color: #fff;
     border-bottom: 1px solid #ececec;
+}
+
+.top-bar-wrap > .nav-bg.active {
+    height: 424px;
+}
+
+
+/* 컨텐츠 */
+.content {
+    
+}
+
+.content > .main-box {
+    max-width: 1720px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.content > .main-box > .section {
+    height: 840px;
+}
+
+.content > .main-box > .section > .main-slide {
+    position: relative;
+    width: 940px;
+    height: 840px;
+    overflow: hidden;
+}
+
+.content > .main-box > .section > .main-slide > .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.content > .main-box > .section > .main-slide > .swiper-container > .swiper-wrapper {
+    width: 5640px;
+    height: 100%;
+    transform: translate3d(-2820px, 0px, 0px);
+    transition-duration: 0s;
+    background-color: black;
 }

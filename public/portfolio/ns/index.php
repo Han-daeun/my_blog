@@ -18,8 +18,12 @@
 
     <header class="top-bar-wrap">
         <div class="top-bar con">
-            <div class="logo-left absolute"></div>
-            <div class="logo-right absolute"></div>
+            <div class="logo-left absolute">
+                <img src="https://han-daeun.github.io/img1/pf/ns/img_logo.png" alt="">
+            </div>
+            <div class="logo-right absolute">
+                <img src="https://han-daeun.github.io/img1/pf/ns/btn_nsmall.png" alt="">
+            </div>
             <div class="menu-box">
                 <nav>
                     <ul class="flex">
@@ -87,6 +91,57 @@
         <div class="nav-bg"></div>
     </header>
 
+    <div class="content">
+        <div class="main-box">
+            <div class="section">
+                <div class="main-slide">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="img-box">
+                                    <img src="https://han-daeun.github.io/img1/pf/ns/img_main_slide04.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="img-box">
+                                    <img src="https://han-daeun.github.io/img1/pf/ns/img_main_slide01.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="img-box">
+                                    <img src="https://han-daeun.github.io/img1/pf/ns/img_main_slide02.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="img-box">
+                                    <img src="https://han-daeun.github.io/img1/pf/ns/img_main_slide03.jpg" alt="">
+                                </div>
+                                <div class="text-box">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-01"></div>
+            <div class="container-02"></div>
+            <div class="container-03"></div>
+        </div>
+    </div>
+
+    <footer></footer>
 </body>
 
 </html>
