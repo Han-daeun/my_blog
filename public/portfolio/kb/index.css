@@ -597,7 +597,6 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #333B58;
 }
 
 .section-07>.background-sky>.stars>div {
@@ -665,14 +664,16 @@ a {
     top: 0;
     left: 0;
     right: 0;
-    height: 0;
+    height: 100%;
     background-color: #559cde;
     -webkit-transition: height .85s;
     transition: height .85s; 
+    z-index: 0;
+    transition-delay: 1s; 
 }
 
-.section-07>.background-sky>.sky-blue.active {
-    height: 100%;
+.section-07>.background-sky.active>.sky-blue {
+    height: 0;
 }
 
 .section-07>.background-sky>.moon {
@@ -687,7 +688,7 @@ a {
 }
 
 .section-07>.background-sky>.moon>.moon-original {
-    background-color: #fff;
+    background-color: #ffdc00;
     position: absolute;
     top: 1px;
     left: 1px;
@@ -695,11 +696,16 @@ a {
     height: 110px;
     border-radius: 55px;
     transition: background-color .85s;
+    transition-delay: 1s; 
+}
+
+.section-07>.background-sky.active>.moon>.moon-original {
+    background-color: #fff;
 }
 
 .section-07>.background-sky>.moon>.moon-shadow {
-    top: -23px;
-    left: -23px;
+    top: -200px;
+    left: -200px;
     background-color: #333b58;
     position: absolute;
     width: 100%;
@@ -707,8 +713,14 @@ a {
     border-radius: 55px;
     transition-property: background-color,top,left;
     transition-duration: .85s;
+    transition-delay: 1s; 
 }
     
+.section-07>.background-sky.active>.moon>.moon-shadow {
+    top: -23px;
+    left: -23px;
+    background-color: #333b58;
+}
 
 /* section-08 */
 .section-08 {

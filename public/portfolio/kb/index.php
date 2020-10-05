@@ -312,7 +312,7 @@
     </div>
 
     <div class="section section-07">
-        <div class="background-sky">
+        <div class="background-sky active-on-visible">
             <div class="sky-blue">
                 
             </div>
