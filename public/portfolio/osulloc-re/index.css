@@ -365,6 +365,8 @@ a {
     line-height: 30px;
     color: #fff;
     margin-right: 5px;
+    box-sizing: border-box;
+    padding-right: 20px;
 }
 
 .main-page>.main-menu>.menu-box>.side-menu-tab>div>.search-box>a {
@@ -647,6 +649,17 @@ a {
 .md-box>.md-slide>.swiper-container>.swiper-wrapper>.swiper-slide {
     width: 350px;
     height: 466px;
+    position: relative;
+}
+
+.md-box>.md-slide>.swiper-container>.swiper-wrapper>.swiper-slide::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 70%;
+    left: calc(100% + 20px);
+    top: 10%;
+    background-color: rgba(0,0,0,0.1);
 }
 
 .md-box>.md-slide>.swiper-container>.swiper-wrapper>.swiper-slide>a>.md-img {
@@ -858,6 +871,17 @@ a {
 .weekly-slide>.swiper-container>.swiper-wrapper>.swiper-slide {
     width: 350px;
     height: 466px;
+    position: relative;
+}
+
+.weekly-slide>.swiper-container>.swiper-wrapper>.swiper-slide::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 70%;
+    left: calc(100% + 20px);
+    top: 10%;
+    background-color: rgba(0,0,0,0.1);
 }
 
 .weekly-slide>.swiper-container>.swiper-wrapper>.swiper-slide>a>.wk-img {
