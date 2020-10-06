@@ -113,7 +113,12 @@
                                     <img src="https://han-daeun.github.io/img1/pf/ns/img_main_slide04.jpg" alt="">
                                 </div>
                                 <div class="text-box">
-
+                                    <span>
+                                        <p>고객중심경영을</p>
+                                    </span>
+                                    <span>
+                                        <p>실천합니다</p>
+                                    </span>
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -121,7 +126,12 @@
                                     <img src="https://han-daeun.github.io/img1/pf/ns/img_main_slide01.jpg" alt="">
                                 </div>
                                 <div class="text-box">
-
+                                    <span>
+                                        <p>사회적 책임을</p>
+                                    </span>
+                                    <span>
+                                        <p>다합니다</p>
+                                    </span>
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -129,7 +139,12 @@
                                     <img src="https://han-daeun.github.io/img1/pf/ns/img_main_slide02.jpg" alt="">
                                 </div>
                                 <div class="text-box">
-
+                                    <span>
+                                        <p>건강한 기업을</p>
+                                    </span>
+                                    <span>
+                                        <p>만듭니다</p>
+                                    </span>
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -137,7 +152,12 @@
                                     <img src="https://han-daeun.github.io/img1/pf/ns/img_main_slide03.jpg" alt="">
                                 </div>
                                 <div class="text-box">
-
+                                    <span>
+                                        <p>신뢰의 가치를</p>
+                                    </span>
+                                    <span>
+                                        <p>전합니다</p>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -187,9 +207,9 @@
                             <a href="#">
                                 <p class="tit">사화공헌</p>
                                 <p class="text">
-                                    <span>모두가 함꼐</span>
+                                    <span>모두가 함께</span>
                                     <span>행복한 사회를</span>
-                                    <span>만들어갑니다</span>
+                                    <span>만들어 갑니다</span>
                                 </p>
                             </a>
                         </div>

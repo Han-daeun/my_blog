@@ -152,9 +152,30 @@
             <div class="pf-slide">
                 <div class="swiper-container active-on-visible">
                     <div class="swiper-wrapper" style="height:566px;">
+                    <div id="pg-08" class="swiper-slide"
+                            style="margin-top:60px; background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-06.png);">
+                            <a href="https://blog.march-hi.com/portfolio/kb/" target="_blank">MORE</a>
+                            <div class="pf-bottom">
+                                <div class="pf-title">NS홈쇼핑</div>
+                                <div class="pf-bar" style="background-color:#e94730;"></div>
+                                <div class="pf-cont flex flex-jc-between">
+                                    <div>반응형페이지 모작</div>
+                                    <div class="pf-cont-btn flex">
+                                        <a href="https://www.kakaobank.com/" class="page-icon flex-ai-center flex-jc-center"
+                                            target="_blank">
+                                            <span>ORIGINAL</span>
+                                        </a>
+                                        <a href="#" class="git-icon flex flex-ai-center flex-jc-center" target="_blank">
+                                            <span></span>
+                                            <span>GITHUB</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div id="pg-07" class="swiper-slide"
                             style="background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-07.png);">
-                            <a href="https://site3.blog.oa.gg/portfolio/clova/" target="_blank">MORE</a>
+                            <a href="https://blog.march-hi.com/portfolio/osulloc-re/ target="_blank">MORE</a>
                             <div class="pf-bottom">
                                 <div class="pf-title">osulloc</div>
                                 <div class="pf-bar" style="background-color:#81815b;"></div>
@@ -171,14 +192,14 @@
                         </div>
                         <div id="pg-06" class="swiper-slide"
                             style="margin-top:60px; background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-06.png);">
-                            <a href="https://site3.blog.oa.gg/portfolio/kpr/" target="_blank">MORE</a>
+                            <a href="https://blog.march-hi.com/portfolio/kb/" target="_blank">MORE</a>
                             <div class="pf-bottom">
                                 <div class="pf-title">카카오뱅크</div>
                                 <div class="pf-bar" style="background-color:#fede22;"></div>
                                 <div class="pf-cont flex flex-jc-between">
                                     <div>스크롤페이지 모작</div>
                                     <div class="pf-cont-btn flex">
-                                        <a href="http://www.kpr.co.kr/" class="page-icon flex-ai-center flex-jc-center"
+                                        <a href="https://www.kakaobank.com/" class="page-icon flex-ai-center flex-jc-center"
                                             target="_blank">
                                             <span>ORIGINAL</span>
                                         </a>
@@ -192,7 +213,7 @@
                         </div>
                         <div id="pg-05" class="swiper-slide"
                             style="background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-05.png);">
-                            <a href="https://site3.blog.oa.gg/portfolio/skinfood-re/" target="_blank">MORE</a>
+                            <a href="https://blog.march-hi.com/portfolio/skinfood-re/" target="_blank">MORE</a>
                             <div class="pf-bottom">
                                 <div class="pf-title">SKIN FOOD</div>
                                 <div class="pf-bar" style="background-color:#ffc300;"></div>
@@ -209,7 +230,7 @@
                         </div>
                         <div id="pg-04" class="swiper-slide"
                             style="margin-top:60px; background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-04.png);">
-                            <a href="https://site3.blog.oa.gg/portfolio/clova/" target="_blank">MORE</a>
+                            <a href="https://blog.march-hi.com/portfolio/clova/" target="_blank">MORE</a>
                             <div class="pf-bottom">
                                 <div class="pf-title">clova</div>
                                 <div class="pf-bar" style="background-color:#21aabc;"></div>
@@ -230,7 +251,7 @@
                         </div>
                         <div id="pg-03" class="swiper-slide"
                             style="background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-03.png);">
-                            <a href="https://site3.blog.oa.gg/portfolio/rar/" taget="_blank">MORE</a>
+                            <a href="https://blog.march-hi.com/portfolio/rar/" taget="_blank">MORE</a>
                             <div class="pf-bottom">
                                 <div class="pf-title">round a'round</div>
                                 <div class="pf-bar" style="background-color:#76887f;"></div>
@@ -251,14 +272,14 @@
                         </div>
                         <div id="pg-02" class="swiper-slide"
                             style="margin-top:60px; background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-02.png);">
-                            <a href="http://www.hazzys.com/index" target="_blank">MORE</a>
+                            <a href="https://blog.march-hi.com/portfolio/hazzys/" target="_blank">MORE</a>
                             <div class="pf-bottom">
                                 <div class="pf-title">HAZZYS</div>
                                 <div class="pf-bar" style="background-color:#a50d17;"></div>
                                 <div class="pf-cont flex flex-jc-between">
                                     <div>스크롤페이지 모작</div>
                                     <div class="pf-cont-btn flex">
-                                        <a href="http://www.kpr.co.kr/" class="page-icon flex-ai-center flex-jc-center"
+                                        <a href="http://www.hazzys.com/index" class="page-icon flex-ai-center flex-jc-center"
                                             target="_blank">
                                             <span>ORIGINAL</span>
                                         </a>
@@ -272,7 +293,7 @@
                         </div>
                         <div id="pg-01" class="swiper-slide"
                             style="background-image:url(https://han-daeun.github.io/img1/pf/pf/pro-01.png);">
-                            <a href="https://site3.blog.oa.gg/portfolio/yellow-finger/" target="_blank">MORE</a>
+                            <a href="https://blog.march-hi.com/portfolio/yellow-finger/" target="_blank">MORE</a>
                             <div class="pf-bottom">
                                 <div class="pf-title">Yellow Finger</div>
                                 <div class="pf-bar" style="background-color:#f6c254;"></div>

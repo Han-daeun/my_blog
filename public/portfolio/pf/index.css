@@ -628,6 +628,10 @@ a {
     margin-right: 3px;
 }
 
+#pg-08 >.pf-bottom>.pf-cont>.pf-cont-btn>a {
+    background-color: #e94730;
+}
+
 #pg-07 >.pf-bottom>.pf-cont>.pf-cont-btn>a {
     background-color: #81815b;
 }
