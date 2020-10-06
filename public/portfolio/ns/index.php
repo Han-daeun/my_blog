@@ -93,6 +93,17 @@
 
     <div class="content">
         <div class="main-box">
+            <div class="sns-menu-pc">
+                <ul>
+                    <li class="sns-01"><a href="#"></a></li>
+                    <li class="sns-02"><a href="#"></a></li>
+                    <li class="sns-03"><a href="#"></a></li>
+                    <li class="sns-04"><a href="#"></a></li>
+                    <li class="sns-05"><a href="#"></a></li>
+                    <li class="sns-06"><a href="#"></a></li>
+                    <li class="sns-07"><a href="#"></a></li>
+                </ul>
+            </div>
             <div class="section">
                 <div class="main-slide">
                     <div class="swiper-container">
@@ -134,10 +145,131 @@
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
+                <div class="contents contents-01">
+                    <div class="box">
+                        <div class="con0 con1">
+                            <a href="#">
+                                <p class="tit">동반성장</p>
+                                <p class="text">
+                                    <span>상호간 신뢰를</span>
+                                    <span>기반으로 함께</span>
+                                    <span>성장합니다</span>
+                                </p>
+                            </a>
+                        </div>
+                        <p class="arrow">
+                            <span>
+                                <img src="https://han-daeun.github.io/img1/pf/ns/bg_ani_arrow_w.png" alt="">
+                            </span>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <div class="con0 con2 con-b">
+                            <a href="#">
+                                <p class="tit">보도자료</p>
+                                <p class="text">
+                                    <span>NS홈쇼핑, 경상북</span>
+                                    <span>도에 농어촌상생협</span>
+                                    <span>력기금 6500만원...</span>
+                                </p>
+                            </a>
+                        </div>
+                        <p class="arrow">
+                            <span>
+                                <img src="https://han-daeun.github.io/img1/pf/ns/bg_ani_arrow.png" alt="">
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="contents contents-02">
+                    <div class="box">
+                        <div class="con0 con3">
+                            <a href="#">
+                                <p class="tit">사화공헌</p>
+                                <p class="text">
+                                    <span>모두가 함꼐</span>
+                                    <span>행복한 사회를</span>
+                                    <span>만들어갑니다</span>
+                                </p>
+                            </a>
+                        </div>
+                        <p class="arrow">
+                            <span>
+                                <img src="https://han-daeun.github.io/img1/pf/ns/bg_ani_arrow_w.png" alt="">
+                            </span>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <div class="con0 con4">
+                            <a href="#">
+                                <p class="tit">인재경영</p>
+                                <p class="text">
+                                    <span>원칙과 혼을</span>
+                                    <span>담은 인재를</span>
+                                    <span>찾습니다</span>
+                                </p>
+                            </a>
+                        </div>
+                        <p class="arrow">
+                            <span>
+                                <img src="https://han-daeun.github.io/img1/pf/ns/bg_ani_arrow_w.png" alt="">
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="contents contents-03">
+                    <div class="box">
+                        <div class="con0 con5">
+                            <a href="#">
+                                <p class="tit">투자정보</p>
+                                <p class="text">
+                                    <span>주주와 함께</span>
+                                    <span>지속적인 성장을</span>
+                                    <span>추구합니다</span>
+                                </p>
+                            </a>
+                        </div>
+                        <p class="arrow">
+                            <span>
+                                <img src="https://han-daeun.github.io/img1/pf/ns/bg_ani_arrow_w.png" alt="">
+                            </span>
+                        </p>
+                    </div>
+                    <div class="box">
+                        <div class="con0 con6 con-b">
+                            <a href="#">
+                                <p class="tit">입점안내</p>
+                                <p class="text">
+                                    <span>Success Partner</span>
+                                    <span>협력사의 성공을</span>
+                                    <span>약속합니다</span>
+                                </p>
+                            </a>
+                        </div>
+                        <p class="arrow">
+                            <span>
+                                <img src="https://han-daeun.github.io/img1/pf/ns/bg_ani_arrow.png" alt="">
+                            </span>
+                        </p>
+                    </div>
+                    <div class="box box-row">
+                        <div class="con0 con7">
+                            <a href="#">
+                                <p class="tit">주요사업</p>
+                                <p class="text">
+                                    <span>쉽고 편리한 쇼핑으로</span>
+                                    <span>고객만족을 추구합니다</span>
+                                </p>
+                            </a>
+                        </div>
+                        <p class="arrow">
+                            <span>
+                                <img src="https://han-daeun.github.io/img1/pf/ns/bg_ani_arrow_w.png" alt="">
+                            </span>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="container-01"></div>
-            <div class="container-02"></div>
-            <div class="container-03"></div>
         </div>
     </div>
 
