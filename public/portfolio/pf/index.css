@@ -325,7 +325,7 @@ a {
 }
 
 .main-page>.information>.info-right>div>.info-title>.title-bar {
-    width: 25px;
+    width: 25px;slide-btn
     height: 3px;
     background-color: #c1c4e6;
 }

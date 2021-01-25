@@ -1,0 +1,1047 @@
+/* 폰트 설정 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+html {
+  font-family: "Open Sans", "Noto Sans KR", "Roboto", sans-serif;
+}
+
+/* 노말라이즈 */
+body,
+ul,
+li,
+p,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background-color: rgba(247, 169, 146, 1);
+  color: #fff;
+}
+
+/* 라이브러리 */
+.con {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block {
+  display: block;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1-0-0 {
+  flex: 1 0 0;
+}
+
+.flex-jc-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-jc-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-jc-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-ai-between {
+  display: flex;
+  align-items: space-between;
+}
+
+.flex-ai-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/* 커스텀 */
+body {
+  min-width: 350px;
+}
+
+body.active {
+  overflow-y: hidden;
+}
+
+/* 메뉴탭 */
+#menu-tab {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  min-width: 1300px;
+}
+
+#menu-tab>.menu-bar {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#menu-tab>.menu-bar>ul {
+  width: 100%;
+  height: 100%;
+}
+
+#menu-tab>.menu-bar>ul>li {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 60px;
+  color: #333;
+}
+
+#menu-tab>.menu-bar>ul>li>a {
+  display: block;
+  padding: 8px 15px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+#menu-tab>.menu-bar>ul>li.active>a {
+  color: #fff;
+  background: #e98874;
+}
+
+/* 메인페이지 */
+#wrap {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  min-width: 1300px;
+}
+
+#wrap>.top-bar {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: 0.3s;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#wrap>.top-bar.off {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#wrap>.main-visual {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#wrap>.main-visual>.main-box {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(https://han-daeun.github.io/img1/pf/pf/main_back.png);
+  position: relative;
+  box-sizing: border-box;
+}
+
+#wrap>.main-visual>.main-box::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 110px;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent, #fff);
+}
+
+#wrap>.main-visual>.main-box>div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/* 메인 텍스트 */
+#wrap>.main-visual>.main-text {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#wrap>.main-visual>.main-text>div {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#wrap>.main-visual>.main-text p {
+  font-size: 75px;
+  font-weight: 900;
+  color: #fff;
+  padding-right: 215px;
+  padding-bottom: 80px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(20%);
+  transition: 1s ease;
+}
+
+#wrap>.main-visual.active>.main-text p {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.5s;
+}
+
+#wrap>.main-visual>.main-text p:nth-child(1) {
+  padding-left: 171px;
+  transition-delay: 0.6s;
+}
+
+#wrap>.main-visual>.main-text p:nth-child(2) {
+  transition-delay: 0.7s;
+}
+
+#wrap>.main-visual>.main-text p:nth-child(3) {
+  transition-delay: 0.8s;
+}
+
+#wrap>.main-visual>.main-text p:nth-child(4) {
+  padding-right: 171px;
+  transition-delay: 0.9s;
+}
+
+#wrap>.main-visual>.main-text p:nth-child(5) {
+  padding-left: 47px;
+  transition-delay: 1s;
+}
+
+#wrap>.main-visual>.main-text p:nth-child(6) {
+  transition-delay: 1.1s;
+}
+
+#wrap>.main-visual>.main-text p:nth-child(7) {
+  transition-delay: 1.2s;
+}
+
+#wrap>.main-visual>.main-text p:nth-child(8) {
+  transition-delay: 1.3s;
+}
+
+#wrap>.main-visual>.main-text p:nth-child(9) {
+  transition-delay: 1.4s;
+}
+
+#wrap>.main-visual>.main-text p:last-child {
+  padding-right: 0;
+}
+
+/* 컨텐츠 공통 */
+.contents {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding-bottom: 400px;
+}
+
+/* 인포 페이지 */
+#wrap>.info-box {
+  padding-top: 155px;
+  color: #333;
+  position: relative;
+  padding-bottom: 0;
+}
+
+#wrap>.info-box::before {
+  content: "";
+  position: absolute;
+  right: -15%;
+  bottom: -10%;
+  width: 614px;
+  height: 614px;
+  background-image: url(https://han-daeun.github.io/img1/pf/pf/bg-02.png);
+}
+
+#wrap>.info-box>.main-info-02 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding-top: 150px;
+}
+
+#wrap>.info-box>.main-info-02::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background-image: url(https://han-daeun.github.io/img1/pf/pf/wave.png);
+  background-size: cover;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#wrap>.info-box>.main-info-02>div {
+  width: 50%;
+  height: 100%;
+}
+
+#wrap>.info-box>.main-info-02>.left {
+  text-align: right;
+  padding-right: 90px;
+}
+
+#wrap>.info-box>.main-info-02>.left>.about {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+#wrap>.info-box>.main-info-02>.left>.photo {
+  width: 150px;
+  height: 200px;
+  background-image: url(https://han-daeun.github.io/img1/pf/pf/photo.jpg);
+  background-size: cover;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: 0;
+  --shadow-color: rgba(var(--service-color-rgb, 0, 0, 0), 0.18);
+  box-shadow: -1px -1px 2px 0px rgba(0, 0, 0, 0.05), 1px 3px 5px -1px var(--shadow-color);
+}
+
+#wrap>.info-box>.main-info-02>.left>.text {
+  padding-top: 20px;
+}
+
+#wrap>.info-box>.main-info-02>.left>.text>p {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(126, 126, 126);
+}
+
+#wrap>.info-box>.main-info-02>.right {
+  padding-left: 90px;
+}
+
+#wrap>.info-box>.main-info-02>.right>div {
+  font-size: 22px;
+}
+
+#wrap>.info-box>.main-info-02>.right>.license {
+  padding-top: 50px;
+}
+
+#wrap>.info-box>.main-info-02>.right>div>.tit {
+  display: block;
+  padding-bottom: 20px;
+}
+
+#wrap>.info-box>.main-info-02>.right>div>ul {
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 30px;
+}
+
+#wrap>.info-box>.main-info-02>.right>div>ul>li:first-child {
+  padding-bottom: 35px;
+}
+
+#wrap>.info-box>.main-info-02>.right>div>ul>li>p:last-child {
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 300;
+}
+
+#wrap>.info-box>.main-info-02>.right>div>ul>li {
+  position: relative;
+}
+
+#wrap>.info-box>.main-info-02>.right>div>ul>li::before {
+  content: '';
+  position: absolute;
+  left: -25px;
+  top: 4px;
+  width: 14px;
+  height: 14px;
+  color:#e98874;
+  border: 4px solid#e98874;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+#wrap>.info-box>.main-info-02>.right>div>ul>li:first-child:after {
+  content: '';
+  position: absolute;
+  left: -19px;
+  top: 24px;
+  width: 1px;
+  height: 27px;
+  background: #e98874;
+}
+
+#wrap>.info-box>.main-info>p {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 40px;
+}
+
+#wrap>.info-box>.main-info>p>strong {
+  font-weight: 500;
+  color: #e98874;
+}
+
+
+#wrap>.info-box>.graph-list {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 500px 0;
+  position: relative;
+}
+
+#wrap>.info-box>.graph-list>.graph-main {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: border-box;
+  --shadow-color: rgba(var(--service-color-rgb, 0, 0, 0), 0.18);
+  box-shadow: -1px -1px 2px 0px rgba(0, 0, 0, 0.05), 1px 3px 5px -1px var(--shadow-color);
+  z-index: 50;
+  border-style: solid;
+  border-image: linear-gradient(to right, #a6c1ff 0%,#f68084 100%);
+  border-image-slice: 1;
+  background: #fff;
+}
+
+#wrap>.info-box>.graph-list>.graph-main p {
+  color: #333;
+  text-align: center;
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 25px;
+}
+
+#wrap>.info-box>.graph-list>.graph-main p>strong {
+  font-weight: 900;
+}
+
+#wrap>.info-box>.graph-list>.graph-main p:first-child {
+  padding-bottom: 35px;
+  font-size: 18px;
+  font-weight: 900;
+  position: relative;
+}
+
+#wrap>.info-box>.graph-list>.graph-main p:first-child::after {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-color: #333;
+  border-radius: 50%;
+  left: 50%;
+  top: 35px;
+  transform: translateX(-50%);
+}
+
+#wrap>.info-box>.graph-list>.graph-sub {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: pink;
+  color: #fff;
+  vertical-align: middle;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  /* box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); */
+  --shadow-color: rgba(var(--service-color-rgb, 0, 0, 0), 0.18);
+  box-shadow: -1px -1px 2px 0px rgba(0, 0, 0, 0.05),
+    1px 3px 5px -1px var(--shadow-color);
+  opacity: 0;
+  transition: transform 0.3s, margin 1.5s ease-in-out;
+  transition-delay: margin 0.5s;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div::after {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  width: 350px;
+  padding: 10px;
+  background-color: rgb(247, 247, 247);
+  border-radius: 5px;
+  top: 0;
+  opacity: 0;
+  margin-top: 20px;
+  transition: 1s;
+}
+
+#wrap>.info-box.active>.graph-list>.graph-sub>div::after {
+  opacity: 1;
+  margin-top: 0;
+  transition-delay: 2s;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.two::after,
+#wrap>.info-box>.graph-list>.graph-sub>div.four::after {
+  text-align: right;
+  right: 100%;
+  margin-right: 40px;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.three::after,
+#wrap>.info-box>.graph-list>.graph-sub>div.five::after {
+  left: 100%;
+  margin-left: 40px;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.one {
+  background-color: #b9b1e2;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.one::after {
+  content: "웹 표준을 준수하고 효율적인 코드를 설계합니다.";
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.two {
+  background-color: #cba3c6;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.two::after {
+  content: "미디어쿼리를 활용하여 \A 반응형 레이아웃을 이해 및 구현합니다.";
+  white-space: pre;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.three {
+  background-color: #a6c1ff;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.three::after {
+  content: "자바스크립트와 제이쿼리 라이브러리를 활용하여 \A 기능을 구현하고 유용한 플러그인을 적용합니다.";
+  white-space: pre;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.four {
+  background-color: #db96ae;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.four::after {
+  content: "다양한 툴과 편집기능을 자유자재로 사용합니다.";
+  top: 10px;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.five {
+  background-color: #f68084;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.five::after {
+  content: "아이콘 제작 등 벡터 소스의 자유로운 \A 제작과 편집이 가능합니다.";
+  white-space: pre;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.more {
+  background-color: #e78c9b;
+}
+
+#wrap>.info-box>.graph-list.active>.graph-sub>div {
+  opacity: 1;
+}
+
+#wrap>.info-box>.graph-list.active>.graph-sub>div.one {
+  margin-top: -220px;
+}
+
+#wrap>.info-box>.graph-list.active>.graph-sub>div.two {
+  margin-top: -50px;
+  margin-left: -250px;
+}
+
+#wrap>.info-box>.graph-list.active>.graph-sub>div.three {
+  margin-top: -50px;
+  margin-left: 250px;
+}
+
+#wrap>.info-box>.graph-list.active>.graph-sub>div.four {
+  margin-top: 200px;
+  margin-left: -150px;
+}
+
+#wrap>.info-box>.graph-list.active>.graph-sub>div.five {
+  margin-top: 200px;
+  margin-left: 150px;
+}
+
+#wrap>.info-box>.graph-list.active>.graph-sub>div.more {
+  margin-top: 200px;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div>span {
+  display: block;
+  text-align: center;
+  line-height: 60px;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.more {
+  cursor: pointer;
+}
+
+#wrap>.info-box>.graph-list>.graph-sub>div.more:hover {
+  transform: translateX(-50%) translateY(-60%);
+}
+
+/* 포트폴리오 페이지 */
+#wrap>.port-box {
+  height: auto;
+  opacity: 0;
+  transform: translateY(20%);
+  transition: 1s ease;
+  position: relative;
+  padding-bottom: 0;
+}
+
+#wrap>.port-box::before {
+  content: "";
+  position: absolute;
+  left: -15%;
+  bottom: -200px;
+  width: 614px;
+  height: 614px;
+  background-image: url(https://han-daeun.github.io/img1/pf/pf/bg-01.png);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+#wrap>.port-box.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#wrap .title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: #333;
+  padding-bottom: 15px;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+#wrap .title::after {
+  position: absolute;
+  content: "";
+  width: 88px;
+  height: 2px;
+  background-color: #333;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#wrap>.port-box>.port-cate>ul {
+  padding-bottom: 50px;
+}
+
+#wrap>.port-box>.port-cate>ul>li {
+  font-size: 16px;
+  font-weight: 300;
+  padding-right: 70px;
+  display: block;
+  cursor: pointer;
+  color: #333;
+}
+
+#wrap>.port-box>.port-cate>ul>li:last-child {
+  padding-right: 0;
+}
+
+#wrap>.port-box>.port-cate>ul>li>span {
+  display: block;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+#wrap>.port-box>.port-cate>ul>li.selected>span {
+  color: #fff;
+  background: #e98874;
+}
+
+#wrap>.port-box>.port-list {
+  width: 100%;
+  height: auto;
+}
+
+#wrap>.port-box>.port-list>li {
+  width: 25%;
+}
+
+#wrap>.port-box>.port-list>li>div {
+  box-sizing: border-box;
+  padding: 115px 0;
+  margin: 25px;
+  position: relative;
+}
+
+#wrap>.port-box>.port-list>li>div>.img-box {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); */
+  --shadow-color: rgba(var(--service-color-rgb, 0, 0, 0), 0.18);
+  box-shadow: -1px -1px 2px 0px rgba(0, 0, 0, 0.05),
+    1px 3px 5px -1px var(--shadow-color);
+  background-color: #fff;
+  transition: 0.3s linear;
+  position: absolute;
+}
+
+#wrap>.port-box>.port-list>li>div>.img-box::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.3s linear;
+}
+
+#wrap>.port-box>.port-list>li>div:hover>.img-box::before {
+  opacity: 1;
+}
+
+#wrap>.port-box>.port-list>li>div>.img-box::after {
+  position: absolute;
+  content: "";
+  width: 85%;
+  height: 85%;
+  border: solid 2px #fff;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0;
+  z-index: 30;
+  transition: 0.3s linear;
+}
+
+#wrap>.port-box>.port-list>li>div:hover>.img-box::after {
+  opacity: 1;
+}
+
+#wrap>.port-box>.port-list>li>div:hover>.img-box {
+  transform: scale(1.02);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#wrap>.port-box>.port-list>li>div>.img-box>img {
+  width: 100%;
+}
+
+#wrap>.port-box>.port-list>li>div>.text-box {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 30;
+  transition: opacity 0.3s linear;
+}
+
+#wrap>.port-box>.port-list>li>div:hover>.text-box {
+  opacity: 1;
+}
+
+#wrap>.port-box>.port-list>li>div>.text-box>h3 {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  white-space: nowrap;
+}
+
+#wrap>.port-box>.port-list>li>div>.text-box>p {
+  font-size: 15px;
+  padding-bottom: 20px;
+  white-space: nowrap;
+}
+
+#wrap>.port-box>.port-list>li>div>.text-box>a {
+  font-size: 13px;
+  padding: 6px 6px;
+  border: solid 1px #fff;
+}
+
+/* 아트워크 페이지 */
+#wrap>.art-box {
+  position: relative;
+  opacity: 0;
+  transform: translateY(20%);
+  transition: 1s ease;
+  padding-bottom: 0;
+}
+
+#wrap>.art-box::before {
+  content: "";
+  position: absolute;
+  right: -20%;
+  bottom: -200px;
+  width: 614px;
+  height: 614px;
+  background-image: url(https://han-daeun.github.io/img1/pf/pf/bg-03.png);
+}
+
+#wrap>.art-box.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#wrap>.art-box>.artwork-box {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap>.art-box>.artwork-box>div {
+  width: 20%;
+  height: 300px;
+  background-color: #f68084;
+  margin: 30px;
+}
+
+/* 컨텍 페이지 */
+#wrap>.cont-box {
+  width: 100%;
+  color: #333;
+  padding-top: 300px;
+  padding-bottom: 150px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(20%);
+  transition: 1s ease;
+}
+
+#wrap>.cont-box.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#wrap>.cont-box>.title {
+  margin-bottom: 80px;
+}
+
+#wrap>.cont-box>.sub-title {
+  margin: 40px 0;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 300;
+  color: #333;
+  /* color: transparent;
+  -webkit-text-stroke: 1px rgb(151, 151, 151); */
+  font-family: 'NanumSquare', sans-serif;
+  line-height: 55px;
+}
+
+#wrap>.cont-box>.sub-title>strong {
+  font-weight: 900;
+}
+
+#wrap>.cont-box>.info {
+  text-align: center;
+  font-weight: 300;
+  padding-top: 30px;
+  padding-bottom: 120px;
+}
+
+#wrap>.cont-box>.info>ul>li {
+  line-height: 40px;
+}
+
+#wrap>.cont-box>.info i {
+  padding-right: 10px;
+}
+
+#wrap>.cont-box>span {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #e98874;
+  font-family: 'Bad Script', cursive;
+}
+
+#wrap>.cont-box>p {
+  font-size: 12px;
+  color: rgb(122, 122, 122);
+  text-align: center;
+}
+
+/* 인포 더보기 */
+.more-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.more-box.active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s;
+}
+
+.more-box>.inner {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  border-radius: 10px;
+  background-color: #fff;
+  opacity: 0;
+}
+
+.more-box.active>.inner {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease;
+}
+
+.more-box>.inner>.close-btn {
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e78c9b;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 16px;
+  line-height: 60px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  left: 50%;
+  bottom: 5%;
+  transform: translateX(-50%);
+}
+
+.more-box>.inner>.close-btn:hover {
+  transform: translateX(-50%) translateY(-10%);
+}
+
+@media (max-width: 800px) {
+  #wrap>.port-box>.port-list>li {
+    width: 33.3333%;
+  }
+}
+
+@media (max-width: 600px) {
+  #wrap>.port-box>.port-list>li {
+    width: 50%;
+  }
+
+  #wrap>.port-box>.port-cate>ul>li {
+    font-size: 14px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  #wrap>.port-box>.port-list>li {
+    width: 100%;
+  }
+
+  #wrap>.port-box>.port-cate>ul>li {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+}

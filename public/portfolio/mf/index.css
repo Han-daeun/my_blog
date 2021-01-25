@@ -1,0 +1,46 @@
+.main-page > * {
+    text-align: center;
+}
+
+.main-page {
+    padding-top: 100px;
+}
+
+.main-page > .title {
+    font-size: 28px;
+    padding-bottom: 35px;
+}
+
+.main-page > .title > span {
+    padding-right: 10px;
+}
+
+.main-page > .sub-title {
+    font-size: 12px;
+    color: #8c8c8c;
+    line-height: 15px;
+    margin: 0;
+}
+
+.main-page > .mf-list {
+    padding-top: 50px;
+}
+
+.main-page > .mf-list > ul {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.main-page > .mf-list > ul > li > a {
+    display: block;
+    padding: 10px 0;
+    border: 1px solid rgb(116, 116, 116);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: rgb(116, 116, 116);
+}
+
+.main-page > .mf-list > ul > li > a:hover {
+    color: #FF9176;
+    border: 1px solid #FF9176;
+}

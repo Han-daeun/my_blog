@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SnaF</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--폰트어썸-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="/portfolio/mf/common.css">
     <link rel="stylesheet" href="/portfolio/mf/login.css">
     <link rel="stylesheet" href="/portfolio/mf/join.css">
     <link rel="stylesheet" href="/portfolio/mf/join-02.css">
     <link rel="stylesheet" href="/portfolio/mf/join-comp.css">
     <link rel="stylesheet" href="/portfolio/mf/passfind.css">
+    <link rel="stylesheet" href="/portfolio/mf/index.css">
     <script src="/portfolio/mf/common.js"></script>
     <script src="/portfolio/mf/join-02.js"></script>
     <script src="/portfolio/mf/passfind.js"></script>
-    
 </head>
 <body>
 

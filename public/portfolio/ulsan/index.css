@@ -1,0 +1,2587 @@
+/* 폰트적용 */
+@import url("//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css");
+
+html {
+  font-family: "NanumSquareRound", sans-serif;
+  letter-spacing: -1px;
+}
+
+/* 노말라이즈 */
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body.active {
+  overflow-y: hidden;
+}
+
+/* 라이브러리 */
+
+.line-height-0 {
+  line-height: 0;
+}
+
+.line-height-0 > * {
+  line-height: normal;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.img-box > img {
+  display: block;
+  width: 100%;
+}
+
+.cell {
+  float: left;
+  box-sizing: border-box;
+}
+
+.cell-right {
+  float: right;
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1-0-0 {
+  flex: 1 0 0;
+}
+
+.flex-jc-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-jc-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-jc-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-ai-center {
+  display: flex;
+  align-items: center;
+}
+
+.bc-red {
+  background-color: red;
+}
+
+.padding-80 {
+  padding: 0 80px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.con {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 커스텀 */
+
+.con {
+  max-width: 1280px;
+}
+
+/* 헤더 */
+
+#wrap {
+  overflow: hidden;
+  position: relative;
+  min-width: 1280px;
+}
+
+.top-box {
+  width: 100%;
+  height: 135px;
+  background-color: #fff;
+}
+
+.top-box > .top-bar {
+  position: relative;
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.top-box > .top-bar > .logo {
+  position: absolute;
+  display: block;
+  width: 293px;
+  height: 67px;
+  top: 56px;
+  left: 0;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.top-box > .top-bar > .lang-box {
+  position: absolute;
+  top: 19px;
+  right: 0;
+}
+
+.top-box > .top-bar > .lang-box > li > a {
+  color: #333;
+  display: block;
+  padding-right: 15px;
+  height: 31px;
+  width: 31px;
+  background-image: url(http://fire.ulsan.go.kr/safety/resources/images/common/english.png);
+  background-repeat: no-repeat;
+}
+
+.top-box > .top-bar > .lang-box > li:nth-child(2) > a {
+  background-image: url(http://fire.ulsan.go.kr/safety/resources/images/common/china.png);
+}
+
+.top-box > .top-bar > .lang-box > li:nth-child(3) > a {
+  background-image: url(http://fire.ulsan.go.kr/safety/resources/images/common/japan.png);
+}
+
+.top-box > .top-bar > .side-menu-btn {
+  width: 36px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 75px;
+  padding-right: 26px;
+  background-image: url(http://fire.ulsan.go.kr/safety/resources/images/common/m_list.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* 헤더 - 메뉴 */
+.top-box > .top-bar > .menu-box {
+  position: absolute;
+  right: 125px;
+  top: 50px;
+  width: 745px;
+  z-index: 99;
+}
+
+.top-box > .top-bar > .menu-box > li {
+  position: relative;
+  width: 148px;
+  height: 82px;
+  text-align: center;
+  background: url(http://fire.ulsan.go.kr/safety/resources/images/common/border_line.png)
+    center 74px no-repeat;
+}
+
+.top-box > .top-bar > .menu-box > li > a {
+  color: #333;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 28px 35px 18px;
+  line-height: 27px;
+  display: block;
+}
+
+.top-box > .top-bar > .menu-box > li:hover > a {
+  color: #ffd800;
+}
+
+.top-box > .top-bar > .menu-box > li > ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  background-color: #2c98e8;
+  color: #a3d4f9;
+  box-sizing: border-box;
+  display: none;
+}
+
+.top-box > .top-bar > .menu-box > li:hover {
+  background-color: #2c98e8;
+}
+
+.top-box > .top-bar > .menu-box > li:hover > ul {
+  display: block;
+}
+
+.top-box > .top-bar > .menu-box > li > ul > li {
+  padding-top: 15px;
+}
+
+.top-box > .top-bar > .menu-box > li > ul > li:first-child {
+  padding-top: 0;
+}
+
+.top-box > .top-bar > .menu-box > li > ul > li > a {
+  font-size: 16px;
+}
+
+.top-box > .top-bar > .menu-box > li > ul > li > a:hover {
+  color: #ffd800;
+}
+
+/* 헤더 반응형 */
+
+@media (max-width: 800px) {
+  #wrap {
+    width: 100%;
+    min-width: 300px;
+  }
+  .top-box {
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+  }
+  .top-box > .top-bar {
+    width: 100%;
+    height: 89px;
+    border-bottom: 1px solid #cececf;
+    background-color: #fff;
+  }
+  .top-box > .top-bar > .menu-box {
+    display: none;
+  }
+  .top-box > .top-bar > .lang-box {
+    display: none;
+  }
+  .top-box > .top-bar > .logo {
+    top: 17px;
+    margin-left: 4%;
+  }
+  .top-box > .top-bar > .logo img {
+    width: 251px;
+    height: 58px;
+  }
+  .top-box > .top-bar > .side-menu-btn {
+    top: 32px;
+  }
+}
+
+@media (max-width: 560px) {
+  .top-box > .top-bar {
+    height: 59px;
+  }
+  .top-box > .top-bar > .logo {
+    top: 7px;
+  }
+  .top-box > .top-bar > .logo img {
+    width: 190px;
+    height: 44px;
+  }
+  .top-box > .top-bar > .side-menu-btn {
+    background-size: 25px auto;
+    top: 20px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-box > .top-bar > .logo {
+    top: 10px;
+  }
+  .top-box > .top-bar > .logo img {
+    width: 179px;
+    height: 40px;
+  }
+  .top-box > .top-bar > .side-menu-btn {
+    background-size: 25px auto;
+    top: 20px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 380px) {
+  .top-box > .top-bar > .logo {
+    top: 13px;
+  }
+  .top-box > .top-bar > .logo img {
+    width: 138px;
+    height: 32px;
+  }
+  .top-box > .top-bar > .side-menu-btn {
+    background-size: 25px auto;
+    top: 20px;
+    padding-right: 5px;
+  }
+  .top-box > .top-bar > .side-menu-btn {
+    background-size: 23px auto;
+    top: 20px;
+    padding-right: 5px;
+  }
+}
+
+/* 컨텐츠 */
+
+#wrap > .container {
+  width: 100%;
+  position: relative;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+#wrap > .container > .main-contents {
+  width: 100%;
+  height: 780px;
+  position: relative;
+  transition: all 1s linear;
+}
+
+#wrap > .container > .main-contents > .main-slide {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap > .container > .main-contents > .main-slide > .slide-text-box {
+  position: absolute;
+  left: 50%;
+  margin-left: -636px;
+  top: 80px;
+  z-index: 3;
+  height: 0;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .slide-text-box
+  > p:first-child {
+  font-size: 23px;
+  font-weight: 400;
+  color: #666;
+  line-height: 35px;
+  letter-spacing: -1px;
+  padding-top: 15px;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .slide-text-box
+  > p:nth-child(2) {
+  color: #333;
+  font-size: 40px;
+  font-weight: 400;
+  padding-top: 15px;
+  line-height: 45px;
+  letter-spacing: -1px;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .slide-text-box
+  > p:nth-child(2)
+  > strong {
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "Arial";
+}
+
+#wrap > .container > .main-contents > .main-slide > .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide {
+  background: #fff;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .img-box {
+  position: absolute;
+  top: 0;
+  width: 1636px;
+  height: 760px;
+  left: 50%;
+  margin-left: -685px;
+  text-align: center;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .img-box-01 {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/main_visual_1.png)
+    0 no-repeat;
+  background-size: 90%;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .img-box-02 {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/main_visual_2.png)
+    0 no-repeat;
+  background-size: 90%;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .img-box-03 {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/main_visual_3.png)
+    0 no-repeat;
+  background-size: 90%;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .img-box-04 {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/main_visual_4.png)
+    0 no-repeat;
+  background-size: 90%;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .img-box-05 {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/main_visual_5.png)
+    0 no-repeat;
+  background-size: 90%;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .menu-box {
+  margin-top: 276px;
+  position: absolute;
+  left: 41%;
+  width: 400px;
+  z-index: 99;
+  color: #fff;
+  text-align: center;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .menu-box
+  > h1 {
+  font-size: 34px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  line-height: 35px;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .menu-box
+  > p {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .menu-box
+  > .icon {
+  text-align: center;
+  margin-top: 26px;
+  white-space: nowrap;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .menu-box
+  > .icon
+  > a {
+  display: block;
+  width: 61px;
+  height: 60px;
+  padding-top: 65px;
+  margin-left: 25px;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .menu-box
+  > .icon
+  > a:first-child {
+  margin-left: 0;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/on_01.png)
+    no-repeat;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .menu-box
+  > .icon
+  > a:first-child:hover {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/over_01.png)
+    no-repeat;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .menu-box
+  > .icon
+  > a:nth-child(2) {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/on_02.png)
+    no-repeat;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .menu-box
+  > .icon
+  > a:nth-child(2):hover {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/over_02.png)
+    no-repeat;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .menu-box
+  > .icon
+  > a:nth-child(3) {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/on_03.png)
+    no-repeat;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .menu-box
+  > .icon
+  > a:nth-child(3):hover {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/over_03.png)
+    no-repeat;
+}
+
+/* 메인슬라이드 버튼 */
+#wrap > .container > .main-contents > .main-slide .swiper-pagination-bullet {
+  width: 40px;
+  height: 6px;
+  margin: 0 20px 20px 20px;
+  background: #aeaeae;
+  border-radius: 10px;
+  transition: width 0.5s linear;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  .swiper-pagination-bullet:first-child {
+  margin: 85px 20px 20px 20px;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 100px;
+  height: 6px;
+  background: #ed5641;
+  border-radius: 10px;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  .swiper-pagination-bullet:nth-child(2).swiper-pagination-bullet-active {
+  background: #2e92d9;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  .swiper-pagination-bullet:nth-child(3).swiper-pagination-bullet-active {
+  background: #f99330;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  .swiper-pagination-bullet:nth-child(4).swiper-pagination-bullet-active {
+  background: #ebb328;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  .swiper-pagination-bullet:nth-child(5).swiper-pagination-bullet-active {
+  background: #ebb328;
+}
+
+/* 슬라이드 버튼 */
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .slide-btn {
+  position: absolute;
+  width: 540px;
+  top: 365px;
+  left: 37%;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .slide-btn
+  > div {
+  width: 32px;
+  height: 62px;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/visual_right.png)
+    no-repeat;
+}
+
+#wrap
+  > .container
+  > .main-contents
+  > .main-slide
+  > .swiper-container
+  > .slide-btn
+  > div:nth-child(2) {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/visual_left.png)
+    no-repeat;
+}
+
+/* 컨텐츠 베이스 */
+
+.cont-wrap {
+  width: 1280px;
+  position: relative;
+  overflow: hidden;
+  min-height: 660px;
+  margin: 0 auto;
+}
+
+.cont-wrap > .title-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 290px;
+  height: 175px;
+}
+
+.cont-wrap > .title-box > h2 {
+  font-size: 45px;
+  line-height: 40px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  width: 100px;
+}
+
+.cont-wrap > .title-box > p {
+  font-size: 22px;
+  color: #343333;
+  margin-top: 10px;
+  line-height: 28px;
+}
+
+/* 슬라이드 반응형 */
+@media (max-width: 800px) {
+  #wrap > .container > .main-contents {
+    margin-top: 40px;
+    height: 400px;
+    margin-bottom: 74px;
+  }
+  #wrap > .container > .main-contents > .main-slide > .slide-text-box {
+    display: none;
+  }
+  #wrap
+    > .container
+    > .main-contents
+    > .main-slide
+    > .swiper-container
+    > .slide-btn {
+    display: none;
+  }
+  #wrap
+    > .container
+    > .main-contents
+    > .main-slide
+    > .swiper-container
+    > .swiper-wrapper
+    > .swiper-slide
+    > .menu-box {
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 140px;
+  }
+  #wrap
+    > .container
+    > .main-contents
+    > .main-slide
+    > .swiper-container
+    > .swiper-wrapper
+    > .swiper-slide
+    > .menu-box
+    > h1 {
+    font-size: 26px;
+    padding-bottom: 8px;
+    line-height: 26px;
+  }
+  #wrap
+    > .container
+    > .main-contents
+    > .main-slide
+    > .swiper-container
+    > .swiper-wrapper
+    > .swiper-slide
+    > .menu-box
+    > p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  #wrap
+    > .container
+    > .main-contents
+    > .main-slide
+    > .swiper-container
+    > .swiper-wrapper
+    > .swiper-slide
+    > .menu-box
+    > .icon {
+    margin: 8px auto;
+  }
+  #wrap
+    > .container
+    > .main-contents
+    > .main-slide
+    > .swiper-container
+    > .swiper-wrapper
+    > .swiper-slide
+    > .img-box {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50%;
+  }
+}
+
+@media (max-width: 690px) {
+  #wrap > .container > .main-contents {
+    margin-top: 20px;
+    height: 280px;
+    margin-bottom: 52px;
+  }
+  #wrap
+    > .container
+    > .main-contents
+    > .main-slide
+    > .swiper-container
+    > .swiper-wrapper
+    > .swiper-slide
+    > .menu-box {
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+  }
+  #wrap
+    > .container
+    > .main-contents
+    > .main-slide
+    > .swiper-container
+    > .swiper-wrapper
+    > .swiper-slide
+    > .menu-box
+    > h1 {
+    font-size: 22px;
+    line-height: 19px;
+  }
+  #wrap
+    > .container
+    > .main-contents
+    > .main-slide
+    > .swiper-container
+    > .swiper-wrapper
+    > .swiper-slide
+    > .menu-box
+    > p {
+    display: none;
+  }
+}
+
+/* 컨텐츠 01 */
+#wrap > .container > .contents-01 {
+  position: relative;
+  height: auto;
+  background: url(http://fire.ulsan.go.kr/safety/resources/images/main/content_01.png)
+    no-repeat left -60px;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-gallery {
+  position: absolute;
+  left: 0;
+  top: 180px;
+  width: 430px;
+  height: 348px;
+  border: 1px solid #c9cac9;
+  border-radius: 25px;
+  background: #fff;
+  background-size: cover;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-notice {
+  position: absolute;
+  left: 444px;
+  top: 180px;
+  width: 430px;
+  height: 350px;
+  word-break: break-all;
+  font-family: "NanumSquareRound", sans-serif;
+  border: 1px solid #c9cac9;
+  border-radius: 25px;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 35px;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-notice
+  > .notice-slide
+  .swiper-slide {
+  background: #fff;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-notice
+  > .notice-slide
+  .swiper-slide
+  > h3 {
+  color: #333;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-notice
+  > .notice-slide
+  .swiper-slide
+  > h3::after {
+  content: "";
+  display: block;
+  height: 17px;
+  border-bottom: 1px solid #333;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-notice
+  > .notice-slide
+  .swiper-slide
+  > div {
+  padding-top: 25px;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-notice
+  > .notice-slide
+  .swiper-slide
+  > div
+  > p {
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 23px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  height: 115px;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-notice
+  > .notice-swiper-pagination {
+  position: absolute;
+  top: 306px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-notice
+  > .notice-swiper-pagination
+  > .swiper-pagination-bullet {
+  margin-right: 6px;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-notice
+  > .notice-swiper-pagination
+  > .swiper-pagination-bullet:nth-child(3) {
+  margin-right: 0;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-guide {
+  position: absolute;
+  right: 0;
+  top: 180px;
+  width: 394px;
+  height: 169px;
+  padding: 30px;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/banner_02.png)
+    no-repeat 0 0px;
+  border-radius: 25px;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-schedule {
+  position: absolute;
+  right: 0;
+  top: 360px;
+  width: 394px;
+  height: 169px;
+  word-break: break-all;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/banner_03.png)
+    no-repeat 0 0px;
+  border-radius: 25px;
+  background-size: cover;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-gallery > h2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 30px 0 22px 30px;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-gallery > div {
+  position: relative;
+  width: 353px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-gallery
+  > div
+  > .img
+  > img {
+  width: 100%;
+  height: 240px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-gallery > div > .txt {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 60px;
+  display: block;
+  margin-top: 10px;
+  margin-left: -177px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background: #333;
+  opacity: 0.9;
+  box-sizing: border-box;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-gallery
+  > div
+  > .txt
+  > span {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  padding: 22px 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-notice > .notice-slide {
+  cursor: pointer;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-notice > h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #333;
+  padding-bottom: 22px;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-guide > h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-guide > .call-box > div {
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 0;
+  line-height: 30px;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-guide
+  > .call-box
+  > div
+  > img {
+  vertical-align: middle;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-guide
+  > .call-box
+  > div
+  > a {
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  line-height: 30px;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-schedule > h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  text-indent: 30px;
+  margin: 30px 0px 10px 0px;
+  text-align: left;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-schedule > p {
+  font-size: 13px;
+  color: #fff;
+  padding-left: 30px;
+  text-align: left;
+  line-height: 1.286em;
+}
+
+/* 컨텐츠 02 */
+#wrap > .container > .contents-02 > .cont-wrap > .title-box {
+  position: absolute;
+  width: 225px;
+  height: auto;
+  top: 20px;
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .title-box > p {
+  line-height: 24px;
+}
+
+#wrap > .container > .contents-02 {
+  position: relative;
+  height: 580px;
+  background: url(http://fire.ulsan.go.kr/safety/resources/images/main/content_02.png)
+    center 2px no-repeat;
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .cont-box > .section {
+  width: 310px;
+  height: 290px;
+  box-sizing: border-box;
+  border: 1px solid #c9cac9;
+  border-radius: 25px;
+  background: #fff;
+  padding: 35px;
+  position: absolute;
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .cont-box > .section > h2 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #333;
+  padding-bottom: 30px;
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .cont-box > .section > p {
+  word-break: break-all;
+  position: relative;
+  font-size: 15px;
+  line-height: 23px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  height: 115px;
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .cont-box > .section > a {
+  position: absolute;
+  top: 28px;
+  right: 30px;
+  width: 36px;
+  height: 35px;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/banner_blog.png)
+    no-repeat 0 0px;
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .cont-box > .section-01 {
+  left: 0;
+  top: 210px;
+  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .cont-box > .section-01:hover {
+  transform: translateY(80px);
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .cont-box > .section-02 {
+  right: 649px;
+  top: 210px;
+  transition: transform 0.8s linear;
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .cont-box > .section-02:hover {
+  transform: translateY(-80px);
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .cont-box > .section-03 {
+  left: 640px;
+  top: 210px;
+  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .cont-box > .section-03:hover {
+  transform: translateY(80px);
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .cont-box > .section-04 {
+  right: 10px;
+  top: 210px;
+  transition: transform 0.8s linear;
+}
+
+#wrap > .container > .contents-02 > .cont-wrap > .cont-box > .section-04:hover {
+  transform: translateY(-80px);
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-box > a {
+  display: block;
+  position: absolute;
+  top: 28px;
+  right: 30px;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/banner_plus_01.png)
+    no-repeat 0 0px;
+  width: 21px;
+  height: 21px;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-guide > a {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/banner_plus_02.png)
+    no-repeat 0 0px;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap > .cont-schedule > a {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/main/banner_plus_02.png)
+    no-repeat 0 0px;
+}
+
+#wrap > .container > .contents-01 > .cont-wrap::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-schedule
+  > .schedule-icon {
+  position: absolute;
+  top: 72px;
+  right: 0;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-schedule
+  > .schedule-icon
+  > li {
+  padding: 0 10px;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-schedule
+  > .schedule-icon
+  > li
+  > a {
+  display: block;
+  width: 59px;
+  height: 59px;
+  background: #fff
+    url(https://fire.ulsan.go.kr/safety/resources/images/main/reservation.png)
+    no-repeat center;
+  border-radius: 30px;
+  background-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 58px;
+  color: transparent;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-schedule
+  > .schedule-icon
+  > li:nth-child(2)
+  > a {
+  background: #fff
+    url(https://fire.ulsan.go.kr/safety/resources/images/main/check_list.png)
+    no-repeat center;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-schedule
+  > .schedule-icon
+  > li:first-child:hover
+  > a {
+  background: #fdaf39;
+  color: #fff;
+}
+
+#wrap
+  > .container
+  > .contents-01
+  > .cont-wrap
+  > .cont-schedule
+  > .schedule-icon
+  > li:nth-child(2):hover
+  > a {
+  background: #fdaf39;
+  color: #fff;
+}
+
+/* 컨텐츠 반응형 */
+@media (max-width: 800px) {
+  .cont-wrap {
+    width: 95%;
+    margin: 0 auto !important;
+    min-height: 800px;
+  }
+  .cont-wrap > .title-box {
+    position: relative;
+    width: 80%;
+    height: auto;
+    top: auto;
+    text-align: center;
+    margin: 0 auto;
+    right: 0px;
+    padding: 30px 0 30px 0;
+    font-size: 14px;
+    line-height: 1.286em;
+  }
+  #wrap > .container > .contents-02 > .cont-wrap > .title-box {
+    position: relative;
+    width: 80%;
+    padding: 0;
+  }
+  .cont-wrap > .title-box > h2 {
+    font-size: 36px;
+    width: 100%;
+  }
+  .cont-wrap > .title-box > p {
+    width: 100%;
+    font-size: 22px;
+    color: #343333;
+    margin-top: 10px;
+    line-height: 28px;
+  }
+  #wrap > .container > .contents-01 {
+    width: 100%;
+    margin: 0 auto !important;
+    background: none;
+    background-size: cover;
+    height: auto;
+  }
+  #wrap > .container > .contents-01 > .cont-wrap > .cont-gallery {
+    position: relative;
+    clear: both;
+    float: left;
+    width: 48.5%;
+    height: 317px;
+    top: auto;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  #wrap > .container > .contents-01 > .cont-wrap > .cont-notice {
+    position: relative;
+    float: right;
+    width: 48.5%;
+    height: 317px;
+    top: auto;
+    right: 0;
+    padding: 30px;
+    left: inherit;
+    transition: all 0.3s ease;
+  }
+  #wrap > .container > .contents-01 > .cont-wrap > .cont-guide {
+    position: relative;
+    float: left;
+    clear: both;
+    width: 48.5%;
+    height: 240px;
+    left: 0;
+    right: auto;
+    top: auto;
+    margin-top: 16px;
+    transition: all 0.3s ease;
+  }
+  #wrap > .container > .contents-01 > .cont-wrap > .cont-schedule {
+    position: relative;
+    float: right;
+    width: 48.5%;
+    height: 240px;
+    top: auto;
+    right: 0;
+    margin-top: 16px;
+    transition: all 0.3s ease;
+  }
+  #wrap > .container > .contents-02 {
+    height: 500px;
+    background: none;
+  }
+  #wrap > .container > .contents-02 > .cont-wrap > .cont-box {
+    display: none;
+  }
+  #wrap
+    > .container
+    > .contents-01
+    > .cont-wrap
+    > .cont-notice
+    > .notice-swiper-pagination {
+    display: none;
+  }
+  #wrap
+    > .container
+    > .contents-01
+    > .cont-wrap
+    > .cont-notice
+    > .notice-slide
+    .swiper-slide
+    > div
+    > p {
+    font-size: 14px;
+  }
+  #wrap
+    > .container
+    > .contents-01
+    > .cont-wrap
+    > .cont-gallery
+    > div
+    > .img
+    > img {
+    width: 290px;
+    height: 205px;
+    margin: 0 auto;
+  }
+  #wrap > .container > .contents-01 > .cont-wrap > .cont-gallery > div > .txt {
+    width: 290px;
+    margin: 0 auto;
+    margin-left: -145px;
+    bottom: 0;
+  }
+  #wrap
+    > .container
+    > .contents-01
+    > .cont-wrap
+    > .cont-schedule
+    > .schedule-icon {
+    position: relative;
+    margin-top: 10px;
+    top: 10px;
+    justify-content: center;
+  }
+  #wrap
+    > .container
+    > .contents-01
+    > .cont-wrap
+    > .cont-schedule
+    > .schedule-icon
+    > li
+    > a {
+    width: 76px;
+    height: 76px;
+    border-radius: 40px;
+    background-size: 21px;
+  }
+
+  #wrap
+    > .container
+    > .contents-01
+    > .cont-wrap
+    > .cont-schedule
+    > .schedule-icon
+    > li:hover
+    > a {
+    border-radius: 39px;
+    line-height: 75px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 690px) {
+  #wrap > .container > .contents-01 {
+    width: 98%;
+    margin: 0 auto !important;
+    background-size: cover;
+    height: auto;
+    padding-top: 10px;
+  }
+  #wrap > .container > .contents-01 > .cont-wrap > .cont-gallery {
+    width: 100%;
+    height: auto;
+    border: 0px;
+    padding-bottom: 16px;
+  }
+  #wrap > .container > .contents-01 > .cont-wrap > .cont-gallery > div {
+    width: 100%;
+  }
+  #wrap
+    > .container
+    > .contents-01
+    > .cont-wrap
+    > .cont-gallery
+    > div
+    > .img
+    > img {
+    width: 100%;
+    height: 309px;
+  }
+  #wrap > .container > .contents-01 > .cont-wrap > .cont-gallery > div > .txt {
+    width: 100%;
+    margin-left: 0px;
+    left: 0;
+    bottom: 0px;
+  }
+  #wrap > .container > .contents-01 > .cont-wrap > .cont-notice {
+    width: 100%;
+    height: 290px;
+  }
+  #wrap > .container > .contents-02 {
+    margin: 20px 0px;
+  }
+  #wrap > .container > .contents-02 > .cont-wrap > .title-box {
+    top: auto;
+    padding: 35px 0 35px 0;
+  }
+  #wrap > .container > .contents-01 > .cont-wrap > .cont-gallery > h2 {
+    display: none;
+  }
+  #wrap
+    > .container
+    > .contents-01
+    > .cont-wrap
+    > .cont-schedule
+    > .schedule-icon {
+    margin-top: 20px;
+    position: relative;
+    top: auto;
+  }
+  #wrap
+    > .container
+    > .contents-01
+    > .cont-wrap
+    > .cont-schedule
+    > .schedule-icon
+    > li
+    > a {
+    width: 62px;
+    height: 62px;
+    border-radius: 40px;
+  }
+
+  #wrap
+    > .container
+    > .contents-01
+    > .cont-wrap
+    > .cont-schedule
+    > .schedule-icon
+    > li:hover
+    > a {
+    line-height: 64px;
+  }
+}
+
+@media (max-width: 560px) {
+  .cont-wrap > .title-box > h2 {
+    font-size: 39px;
+  }
+  .cont-wrap > .title-box > p {
+    font-size: 17px;
+    line-height: 23px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 490px) {
+  #wrap > .container > .contents-01 > .cont-wrap > .cont-guide {
+    width: 100%;
+  }
+  #wrap > .container > .contents-01 > .cont-wrap > .cont-schedule {
+    width: 100%;
+  }
+}
+
+/* 컨텐츠슬라이드 모바일 */
+.cont-box-mb {
+  display: none;
+  position: relative;
+}
+@media (max-width: 800px) {
+  .cont-box-mb {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+  }
+  .cont-box-mb > .swiper-container {
+    height: 270px;
+    width: calc(100% - 190px);
+    margin: 0 auto;
+  }
+  .cont-box-mb > .swiper-container > .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+  .cont-box-mb > .swiper-container > .swiper-wrapper > .swiper-slide {
+    width: 45% !important;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "NanumSquareRound", sans-serif;
+    border: 1px solid #c9cac9;
+    border-radius: 25px;
+    background: #fff;
+    padding: 35px;
+    margin: 0 15px;
+  }
+  .cont-box-mb > .swiper-container > .swiper-wrapper > .swiper-slide > h2 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #333;
+    padding-bottom: 30px;
+  }
+  .cont-box-mb > .swiper-container > .swiper-wrapper > .swiper-slide > p {
+    word-break: break-all;
+    position: relative;
+    font-size: 15px;
+    line-height: 23px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    height: 115px;
+  }
+  .cont-box-mb > .swiper-container > .swiper-wrapper > .swiper-slide > a {
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    background: url(https://fire.ulsan.go.kr/safety/resources/images/main/banner_blog.png)
+      no-repeat 0 0px;
+    width: 36px;
+    height: 35px;
+    text-indent: -10000px;
+    cursor: pointer;
+  }
+  .cont-box-mb .cont-slide-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .cont-box-mb > .cont-slide-btn > .swiper-button-next {
+    width: 31px;
+    height: 62px;
+    position: absolute;
+    z-index: 90;
+    top: 50%;
+    /* transform: translateY(-40%); */
+    background: url(https://fire.ulsan.go.kr/safety/resources/images/main/banner_right.png)
+      no-repeat 0 0px;
+  }
+  .cont-box-mb > .cont-slide-btn > .swiper-button-prev {
+    width: 31px;
+    height: 62px;
+    position: absolute;
+    z-index: 90;
+    top: 50%;
+    /* transform: translateY(-40%); */
+    background: url(https://fire.ulsan.go.kr/safety/resources/images/main/banner_left.png)
+      no-repeat 0 0px;
+  }
+}
+
+@media (max-width: 690px) {
+  .cont-box-mb > .swiper-container > .swiper-wrapper > .swiper-slide {
+    width: 100% !important;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "NanumSquareRound", sans-serif;
+    border: 1px solid #c9cac9;
+    border-radius: 25px;
+    background: #fff;
+    padding: 35px;
+    margin: 0;
+  }
+  .cont-box-mb > .swiper-container {
+    width: calc(100% - 110px);
+  }
+  .cont-box-mb {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .cont-box-mb > .cont-slide-btn > .swiper-button-prev {
+    top: 62%;
+    left: 8%;
+    width: 31px;
+    height: 62px;
+    position: absolute;
+    background-size: 18px;
+  }
+  .cont-box-mb > .cont-slide-btn > .swiper-button-next {
+    top: 62%;
+    right: 4%;
+    width: 31px;
+    height: 62px;
+    position: absolute;
+    background-size: 18px;
+  }
+  .cont-box-mb > .swiper-container > .swiper-wrapper > .swiper-slide > h2 {
+    text-align: center !important;
+    font-size: 20px !important;
+    padding-bottom: 20px;
+  }
+  .cont-box-mb > .swiper-container > .swiper-wrapper > .swiper-slide > a {
+    display: none;
+  }
+}
+
+/* footer */
+footer {
+  width: 100%;
+  background-color: #373737;
+}
+
+footer > .ft-personal {
+  position: relative;
+  width: 100%;
+  height: 98px;
+  top: 14px;
+}
+
+footer > .ft-personal > ul {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+footer > .ft-personal > ul > li {
+  font-size: 15px;
+  line-height: 36px;
+  position: relative;
+}
+
+footer > .ft-personal > ul > li::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 100%;
+  transform: translateY(10%);
+  width: 1px;
+  height: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer > .ft-personal > ul > li:nth-child(3)::after {
+  display: none;
+}
+
+footer > .ft-personal > ul > li > a {
+  display: block;
+  padding: 20px 25px 0 25px;
+  color: #fff;
+}
+
+footer > .ft-personal > ul > li > a:hover {
+  display: block;
+  padding: 20px 25px 0 25px;
+  color: #fdcb80;
+}
+
+footer > .ft-wrap {
+  width: 100%;
+  background-color: #fff;
+}
+
+footer > .ft-wrap > .wrap-inner {
+  position: relative;
+  width: 1280px;
+  height: 125px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-logo {
+  margin-top: 20px;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-logo > img {
+  width: 194px;
+  height: 44px;
+  vertical-align: middle;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-text {
+  height: 67px;
+  margin-left: 30px;
+  font-size: 13px;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-text > address {
+  font-size: 14px;
+  color: #343434;
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.286em;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-text > p {
+  line-height: 25px;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-text > p > strong {
+  color: #808180;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-counter {
+  position: absolute;
+  right: 134px;
+  top: -56px;
+  height: 26px;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/common/time.png)
+    0 no-repeat;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-counter > span {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  padding-left: 27px;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-counter > span > strong {
+  color: #fdaf39;
+  font-size: 24px;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-sns {
+  position: absolute;
+  width: 110px;
+  right: 0;
+  top: -67px;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-sns > ul > li {
+  padding-left: 10px;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-btn {
+  position: absolute;
+  right: 0;
+  width: 210px;
+  height: 31px;
+  line-height: 40px;
+  overflow: visible;
+  top: 43px;
+  border: 1px solid #c0c0c0;
+  box-sizing: border-box;
+}
+
+footer > .ft-wrap > .wrap-inner > .ft-btn > #selectBox {
+  appearance: none;
+  border: none;
+  width: 210px;
+  height: 29px;
+  vertical-align: top;
+  color: #7e7f7e;
+  text-align: left;
+  font-size: 12px;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/common/arrow.png)
+    no-repeat right 1px;
+  background-position: 182px 11px;
+  padding: 0;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+footer > .ft-wrap > .wrap-inner > .personal-btn {
+  display: none;
+  position: relative;
+  height: 31px;
+  line-height: 40px;
+  overflow: visible;
+  border: 1px solid #5e5e5f;
+  box-sizing: border-box;
+}
+
+footer > .ft-wrap > .wrap-inner > .personal-btn > #selectBox {
+  appearance: none;
+  border: none;
+  width: 100%;
+  height: 29px;
+  vertical-align: top;
+  text-align: left;
+  font-size: 12px;
+  color: #d5d5d5;
+  box-sizing: border-box;
+  padding: 0;
+  padding-left: 15px;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/common/white_arrow.png)
+    no-repeat center right 20px;
+}
+
+/* 푸터 반응형 */
+@media (max-width: 800px) {
+  footer > .ft-personal > ul {
+    position: relative;
+    top: -19px;
+  }
+  footer > .ft-wrap {
+    background-color: #373737;
+  }
+  footer > .ft-wrap > .wrap-inner {
+    width: 93%;
+    margin: 0 auto;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-logo {
+    display: none;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-text {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+    position: absolute;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-text > address {
+    color: #fff;
+    margin: 0;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-text > p {
+    color: #fff;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-text > p > strong {
+    color: #fff;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-counter {
+    width: 100%;
+    top: 84px;
+    left: 0;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-sns {
+    top: 68px;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-btn {
+    width: 100%;
+    color: #d5d5d5;
+    position: absolute;
+    top: -36px;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-btn > #selectBox {
+    width: 100%;
+    color: #d5d5d5;
+    background: url(https://fire.ulsan.go.kr/safety/resources/images/common/white_arrow.png)
+      no-repeat center right 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  footer {
+    height: 300px;
+  }
+  footer > .ft-personal > ul {
+    display: none;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-text > address {
+    display: none;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-sns {
+    top: 114px;
+  }
+  footer > .ft-wrap > .wrap-inner > .personal-btn {
+    display: block;
+    width: 100%;
+    top: -100px;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-btn {
+    border: 1px solid #5e5e5f;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer > .ft-wrap > .wrap-inner > .ft-counter {
+    top: 83px;
+  }
+  footer > .ft-wrap > .wrap-inner > .ft-text > p {
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  footer > .ft-wrap > .wrap-inner > .ft-sns {
+    top: 135px;
+  }
+}
+
+/* 팝업메뉴 */
+
+.popup-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: none;
+}
+
+.popup-menu.active {
+  display: block;
+}
+
+.popup-menu > .popup-menu-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.popup-menu > .popup-menu-box {
+  position: relative;
+  z-index: 99999;
+  width: 1167px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup-menu.active > .popup-menu-box {
+  animation: layerEffect 1 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+@keyframes layerEffect {
+}
+
+.popup-menu > .popup-menu-box > .menu-head {
+  padding: 20px 25px;
+  background-color: #333333;
+  line-height: 100%;
+  font-family: "NBGR";
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  color: #fff;
+  text-align: left;
+}
+
+.popup-menu > .popup-menu-box > .menu-cont {
+  width: 100%;
+  height: 553px;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/common/all.jpg)
+    no-repeat;
+  background-size: 100% 100%;
+}
+
+.popup-menu > .popup-menu-box > .menu-cont > section {
+  padding-top: 32px;
+}
+
+.popup-menu > .popup-menu-box > .menu-cont > section > article {
+  width: 206px;
+  height: 489px;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  margin-right: 11px;
+  background-color: #fff;
+}
+
+.popup-menu > .popup-menu-box > .menu-cont > section > article:hover {
+  background-color: #2d98e8;
+}
+
+.popup-menu > .popup-menu-box > .menu-cont > section > article > h2 {
+  height: 60px;
+  background: #2d98e8;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 59px;
+  font-weight: 600;
+}
+
+.popup-menu > .popup-menu-box > .menu-cont > section > article:hover > h2 {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/sub/border_line01.png)
+    center 55px no-repeat;
+  color: #ffd800;
+}
+
+.popup-menu > .popup-menu-box > .menu-cont > section > article > article {
+  overflow: hidden;
+  padding: 20px;
+}
+
+.popup-menu
+  > .popup-menu-box
+  > .menu-cont
+  > section
+  > article
+  > article
+  > ul
+  > li {
+  text-align: left;
+  line-height: 28px;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/sub/bul_02.png)
+    3px 12px no-repeat;
+}
+
+.popup-menu
+  > .popup-menu-box
+  > .menu-cont
+  > section
+  > article:hover
+  > article
+  > ul
+  > li {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/sub/bul_03.png)
+    3px 12px no-repeat;
+}
+
+.popup-menu
+  > .popup-menu-box
+  > .menu-cont
+  > section
+  > article
+  > article
+  > ul
+  > li:hover {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/sub/bul_04.png)
+    3px 12px no-repeat;
+}
+
+.popup-menu
+  > .popup-menu-box
+  > .menu-cont
+  > section
+  > article
+  > article
+  > ul
+  > li
+  > a {
+  color: inherit;
+}
+
+.popup-menu
+  > .popup-menu-box
+  > .menu-cont
+  > section
+  > article
+  > article
+  > ul
+  > li
+  > a
+  > span {
+  display: inline-block;
+  padding-left: 16px;
+  font-size: 15px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.popup-menu
+  > .popup-menu-box
+  > .menu-cont
+  > section
+  > article:hover
+  > article
+  > ul
+  > li
+  > a
+  > span {
+  color: #fff;
+}
+
+.popup-menu
+  > .popup-menu-box
+  > .menu-cont
+  > section
+  > article
+  > article
+  > ul
+  > li:hover
+  > a
+  > span {
+  color: #ffd800;
+}
+
+.popup-menu
+  > .popup-menu-box
+  > .menu-cont
+  > section
+  > article
+  > article
+  > ul
+  ul
+  > li {
+  background-image: none;
+  font-size: 13px;
+  padding-left: 19px;
+  color: #888888;
+  text-align: left;
+  line-height: 28px;
+}
+
+.popup-menu
+  > .popup-menu-box
+  > .menu-cont
+  > section
+  > article:hover
+  > article
+  > ul
+  ul
+  > li {
+  color: #fff;
+}
+
+.popup-menu
+  > .popup-menu-box
+  > .menu-cont
+  > section
+  > article
+  > article
+  > ul
+  ul
+  > li:hover {
+  color: #ffd800;
+}
+
+.popup-menu > .popup-menu-box > .menu-head > button {
+  width: 17px;
+  height: 16px;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/common/x_03.png)
+    no-repeat;
+  border: 0;
+  float: right;
+  cursor: pointer;
+}
+
+/* 팝업메뉴 모바일 */
+
+.popup-menu-mb {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  display: none;
+  z-index: -1;
+  visibility: hidden;
+}
+
+.popup-menu-mb.active {
+  display: block;
+}
+
+.popup-menu-mb > .mb-header {
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 2.5%;
+  padding-top: 15px;
+  background: #3f3f3f;
+}
+
+/* 모바일 팝업메뉴 국가목록 */
+.popup-menu-mb > .mb-header > .count-list > ul > li {
+  margin-left: 10px;
+}
+
+.popup-menu-mb > .mb-header > .count-list > ul > li:first-child {
+  margin-left: 0;
+}
+
+.popup-menu-mb > .mb-header > .count-list > ul > li > a {
+  display: table;
+  width: 33px;
+  height: 33px;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/common/english.png)
+    no-repeat;
+}
+
+.popup-menu-mb > .mb-header > .count-list > ul > li:nth-child(2) > a {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/common/china.png)
+    no-repeat;
+}
+
+.popup-menu-mb > .mb-header > .count-list > ul > li:nth-child(3) > a {
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/common/japan.png)
+    no-repeat;
+}
+
+/* 모바일팝업메뉴 버튼 */
+.popup-menu-mb > .mb-header > .mb-close-btn {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.popup-menu-mb > .mb-header > .mb-close-btn > button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: none;
+  box-shadow: none;
+  font-size: 12px;
+  text-indent: -9999px;
+  background: url(https://fire.ulsan.go.kr/safety/resources/images/common/menu_close.png)
+    no-repeat 50% 50%;
+  cursor: pointer;
+}
+
+/* 모바일팝업메뉴 리스트 */
+.popup-menu-mb > .mb-menu > ul {
+  border-top: 1px solid #d5d5d5;
+}
+
+.popup-menu-mb > .mb-menu > ul > li {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.popup-menu-mb > .mb-menu > ul > li > a {
+  display: block;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0 24px 0 2.5%;
+  font-size: 16px;
+  color: #333333;
+  white-space: nowrap;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  line-height: 3;
+}
+
+.popup-menu-mb > .mb-menu > ul > li > a > span {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+}
+
+.popup-menu-mb > .mb-menu > ul > li > a > span::before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 12px;
+  background: #5e5e5e;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  margin-right: 5px;
+  transition: all 0.2s linear;
+}
+
+.popup-menu-mb > .mb-menu > ul > li > a > span::after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 2px;
+  background: #5e5e5e;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform-origin: center center;
+  transition: all 0.4s linear;
+}
+
+.popup-menu-mb > .mb-menu > ul ul {
+  border-top: 1px solid #d5d5d5;
+  padding: 25px 2.5%;
+  background: #2c98e8;
+  display: none;
+}
+
+.popup-menu-mb > .mb-menu > ul ul > li {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.popup-menu-mb > .mb-menu > ul ul > li:first-child {
+  margin-top: 0;
+}
+
+.popup-menu-mb > .mb-menu > ul ul > li > a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: -0.5px;
+  line-height: 100%;
+}
+
+.popup-menu-mb > .mb-menu > ul ul > li > a > span {
+  display: inline-block;
+  position: relative;
+  padding-left: 15px;
+}
+
+.popup-menu-mb > .mb-menu > ul ul > li > a > span::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  margin-top: -2px;
+  left: 5px;
+}
+
+/* 모바일 팝업메뉴 액티브효과 */
+.popup-menu-mb > .mb-menu > ul > li.active {
+  background: #2c98e8;
+}
+
+.popup-menu-mb > .mb-menu > ul > li.active > ul {
+  display: block;
+}
+
+.popup-menu-mb > .mb-menu > ul > li.active > a {
+  color: #fff;
+}
+
+/* 팝업메뉴 반응형 */
+@media (max-width: 800px) {
+  .popup-menu.active {
+    display: none;
+  }
+  .popup-menu-mb {
+    z-index: 9999;
+    visibility: visible;
+  }
+}
